@@ -1,6 +1,8 @@
 -----------------iterators.lskel-little-endian.h-----------------
-Fail
+/* SPDX-License-Identifier: (LGPL-2.1 OR BSD-2-Clause) */
 -----------------iterators.lskel-big-endian.h-----------------
-Fail
+/* SPDX-License-Identifier: (LGPL-2.1 OR BSD-2-Clause) */
 -----------------iterators.bpf.c-----------------
-Fail
+// SPDX-License-Identifier: GPL-2.0
+
+/* Copyright (c) 2020 Facebook */
