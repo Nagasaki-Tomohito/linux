@@ -1,0 +1,44 @@
+-----------------pxa2xx-ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Nicolas Pitre")
+
+MODULE_DESCRIPTION("AC97 driver for the Intel PXA2xx chip")
+
+MODULE_LICENSE("GPL")
+
+MODULE_ALIAS("platform:pxa2xx-ac97")
+-----------------pxa2xx-ac97-lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Nicolas Pitre");
+-----------------pxa2xx-ac97-regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------aaci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------aaci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+ */
+-----------------pxa2xx-pcm-lib.c-----------------
+MODULE_AUTHOR("Nicolas Pitre");
+MODULE_DESCRIPTION("Intel PXA2xx sound library");
+MODULE_LICENSE("GPL");
+EXPORT_SYMBOL(pxa2xx_pcm_hw_params);
+EXPORT_SYMBOL(pxa2xx_pcm_trigger);
+EXPORT_SYMBOL(pxa2xx_pcm_pointer);
+EXPORT_SYMBOL(pxa2xx_pcm_prepare);
+EXPORT_SYMBOL(pxa2xx_pcm_open);
+EXPORT_SYMBOL(pxa2xx_pcm_close);
+EXPORT_SYMBOL(pxa2xx_pcm_preallocate_dma_buffer);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_new);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_open);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_close);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_hw_params);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_prepare);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_trigger);
+EXPORT_SYMBOL(pxa2xx_soc_pcm_pointer);
+// SPDX-License-Identifier: GPL-2.0-only

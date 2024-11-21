@@ -1,0 +1,44 @@
+-----------------digi00x-hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto
+-----------------digi00x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto
+-----------------digi00x-midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * digi00x-midi.h - a part of driver for Digidesign Digi 002/003 family
+ *
+ * Copyright (c) 2014-2015 Takashi Sakamoto
+ */
+-----------------digi00x-transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2014-2015 Takashi Sakamoto
+ */
+-----------------digi00x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * digi00x.h - a part of driver for Digidesign Digi 002/003 family
+ *
+ * Copyright (c) 2014-2015 Takashi Sakamoto
+-----------------amdtp-dot.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto
+Copyright (C) 2012 Robin Gareus <robin@gareus.org>
+Copyright (C) 2012 Damien Zammit <damien@zamaudio.com>
+-----------------digi00x-proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto
+-----------------digi00x-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto
+-----------------digi00x-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014-2015 Takashi Sakamoto

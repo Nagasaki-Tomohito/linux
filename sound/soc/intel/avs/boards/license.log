@@ -1,0 +1,106 @@
+-----------------rt286.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------nau8825.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------ssm4567.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------rt5663.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2022-2023 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------es8336.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2023 Intel Corporation
+-----------------rt5682.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------da7219.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Author: Cezary Rojewski <cezary.rojewski@intel.com>
+//
+MODULE_DESCRIPTION("Intel da7219 machine driver");
+MODULE_AUTHOR("Cezary Rojewski <cezary.rojewski@intel.com>");
+MODULE_LICENSE("GPL");
+-----------------max98927.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------rt5514.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2023 Intel Corporation
+-----------------i2s_test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+
+MODULE_LICENSE("GPL");
+-----------------max98373.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2022 Intel Corporation
+-----------------probe.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------max98357a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------rt298.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------rt274.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Intel DMIC machine driver");
+-----------------hdaudio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation

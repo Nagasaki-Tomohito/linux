@@ -1,0 +1,12 @@
+-----------------axi-spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2012-2013, Analog Devices Inc.
+ * Author: Lars-Peter Clausen <lars@metafoo.de>
+ */
+-----------------axi-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("AXI I2S driver");
+MODULE_LICENSE("GPL");

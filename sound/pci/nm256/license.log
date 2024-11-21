@@ -1,0 +1,15 @@
+-----------------nm256_coef.c-----------------
+Fail
+-----------------nm256.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("NeoMagic NM256AV/ZX");
+MODULE_PARM_DESC(index, "Index value for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(id, "ID string for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(playback_bufsize, "DAC frame size in kB for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(capture_bufsize, "ADC frame size in kB for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(force_ac97, "Force to use AC97 codec for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(buffer_top, "Set the top address of audio buffer for " CARD_NAME " soundcard.");
+MODULE_PARM_DESC(use_cache, "Enable the cache for coefficient table access.");
+MODULE_PARM_DESC(vaio_hack, "Enable workaround

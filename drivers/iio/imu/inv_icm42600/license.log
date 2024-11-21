@@ -1,0 +1,61 @@
+-----------------inv_icm42600_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2020 InvenSense, Inc.
+
+MODULE_AUTHOR("InvenSense, Inc.");
+
+MODULE_DESCRIPTION("InvenSense ICM-426xx I2C driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_ICM42600);
+-----------------inv_icm42600_buffer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (C) 2020 Invensense, Inc.
+ */
+-----------------inv_icm42600_accel.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2020 Invensense, Inc.
+-----------------inv_icm42600_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) 2020 InvenSense, Inc.
+ */
+
+MODULE_AUTHOR("InvenSense, Inc.");
+MODULE_DESCRIPTION("InvenSense ICM-426xx SPI driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_ICM42600);
+-----------------inv_icm42600.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (C) 2020 Invensense, Inc.
+ */
+-----------------inv_icm42600_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) 2020 Invensense, Inc.
+ */
+-----------------inv_icm42600_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("InvenSense, Inc.");
+MODULE_DESCRIPTION("InvenSense ICM-426xx device driver");
+MODULE_IMPORT_NS(IIO_INV_SENSORS_TIMESTAMP);
+EXPORT_SYMBOL_NS_GPL(inv_icm42600_regmap_config, IIO_ICM42600);
+EXPORT_SYMBOL_NS_GPL(inv_icm42600_core_probe, IIO_ICM42600);
+EXPORT_NS_GPL_DEV_PM_OPS(inv_icm42600_pm_ops, IIO_ICM42600);
+-----------------inv_icm42600_temp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2020 Invensense, Inc.
+-----------------inv_icm42600_temp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) 2020 Invensense, Inc.
+ */
+-----------------inv_icm42600_gyro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later

@@ -1,0 +1,94 @@
+-----------------xonar_hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------wm8766.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------oxygen_io.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------oxygen_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------cs4245.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xonar_dg_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Mixer controls for the Xonar DG/DGX
+ *
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ * Copyright (c) Roman Volkov <v1ron@mail.ru>
+ */
+-----------------virtuoso.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+
+MODULE_LICENSE("GPL v2")
+-----------------xonar_dg.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+Copyright (c) Roman Volkov <v1ron@mail.ru>
+-----------------ak4396.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs4398.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------oxygen_regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wm8785.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xonar_wm87x6.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------se6x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+
+MODULE_LICENSE("GPL v2")
+-----------------oxygen.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------oxygen_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------oxygen.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------cm9780.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------pcm1796.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xonar.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs4362a.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xonar_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------cs2000.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xonar_pcm179x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------xonar_dg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------oxygen_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------xonar_cs43xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ */
+-----------------wm8776.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2009 Wolfson Microelectronics plc
+ 
+Author: Mark Brown <broonie@opensource.wolfsonmicro.com>

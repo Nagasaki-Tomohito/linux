@@ -1,0 +1,80 @@
+-----------------rockchip_max98090.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("jianqun <jay.xu@rock-chips.com>");
+
+MODULE_DESCRIPTION("Rockchip max98090 machine ASoC driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------rockchip_rt5645.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015, ROCKCHIP CORPORATION.  All rights reserved.
+-----------------rockchip_i2s_tdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// ALSA SoC Audio Layer - Rockchip I2S/TDM Controller driver
+
+// Copyright (c) 2018 Rockchip Electronics Co. Ltd.
+// Author: Sugar Zhang <sugar.zhang@rock-chips.com>
+// Author: Nicolas Frattaroli <frattaroli.nicolas@gmail.com>
+-----------------rockchip_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ROCKCHIP IIS ASoC Interface");
+MODULE_AUTHOR("jianqun <jay.xu@rock-chips.com>");
+MODULE_LICENSE("GPL v2");
+-----------------rockchip_pdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rockchip_spdif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * ALSA SoC Audio Layer - Rockchip SPDIF transceiver driver
+ 
+ * Copyright (c) 2015 Collabora Ltd.
+ * Author: Sjoerd Simons <sjoerd.simons@collabora.co.uk>
+ */
+-----------------rk3399_gru_sound.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Xing Zheng <zhengxing@rock-chips.com>");
+MODULE_DESCRIPTION("Rockchip ASoC Machine Driver");
+MODULE_ALIAS("platform:" DRV_NAME);
+MODULE_DEVICE_TABLE(of, rockchip_sound_of_match);
+-----------------rockchip_pdm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2017 Fuzhou Rockchip Electronics Co., Ltd
+-----------------rockchip_spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* sound/soc/rockchip/rk_spdif.c
+ *
+ * ALSA SoC Audio Layer - Rockchip I2S Controller driver
+ *
+ * Copyright (c) 2014 Rockchip Electronics Co. Ltd.
+ * Author: Jianqun <jay.xu@rock-chips.com>
+ * Copyright (c) 2015 Collabora Ltd.
+ * Author: Sjoerd Simons <sjoerd.simons@collabora.co.uk>
+ */
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Sjoerd Simons <sjoerd.simons@collabora.co.uk>");
+MODULE_DESCRIPTION("ROCKCHIP SPDIF transceiver Interface");
+MODULE_ALIAS("platform:rockchip-spdif");
+-----------------rockchip_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2014 Rockchip Electronics Co. Ltd.
+-----------------rockchip_i2s_tdm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ALSA SoC Audio Layer - Rockchip I2S/TDM Controller driver
+ *
+ * Copyright (c) 2018 Rockchip Electronics Co. Ltd.
+ * Author: Sugar Zhang <sugar.zhang@rock-chips.com>
+ *
+ */
+-----------------rk3288_hdmi_analog.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");

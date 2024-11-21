@@ -1,0 +1,26 @@
+-----------------bcm47xx_sprom.c-----------------
+*   Copyright (C) 2004 Florian Schirmer <jolt@tuxbox.org>
+*   Copyright (C) 2006 Felix Fietkau <nbd@openwrt.org>
+*   Copyright (C) 2006 Michael Buesch <m@bues.ch>
+*   Copyright (C) 2010 Waldemar Brodkorb <wbx@openadk.org>
+*   Copyright (C) 2010-2012 Hauke Mehrtens <hauke@hauke-m.de>
+
+*   This program is free software; you can redistribute  it and/or modify it
+*   under  the terms of  the GNU General  Public License as published by the
+*   Free Software Foundation;  either version 2 of the  License, or (at your
+*   option) any later version.
+
+*   THIS  SOFTWARE  IS PROVIDED   ``AS  IS'' AND  
+-----------------bcm47xx_nvram.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * BCM947xx nvram variable access
+ *
+ * Copyright (C) 2005 Broadcom Corporation
+ * Copyright (C) 2006 Felix Fietkau <nbd@openwrt.org>
+ * Copyright (C) 2010-2012 Hauke Mehrtens <hauke@hauke-m.de>
+ */
+-----------------tee_bnxt_fw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2")

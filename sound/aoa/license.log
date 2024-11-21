@@ -1,0 +1,10 @@
+-----------------aoa.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------aoa-gpio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+ */

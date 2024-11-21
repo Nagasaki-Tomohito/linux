@@ -1,0 +1,171 @@
+-----------------ak4531_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Universal routines for AK4531 codec");
+-----------------via82xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------via82xx_modem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("VIA VT82xx modem");
+MODULE_LICENSE("GPL");
+-----------------es1968.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------azt3328.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Andreas Mohr <andi AT lisas.de>");
+
+MODULE_DESCRIPTION("Aztech AZF3328 (PCI168)");
+-----------------es1938.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------sis7019.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004-2007, David Dillow
+
+MODULE_AUTHOR("David Dillow <dave@thedillows.org>");
+MODULE_DESCRIPTION("SiS7019");
+MODULE_LICENSE("GPL");
+-----------------atiixp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("ATI IXP AC97 controller");
+-----------------sonicvibes.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------cs4281.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Cirrus Logic CS4281");
+-----------------intel8x0.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------fm801.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------ad1889.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------rme32.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002-2004 Martin Langer <martin-langer@gmx.de>,
+                              Pilo Chambert <pilo.c@wanadoo.fr>
+
+MODULE_LICENSE("GPL");
+-----------------maestro3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Driver for ESS Maestro3/Allegro (ES1988) soundcards.
+ * Copyright (c) 2000 by Zach Brown <zab@zabbo.net>
+ *                       Takashi Iwai <tiwai@suse.de>
+ *
+ * Most of the hardware init stuffs are based on maestro3 driver for
+ * OSS/Free by Zach Brown.  Many thanks to Zach!
+ *
+ * ChangeLog:
+ * Aug. 27, 2001
+ *     - Fixed deadlock on capture
+ *     - Added Canyon3D-2 support by Rob Riggs <rob@pangalactic.org>
+ */
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Zach Brown <zab@zabbo.net>, Takashi Iwai <tiwai@suse.de>");
+
+MODULE_DESCRIPTION("ESS Maestro3 PCI");
+
+MODULE_FIRMWARE("ess/maestro3_assp
+-----------------als300.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Ash Willis <ashwillis@programmer.net>");
+
+MODULE_DESCRIPTION("Avance Logic ALS300");
+-----------------sis7019.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2007, David Dillow
+
+All rights reserved.
+-----------------cmipci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Driver for C-Media CMI8338 and 8738 PCI soundcards.
+ * Copyright (c) 2000 by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------atiixp_modem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+
+MODULE_DESCRIPTION("ATI IXP MC97 controller");
+-----------------azt3328.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs5530.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(C) Copyright 2007 Ash Willis <ashwillis@programmer.net>
+(C) Copyright 2003 Red Hat Inc <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL")
+-----------------als4000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Bart Hartgers <bart@etpmod.phys.tue.nl>, Andreas Mohr");
+MODULE_DESCRIPTION("Avance Logic ALS4000");
+MODULE_LICENSE("GPL");
+-----------------ens1370.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Driver for Ensoniq ES1370/ES1371 AudioPCI soundcard
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>,
+ *		     Thomas Sailer <sailer@ife.ee.ethz.ch>
+ */
+
+//...
+-----------------ad1889.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/* Copyright (C) 2004, Kyle McMartin <kyle@parisc-linux.org> */
+-----------------intel8x0m.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_DESCRIPTION("Intel 82801AA,82901AB,i810,i820,i830,i840,i845,MX440; "
+		   "SiS 7013; NVidia MCP/2/2S/3 modems");
+-----------------ens1371.c-----------------
+No extracted parts found.
+-----------------rme96.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------bt87x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");

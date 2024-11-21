@@ -1,0 +1,78 @@
+-----------------amdtp-motu.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * amdtp-motu.c - a part of driver for MOTU FireWire series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */
+-----------------motu-hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */
+-----------------motu-command-dsp-message-parser.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (c) 2021 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * motu-pcm.c - a part of driver for MOTU FireWire series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */
+-----------------motu-midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-register-dsp-message-parser.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2021 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-protocol-v3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+
+MODULE_LICENSE("GPL");
+-----------------amdtp-motu-trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2017 Takashi Sakamoto
+ */
+-----------------motu-transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-protocol-v2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * motu-protocol-v2.c - a part of driver for MOTU FireWire series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */
+-----------------motu-protocol-v1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2021 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------motu-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * motu-stream.c - a part of driver for MOTU FireWire series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */

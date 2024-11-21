@@ -1,0 +1,31 @@
+-----------------sst-mfld-dsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------sst-atom-controls.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ *  sst-atom-controls.h - Intel MID Platform driver header file
+ *
+ *  Copyright (C) 2013-14 Intel Corp
+ *  Author: Ramesh Babu <ramesh.babu.koul@intel.com>
+ *  	Omair M Abdullah <omair.m.abdullah@intel.com>
+ *  	Samreen Nilofer <samreen.nilofer@intel.com>
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+-----------------sst-mfld-platform-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) MID Platform driver");
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Harsha Priya <priya.harsha@intel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sst-mfld-platform-compress.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2010-2014 Intel Corp
+-----------------sst-atom-controls.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sst-mfld-platform.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 2010 Intel Corp

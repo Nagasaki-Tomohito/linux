@@ -1,0 +1,55 @@
+-----------------intel_rapl_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Common code for Intel Running Average Power Limit (RAPL) support.
+ * Copyright (c) 2019, Intel Corporation.
+ */
+-----------------idle_inject.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright 2018 Linaro Limited
+ */
+-----------------dtpm_cpu.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2020 Linaro Limited
+-----------------intel_rapl_msr.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Intel Running Average Power Limit (RAPL) Driver via MSR interface
+ * Copyright (c) 2019, Intel Corporation.
+ */
+MODULE_DESCRIPTION("Driver for Intel RAPL (Running Average Power Limit) control via MSR interface");
+MODULE_AUTHOR("Zhang Rui <rui.zhang@intel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------intel_rapl_tpmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Intel RAPL TPMI Driver");
+-----------------arm_scmi_powercap.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * SCMI Powercap support.
+ *
+ * Copyright (C) 2022 ARM Ltd.
+ */
+-----------------dtpm_subsys.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2022 Linaro Ltd
+ * 
+ * Author: Daniel Lezcano <daniel.lezcano@linaro.org>
+ */
+-----------------dtpm_devfreq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2021 Linaro Limited
+-----------------dtpm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------powercap_sys.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("PowerCap sysfs Driver");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");

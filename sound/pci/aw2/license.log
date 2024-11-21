@@ -1,0 +1,33 @@
+-----------------aw2-saa7146.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------aw2-alsa.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Cedric Bregardis <cedric.bregardis@free.fr>, "
+	      "Jean-Christian Hassler <jhassler@free.fr>");
+
+MODULE_DESCRIPTION("Emagic Audiowerk 2 sound driver");
+-----------------saa7146.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008 Cedric Bregardis <cedric.bregardis@free.fr> and
+Jean-Christian Hassler <jhassler@free.fr>
+-----------------aw2-saa7146.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*****************************************************************************
+ *
+ * Copyright (C) 2008 Cedric Bregardis <cedric.bregardis@free.fr> and
+ * Jean-Christian Hassler <jhassler@free.fr>
+ *
+ * This file is part of the Audiowerk2 ALSA driver
+ *
+ *****************************************************************************/
+-----------------aw2-tsl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008 Cedric Bregardis <cedric.bregardis@free.fr> and
+Jean-Christian Hassler <jhassler@free.fr>
+Copyright 1998 Emagic Soft- und Hardware GmbH
+Copyright 2002 Martijn Sipkema

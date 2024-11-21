@@ -1,0 +1,9 @@
+-----------------super.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------xensyms.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------xenstored.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------xenfs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

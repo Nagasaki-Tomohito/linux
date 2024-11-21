@@ -1,0 +1,230 @@
+-----------------sof_da7219.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright(c) 2019 Intel Corporation.
+-----------------sof_rt5682.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------sof_es8336.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC Intel(R) SOF + ES8336 Machine driver");
+MODULE_IMPORT_NS(SND_SOC_INTEL_HDA_DSP_COMMON);
+-----------------sof_nuvoton_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2023 Intel Corporation.
+-----------------sof_sdw_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only
+ *  Copyright (c) 2020 Intel Corporation
+ */
+-----------------sof_realtek_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel SOF Realtek helpers");
+MODULE_LICENSE("GPL");
+-----------------bdw-rt5677.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Ben Zhang");
+
+MODULE_DESCRIPTION("Intel Broadwell RT5677 machine driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------bdw-rt5650.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Ben Zhang <benzh@chromium.org>");
+
+MODULE_DESCRIPTION("Intel Broadwell RT5650 machine driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:bdw-rt5650");
+-----------------sof_board_helpers.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel SOF Machine Driver Board Helpers");
+MODULE_AUTHOR("Brent Lu <brent.lu@intel.com>");
+MODULE_LICENSE("GPL");
+-----------------bytcht_cx2072x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sof_nau8825.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright(c) 2021 Intel Corporation.
+// Copyright(c) 2021 Nuvoton Corporation.
+
+MODULE_DESCRIPTION("SOF Audio Machine driver for NAU8825");
+MODULE_AUTHOR("David Lin <ctlin0@nuvoton.com>");
+MODULE_AUTHOR("Mac Chiang <mac.chiang@intel.com>");
+MODULE_AUTHOR("Brent Lu <brent.lu@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_INTEL_SOF_BOARD_HELPERS);
+MODULE_IMPORT_NS(SND_SOC_INTEL_SOF_MAXIM_COMMON);
+MODULE_IMPORT_NS(SND_SOC_INTEL_SOF_NUVOTON_COMMON);
+MODULE_IMPORT_NS(SND_SOC_INTEL_SOF_REALTEK_COMMON);
+-----------------sof_board_helpers.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2023 Intel Corporation.
+ */
+-----------------bytcht_es8316.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Baytrail/Cherrytrail Machine driver");
+MODULE_AUTHOR("David Yang <yangxiaohua@everest-semi.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:bytcht_es8316");
+-----------------bytcht_nocodec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ *  Copyright (C) 2015-2017 Intel Corp
+-----------------cht_bsw_max98090_ti.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Braswell Machine driver");
+
+MODULE_AUTHOR("Fang, Yang A <yang.a.fang@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:cht-bsw-max98090");
+-----------------sof_maxim_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel SOF Maxim helpers");
+MODULE_LICENSE("GPL");
+-----------------bdw_rt286.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2013, Intel Corporation
+-----------------cht_bsw_rt5645.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Braswell Machine driver");
+
+MODULE_AUTHOR("Fang, Yang A,N,Harshapriya");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:cht-bsw-rt5645");
+-----------------hda_dsp_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2019 Intel Corporation.
+ */
+-----------------sof_wm8804.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, Intel Corporation
+-----------------sof_maxim_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation.
+ */
+-----------------sof_cirrus_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2022 Intel Corporation.
+-----------------skl_hda_dsp_generic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2015-18 Intel Corporation.
+-----------------sof_pcm512x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------bytcr_rt5640.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 Intel Corp
+
+MODULE_DESCRIPTION("ASoC Intel(R) Baytrail CR Machine driver")
+
+MODULE_AUTHOR("Subhransu S. Prusty <subhransu.s.prusty@intel.com>")
+
+MODULE_LICENSE("GPL v2")
+
+MODULE_ALIAS("platform:bytcr_rt5640")
+-----------------cht_bsw_rt5672.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Baytrail CR Machine driver");
+MODULE_AUTHOR("Subhransu S. Prusty, Mengdong Lin");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:cht-bsw-rt5672");
+-----------------sof_hdmi_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2023 Intel Corporation.
+ */
+-----------------sof_nuvoton_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2023 Intel Corporation.
+-----------------sof_cs42l42.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright(c) 2021 Intel Corporation.
+-----------------cht_bsw_nau8824.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Baytrail CR Machine driver");
+MODULE_AUTHOR("Wang, Joseph C <joequant@gmail.com>");
+MODULE_AUTHOR("John Hsu <KCHSU0@nuvoton.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:cht-bsw-nau8824");
+-----------------hda_dsp_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2019 Intel Corporation
+
+MODULE_DESCRIPTION("ASoC Intel HDMI helpers");
+MODULE_LICENSE("GPL");
+-----------------bytcr_rt5651.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel(R) Baytrail CR Machine driver for RT5651");
+MODULE_AUTHOR("Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------bytcht_da7213.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------hsw_rt5640.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Sound card driver for Intel Haswell Lynx Point with Realtek 5640
+ *
+ * Copyright (C) 2013, Intel Corporation
+ */
+-----------------sof_ssp_amp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2022 Intel Corporation
+-----------------sof_cirrus_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel SOF Cirrus Logic helpers");
+MODULE_LICENSE("GPL");
+-----------------bytcr_wm5102.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Baytrail with WM5102 codec machine driver");
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sof_realtek_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation.
+ */
+-----------------ehl_rt5660.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2020 Intel Corporation
+-----------------sof_sdw_hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2020 Intel Corporation
+-----------------sof_sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC SoundWire Generic Machine driver");
+MODULE_AUTHOR("Bard Liao <yung-chuan.liao@linux.intel.com>");
+MODULE_AUTHOR("Rander Wang <rander.wang@linux.intel.com>");
+MODULE_AUTHOR("Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>");
+MODULE_IMPORT_NS(SND_SOC_INTEL_HDA_DSP_COMMON);
+MODULE_IMPORT_NS(SND_SOC_SDW_UTILS);

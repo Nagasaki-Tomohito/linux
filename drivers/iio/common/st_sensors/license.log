@@ -1,0 +1,38 @@
+-----------------st_sensors_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------st_sensors_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright 2012-2013 STMicroelectronics Inc.
+ *
+ * Denis Ciocca <denis.ciocca@st.com>
+ */
+-----------------st_sensors_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics ST-sensors i2c driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------st_sensors_trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+
+EXPORT_SYMBOL_NS(st_sensors_allocate_trigger, IIO_ST_SENSORS);
+
+EXPORT_SYMBOL_NS(st_sensors_validate_device, IIO_ST_SENSORS);
+-----------------st_sensors_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------st_sensors_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics ST-sensors spi driver");
+
+MODULE_LICENSE("GPL v2");

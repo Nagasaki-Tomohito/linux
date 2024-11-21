@@ -1,0 +1,24 @@
+-----------------ishtp-hid-client.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Daniel Drubin <daniel.drubin@intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_DESCRIPTION("ISH ISHTP HID client driver");
+-----------------ishtp-hid.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * ISHTP-HID glue driver's definitions.
+ *
+ * Copyright (c) 2014-2016, Intel Corporation.
+ */
+-----------------ishtp-hid.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) 2012-2016, Intel Corporation.
+-----------------ishtp-fw-loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("ISH ISH-TP Host firmware Loader Client Driver");
+MODULE_AUTHOR("Rushikesh S Kadam <rushikesh.s.kadam@intel.com>");

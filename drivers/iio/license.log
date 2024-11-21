@@ -1,0 +1,97 @@
+-----------------industrialio-triggered-event.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2015 Cogent Embedded, Inc.
+
+MODULE_AUTHOR("Vladimir Barinov");
+MODULE_DESCRIPTION("IIO helper functions for setting up triggered events");
+MODULE_LICENSE("GPL");
+-----------------industrialio-configfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Intel Corporation
+-----------------industrialio-gts-helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matti Vaittinen <mazziesaccount@gmail.com>");
+MODULE_DESCRIPTION("IIO light sensor gain-time-scale helpers");
+-----------------industrialio-backend.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+
+MODULE_DESCRIPTION("Framework to handle complex IIO aggregate devices");
+
+MODULE_LICENSE("GPL");
+-----------------inkern.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+EXPORT_SYMBOL_GPL(iio_map_array_register);
+EXPORT_SYMBOL_GPL(iio_map_array_unregister);
+EXPORT_SYMBOL_GPL(fwnode_iio_channel_get_by_name);
+EXPORT_SYMBOL_GPL(iio_channel_get);
+EXPORT_SYMBOL_GPL(iio_channel_release);
+EXPORT_SYMBOL_GPL(devm_iio_channel_get);
+EXPORT_SYMBOL_GPL(devm_fwnode_iio_channel_get_by_name);
+EXPORT_SYMBOL_GPL(iio_channel_get_all);
+EXPORT_SYMBOL_GPL(iio_channel_release_all);
+EXPORT_SYMBOL_GPL(devm_iio_channel_get_all);
+EXPORT_SYMBOL_GPL(iio_read_channel_raw);
+EXPORT_SYMBOL_GPL(iio_read_channel_average_raw);
+EXPORT_SYMBOL_GPL(iio_convert_raw_to_processed);
+EXPORT_SYMBOL_GPL(iio_read_channel_attribute);
+EXPORT_SYMBOL_GPL(iio_read_channel_offset);
+EXPORT_SYMBOL_GPL(iio_read_channel_processed_scale);
+EXPORT_SYMBOL_GPL(iio_read_channel_processed);
+EXPORT_SYMBOL_GPL
+-----------------iio_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2008 Jonathan Cameron
+-----------------industrialio-sw-device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016 Intel Corporation
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>")
+
+MODULE_DESCRIPTION("Industrial I/O software devices support")
+
+MODULE_LICENSE("GPL v2")
+-----------------industrialio-trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* The industrial I/O core, trigger handling functions
+ *
+ * Copyright (c) 2008 Jonathan Cameron
+ */
+-----------------iio_core_trigger.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/* The industrial I/O core, trigger consumer handling functions
+ *
+ * Copyright (c) 2008 Jonathan Cameron
+-----------------industrialio-buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------industrialio-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("Industrial I/O core");
+-----------------industrialio-acpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+EXPORT_SYMBOL_GPL(iio_read_acpi_mount_matrix);
+-----------------industrialio-sw-trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Intel Corporation
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+
+MODULE_DESCRIPTION("Industrial I/O software triggers support");
+
+MODULE_LICENSE("GPL v2");
+-----------------industrialio-event.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2008 Jonathan Cameron

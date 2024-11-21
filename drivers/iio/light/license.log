@@ -1,0 +1,431 @@
+-----------------cm3232.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Kevin Tsai <ktsai@capellamicro.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("CM3232 ambient light sensor driver");
+-----------------max44000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Crestez Dan Leonard <leonard.crestez@intel.com>");
+MODULE_DESCRIPTION("MAX44000 Ambient and Infrared Proximity Sensor");
+MODULE_LICENSE("GPL v2");
+-----------------max44009.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (c) 2019 Robert Eshleman <bobbyeshleman@gmail.com>
+MODULE_AUTHOR("Robert Eshleman <bobbyeshleman@gmail.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("MAX44009 ambient light sensor driver");
+-----------------opt3001.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Andreas Dannenberg <dannenberg@ti.com>");
+MODULE_DESCRIPTION("Texas Instruments OPT3001 Light Sensor Driver");
+-----------------as73211.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Christian Eggers <ceggers@arri.de>");
+MODULE_DESCRIPTION("AS73211 XYZ True Color Sensor driver");
+MODULE_LICENSE("GPL");
+-----------------bh1750.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------vcnl4035.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Parthiban Nallathambi <pn@denx.de>");
+
+MODULE_LICENSE("GPL v2");
+-----------------cm3605.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Linus Walleij <linus.walleij@linaro.org>");
+
+MODULE_DESCRIPTION("CM3605 ambient light and proximity sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------si1133.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Maxime Roussin-Belanger <maxime.roussinbelanger@gmail.com>");
+MODULE_DESCRIPTION("Silabs SI1133, UV index sensor and ambient light sensor driver");
+MODULE_LICENSE("GPL");
+-----------------adjd_s311.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2012 Peter Meerwald <pmeerw@pmeerw.net>
+-----------------veml6030.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Rishi Gupta <gupt21@gmail.com>");
+MODULE_DESCRIPTION("VEML6030 Ambient Light Sensor");
+MODULE_LICENSE("GPL v2");
+-----------------apds9960.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------cm32181.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Kevin Tsai <ktsai@capellamicro.com>");
+
+MODULE_DESCRIPTION("CM32181 ambient light sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------al3320a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014, Intel Corporation.
+-----------------isl29028.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
+Copyright (c) 2016-2017 Brian Masney <masneyb@onstation.org>
+
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Laxman Dewangan <ldewangan@nvidia.com>")
+-----------------stk3310.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Tiberiu Breana <tiberiu.a.breana@intel.com>");
+MODULE_DESCRIPTION("STK3310 Ambient Light and Proximity Sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------st_uvis25_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2017 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics uvis25 i2c driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_UVIS25);
+-----------------noa1305.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ * Support for ON Semiconductor NOA1305 ambient light sensor
+ *
+ * Copyright (C) 2016 Emcraft Systems
+ * Copyright (C) 2019 Collabora Ltd.
+ */
+-----------------st_uvis25.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2017 STMicroelectronics Inc.
+-----------------zopt2201.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald-Stadler <pmeerw@pmeerw.net>");
+MODULE_DESCRIPTION("IDT ZOPT2201 ambient light and UV B sensor driver");
+-----------------adux1020.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------tcs3472.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+-----------------pa12203001.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------vl6180.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald-Stadler <pmeerw@pmeerw.net>");
+MODULE_AUTHOR("Manivannan Sadhasivam <manivannanece23@gmail.com>");
+MODULE_DESCRIPTION("STMicro VL6180 ALS, range and proximity sensor driver");
+MODULE_LICENSE("GPL");
+-----------------iqs621-als.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Jeff LaBundy <jeff@labundy.com>");
+MODULE_DESCRIPTION("Azoteq IQS621/622 Ambient Light Sensors");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:iqs621-als");
+-----------------us5182d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Adriana Reus <adriana.reus@intel.com>");
+MODULE_DESCRIPTION("Driver for us5182d Proximity and Light Sensor");
+MODULE_LICENSE("GPL v2");
+-----------------st_uvis25_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>");
+MODULE_DESCRIPTION("STMicroelectronics uvis25 spi driver");
+MODULE_IMPORT_NS(IIO_UVIS25);
+-----------------si1145.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Peter Meerwald-Stadler <pmeerw@pmeerw.net>");
+MODULE_DESCRIPTION("Silabs SI1132 and SI1141/2/3/5/6/7 proximity, ambient light and UV index sensor driver");
+MODULE_LICENSE("GPL");
+-----------------tsl2772.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ * Device driver for monitoring ambient light intensity in (lux) and proximity
+ * detection (prox) within the TAOS TSL2571, TSL2671, TMD2671, TSL2771, TMD2771,
+ * TSL2572, TSL2672, TMD2672, TSL2772, and TMD2772 devices.
+ *
+ * Copyright (c) 2012, TAOS Corporation.
+ * Copyright (c) 2017-2018 Brian Masney <masneyb@onstation.org>
+ */
+-----------------bh1780.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010 Texas Instruments
+Author: Hemanth V <hemanthv@ti.com>
+
+Copyright (C) 2016 Linaro Ltd.
+Author: Linus Walleij <linus.walleij@linaro.org>
+-----------------jsa1212.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Sathya Kuppuswamy <sathyanarayanan.kuppuswamy@linux.intel.com>");
+
+MODULE_DESCRIPTION("JSA1212 proximity/ambient light sensor driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------apds9306.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Subhajit Ghosh <subhajit.ghosh@tweaklogic.com>");
+MODULE_DESCRIPTION("APDS9306 Ambient Light Sensor driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_GTS_HELPER);
+-----------------veml6075.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Javier Carrasco <javier.carrasco.cruz@gmail.com>");
+
+MODULE_DESCRIPTION("Vishay VEML6075 UVA and UVB light sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------tsl4531.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+-----------------ltr390.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Anshul Dalal <anshulusr@gmail.com>");
+
+MODULE_DESCRIPTION("Lite-On LTR390 ALS and UV sensor Driver");
+
+MODULE_LICENSE("GPL");
+-----------------hid-sensor-als.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Sensor ALS");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------gp2ap020a00f.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Jacek Anaszewski <j.anaszewski@samsung.com>");
+MODULE_DESCRIPTION("Sharp GP2AP020A00F Proximity/ALS sensor driver");
+-----------------veml6070.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald-Stadler <pmeerw@pmeerw.net>");
+
+MODULE_DESCRIPTION("Vishay VEML6070 UV A light sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------ltr501.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+MODULE_DESCRIPTION("Lite-On LTR501 ambient light and proximity sensor driver");
+MODULE_LICENSE("GPL");
+-----------------isl76682.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2023 Marek Vasut <marex@denx.de>
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Marek Vasut <marex@denx.de>")
+-----------------bh1745.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Mudit Sharma <muditsharma.info@gmail.com>");
+
+MODULE_DESCRIPTION("BH1745 colour sensor driver");
+
+MODULE_IMPORT_NS(IIO_GTS_HELPER);
+-----------------cros_ec_light_prox.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2017 Google, Inc
+-----------------rpr0521.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("RPR0521 ROHM Ambient Light and Proximity Sensor driver");
+-----------------tsl2591.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Joe Sandom <joe.g.sandom@gmail.com>");
+
+MODULE_DESCRIPTION("TAOS tsl2591 ambient light sensor driver");
+MODULE_LICENSE("GPL");
+-----------------rohm-bu27034.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+MODULE_DESCRIPTION("ROHM BU27034 ambient light sensor driver");
+MODULE_IMPORT_NS(IIO_GTS_HELPER);
+-----------------cm3323.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015, Intel Corporation.
+-----------------ltrf216a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2022 Collabora, Ltd.
+Author: Shreeya Patel <shreeya.patel@collabora.com>
+
+Copyright (C) 2021 Lite-On Technology Corp (Singapore)
+Author: Shi Zhigang <Zhigang.Shi@liteon.com>
+
+MODULE_AUTHOR("Shreeya Patel <shreeya.patel@collabora.com>");
+MODULE_AUTHOR("Shi Zhigang <Zhigang.Shi@liteon.com>");
+
+MODULE_LICENSE("GPL");
+-----------------lv0104cs.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jeff LaBundy <jeff@labundy.com>");
+MODULE_DESCRIPTION("LV0104CS Ambient Light Sensor Driver");
+-----------------veml6040.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_DESCRIPTION("veml6040 RGBW light sensor driver");
+MODULE_AUTHOR("Arthur Becker <arthur.becker@sentec.com>");
+MODULE_LICENSE("GPL");
+-----------------vcnl4000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+MODULE_AUTHOR("Mathieu Othacehe <m.othacehe@gmail.com>");
+MODULE_DESCRIPTION("Vishay VCNL4000 proximity/ambient light sensor driver");
+MODULE_LICENSE("GPL");
+-----------------apds9300.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Kravchenko Oleksandr <o.v.kravchenko@globallogic.com>");
+MODULE_AUTHOR("GlobalLogic inc.");
+-----------------tsl2583.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("J. August Brenner <jbrenner@taosinc.com>");
+MODULE_AUTHOR("Brian Masney <masneyb@onstation.org>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("TAOS tsl2583 ambient light sensor driver");
+-----------------opt4001.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Stefan Windfeldt-Prytz <stefan.windfeldt-prytz@axis.com>");
+
+MODULE_DESCRIPTION("Texas Instruments opt4001 ambient light sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------acpi-als.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2009 Zhang Rui <rui.zhang@intel.com>
+ *
+ * Rework for IIO subsystem:
+ * Copyright (C) 2012-2013 Martin Liska <marxin.liska@gmail.com>
+ *
+ * Final cleanup and debugging:
+ * Copyright (C) 2013-2014 Marek Vasut <marex@denx.de>
+ * Copyright (C) 2015 Gabriele Mazzotta <gabriele.mzt@gmail.com>
+ */
+
+MODULE_AUTHOR("Zhang Rui <rui.zhang@intel.com>");
+MODULE_AUTHOR("Martin Liska <marxin.liska@gmail.com>");
+MODULE_AUTHOR("Marek Vasut <marex@denx.de>");
+MODULE_AUTHOR("Gabriele Mazzotta <gabriele.mzt@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------cm36651.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Beomho Seo <beomho.seo@samsung.com>");
+
+MODULE_DESCRIPTION("CM36651 proximity/ambient light sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------al3010.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * AL3010 - Dyna Image Ambient Light Sensor
+ *
+ * Copyright (c) 2014, Intel Corporation.
+ * Copyright (c) 2016, Dyna-Image Corp.
+ * Copyright (c) 2020, David Heidelberg, Michał Mirosław, Dmitry Osipenko
+ *
+ * IIO driver for AL3010 (7-bit I2C slave address 0x1C).
+ *
+ * TODO: interrupt support, thresholds
+ * When the driver will get support for interrupt handling, then interrupt
+ * will need to be disabled before turning sensor OFF in order to avoid
+ * potential races with the interrupt handling.
+ */
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@nxp.com>");
+MODULE_AUTHOR("David Heidelberg <david@ixit.cz>");
+MODULE_DESCRIPTION("AL3010 Ambient Light Sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-sensor-prox.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("HID Sensor Proximity");
+MODULE_AUTHOR("Archana Patni <archana.patni@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------isl29125.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("ISL29125 RGB light sensor driver");
+-----------------tcs3414.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+-----------------rohm-bu27008.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ROHM BU27008 and BU27010 colour sensor driver");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_GTS_HELPER);
+-----------------lm3533-als.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Johan Hovold <jhovold@gmail.com>");
+
+MODULE_DESCRIPTION("LM3533 Ambient Light Sensor driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:lm3533-als");
+-----------------isl29018.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ISL29018 Ambient Light Sensor driver");
+MODULE_LICENSE("GPL");
+-----------------st_uvis25_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------gp2ap002.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------tsl2563.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Nokia Corporation");

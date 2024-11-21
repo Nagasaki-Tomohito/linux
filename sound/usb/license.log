@@ -1,0 +1,157 @@
+-----------------power.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------mixer_s1810c.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Presonus Studio 1810c driver for ALSA
+ * Copyright (C) 2019 Nick Kossifidis <mickflemm@gmail.com>
+ */
+-----------------clock.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------endpoint.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------midi2.h-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------endpoint.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mixer_scarlett2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------implicit.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------proc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------format.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------power.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mixer_s1810c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2019 Nick Kossifidis <mickflemm@gmail.com>
+-----------------mixer_scarlett.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2013 by Tobias Hoffmann
+Copyright (c) 2013 by Robin Gareus <robin at gareus.org>
+Copyright (c) 2002 by Takashi Iwai <tiwai at suse.de>
+Copyright (c) 2014 by Chris J Arges <chris.j.arges at canonical.com>
+-----------------implicit.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------mixer_us16x08.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------midi2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------mixer_quirks.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------quirks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------quirks.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------media.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (c) 2019 Shuah Khan <shuah@kernel.org>
+-----------------stream.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------mixer_us16x08.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mixer_quirks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------midi.c-----------------
+Copyright (c) 2002-2009 Clemens Ladisch
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions, and the following disclaimer,
+without modification.
+2. The name of the author may not be used to endorse or promote products
+derived from this software without specific prior written permission.
+
+Alternatively, this software may be distributed and/or modified under the
+terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+-----------------mixer_maps.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+
+Copyright (c) Pavel Mihaylov <bin@bash.info>
+
+Copyright (c) James Courtier-Dutton <James@superbug.demon.co.uk>
+
+Copyright (c) Sennheiser Communications <...> (no email address provided)
+
+Copyright (c) Microsoft Corporation <...> (no email address provided)
+
+Copyright (c) ASUS Corporation <...> (no email address provided)
+
+Copyright (c) MSI Corporation <...> (no email address provided)
+
+Copyright (c) Asrock Inc. <...> (no email address provided)
+
+Copyright (c) Lenovo Corporation <...> (no email address provided)
+-----------------clock.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------usbaudio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------validate.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------card.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("USB Audio");
+MODULE_LICENSE("GPL");
+-----------------mixer_scarlett.h-----------------
+SPDX-License-Identifier: GPL-2.0
+-----------------midi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mixer_scarlett2.c-----------------
+The extracted parts are:
+
+* `// SPDX-License-Identifier: GPL-2.0`
+* `Copyright (c) 2018-2023 by Geoffrey D. Bennett <g at b4.vu>`
+* `Copyright (c) 2020-2021 by Vladimir Sadovnikov <sadko4u@gmail.com>`
+* `Copyright (c) 2022 by Christian Colglazier <christian@cacolglazier.com>`
+* `Copyright (c) 2013 by Tobias Hoffmann`
+* `Copyright (c) 2013 by Robin Gareus <robin at gareus.org>`
+* `Copyright (c) 2002 by Takashi Iwai <tiwai at suse.de>`
+* `Copyright (c) 2014 by Chris J Arges <chris.j.arges at canonical.com>`
+* `Copyright (c) 2018-2023 by Geoffrey D. Bennett <g at
+-----------------card.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------helper.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------format.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------media.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (c) 2019 Shuah Khan <shuah@kernel.org>
+-----------------mixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------quirks-table.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later

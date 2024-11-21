@@ -1,0 +1,503 @@
+-----------------echoaudio_gml.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------mona_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------layla20.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+-----------------gina20.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------indigodjx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2009 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------mona.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------indigodjx_dsp.c-----------------
+/* 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ */
+
+/*
+ * Copyright Echo Digital Audio Corporation (c) 1998 - 2005
+ * All rights reserved
+ * www.echoaudio.com
+ */
+
+/*
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ */
+-----------------echo3g.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+-----------------indigodj_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------darla24_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------layla20_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------mia.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+-----------------indigoio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+-----------------echoaudio_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+   All rights reserved
+   www.echoaudio.com
+
+   This file is part of Echo Digital Audio's generic driver library.
+
+   Echo Digital Audio's generic driver library is free software;
+   you can redistribute it and/or modify it under the terms of
+   the GNU General Public License as published by the Free Software
+   Foundation.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+   MA  02111-1307, USA.
+-----------------gina20_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------echoaudio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+#define ECHOCARD_HAS_VMIXER
+#define ECHOCARD_HAS_DIGITAL_IO
+#define ECHOCARD_HAS_DIGITAL_MODE_SWITCH
+#define ECHOCARD_HAS_DIGITAL_IN_AUTOMUTE
+#define ECHOCARD_HAS_EXTERNAL_CLOCK
+#define ECHOCARD_HAS_PHANTOM_POWER
+#define ECHOCARD_HAS_MIDI
+#define ECHOCARD_HAS_MONITOR
+#define ECHOCARD_HAS_INPUT_GAIN
+#define ECHOCARD_HAS_INPUT_NOMINAL_LEVEL
+#define ECHOCARD_HAS_OUTPUT_NOMINAL_LEVEL
+#define ECHOCARD_HAS_LINE_OUT_GAIN
+#define ECHOCARD_HAS_STEREO_BIG_ENDIAN32
+#define ECHOCARD_HAS_ADAT
+-----------------layla24_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------gina24_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigoio_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------mia_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigo_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigodj.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------midi.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------echoaudio_3g.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigo_express_dsp.c-----------------
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+-----------------echoaudio.h-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigoiox.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2009 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------echo3g_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigoiox_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2005
+All rights reserved
+
+www.echoaudio.com
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+-----------------darla24.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------layla24.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+
+MODULE_FIRMWARE("ea/loader_dsp.fw");
+MODULE_FIRMWARE("ea/layla24_dsp.fw");
+MODULE_FIRMWARE("ea/layla24_1_asic.fw");
+MODULE_FIRMWARE("ea/layla24_2A_asic.fw");
+MODULE_FIRMWARE("ea/layla24_2S_asic.fw");
+-----------------darla20.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+-----------------gina24.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  ALSA driver for Echoaudio soundcards.
+ *  Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>
+ */
+-----------------darla20_dsp.c-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+All rights reserved
+www.echoaudio.com
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------echoaudio_dsp.h-----------------
+Copyright Echo Digital Audio Corporation (c) 1998 - 2004
+
+This file is part of Echo Digital Audio's generic driver library.
+
+Echo Digital Audio's generic driver library is free software;
+you can redistribute it and/or modify it under the terms of
+the GNU General Public License as published by the Free Software
+Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+MA  02111-1307, USA.
+-----------------indigo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2003-2004 Giuliano Pochini <pochini@shiny.it>

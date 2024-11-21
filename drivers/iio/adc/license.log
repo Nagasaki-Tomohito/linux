@@ -1,0 +1,954 @@
+-----------------sd_adc_modulator.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2017, STMicroelectronics - All Rights Reserved
+-----------------sophgo-cv1800b-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) Bootlin 2024
+
+MODULE_AUTHOR("Thomas Bonnefille <thomas.bonnefille@bootlin.com>")
+
+MODULE_LICENSE("GPL")
+-----------------sun20i-gpadc-iio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * GPADC driver for sunxi platforms (D1, T113-S3 and R329)
+ * Copyright (c) 2023 Maksim Kiselev <bigunclemax@gmail.com>
+ */
+-----------------mt6370-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2022 Richtek Technology Corp.
+ *
+ * Author: ChiaEn Wu <chiaen_wu@richtek.com>
+ */
+
+MODULE_AUTHOR("ChiaEn Wu <chiaen_wu@richtek.com>");
+MODULE_DESCRIPTION("MT6370 ADC Driver");
+MODULE_LICENSE("GPL v2");
+-----------------ad4695.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Ramona Gradinariu <ramona.gradinariu@analog.com>");
+
+MODULE_AUTHOR("David Lechner <dlechner@baylibre.com>");
+
+MODULE_LICENSE("GPL");
+-----------------stm32-dfsdm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2017, STMicroelectronics - All Rights Reserved
+-----------------bcm_iproc_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Broadcom iProc ADC controller driver");
+MODULE_AUTHOR("Raveendra Padasalagi <raveendra.padasalagi@broadcom.com>");
+MODULE_LICENSE("GPL v2");
+-----------------xilinx-xadc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2013 Analog Devices Inc.
+-----------------qcom-spmi-rradc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("QCOM SPMI PMIC RR ADC driver");
+MODULE_AUTHOR("Caleb Connolly <caleb.connolly@linaro.org>");
+-----------------ti-adc084s021.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Mårten Lindahl <martenli@axis.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_VERSION("1.0");
+-----------------ti-ads7924.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2022 DimOnOff
+
+Copyright (c) 2016, Intel Corporation.
+-----------------axp20x_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ADC driver for AXP20X and AXP22X PMICs");
+MODULE_AUTHOR("Quentin Schulz <quentin.schulz@free-electrons.com>");
+MODULE_LICENSE("GPL");
+-----------------lpc32xx_adc.c-----------------
+Copyright (C) 2011, 2012 Roland Stigge <stigge@antcom.de>
+
+MODULE_AUTHOR("Roland Stigge <stigge@antcom.de>");
+
+MODULE_DESCRIPTION("LPC32XX ADC driver");
+
+MODULE_LICENSE("GPL");
+-----------------hi8435.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2015 Zodiac Inflight Innovations
+Copyright (C) 2015 Cogent Embedded, Inc.
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Vladimir Barinov")
+MODULE_DESCRIPTION("HI-8435 threshold detector")
+-----------------ltc2496.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2017 Analog Devices Inc.
+Licensed under the GPL-2.
+-----------------spear_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Stefan Roese <sr@denx.de>");
+MODULE_DESCRIPTION("SPEAr ADC driver");
+-----------------ti-ads8688.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Sean Nyekjaer <sean@geanix.dk>");
+
+MODULE_DESCRIPTION("Texas Instruments ADS8688 driver");
+MODULE_LICENSE("GPL v2");
+-----------------ltc2497.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------max11410.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------imx8qxp-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2018 NXP
+Copyright (C) 2021 Cai Huoqing
+-----------------ad7292.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Marcelo Schmitt <marcelo.schmitt1@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Analog Devices AD7292 ADC driver");
+-----------------imx7d_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Haibo Chen <haibo.chen@freescale.com>");
+
+MODULE_DESCRIPTION("Freescale IMX7D ADC driver");
+MODULE_LICENSE("GPL v2");
+-----------------twl6030-gpadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Balaji T K <balajitk@ti.com>");
+MODULE_AUTHOR("Graeme Gregory <gg@slimlogic.co.uk>");
+MODULE_AUTHOR("Oleksandr Kozaruk <oleksandr.kozaruk@ti.com>");
+-----------------ti-ads124s08.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/* TI ADS124S0X chip family driver
+ * Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com/
+ */
+-----------------ad4130.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD4130 SPI driver");
+MODULE_LICENSE("GPL");
+-----------------stmpe-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+-----------------qcom-vadc-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------mcp3564.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Marius Cristea <marius.cristea@microchip.com>");
+
+MODULE_DESCRIPTION("Microchip MCP346x/MCP346xR and MCP356x/MCP356xR ADCs");
+
+MODULE_LICENSE("GPL v2");
+-----------------max77541-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Okan Sahin <Okan.Sahin@analog.com>");
+
+MODULE_DESCRIPTION("MAX77541 ADC driver");
+
+MODULE_LICENSE("GPL");
+-----------------ti-ads1119.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("João Paulo Gonçalves <joao.goncalves@toradex.com>");
+MODULE_DESCRIPTION("Texas Instruments ADS1119 ADC Driver");
+MODULE_LICENSE("GPL");
+-----------------ltc2497.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2017 Analog Devices Inc.
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Linear Technology LTC2497 ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7266.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Analog Devices AD7266/65 ADC");
+-----------------ad7124.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Analog Devices AD7124 SPI driver");
+MODULE_IMPORT_NS(IIO_AD_SIGMA_DELTA);
+-----------------at91_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Atmel AT91 ADC Driver");
+MODULE_AUTHOR("Maxime Ripard <maxime.ripard@free-electrons.com>");
+-----------------twl4030-madc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("J Keerthy");
+-----------------ina2xx-adc.c-----------------
+Copyright 2015 Baylibre SAS.
+ 
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.
+
+Licensed under the GPL-2 or later.
+-----------------mcp320x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Oskar Andero <oskar.andero@gmail.com>");
+
+MODULE_DESCRIPTION("Microchip Technology MCP3x01/02/04/08 and MCP3550/1/3");
+
+MODULE_LICENSE("GPL v2");
+-----------------ti-tsc2046.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Oleksij Rempel <kernel@pengutronix.de>");
+
+MODULE_LICENSE("GPL v2");
+-----------------xilinx-xadc-events.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2013 Analog Devices Inc.
+  Author: Lars-Peter Clausen <lars@metafoo.de>
+-----------------lp8788_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Texas Instruments LP8788 ADC Driver");
+
+MODULE_AUTHOR("Milo Kim");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:lp8788-adc");
+-----------------ad7291.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Sonic Zhang <sonic.zhang@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7291 ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------da9150-gpadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2014 Dialog Semiconductor
+
+MODULE_DESCRIPTION("GPADC Driver for DA9150");
+
+MODULE_AUTHOR("Adam Thomson <Adam.Thomson.Opensource@diasemi.com>");
+
+MODULE_LICENSE("GPL");
+-----------------rn5t618-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+Copyright (C) 2019 Andreas Kemnade
+-----------------ti-ads8344.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------ad7192.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7192 and similar ADC");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_AD_SIGMA_DELTA);
+-----------------ti-adc108s102.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Bogdan Pricop <bogdan.pricop@emutex.com>");
+MODULE_DESCRIPTION("Texas Instruments ADC108S102 and ADC128S102 driver");
+MODULE_LICENSE("GPL v2");
+-----------------rcar-gyroadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Marek Vasut <marek.vasut@gmail.com>");
+
+MODULE_DESCRIPTION("Renesas R-Car GyroADC driver");
+
+MODULE_LICENSE("GPL");
+-----------------ltc2497-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2017 Analog Devices Inc.
+-----------------ti-adc128s052.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2014 Angelo Compagnucci <angelo.compagnucci@gmail.com>
+ */
+-----------------stm32-adc-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Fabrice Gasnier <fabrice.gasnier@st.com>");
+MODULE_DESCRIPTION("STMicroelectronics STM32 ADC core driver");
+MODULE_ALIAS("platform:stm32-adc-core");
+-----------------ad7091r8.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Analog Devices AD7091R8 12-bit SAR ADC driver
+ *
+ * Copyright 2023 Analog Devices Inc.
+ */
+-----------------qcom-spmi-vadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Stanimir Varbanov <svarbanov@mm-sol.com>");
+MODULE_AUTHOR("Ivan T. Ivanov <iivanov@mm-sol.com>");
+-----------------rtq6056.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("ChiYuan Huang <cy_huang@richtek.com>");
+MODULE_DESCRIPTION("Richtek RTQ6056 Driver");
+MODULE_LICENSE("GPL v2");
+-----------------nau7802.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Driver for the Nuvoton NAU7802 ADC
+ *
+ * Copyright 2013 Free Electrons
+ */
+-----------------envelope-detector.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 Axentia Technologies AB
+-----------------mt6577_auxadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Zhiyong Tao <zhiyong.tao@mediatek.com>");
+
+MODULE_DESCRIPTION("MTK AUXADC Device Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------xilinx-ams.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Xilinx AMS driver");
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Xilinx, Inc.");
+-----------------ti_am335x_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("TI ADC controller driver");
+MODULE_AUTHOR("Rachna Patil <rachna@ti.com>");
+MODULE_LICENSE("GPL");
+-----------------max1118.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017 Akinobu Mita <akinobu.mita@gmail.com>
+
+MODULE_AUTHOR("Akinobu Mita <akinobu.mita@gmail.com>");
+
+MODULE_DESCRIPTION("MAXIM MAX1117/MAX1118/MAX1119 ADCs driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------pac1921.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Matteo Martelli <matteomartelli3@gmail.com>");
+MODULE_DESCRIPTION("IIO driver for PAC1921 High-Side Power/Current Monitor");
+MODULE_LICENSE("GPL");
+-----------------mxs-lradc-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marek Vasut <marex@denx.de>");
+MODULE_DESCRIPTION("Freescale MXS LRADC driver general purpose ADC driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:mxs-lradc-adc");
+-----------------ad7298.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7298 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7091r-base.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2014-2019 Analog Devices Inc.
+-----------------ti-adc161s626.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("Texas Instruments ADC1x1S 1-channel differential ADC");
+MODULE_LICENSE("GPL");
+-----------------ad4000.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Marcelo Schmitt <marcelo.schmitt@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD4000 ADC driver");
+
+MODULE_LICENSE("GPL");
+-----------------ltc2471.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2017 Topic Embedded Products
+Author: Mike Looijmans <mike.looijmans@topic.nl>
+
+MODULE_DESCRIPTION("LTC2471/LTC2473 ADC driver")
+MODULE_AUTHOR("Topic Embedded Products")
+MODULE_LICENSE("GPL v2")
+-----------------meson_saradc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Martin Blumenstingl <martin.blumenstingl@googlemail.com>");
+MODULE_DESCRIPTION("Amlogic Meson SAR ADC driver");
+-----------------ab8500-gpadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) ST-Ericsson SA 2010
+ *
+ * Author: Arun R Murthy <arun.murthy@stericsson.com>
+ * Author: Daniel Willerud <daniel.willerud@stericsson.com>
+ * Author: Johan Palsson <johan.palsson@stericsson.com>
+ * Author: M'boumba Cedric Madianga
+ * Author: Linus Walleij <linus.walleij@linaro.org>
+ */
+-----------------stm32-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * This file is part of STM32 ADC driver
+ *
+ * Copyright (C) 2016, STMicroelectronics - All Rights Reserved
+ * Author: Fabrice Gasnier <fabrice.gasnier@st.com>.
+ */
+-----------------berlin2-adc.c-----------------
+Copyright (C) 2015 Marvell Technology Group Ltd.
+
+This file is licensed under the terms of the GNU General Public License version 2. This program is licensed "as is" without any warranty of any kind, whether express or implied.
+
+MODULE_AUTHOR("Antoine Tenart <antoine.tenart@free-electrons.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------imx93_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("NXP i.MX93 ADC driver");
+MODULE_AUTHOR("Haibo Chen <haibo.chen@nxp.com>");
+-----------------ti-adc081c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2012 Avionic Design GmbH
+ * Copyright (C) 2016 Intel
+ */
+-----------------qcom-spmi-iadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------qcom-spmi-adc5.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+-----------------hx711.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016 Andreas Klinger <ak@it-klinger.de>
+
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HX711 bitbanging driver - ADC for weight cells");
+MODULE_ALIAS("platform:hx711-gpio");
+-----------------axp288_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jacob Pan <jacob.jun.pan@linux.intel.com>");
+MODULE_DESCRIPTION("X-Powers AXP288 ADC Driver");
+MODULE_LICENSE("GPL");
+-----------------ltc2485.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 Alison Schofield <amsfield22@gmail.com>
+
+MODULE_AUTHOR("Alison Schofield <amsfield22@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------max1027.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Philippe Reynes <tremyfr@yahoo.fr>");
+
+MODULE_DESCRIPTION("MAX1X27/MAX1X29/MAX1X31 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7173.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafo.de>");
+MODULE_AUTHOR("Dumitru Ceclan <dumitru.ceclan@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7173 and similar ADC driver");
+-----------------ltc2309.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2023, Liam Beguin <liambeguin@gmail.com>
+ */
+MODULE_AUTHOR("Liam Beguin <liambeguin@gmail.com>");
+MODULE_DESCRIPTION("Linear Technology LTC2309 ADC");
+MODULE_LICENSE("GPL v2");
+-----------------npcm_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2019 Nuvoton Technology corporation.
+-----------------ad7606.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * AD7606 ADC driver
+ *
+ * Copyright 2011 Analog Devices Inc.
+ */
+-----------------max9611.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Jacopo Mondi <jacopo+renesas@jmondi.org>");
+MODULE_DESCRIPTION("Maxim max9611/12 current sense amplifier with 12bit ADC");
+MODULE_LICENSE("GPL v2");
+-----------------ad7091r-base.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+Copyright 2014-2019 Analog Devices Inc.
+-----------------adi-axi-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices Generic AXI ADC IP core driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------exynos_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Naveen Krishna Chatradhi <ch.naveen@samsung.com>");
+MODULE_DESCRIPTION("Samsung EXYNOS5 ADC driver");
+MODULE_LICENSE("GPL v2");
+-----------------ad7791.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------ad7280a.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ep93xx_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Alexander Sverdlin <alexander.sverdlin@gmail.com>");
+MODULE_DESCRIPTION("Cirrus Logic EP93XX ADC driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:ep93xx-adc");
+-----------------ad_sigma_delta.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Analog Devices Sigma-Delta ADCs");
+MODULE_LICENSE("GPL v2");
+-----------------sun4i-gpadc-iio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("ADC driver for sunxi platforms");
+MODULE_AUTHOR("Quentin Schulz <quentin.schulz@free-electrons.com>");
+MODULE_LICENSE("GPL v2");
+-----------------ad7887.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Analog Devices AD7887 ADC");
+-----------------ti-ads1015.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+MODULE_DESCRIPTION("Texas Instruments ADS1015 ADC driver");
+MODULE_LICENSE("GPL v2");
+-----------------ingenic-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------at91-sama5d2_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------lpc18xx_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 Joachim Eastwood <manabian@gmail.com>
+
+MODULE_DESCRIPTION("LPC18xx ADC driver");
+MODULE_AUTHOR("Joachim Eastwood <manabian@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------ti-ads7950.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("David Lechner <david@lechnology.com>");
+
+MODULE_DESCRIPTION("TI TI_ADS7950 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7766.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL v2");
+-----------------ad7606_par.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * AD7606 Parallel Interface ADC driver
+ *
+ * Copyright 2011 Analog Devices Inc.
+ */
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7606 ADC");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_AD7606);
+-----------------aspeed_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Rick Altherr <raltherr@google.com>");
+MODULE_DESCRIPTION("Aspeed AST2400/2500/2600 ADC Driver");
+MODULE_LICENSE("GPL");
+-----------------mcp3422.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Angelo Compagnucci <angelo.compagnucci@gmail.com>");
+
+MODULE_DESCRIPTION("Microchip mcp3421/2/3/4/5/6/7/8 driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------men_z188_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 MEN Mikroelektronik GmbH (www.men.de)
+
+MODULE_AUTHOR("Johannes Thumshirn <johannes.thumshirn@men.de>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("IIO ADC driver for MEN 16z188 ADC Core");
+MODULE_ALIAS("mcb:16z188");
+MODULE_IMPORT_NS(MCB);
+-----------------viperboard_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+(C) 2012 by Lemonage GmbH
+MODULE_AUTHOR("Lars Poeschel <poeschel@lemonage.de>");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("IIO ADC driver for Nano River Techs Viperboard");
+MODULE_ALIAS("platform:viperboard-adc");
+-----------------ad7606.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7606 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------stm32-dfsdm-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Arnaud Pouliquen <arnaud.pouliquen@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics STM32 dfsdm driver");
+MODULE_LICENSE("GPL v2");
+-----------------ti-tlc4541.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Phil Reid <preid@electromag.com.au>");
+
+MODULE_DESCRIPTION("Texas Instruments TLC4541 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------max11100.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016-17 Renesas Electronics Corporation
+Copyright (C) 2016-17 Jacopo Mondi
+
+MODULE_AUTHOR("Jacopo Mondi <jacopo@jmondi.org>");
+MODULE_DESCRIPTION("Maxim max11100 ADC Driver");
+MODULE_LICENSE("GPL v2")
+-----------------max34408.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------ad7091r5.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Beniamin Bia <beniamin.bia@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Analog Devices AD7091R5 multi-channel ADC driver");
+
+MODULE_IMPORT_NS(IIO_AD7091R);
+-----------------ad7793.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7793 and similar ADCs");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_AD_SIGMA_DELTA);
+-----------------rockchip_saradc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Heiko Stuebner <heiko@sntech.de>");
+MODULE_DESCRIPTION("Rockchip SARADC driver");
+MODULE_LICENSE("GPL v2");
+-----------------cpcap-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("CPCAP ADC driver");
+MODULE_AUTHOR("Tony Lindgren <tony@atomide.com>");
+MODULE_LICENSE("GPL v2");
+-----------------ad7476.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7476 and similar 1-channel ADCs");
+-----------------ad9467.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD9467 ADC driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_BACKEND);
+-----------------max1241.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------stm32-adc-core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (C) 2016, STMicroelectronics - All Rights Reserved
+ * Author: Fabrice Gasnier <fabrice.gasnier@st.com>.
+ */
+-----------------fsl-imx25-gcq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ADC driver for Freescale mx25");
+MODULE_AUTHOR("Markus Pargmann <mpa@pengutronix.de>");
+MODULE_LICENSE("GPL v2")
+-----------------qcom-pm8xxx-xoadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("PM8xxx XOADC driver");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:pm8xxx-xoadc");
+-----------------stm32-dfsdm-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("STM32 sigma delta ADC");
+MODULE_AUTHOR("Arnaud Pouliquen <arnaud.pouliquen@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_BACKEND);
+-----------------ad7606_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7606 ADC");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_AD7606);
+-----------------ti-adc0832.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Akinobu Mita <akinobu.mita@gmail.com>");
+
+MODULE_DESCRIPTION("ADC0831/ADC0832/ADC0834/ADC0838 driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------rzg2l_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Lad Prabhakar <prabhakar.mahadev-lad.rj@bp.renesas.com>");
+
+MODULE_DESCRIPTION("Renesas RZ/G2L ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7923.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * AD7904/AD7914/AD7923/AD7924/AD7908/AD7918/AD7928 SPI ADC driver
+ *
+ * Copyright 2011 Analog Devices Inc (from AD7923 Driver)
+ * Copyright 2012 CS Systemes d'Information
+ */
+-----------------dln2-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jack Andersen <jackoalan@gmail.com");
+MODULE_DESCRIPTION("Driver for the Diolan DLN2 ADC interface");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:dln2-adc");
+-----------------ti-ads131e08.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Tomislav Denis <tomislav.denis@avl.com>");
+
+MODULE_DESCRIPTION("Driver for ADS131E0x ADC family");
+MODULE_LICENSE("GPL v2");
+-----------------ti-ads1298.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Mike Looijmans <mike.looijmans@topic.nl>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("TI ADS1298 ADC");
+-----------------mcp3911.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Marcus Folkesson <marcus.folkesson@gmail.com>");
+MODULE_AUTHOR("Kent Gustavsson <kent@minoris.se>");
+-----------------vf610_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Fugang Duan <B38611@freescale.com>");
+MODULE_DESCRIPTION("Freescale VF610 ADC driver");
+MODULE_LICENSE("GPL v2");
+-----------------ad799x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------sc27xx_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2018 Spreadtrum Communications Inc.
+-----------------palmas_gpadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("palmas GPADC driver");
+MODULE_AUTHOR("Pradeep Goudagunta<pgoudagunta@nvidia.com>");
+MODULE_LICENSE("GPL v2");
+-----------------ad7768-1.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD7768-1 ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------cc10001_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Phani Movva <Phani.Movva@imgtec.com>");
+
+MODULE_DESCRIPTION("Cosmic Circuits ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------xilinx-xadc-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Xilinx XADC IIO driver");
+-----------------pac1934.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Bogdan Bolocan <bogdan.bolocan@microchip.com>");
+MODULE_AUTHOR("Victor Tudose");
+MODULE_AUTHOR("Marius Cristea <marius.cristea@microchip.com>");
+
+MODULE_DESCRIPTION("IIO driver for PAC1934 Multi-Channel DC Power/Energy Monitor");
+MODULE_LICENSE("GPL");
+-----------------ad7949.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Charles-Antoine Couret <charles-antoine.couret@essensium.com>");
+
+MODULE_DESCRIPTION("Analog Devices 14/16-bit 8-channel ADC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------max1363.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+
+MODULE_DESCRIPTION("Maxim 1363 ADC");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad7780.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2011 Analog Devices Inc.
+Copyright 2019 Renato Lui Geh
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>")
+
+MODULE_LICENSE("GPL v2")
+MODULE_DESCRIPTION("Analog Devices AD7780 and similar ADCs")
+MODULE_IMPORT_NS(IIO_AD_SIGMA_DELTA)
+-----------------mt6360-adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------max11205.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2022 Analog Devices, Inc.
+ */
+-----------------ti-ads1100.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mike Looijmans <mike.looijmans@topic.nl>");
+MODULE_DESCRIPTION("Texas Instruments ADS1100 ADC driver");
+-----------------mp2629_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2020 Monolithic Power Systems, Inc
+
+MODULE_AUTHOR("Saravanan Sekar <sravanhome@gmail.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("MP2629 ADC driver");
+-----------------ti-adc12138.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Akinobu Mita <akinobu.mita@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ADC12130/ADC12132/ADC12138 driver");
+-----------------ad7944.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("David Lechner <dlechner@baylibre.com>");
+MODULE_DESCRIPTION("Analog Devices AD7944 PulSAR ADC family driver");
+MODULE_LICENSE("GPL");
+-----------------ad7380.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD738x ADC driver");
+
+MODULE_LICENSE("GPL");
+-----------------mt6359-auxadc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>");
+MODULE_DESCRIPTION("MediaTek MT6359 PMIC AUXADC Driver");
+-----------------intel_mrfld_adc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * ADC driver for Basin Cove PMIC
+ *
+ * Copyright (C) 2012 Intel Corporation
+ * Author: Bin Yang <bin.yang@intel.com>
+ *
+ * Rewritten for upstream by:
+ *	 Vincent Pelletier <plr.vincent@gmail.com>
+ *	 Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ */
+-----------------ti-lmp92064.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Texas Instruments LMP92064 SPI ADC driver
+ *
+ * Copyright (c) 2022 Leonard Göhrs <kernel@pengutronix.de>, Pengutronix
+ *
+ * Based on linux/drivers/iio/adc/ti-tsc2046.c
+ * Copyright (c) 2021 Oleksij Rempel <kernel@pengutronix.de>, Pengutronix
+ */
+
+MODULE_AUTHOR("Leonard Göhrs <kernel@pengutronix.de>");
+MODULE_DESCRIPTION("TI LMP92064 ADC");
+MODULE_LICENSE("GPL");

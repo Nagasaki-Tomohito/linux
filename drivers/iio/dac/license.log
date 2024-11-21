@@ -1,0 +1,361 @@
+-----------------ad5592r-base.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Paul Cercueil <paul.cercueil@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD5592R multi-channel converters");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5791.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD5760/AD5780/AD5781/AD5790/AD5791 DAC");
+-----------------ad9739a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Dragos Bogdan <dragos.bogdan@analog.com>");
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_BACKEND);
+-----------------stm32-dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Amelie Delaunay <amelie.delaunay@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics STM32 DAC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5446.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5761.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------stm32-dac-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------ad5755.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("Analog Devices AD5755/55-1/57/35/37 DAC");
+
+MODULE_LICENSE("GPL v2");
+-----------------vf610_dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Sanchayan Maity <sanchayan.maity@toradex.com>");
+
+MODULE_DESCRIPTION("Freescale VF610 DAC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------m62332.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) 2014 Dmitry Eremin-Solenikov
+ *
+ *  Based on max517 driver:
+ *  Copyright (C) 2010, 2011 Roland Stigge <stigge@antcom.de>
+ */
+MODULE_AUTHOR("Dmitry Eremin-Solenikov");
+MODULE_DESCRIPTION("M62332 8-bit DAC");
+MODULE_LICENSE("GPL v2");
+-----------------mcp4922.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2014 EMAC Inc.
+
+MODULE_AUTHOR("Michael Welling <mwelling@ieee.org>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ti-dac7311.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Charles-Antoine Couret <charles-antoine.couret@essensium.com>");
+
+MODULE_DESCRIPTION("Texas Instruments 8/10/12-bit 1-channel DAC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5758.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD5758 DAC");
+MODULE_LICENSE("GPL v2");
+-----------------ad5380.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ad8801.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2016 Gwenhael Goavec-Merou
+-----------------max517.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  max517.c - Support for Maxim MAX517, MAX518 and MAX519
+ *
+ *  Copyright (C) 2010, 2011 Roland Stigge <stigge@antcom.de>
+ */
+
+MODULE_AUTHOR("Roland Stigge <stigge@antcom.de>");
+MODULE_DESCRIPTION("MAX517/518/519/520/521 8-bit DAC");
+MODULE_LICENSE("GPL");
+-----------------ad5504.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * AD5504, AD5501 High Voltage Digital to Analog Converter
+ *
+ * Copyright 2011 Analog Devices Inc.
+ */
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD5501/AD5501 DAC");
+MODULE_LICENSE("GPL v2");
+-----------------mcp4821.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Anshul Dalal <anshulusr@gmail.com>");
+
+MODULE_DESCRIPTION("Microchip MCP4821 DAC Driver");
+
+MODULE_LICENSE("GPL");
+-----------------ad5686-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2018 Analog Devices Inc.
+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>")
+
+MODULE_LICENSE("GPL v2")
+-----------------ad5624r.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * AD5624R SPI DAC driver
+ *
+ * Copyright 2010-2011 Analog Devices Inc.
+ */
+-----------------ad5624r_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ad5592r.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015-2016 Analog Devices Inc.
+Author: Paul Cercueil <paul.cercueil@analog.com>
+
+MODULE_AUTHOR("Paul Cercueil <paul.cercueil@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD5592R multi-channel converters");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad3552r.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Mihail Chindris <mihail.chindris@analog.com>");
+
+MODULE_DESCRIPTION("Analog Device AD3552R DAC");
+MODULE_LICENSE("GPL v2");
+-----------------ad7303.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("Analog Devices AD7303 DAC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------stm32-dac-core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2017, STMicroelectronics - All Rights Reserved
+-----------------ds4424.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Maxim DS4424 DAC Driver");
+MODULE_AUTHOR("Ismail H. Kose <ismail.kose@maximintegrated.com>");
+MODULE_AUTHOR("Vishal Sood <vishal.sood@maximintegrated.com>");
+MODULE_AUTHOR("David Jung <david.jung@maximintegrated.com>");
+MODULE_LICENSE("GPL v2");
+-----------------lpc18xx_dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("LPC18xx DAC driver");
+MODULE_AUTHOR("Joachim Eastwood <manabian@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cio-dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 William Breathitt Gray
+
+MODULE_AUTHOR("William Breathitt Gray <vilhelm.gray@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Measurement Computing CIO-DAC IIO driver");
+
+MODULE_PARM_DESC(base, "Measurement Computing CIO-DAC base addresses");
+-----------------ad5766.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ad5064.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("Analog Devices AD5024 and similar multi-channel DACs");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5764.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2011 Analog Devices Inc.
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5593r.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015-2016 Analog Devices Inc.
+MODULE_AUTHOR("Paul Cercueil <paul.cercueil@analog.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Analog Devices AD5593R multi-channel converters");
+MODULE_IMPORT_NS(IIO_AD5592R);
+-----------------ltc2664.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_AUTHOR("Kim Seer Paller <kimseer.paller@analog.com>");
+
+MODULE_LICENSE("GPL");
+-----------------ti-dac7612.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Licensed under the GPL-2.
+
+MODULE_AUTHOR("Ricardo Ribalda <ribalda@kernel.org>");
+
+MODULE_DESCRIPTION("Texas Instruments DAC7612 DAC driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5592r-base.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2015-2016 Analog Devices Inc.
+ * Author: Paul Cercueil <paul.cercueil@analog.com>
+ */
+-----------------max5522.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Angelo Dureghello <angelo.dureghello@timesys.com>");
+MODULE_DESCRIPTION("MAX5522 DAC driver");
+-----------------ad7293.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7293");
+MODULE_LICENSE("GPL v2");
+-----------------ltc2632.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------ltc2688.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Nuno Sá <nuno.sa@analog.com>");
+MODULE_DESCRIPTION("Analog Devices LTC2688 DAC");
+MODULE_LICENSE("GPL");
+-----------------mcp4728.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Andrea Collamati <andrea.collamati@gmail.com>");
+MODULE_DESCRIPTION("MCP4728 12-bit DAC");
+MODULE_LICENSE("GPL");
+-----------------ad5696-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright 2018 Analog Devices Inc.
+ */
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD5686 and similar multi-channel DACs");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_AD5686);
+-----------------mcp4725.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_DESCRIPTION("MCP4725/6 12-bit DAC");
+
+MODULE_LICENSE("GPL");
+-----------------dpot-dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2016 Axentia Technologies AB
+MODULE_DESCRIPTION("DAC emulation driver using a digital potentiometer")
+MODULE_AUTHOR("Peter Rosin <peda@axentia.se>")
+MODULE_LICENSE("GPL v2")
+-----------------ltc1660.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Driver for Linear Technology LTC1665/LTC1660, 8 channels DAC
+ *
+ * Copyright (C) 2018 Marcus Folkesson <marcus.folkesson@gmail.com>
+ */
+-----------------ad5686.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------adi-axi-dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Analog Devices Generic AXI DAC IP core driver");
+-----------------ti-dac082s085.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2017 KUNBUS GmbH
+
+MODULE_AUTHOR("Lukas Wunner <lukas@wunner.de>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5449.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("Analog Devices AD5449 and similar DACs");
+
+MODULE_LICENSE("GPL v2");
+-----------------max5821.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ /*
+  * iio/dac/max5821.c
+  * Copyright (C) 2014 Philippe Reynes
+  */
+-----------------ad5421.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------ad5770r.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Mircea Caprioru <mircea.caprioru@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD5770R IDAC");
+MODULE_LICENSE("GPL v2");
+-----------------ad5360.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad5686.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2018 Analog Devices Inc.
+ */
+-----------------ti-dac5571.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2018 Prevas A/S
+ */

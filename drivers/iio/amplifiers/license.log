@@ -1,0 +1,13 @@
+-----------------ada4250.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com");
+MODULE_DESCRIPTION("Analog Devices ADA4250");
+-----------------ad8366.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2012-2019 Analog Devices Inc.
+-----------------hmc425a.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2020, 2024 Analog Devices Inc.

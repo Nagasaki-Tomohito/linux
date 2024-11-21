@@ -1,0 +1,169 @@
+-----------------skip_spaces.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------efi-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2013,2014 Linaro Limited
+     Roy Franz <roy.franz@linaro.org>
+Copyright (C) 2013 Red Hat, Inc.
+     Mark Salter <msalter@redhat.com>
+-----------------x86-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* -----------------------------------------------------------------------
+ *
+ *   Copyright 2011 Intel Corporation; author Matt Fleming
+ *
+ * ----------------------------------------------------------------------- */
+-----------------kaslr.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------bitmap.c-----------------
+Copyright (C) 2008 Red Hat, Inc.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL
+-----------------zboot.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------arm64.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013, 2014 Linaro Ltd;  <roy.franz@linaro.org>
+
+Copyright (C) 2013, 2014 Linaro Ltd;  <roy.franz@linaro.org>
+-----------------random.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 Linaro Ltd;  <ard.biesheuvel@linaro.org>
+-----------------arm64-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013, 2014 Linaro Ltd;  <roy.franz@linaro.org>
+
+Adapted from ARM version by Mark Salter <msalter@redhat.com>
+-----------------printk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------randomalloc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2016 Linaro Ltd;  <ard.biesheuvel@linaro.org>
+ */
+-----------------efi-stub-helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------efi-stub-entry.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------x86-stub.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------riscv-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2020 Western Digital Corporation or its affiliates.
+-----------------secureboot.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013,2014 Linaro Limited
+     Roy Franz <roy.franz@linaro.org
+Copyright (C) 2013 Red Hat, Inc.
+     Mark Salter <msalter@redhat.com>
+-----------------tpm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 CoreOS, Inc
+Copyright (C) 2017 Google, Inc.
+    Matthew Garrett <mjg59@google.com>
+    Thiebaud Weksteen <tweek@google.com>
+-----------------efistub.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------string.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 1991, 1992  Linus Torvalds
+-----------------loongarch.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2020-2022 Loongson Technology Corporation Limited
+-----------------systable.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------mem.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------alignedmem.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------relocate.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------riscv.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2020 Western Digital Corporation or its affiliates.
+ */
+-----------------smbios.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright 2022 Google LLC
+-----------------arm32-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2013 Linaro Ltd;  <roy.franz@linaro.org>
+ */
+-----------------fdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * FDT related Helper functions used by the EFI stub on multiple
+ * architectures. This should be #included by the EFI stub
+ * implementation files.
+ *
+ * Copyright 2013 Linaro Limited; author Roy Franz
+ */
+-----------------vsprintf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* -*- linux-c -*- ------------------------------------------------------- *
+ *
+ *   Copyright (C) 1991, 1992 Linus Torvalds
+ *   Copyright 2007 rPath, Inc. - All Rights Reserved
+ *
+ * ----------------------------------------------------------------------- */
+-----------------loongarch-stub.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------x86-5lvl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------file.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2011 Intel Corporation; author Matt Fleming
+-----------------pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019 Google, LLC
+-----------------find.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------gop.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/* -----------------------------------------------------------------------
+ *
+ *   Copyright 2011 Intel Corporation; author Matt Fleming
+ *
+ * ----------------------------------------------------------------------- */
+-----------------loongarch-stub.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2020-2022 Loongson Technology Corporation Limited
+-----------------screen_info.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------unaccepted_memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------intrinsics.c-----------------
+// SPDX-License-Identifier: GPL-2.0

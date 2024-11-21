@@ -1,0 +1,8 @@
+-----------------acp3x-es83xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------acp3x-es83xx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ * Copyright 2023 Marian Postevca <posteuca@mutex.one>
+ */

@@ -1,0 +1,12 @@
+-----------------hid-sensor-incl-3d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_DESCRIPTION("HID Sensor Inclinometer 3D");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------hid-sensor-rotation.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID Sensor Device Rotation");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");

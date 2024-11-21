@@ -1,0 +1,35 @@
+-----------------mxs-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2011 Freescale Semiconductor, Inc. All Rights Reserved.
+-----------------mxs-sgtl5000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright 2011 Freescale Semiconductor, Inc.
+ */
+
+MODULE_AUTHOR("Freescale Semiconductor, Inc.")
+MODULE_DESCRIPTION("MXS ALSA SoC Machine driver")
+MODULE_LICENSE("GPL")
+MODULE_ALIAS("platform:mxs-sgtl5000")
+-----------------mxs-saif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Freescale Semiconductor, Inc.")
+
+MODULE_DESCRIPTION("MXS ASoC SAIF driver")
+
+MODULE_LICENSE("GPL")
+-----------------mxs-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2011 Freescale Semiconductor, Inc. All Rights Reserved.
+
+MODULE_LICENSE("GPL");
+EXPORT_SYMBOL_GPL(mxs_pcm_platform_register);
+-----------------mxs-saif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (C) 2011 Freescale Semiconductor, Inc. All Rights Reserved.
+ */

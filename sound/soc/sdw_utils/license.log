@@ -1,0 +1,72 @@
+-----------------soc_sdw_rt5682.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// 
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_bridge_cs35l56.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// This file incorporates work covered by the following copyright notice:
+// Copyright (c) 2024 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt711.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_cs42l43.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Based on sof_sdw_rt5682.c
+// This file incorporates work covered by the following copyright notice:
+// Copyright (c) 2023 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// 
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt_amp_coeff_tables.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------soc_sdw_cs_amp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2023 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("SoundWire ASoC helpers");
+-----------------soc_sdw_rt700.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// This file incorporates work covered by the following copyright notice:
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt722_sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// 
+// Copyright (c) 2023 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt_amp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// This file incorporates work covered by the following copyright notice:
+// Copyright (c) 2022 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt712_sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2023 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt_dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2024 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_rt_sdca_jack_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_cs42l42.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// This file incorporates work covered by the following copyright notice:
+// Copyright (c) 2023 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.
+-----------------soc_sdw_maxim.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2020 Intel Corporation
+// Copyright (c) 2024 Advanced Micro Devices, Inc.

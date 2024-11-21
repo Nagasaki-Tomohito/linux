@@ -1,0 +1,18 @@
+-----------------soundbus.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * soundbus
+ *
+ * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+ */
+
+MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Apple Soundbus");
+-----------------sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0

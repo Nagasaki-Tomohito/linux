@@ -1,0 +1,126 @@
+-----------------emu8000_local.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+ Copyright (C) 1999 Steve Ratcliffe
+ 
+ Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
+-----------------sb16.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_DESCRIPTION("Sound Blaster 16");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Sound Blaster AWE");
+-----------------emu8000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *     and (c) 1999 Steve Ratcliffe <steve@parabola.demon.co.uk>
+ *  Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
+ * 
+ *  Routines for control of EMU8000 chip
+ */
+
+...
+-----------------emu8000_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2002 Takashi Iwai <tiwai@suse.de>
+-----------------sb8_midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Routines for control of SoundBlaster cards - MIDI interface
+ */
+-----------------sb16_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Routines for control of 16-bit SoundBlaster cards and clones");
+MODULE_LICENSE("GPL");
+-----------------sb8_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>, Uros Bizjak <uros@kss-loka.si>");
+MODULE_DESCRIPTION("Routines for control of 8-bit SoundBlaster cards and clones");
+MODULE_LICENSE("GPL");
+-----------------emu8000_patch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (C) 1999 Steve Ratcliffe
+ *  Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
+ */
+-----------------sb_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emu8000_synth.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+     and (c) 1999 Steve Ratcliffe <steve@parabola.demon.co.uk>
+Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
+
+MODULE_LICENSE("GPL")
+-----------------sb8.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Driver for SoundBlaster 1.0/2.0/Pro soundcards and compatible
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Sound Blaster 1.0/2.0/Pro");
+MODULE_LICENSE("GPL");
+-----------------sb_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *                   Uros Bizjak <uros@kss-loka.si>
+ *
+ *  Lowlevel routines for control of Sound Blaster cards
+ */
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("ALSA lowlevel driver for Sound Blaster cards");
+MODULE_LICENSE("GPL");
+-----------------emu8000_callback.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1999 Steve Ratcliffe
+Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
+-----------------sbawe.c-----------------
+// This file is part of ALSA.
+// 
+// ALSA is free software, licensed under the GNU General Public License.
+// 
+// See the GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with ALSA; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-----------------sb16_csp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Uros Bizjak <uros@kss-loka.si>");
+MODULE_DESCRIPTION("ALSA driver for SB16 Creative Signal Processor");
+-----------------jazz16.c-----------------
+* Copyright (C) 2009 Krzysztof Helt <krzysztof.h1@wp.pl>
+* Based on patches posted by Rask Ingemann Lambertsen and Rene Herman.
+* Based on OSS Sound Blaster driver.
+*
+* This file is subject to the terms and conditions of the GNU General Public
+* License.  See the file COPYING in the main directory of this archive for
+* more details.
+*
+MODULE_LICENSE("GPL");

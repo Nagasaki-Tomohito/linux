@@ -1,0 +1,555 @@
+-----------------mma7455_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * IIO accel I2C driver for Freescale MMA7455L 3-axis 10-bit accelerometer
+ * Copyright 2015 Joachim Eastwood <manabian@gmail.com>
+ */
+MODULE_AUTHOR("Joachim Eastwood <manabian@gmail.com>");
+MODULE_DESCRIPTION("Freescale MMA7455L I2C accelerometer driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_MMA7455);
+-----------------adxl345_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------bmi088-accel-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (c) 2018-2020, Topic Embedded Products
+MODULE_AUTHOR("Niek van Agt <niek.van.agt@topicproducts.com>");
+MODULE_LICENSE("GPL v2");
+-----------------st_accel.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * STMicroelectronics accelerometers driver
+ *
+ * Copyright 2012-2013 STMicroelectronics Inc.
+ */
+-----------------stk8312.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tiberiu Breana <tiberiu.a.breana@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------hid-sensor-accel-3d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Sensor Accel 3D");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------kionix-kx022a.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (C) 2022 ROHM Semiconductors
+ *
+-----------------adxl372.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+Copyright 2018 Analog Devices Inc.
+-----------------st_accel_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------mma9551.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2")
+-----------------adxl367.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADXL367 3-axis accelerometer driver");
+MODULE_LICENSE("GPL");
+-----------------mma9551_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2014, Intel Corporation.
+-----------------dmard06.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 Aleksei Mamlin <mamlinav@gmail.com>
+
+MODULE_AUTHOR("Aleksei Mamlin <mamlinav@gmail.com>");
+
+MODULE_DESCRIPTION("Domintech DMARD06 accelerometer driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl313_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2021 Lucas Stankus <lucas.p.stankus@gmail.com>
+
+MODULE_AUTHOR("Lucas Stankus <lucas.p.stankus@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------da280.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2016 Hans de Goede <hdegoede@redhat.com>
+ */
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+MODULE_DESCRIPTION("MiraMEMS DA280 3-Axis Accelerometer driver");
+MODULE_LICENSE("GPL v2");
+-----------------bma400_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Dan Robertson <dan@dlrobertson.com>");
+
+MODULE_LICENSE("GPL");
+-----------------kxsd9.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl355_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
+MODULE_AUTHOR("Puranjay Mohan <puranjay12@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mma9551_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl313_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lucas Stankus <lucas.p.stankus@gmail.com>");
+
+MODULE_DESCRIPTION("ADXL313 3-Axis Digital Accelerometer core driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------kxsd9-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------adxl380_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+Copyright 2024 Analog Devices Inc.
+-----------------mxc4005.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Teodora Baluta <teodora.baluta@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("MXC4005 3-axis accelerometer driver");
+-----------------adxl355_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Puranjay Mohan <puranjay12@gmail.com>");
+MODULE_DESCRIPTION("ADXL355 3-Axis Digital Accelerometer core driver");
+MODULE_LICENSE("GPL v2");
+-----------------adxl345_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Eva Rachel Retuya <eraretuya@gmail.com>");
+
+MODULE_DESCRIPTION("ADXL345 3-Axis Digital Accelerometer core driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------bmc150-accel-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_DESCRIPTION("BMC150 accelerometer driver");
+-----------------bmi088-accel-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * 3-axis accelerometer driver supporting following Bosch-Sensortec chips:
+ *  - BMI088
+ *  - BMI085
+ *  - BMI090L
+ *
+ * Copyright (c) 2018-2021, Topic Embedded Products
+ */
+-----------------mma7455.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2015 Joachim Eastwood <manabian@gmail.com>
+-----------------st_accel_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+-----------------kxcjk-1013.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------mma9553.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Irina Tirdea <irina.tirdea@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("MMA9553L pedometer platform driver");
+
+MODULE_IMPORT_NS(IIO_MMA9551);
+-----------------da311.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016 Hans de Goede <hdegoede@redhat.com>
+Copyright (c) 2011-2013 MiraMEMS Sensing Technology Co., Ltd.
+
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+MODULE_DESCRIPTION("MiraMEMS DA311 3-Axis Accelerometer driver");
+MODULE_LICENSE("GPL v2");
+-----------------mma7660.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016, Intel Corporation.
+
+MODULE_AUTHOR("Constantin Musca <constantin.musca@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------bmi088-accel.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------bma400.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2019 Dan Robertson <dan@dlrobertson.com>
+ */
+-----------------fxls8962af-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2021 Connected Cars A/S
+
+MODULE_AUTHOR("Sean Nyekjaer <sean@geanix.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------dmard09.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016, Jelle van der Waa <jelle@vdwaa.nl>
+
+MODULE_AUTHOR("Jelle van der Waa <jelle@vdwaa.nl>");
+
+MODULE_DESCRIPTION("DMARD09 3-axis accelerometer driver");
+
+MODULE_LICENSE("GPL");
+-----------------bmc150-accel.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mxc6255.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015, Intel Corporation.
+
+MODULE_AUTHOR("Teodora Baluta <teodora.baluta@intel.com>");
+
+MODULE_DESCRIPTION("MEMSIC MXC6255 orientation sensing accelerometer driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------bmc150-accel-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("BMC150 I2C accelerometer driver");
+
+MODULE_IMPORT_NS(IIO_BMC150);
+-----------------adxl345_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ * Copyright (c) 2017 Eva Rachel Retuya <eraretuya@gmail.com>
+ 
+MODULE_AUTHOR("Eva Rachel Retuya <eraretuya@gmail.com>");
+MODULE_DESCRIPTION("ADXL345 3-Axis Digital Accelerometer I2C driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_ADXL345);
+-----------------adis16201.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Analog Devices ADIS16201 Dual-Axis Digital Inclinometer and Accelerometer");
+-----------------adxl380.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright 2024 Analog Devices Inc.
+-----------------cros_ec_accel_legacy.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Driver for older Chrome OS EC accelerometer
+ *
+ * Copyright 2017 Google, Inc
+ */
+-----------------adxl367_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2021 Analog Devices, Inc.
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>")
+MODULE_DESCRIPTION("Analog Devices ADXL367 3-axis accelerometer I2C driver")
+MODULE_IMPORT_NS(IIO_ADXL367)
+-----------------mma8452.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2015 Martin Kepplinger <martink@posteo.de>
+Copyright 2014 Peter Meerwald <pmeerw@pmeerw.net>
+-----------------sca3300.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tomas Melin <tomas.melin@vaisala.com>");
+
+MODULE_DESCRIPTION("Murata SCA3300 SPI Accelerometer");
+MODULE_LICENSE("GPL v2");
+-----------------adxl355_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
+-----------------fxls8962af-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Sean Nyekjaer <sean@geanix.com>");
+MODULE_DESCRIPTION("NXP FXLS8962AF/FXLS8964AF accelerometer driver");
+MODULE_LICENSE("GPL v2");
+-----------------bmc150-accel-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * 3-axis accelerometer driver supporting SPI Bosch-Sensortec accelerometer chip
+ * Copyright (C) 2015 Pengutronix, Markus Pargmann <mpa@pengutronix.de>
+ */
+MODULE_AUTHOR("Markus Pargmann <mpa@pengutronix.de>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("BMC150 SPI accelerometer driver");
+MODULE_IMPORT_NS(IIO_BMC150);
+-----------------kionix-kx022a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ROHM/Kionix KX022A accelerometer driver");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+MODULE_LICENSE("GPL");
+-----------------adis16209.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * ADIS16209 Dual-Axis Digital Inclinometer and Accelerometer
+ *
+ * Copyright 2010 Analog Devices Inc.
+ */
+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+
+MODULE_DESCRIPTION("Analog Devices ADIS16209 Dual-Axis Digital Inclinometer and Accelerometer");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("spi:adis16209");
+
+MODULE_IMPORT_NS(IIO_ADISLIB);
+-----------------adxl380_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * ADXL380 3-Axis Digital Accelerometer I2C driver
+ *
+ * Copyright 2024 Analog Devices Inc.
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ramona Gradinariu <ramona.gradinariu@analog.com>");
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADXL380 3-axis accelerometer I2C driver");
+MODULE_IMPORT_NS(IIO_ADXL380);
+-----------------stk8ba50.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tiberiu Breana <tiberiu.a.breana@intel.com>");
+
+MODULE_DESCRIPTION("STK8BA50 3-Axis Accelerometer driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl380.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Ramona Gradinariu <ramona.gradinariu@analog.com>");
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com>");
+
+MODULE_LICENSE("GPL");
+-----------------bmi088-accel-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright 2023 Jun Yan <jerrysteve1101@gmail.com>
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jun Yan <jerrysteve1101@gmail.com>");
+-----------------bma180.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Kravchenko Oleksandr <x0199363@ti.com>");
+MODULE_AUTHOR("Texas Instruments, Inc.");
+MODULE_DESCRIPTION("Bosch BMA023/BMA1x0/BMA250 triaxial acceleration sensor");
+-----------------ssp_accel_sensor.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+ */
+
+MODULE_AUTHOR("Karol Wrona <k.wrona@samsung.com>");
+MODULE_DESCRIPTION("Samsung sensorhub accelerometers driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_SSP_SENSORS);
+-----------------mma7455_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015 Joachim Eastwood <manabian@gmail.com>
+
+MODULE_AUTHOR("Joachim Eastwood <manabian@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl313_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2021 Lucas Stankus <lucas.p.stankus@gmail.com>
+
+MODULE_AUTHOR("Lucas Stankus <lucas.p.stankus@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("ADXL313 3-Axis Digital Accelerometer SPI driver");
+
+MODULE_IMPORT_NS(IIO_ADXL313);
+-----------------st_accel_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics accelerometers i2c driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_ST_SENSORS);
+-----------------bma400_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Dan Robertson <dan@dlrobertson.com>");
+MODULE_DESCRIPTION("Bosch BMA400 triaxial acceleration sensor (SPI)");
+-----------------dmard10.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2016 Hans de Goede <hdegoede@redhat.com>
+ * Copyright (c) 2012 Domintech Technology Co., Ltd
+ */
+-----------------adxl372_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * ADXL372 3-Axis Digital Accelerometer SPI driver
+ *
+ * Copyright 2018 Analog Devices Inc.
+ */
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADXL372 3-axis accelerometer SPI driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_ADXL372);
+-----------------bma220_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tiberiu Breana <tiberiu.a.breana@intel.com>");
+
+MODULE_DESCRIPTION("BMA220 acceleration sensor driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl367_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADXL367 3-axis accelerometer SPI driver");
+-----------------st_accel_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------fxls8962af-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2021 Connected Cars A/S
+
+MODULE_AUTHOR("Sean Nyekjaer <sean@geanix.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------mma7455_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015 Joachim Eastwood <manabian@gmail.com>
+
+MODULE_LICENSE("GPL v2")
+-----------------mc3230.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016 Hans de Goede <hdegoede@redhat.com>
+
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+
+MODULE_DESCRIPTION("mCube MC3230 3-Axis Accelerometer driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------adxl372_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+Copyright 2018 Analog Devices Inc.
+-----------------sca3000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("VTI SCA3000 Series Accelerometers SPI driver");
+MODULE_LICENSE("GPL v2");
+-----------------kxsd9.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------adxl313.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ADXL313 3-Axis Digital Accelerometer
+ *
+ * Copyright (c) 2021 Lucas Stankus <lucas.p.stankus@gmail.com>
+ */
+-----------------kionix-kx022a-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2022 ROHM Semiconductors
+
+MODULE_DESCRIPTION("ROHM/Kionix kx022A accelerometer driver");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_KX022A);
+-----------------bma400_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Dan Robertson <dan@dlrobertson.com>");
+MODULE_AUTHOR("Jagath Jog J <jagathjog1996@gmail.com>");
+MODULE_DESCRIPTION("Bosch BMA400 triaxial acceleration sensor core");
+-----------------msa311.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Dmitry Rokosov <ddrokosov@sberdevices.ru>");
+MODULE_DESCRIPTION("MEMSensing MSA311 3-axis accelerometer driver");
+MODULE_LICENSE("GPL");
+-----------------adxl372.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADXL372 3-axis accelerometer driver");
+MODULE_LICENSE("GPL");
+-----------------kionix-kx022a-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2022 ROHM Semiconductors
+ *
+ * ROHM/KIONIX accelerometer driver
+ */
+-----------------adxl367.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (C) 2021 Analog Devices, Inc.
+-----------------adxl345.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2017 Eva Rachel Retuya <eraretuya@gmail.com>
+-----------------kxsd9-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------fxls8962af.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright 2021 Connected Cars A/S
+-----------------adxl355.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ADXL355 3-Axis Digital Accelerometer
+ *
+ * Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
+ */

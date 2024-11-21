@@ -1,0 +1,156 @@
+-----------------rm3100-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Song Qiang <songqiang1304521@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------bmc150_magn.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Irina Tirdea <irina.tirdea@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("BMC150 magnetometer core driver");
+-----------------yamaha-yas530.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Linus Walleij");
+-----------------tmag5273.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("TI TMAG5273 Low-Power Linear 3D Hall-Effect Sensor driver");
+MODULE_AUTHOR("Gerald Loacker <gerald.loacker@wolfvision.net>");
+MODULE_LICENSE("GPL");
+-----------------rm3100-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2018 Song Qiang <songqiang1304521@gmail.com>
+
+MODULE_AUTHOR("Song Qiang <songqiang1304521@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------hid-sensor-magn-3d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Sensor Magnetometer 3D");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------af8133j.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Icenowy Zheng <icenowy@aosc.io>");
+MODULE_AUTHOR("Ondřej Jirman <megi@xff.cz>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Voltafield AF8133J magnetic sensor driver");
+-----------------ak8974.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Samu Onkalo");
+MODULE_AUTHOR("Linus Walleij");
+-----------------mag3110.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+MODULE_DESCRIPTION("Freescale MAG3110 magnetometer driver");
+-----------------hmc5843_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) Josef Gajdusek <atx@atx.name>
+
+MODULE_AUTHOR("Josef Gajdusek <atx@atx.name>");
+
+MODULE_DESCRIPTION("HMC5843/5883/5883L/5983 i2c driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_HMC5843);
+-----------------st_magn_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_DESCRIPTION("STMicroelectronics magnetometers i2c driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_ST_SENSORS);
+-----------------bmc150_magn.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mmc35240.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+
+MODULE_DESCRIPTION("MEMSIC MMC35240 magnetic sensor driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------hmc5843.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) Josef Gajdusek <atx@atx.name>
+ */
+-----------------st_magn.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2012-2013 STMicroelectronics Inc.
+-----------------bmc150_magn_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016, Intel Corporation.
+-----------------st_magn_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+-----------------hmc5843_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) Josef Gajdusek <atx@atx.name>
+
+MODULE_AUTHOR("Josef Gajdusek <atx@atx.name>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_HMC5843);
+-----------------hmc5843_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Shubhrajyoti Datta <shubhrajyoti@ti.com>");
+
+MODULE_DESCRIPTION("HMC5843/5883/5883L/5983 core driver");
+MODULE_LICENSE("GPL");
+-----------------st_magn_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------rm3100.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+/*
+ * Copyright (C) 2018 Song Qiang <songqiang1304521@gmail.com>
+ */
+-----------------ak8975.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------st_magn_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------rm3100-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Support for PNI RM3100 3-axis geomagnetic sensor on a spi bus.
+ *
+ * Copyright (C) 2018 Song Qiang <songqiang1304521@gmail.com>
+ */
+MODULE_AUTHOR("Song Qiang <songqiang1304521@gmail.com>");
+MODULE_DESCRIPTION("PNI RM3100 3-axis magnetometer spi driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_RM3100);
+-----------------bmc150_magn_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016, Intel Corporation.

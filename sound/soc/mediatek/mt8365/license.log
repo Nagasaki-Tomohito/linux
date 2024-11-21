@@ -1,0 +1,61 @@
+-----------------mt8365-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright (c) 2024 MediaTek Inc.
+ * Authors: Jia Zeng <jia.zeng@mediatek.com>
+ *          Alexandre Mergnat <amergnat@baylibre.com>
+ */
+-----------------mt8365-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MediaTek ALSA SoC AFE platform driver");
+MODULE_AUTHOR("Jia Zeng <jia.zeng@mediatek.com>");
+MODULE_AUTHOR("Alexandre Mergnat <amergnat@baylibre.com>");
+MODULE_LICENSE("GPL");
+-----------------mt8365-mt6357.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("MT8365 EVK SoC machine driver");
+MODULE_AUTHOR("Nicolas Belin <nbelin@baylibre.com>");
+MODULE_LICENSE("GPL");
+-----------------mt8365-dai-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------mt8365-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+
+ * MediaTek 8365 audio driver reg definition
+
+ * Copyright (c) 2024 MediaTek Inc.
+ * Authors: Jia Zeng <jia.zeng@mediatek.com>
+ *          Alexandre Mergnat <amergnat@baylibre.com>
+ */
+-----------------mt8365-dai-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2024 MediaTek Inc.
+-----------------mt8365-dai-dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2024 MediaTek Inc.
+-----------------mt8365-afe-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright (c) 2024 MediaTek Inc.
+ * Authors: Jia Zeng <jia.zeng@mediatek.com>
+ *          Alexandre Mergnat <amergnat@baylibre.com>
+ */
+-----------------mt8365-dai-adda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2024 MediaTek Inc.
+Authors: Jia Zeng <jia.zeng@mediatek.com>
+          Alexandre Mergnat <amergnat@baylibre.com>
+-----------------mt8365-afe-clk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * MediaTek 8365 AFE clock control
+ *
+ * Copyright (c) 2024 MediaTek Inc.
+ * Authors: Jia Zeng <jia.zeng@mediatek.com>
+ *          Alexandre Mergnat <amergnat@baylibre.com>
+ */

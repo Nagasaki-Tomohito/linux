@@ -1,0 +1,3978 @@
+-----------------ics43432.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright (c) 2015 Axis Communications AB
+ 
+ MODULE_DESCRIPTION("ASoC ICS43432 driver");
+ 
+ MODULE_AUTHOR("Ricard Wanderlof <ricardw@axis.com>");
+ 
+ MODULE_LICENSE("GPL v2");
+-----------------tas2552.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2014 Texas Instruments Incorporated -  https://www.ti.com
+-----------------da7218.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------tas2781-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Shenghao Ding <shenghao-ding@ti.com>");
+MODULE_AUTHOR("Kevin Lu <kevin-lu@ti.com>");
+
+MODULE_DESCRIPTION("ASoC TAS2781 Driver");
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(SND_SOC_TAS2781_FMWLIB);
+-----------------ad73311.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright:	Analog Devices Inc.
+Author:	Cliff Cai <cliff.cai@analog.com>
+
+MODULE_DESCRIPTION("ASoC ad73311 driver");
+MODULE_AUTHOR("Cliff Cai ");
+MODULE_LICENSE("GPL");
+-----------------zl38060.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------lpass-macro-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2022, The Linux Foundation. All rights reserved.
+-----------------hdac_hda.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright(c) 2015-18 Intel Corporation.
+ */
+-----------------cs35l56.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC CS35L56 driver");
+MODULE_IMPORT_NS(SND_SOC_CS35L56_SHARED);
+MODULE_IMPORT_NS(SND_SOC_CS_AMP_LIB);
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+MODULE_LICENSE("GPL")
+-----------------msm8916-wcd-analog.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2016, The Linux Foundation. All rights reserved.
+-----------------cs43130.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Li Xu <li.xu@cirrus.com>");
+
+MODULE_DESCRIPTION("Cirrus Logic CS43130 ALSA SoC Codec Driver");
+
+MODULE_LICENSE("GPL");
+-----------------wcd938x-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2021, Linaro Limited
+-----------------wm8988.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8988 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------rt712-sdca-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+-----------------wm8711.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mike Arthur");
+-----------------rt5514.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt5514.h  --  RT5514 ALSA SoC audio driver
+ *
+ * Copyright 2015 Realtek Microelectronics
+ * Author: Oder Chiou <oder_chiou@realtek.com>
+ */
+-----------------wl1273.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) Nokia Corporation
+
+Author: Matti Aaltonen <matti.j.aaltonen@nokia.com>
+-----------------max98095.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * max98095.h -- MAX98095 ALSA SoC Audio driver
+ *
+ * Copyright 2011 Maxim Integrated Products
+ */
+-----------------idt821034.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+
+MODULE_DESCRIPTION("IDT821034 ALSA SoC driver");
+MODULE_LICENSE("GPL");
+-----------------max98090.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sta529.c-----------------
+Copyright (C) 2012 ST Microelectronics
+Rajeev Kumar <rajeevkumar.linux@gmail.com>
+
+This file is licensed under the terms of the GNU General Public
+License version 2. This program is licensed "as is" without any
+warranty of any kind, whether express or implied.
+-----------------wm9090.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ALSA SoC WM9090 driver
+ *
+ * Copyright 2009 Wolfson Microelectronics
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------hdac_hda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC Extensions for legacy HDA Drivers");
+MODULE_AUTHOR("Rakesh Ughreja<rakesh.a.ughreja@intel.com>");
+-----------------cs35l56-shared.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC CS35L56 Shared");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_CS_AMP_LIB);
+-----------------cs47l15.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Jaswinder Jassal <jjassal@opensource.cirrus.com>");
+-----------------wm8737.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2010 Wolfson Microelectronics plc
+-----------------rt5665.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt5665.h  --  RT5665/RT5658 ALSA SoC audio driver
+ *
+ * Copyright 2016 Realtek Microelectronics
+ * Author: Bard Liao <bardliao@realtek.com>
+ */
+-----------------max9759.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC MAX9759 amplifier driver");
+MODULE_AUTHOR("Neil Armstrong <narmstrong@baylibre.com>");
+-----------------pcm186x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------mt6351.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT6351 ALSA SoC codec driver");
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mt6358.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT6358 ALSA SoC codec driver");
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cs42l43.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("CS42L43 CODEC Driver");
+MODULE_AUTHOR("Charles Keepax <ckeepax@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------tas571x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("ASoC TAS571x driver");
+MODULE_AUTHOR("Kevin Cernekee <cernekee@chromium.org>");
+MODULE_LICENSE("GPL");
+-----------------adau1373.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------pcm3008.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2008 Lyrtech inc
+
+Copyright 2005 Wolfson Microelectronics PLC.
+
+MODULE_DESCRIPTION("Soc PCM3008 driver");
+
+MODULE_AUTHOR("Hugo Villeneuve");
+
+MODULE_LICENSE("GPL");
+-----------------max98396.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * max98396.h -- MAX98396 ALSA SoC audio driver header
+ *
+ * Copyright(c) 2022, Analog Devices Inc.
+ */
+-----------------wm8750.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2005 Openedhand Ltd.
+ *
+ * Author: Richard Purdie <richard@openedhand.com>
+ *
+ * Based on WM8753.h
+-----------------cs35l41-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright 2017-2021 Cirrus Logic, Inc.
+//
+// Author: David Rhodes	<david.rhodes@cirrus.com>
+MODULE_DESCRIPTION("SPI CS35L41 driver");
+MODULE_AUTHOR("David Rhodes, Cirrus Logic Inc, <david.rhodes@cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------cs530x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * CS530x CODEC driver internal data
+ *
+ * Copyright (C) 2023-2024 Cirrus Logic, Inc. and
+ *                         Cirrus Logic International Semiconductor Ltd.
+ */
+-----------------wm8974.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------tlv320aic31xx.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2014-2017 Texas Instruments Incorporated - https://www.ti.com/
+-----------------pcm179x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) Teenage Engineering AB 2016
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Jacob Siverskog <jacob@teenage.engineering>")
+-----------------cs4234.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lucas Tanure <tanureal@opensource.cirrus.com>");
+MODULE_DESCRIPTION("ASoC Cirrus Logic CS4234 driver");
+-----------------ak4458.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2016 Asahi Kasei Microdevices Corporation
+Copyright 2018 NXP
+-----------------rt5645.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * rt5645.c  --  RT5645 ALSA SoC audio codec driver
+ *
+ * Copyright 2013 Realtek Semiconductor Corp.
+ * Author: Bard Liao <bardliao@realtek.com>
+ */
+-----------------wm_hubs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2009 Wolfson Microelectronics plc
+-----------------nau8824.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC NAU88L24 driver");
+MODULE_AUTHOR("John Hsu <KCHSU0@nuvoton.com>");
+MODULE_LICENSE("GPL v2");
+-----------------pcm3168a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+MODULE_DESCRIPTION("PCM3168A codec driver");
+-----------------nau8810.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wcd-clsh-v2.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+// Copyright (c) 2017-2018, Linaro Limited
+-----------------sigmadsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------cs530x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (C) 2024 Cirrus Logic, Inc. and
+//                    Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("I2C CS530X driver");
+MODULE_IMPORT_NS(SND_SOC_CS530X);
+MODULE_AUTHOR("Paul Handrigan, Cirrus Logic Inc, <paulha@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5670.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * rt5670.c  --  RT5670 ALSA SoC audio codec driver
+ *
+ * Copyright 2014 Realtek Semiconductor Corp.
+ * Author: Bard Liao <bardliao@realtek.com>
+ */
+-----------------max9850.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2011 taskit GmbH
+Author: Christian Glindkamp <christian.glindkamp@taskit.de>
+-----------------cs35l45-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019-2022 Cirrus Logic, Inc.
+
+MODULE_DESCRIPTION("I2C CS35L45 driver");
+MODULE_AUTHOR("James Schulman, Cirrus Logic Inc, <james.schulman@cirrus.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_CS35L45);
+-----------------cs4270.c-----------------
+Copyright 2007-2009 Freescale Semiconductor, Inc.  This file is licensed
+under the terms of the GNU General Public License version 2.  This
+program is licensed "as is" without any warranty of any kind, whether
+express or implied.
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+MODULE_DESCRIPTION("Cirrus Logic CS4270 ALSA SoC Codec Driver");
+MODULE_LICENSE("GPL");
+-----------------max98373-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ALSA SoC MAX98373 driver");
+MODULE_AUTHOR("Ryan Lee <ryans.lee@maximintegrated.com>");
+-----------------rt700.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * rt700.h -- RT700 ALSA SoC audio driver header
+ *
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------pcm3060-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
+
+MODULE_DESCRIPTION("PCM3060 SPI driver");
+
+MODULE_AUTHOR("Kirill Marinushkin <k.marinushkin@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------src4xxx-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2021-2022 Deqx Pty Ltd
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Matt Flax <flatmax@flatmax.com>")
+-----------------nau8822.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * nau8822.h  --  NAU8822 ALSA SoC Audio driver
+ *
+ * Copyright 2017 Nuvoton Technology Crop.
+ *
+ * Author: David Lin <ctlin0@nuvoton.com>
+ * Co-author: John Hsu <kchsu0@nuvoton.com>
+ * Co-author: Seven Li <wtli@nuvoton.com>
+ */
+-----------------adau1781-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+MODULE_DESCRIPTION("ASoC ADAU1381/ADAU1781 CODEC SPI driver")
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>")
+MODULE_LICENSE("GPL")
+-----------------rk3308_codec.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2018, Fuzhou Rockchip Electronics Co., Ltd All rights reserved.
+
+Copyright (c) 2022, Vivax-Metrotech Ltd
+-----------------wm5100.h-----------------
+There are no extracted parts associated with software license or copyright in the provided code snippet. The code appears to be a header file for a driver for the WM5100 audio processor, and it does not contain any copyright or license information.
+-----------------arizona-jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------rt1011.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * rt1011.h -- RT1011 ALSA SoC amplifier component driver header
+ *
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------wcd939x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2018-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2022-2023, Qualcomm Innovation Center, Inc. All rights reserved.
+ * Copyright (c) 2023, Linaro Limited
+ */
+-----------------wsa884x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2015-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2023, Linaro Ltd.
+ */
+-----------------tlv320adc3xxx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Based on sound/soc/codecs/tlv320aic3x.c by  Vladimir Barinov
+//
+// Copyright (C) 2010 Mistral Solutions Pvt Ltd.
+// Author: Shahina Shaik <shahina.s@mistralsolutions.com>
+//
+// Copyright (C) 2014-2018, Ambarella, Inc.
+// Author: Dongge wu <dgwu@ambarella.com>
+//
+// Copyright (C) 2021 Axis Communications AB
+// Author: Ricard Wanderlof <ricardw@axis.com>
+//
+-----------------cx2072x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC cx2072x Codec Driver");
+MODULE_AUTHOR("Simon Ho <simon.ho@conexant.com>");
+MODULE_LICENSE("GPL");
+-----------------tas5805m.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Andy Liu <andy-liu@ti.com>");
+MODULE_AUTHOR("Daniel Beer <daniel.beer@igorinstitute.com>");
+MODULE_DESCRIPTION("TAS5805M Audio Amplifier Driver");
+MODULE_LICENSE("GPL v2");
+-----------------cs4271.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------88pm860x-codec.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2010 Marvell International Ltd.
+-----------------tlv320aic32x4-i2c.c-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright 2011-2019 NW Digital Radio
+ *
+ * Author: Annaliese McDermond <nh6z@nh6z.net>
+ *
+ * Based on sound/soc/codecs/wm8974 and TI driver for kernel 2.6.27.
+ *
+ */
+
+MODULE_DESCRIPTION("ASoC TLV320AIC32x4 codec driver I2C");
+MODULE_AUTHOR("Annaliese McDermond <nh6z@nh6z.net>");
+MODULE_LICENSE("GPL");
+-----------------tas6424.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------cs42l83-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC CS42L83 I2C driver");
+MODULE_AUTHOR("Martin Povišer <povik+lin@cutebit.org>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_CS42L42_CORE);
+-----------------cs4349.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * ALSA SoC CS4349 codec driver
+ *
+ * Copyright 2015 Cirrus Logic, Inc.
+ *
+ * Author: Tim Howe <Tim.Howe@cirrus.com>
+ */
+-----------------max98373-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC MAX98373 driver SDW");
+MODULE_AUTHOR("Oleg Sherbakov <oleg.sherbakov@maximintegrated.com>");
+-----------------tlv320aic3x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ALSA SoC TLV320AIC3X codec driver
+ *
+ * Author:      Vladimir Barinov, <vbarinov@embeddedalley.com>
+ * Copyright:   (C) 2007 MontaVista Software, Inc., <source@mvista.com>
+ */
+-----------------wsa881x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2015-2017, The Linux Foundation.
+// Copyright (c) 2019, Linaro Limited
+-----------------wm_adsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("Cirrus Logic ASoC DSP Support");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(FW_CS_DSP);
+-----------------wm0010.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC WM0010 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+-----------------rt286.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC RT286 driver");
+MODULE_AUTHOR("Bard Liao <bardliao@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------rt715-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT715 driver SDW");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------es8328.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC ES8328 driver");
+MODULE_AUTHOR("Sean Cross <xobs@kosagi.com>");
+MODULE_LICENSE("GPL");
+-----------------aw88399.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC AW88399 Smart PA Driver");
+MODULE_LICENSE("GPL v2");
+-----------------nau8825.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------tas2764.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Dan Murphy <dmurphy@ti.com>");
+
+MODULE_DESCRIPTION("TAS2764 I2C Smart Amplifier driver");
+MODULE_LICENSE("GPL v2");
+-----------------rt1019.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT1019 driver");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wcd937x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only
+ * Copyright (c) 2023-2024 Qualcomm Innovation Center, Inc. All rights reserved.
+ */
+-----------------ssm4567.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC SSM4567 driver");
+MODULE_AUTHOR("Anatol Pomozov <anatol@chromium.org>");
+MODULE_LICENSE("GPL");
+-----------------pcm512x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Driver for the PCM512x CODECs
+ *
+ * Author:	Mark Brown <broonie@kernel.org>
+ *		Copyright 2014 Linaro Ltd
+ */
+-----------------rt1017-sdca-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Derek Fang <derek.fang@realtek.com>");
+MODULE_DESCRIPTION("ASoC RT1017 driver SDCA SDW");
+-----------------wm8523.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8523 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8994.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------adau7118.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+
+MODULE_DESCRIPTION("ADAU7118 8 channel PDM-to-I2S/TDM Converter driver");
+MODULE_LICENSE("GPL");
+-----------------pcm1789.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2018 Bootlin
+// Mylène Josserand <mylene.josserand@bootlin.com>
+-----------------adau7118.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------tlv320aic3x-i2c.c-----------------
+/* SPDX-License-Identifier: GPL-2.0-only
+ *
+ * ALSA SoC TLV320AIC3x codec driver I2C interface
+ *
+ * Author:      Arun KS, <arunks@mistralsolutions.com>
+ * Copyright:   (C) 2008 Mistral Solutions Pvt Ltd.,
+ *
+ * Based on sound/soc/codecs/wm8731.c by Richard Purdie
+ *
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+MODULE_DESCRIPTION("ASoC TLV320AIC3x codec driver I2C");
+-----------------cs35l36.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * cs35l36.h -- CS35L36 ALSA SoC audio driver
+ *
+ * Copyright 2018 Cirrus Logic, Inc.
+ *
+ * Author: James Schulman <james.schulman@cirrus.com>
+ *
+ */
+-----------------mt6351.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * mt6351.h  --  mt6351 ALSA SoC audio codec driver
+ *
+ * Copyright (c) 2018 MediaTek Inc.
+ * Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+ */
+-----------------arizona.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2012 Wolfson Microelectronics plc
+-----------------adau7002.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("ADAU7002 Stereo PDM-to-I2S/TDM Converter driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------rt715.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright(c) 2019 Realtek Semiconductor Corp.
+-----------------cs-amp-lib-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("KUnit test for Cirrus Logic amplifier library");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+-----------------cs4265.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * cs4265.h -- CS4265 ALSA SoC audio driver
+ *
+ * Copyright 2014 Cirrus Logic, Inc.
+ *
+ * Author: Paul Handrigan <paul.handrigan@cirrus.com>
+ */
+-----------------ad193x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright 2010 Analog Devices Inc.
+ */
+-----------------pcm1789-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2018 Bootlin
+// Mylène Josserand <mylene.josserand@bootlin.com>
+MODULE_DESCRIPTION("ASoC PCM1789 I2C driver");
+MODULE_AUTHOR("Mylène Josserand <mylene.josserand@bootlin.com>");
+MODULE_LICENSE("GPL");
+-----------------max98373.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2017 Maxim Integrated */
+-----------------wcd937x-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------wm8731.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * wm8731.h  --  WM8731 Soc Audio driver
+ *
+ * Copyright 2005 Openedhand Ltd.
+ *
+ * Author: Richard Purdie <richard@openedhand.com>
+ *
+ * Based on wm8753.h
+ */
+-----------------rt722-sdca.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt722-sdca.h -- RT722 SDCA ALSA SoC audio driver header
+ *
+ * Copyright(c) 2023 Realtek Semiconductor Corp.
+ */
+-----------------cs35l34.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC CS35l34 driver");
+MODULE_AUTHOR("Paul Handrigan, Cirrus Logic Inc, <Paul.Handrigan@cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5640.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt5640.h  --  RT5640 ALSA SoC audio driver
+ *
+ * Copyright 2011 Realtek Microelectronics
+ * Author: Johnny Hsu <johnnyhsu@realtek.com>
+ */
+-----------------ak4458.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Junichi Wakasugi <wakasugi.jb@om.asahi-kasei.co.jp>");
+MODULE_AUTHOR("Mihai Serban <mihai.serban@nxp.com>");
+MODULE_DESCRIPTION("ASoC AK4458 DAC driver");
+MODULE_LICENSE("GPL v2");
+-----------------cs47l92.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Stuart Henderson <stuarth@opensource.cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS47L92 driver");
+MODULE_ALIAS("platform:cs47l92-codec");
+-----------------pcm3008.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008 Lyrtech inc
+-----------------ssm2602-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Cliff Cai")
+MODULE_DESCRIPTION("ASoC SSM2602 SPI driver")
+-----------------rt1011.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * rt1011.c -- rt1011 ALSA SoC amplifier component driver
+ *
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ *
+ * Author: Shuming Fan <shumingf@realtek.com>
+ *
+ */
+
+MODULE_DESCRIPTION("ASoC RT1011 amplifier driver");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------rt711-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright(c) 2019 Realtek Semiconductor Corp.
+-----------------wcd9335.c-----------------
+The code snippet provided is a Linux kernel driver for the WCD9335 audio codec. The relevant parts associated with software license or copyright are:
+
+1. The SPDX-License-Identifier at the top of the file:
+   ```
+   // SPDX-License-Identifier: GPL-2.0
+   ```
+   This line specifies that the code is licensed under the GNU General Public License version 2.
+
+2. The copyright notices throughout the code:
+   ```
+   // Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+   // Copyright (c) 2017-2018, Linaro Limited
+   ```
+   These lines indicate the copyright holders and the years they hold the copyright for the respective parts of the code.
+
+3. The module license and description at the end of the file:
+   ```
+   module_slim_driver(wcd9335_slim_driver);
+   MODULE_DESCRIPTION("WCD9335 slim driver");
+   MODULE_LICENSE("GPL v2");
+   MODULE
+-----------------da7219-aad.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC DA7219 AAD Driver");
+MODULE_AUTHOR("Adam Thomson <Adam.Thomson.Opensource@diasemi.com>");
+MODULE_AUTHOR("David Rau <David.Rau.opensource@dm.renesas.com>");
+MODULE_LICENSE("GPL");
+-----------------sta32x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Johannes Stezenbach <js@sig21.net>");
+-----------------lpass-wsa-macro.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wcd939x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2018-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+-----------------ad1836.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+-----------------rt1318.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt1318.h -- Platform data for RT1318
+ *
+ * Copyright 2024 Realtek Semiconductor Corp.
+ */
+-----------------wm8971.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lab126");
+MODULE_DESCRIPTION("ASoC WM8971 driver");
+-----------------tscs454.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------rt5682s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------cs42xx8-i2c.c-----------------
+Copyright (C) 2014 Freescale Semiconductor, Inc.
+
+This file is licensed under the terms of the GNU General Public License
+version 2. This program is licensed "as is" without any warranty of any
+kind, whether express or implied.
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Cirrus Logic CS42448/CS42888 ALSA SoC Codec I2C Driver");
+MODULE_AUTHOR("Freescale Semiconductor, Inc.");
+MODULE_LICENSE("GPL");
+-----------------ak5558.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Junichi Wakasugi <wakasugi.jb@om.asahi-kasei.co.jp>");
+MODULE_AUTHOR("Mihai Serban <mihai.serban@nxp.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------cs42l73.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC CS42L73 driver");
+MODULE_AUTHOR("Georgi Vlaev, Nucleus Systems Ltd, <joe@nucleusys.com>");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------cs35l41.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("ASoC CS35L41 driver");
+MODULE_AUTHOR("David Rhodes, Cirrus Logic Inc, <david.rhodes@cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------aw88261.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------es7134.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC ES7134 audio codec driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+-----------------rt5668.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rt1308-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT1308 driver SDW");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------pcm3168a.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2015 Imagination Technologies Ltd.
+ */
+-----------------rt712-sdca-dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_DESCRIPTION("ASoC RT712 SDCA DMIC SDW driver");
+-----------------rl6347a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015 Realtek Semiconductor Corp.
+
+MODULE_DESCRIPTION("RL6347A class device shared support");
+
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+
+MODULE_LICENSE("GPL v2");
+
+EXPORT_SYMBOL_GPL(rl6347a_hw_write);
+
+EXPORT_SYMBOL_GPL(rl6347a_hw_read);
+-----------------cs43130.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ALSA SoC CS43130 codec driver
+ *
+ * Copyright 2017 Cirrus Logic, Inc.
+ *
+ * Author: Li Xu <li.xu@cirrus.com>
+ */
+-----------------cs42l42-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL-2.0-only");
+MODULE_LICENSE("GPL v2");
+MODULE_LICENSE("GPL-2.0");
+-----------------alc5623.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Arnaud Patard <arnaud.patard@rtp-net.org>");
+-----------------simple-amplifier.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("ASoC Simple Audio Amplifier driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5651.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * rt5651.c  --  RT5651 ALSA SoC audio codec driver
+ *
+ * Copyright 2014 Realtek Semiconductor Corp.
+ * Author: Bard Liao <bardliao@realtek.com>
+ */
+-----------------cs35l45-tables.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019-2022 Cirrus Logic, Inc.
+
+EXPORT_SYMBOL_NS_GPL(cs35l45_apply_patch, SND_SOC_CS35L45);
+
+EXPORT_SYMBOL_NS_GPL(cs35l45_i2c_regmap, SND_SOC_CS35L45);
+
+EXPORT_SYMBOL_NS_GPL(cs35l45_spi_regmap, SND_SOC_CS35L45);
+
+EXPORT_SYMBOL_NS_GPL(cs35l45_get_clk_freq_id, SND_SOC_CS35L45);
+-----------------tlv320aic32x4.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC tlv320aic32x4 codec driver");
+MODULE_AUTHOR("Javier Martin <javier.martin@vista-silicon.com>");
+MODULE_LICENSE("GPL");
+-----------------es7241.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------wm8962.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * wm8962.h  --  WM8962 ASoC driver
+ *
+ * Copyright 2010 Wolfson Microelectronics, plc
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+
+#ifndef _WM8962_H
+#define _WM8962_H
+
+#include <asm/types.h>
+#include <sound/soc.h>
+
+#define WM8962_SYSCLK_MCLK 0
+#define WM8962_SYSCLK_FLL  1
+#define WM8962_SYSCLK_PLL3 2
+
+#define WM8962_FLL  1
+
+#define WM8962_FLL_MCLK 1
+#define WM8962_FLL_BCLK 2
+#define WM8962_FLL_OSC  3
+#define WM8962_FLL_INT  4
+
+/*
+ * Register values.
+ */
+#define WM8962_LEFT_INPUT_VOLUME                0x00
+#define WM8962
+-----------------rt1320-sdw.c-----------------
+The extracted parts associated with software license or copyright are:
+
+1. `// SPDX-License-Identifier: GPL-2.0-only`
+2. `// Copyright(c) 2024 Realtek Semiconductor Corp.`
+-----------------ad73311.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright 2006 Analog Devices Inc.
+-----------------rt5663.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------adau17x1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC ADAU1X61/ADAU1X81 common code");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------tlv320aic23.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+MODULE_DESCRIPTION("ASoC TLV320AIC23 codec driver");
+-----------------cs35l45-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019-2022 Cirrus Logic, Inc.
+
+MODULE_LICENSE("GPL")
+
+MODULE_AUTHOR("James Schulman, Cirrus Logic Inc, <james.schulman@cirrus.com>")
+-----------------ssm3515.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only OR MIT
+MODULE_LICENSE("Dual MIT/GPL");
+-----------------rt1316-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2021 Realtek Semiconductor Corp.
+ */
+-----------------es83xx-dsm-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) Intel Corporation, 2022
+ * Copyright Everest Semiconductor Co.,Ltd
+ */
+-----------------aw87390.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (c) 2023 awinic Technology CO., LTD
+// Author: Weidong Wang <wangweidong.a@awinic.com>
+-----------------adau1372-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2016 Analog Devices Inc.
+MODULE_LICENSE("GPL v2")
+-----------------pcm512x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC PCM512x codec driver - I2C");
+MODULE_AUTHOR("Mark Brown <broonie@kernel.org>");
+MODULE_LICENSE("GPL v2");
+-----------------adau-utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright 2011-2016 Analog Devices Inc.
+ * Author: Lars-Peter Clausen <lars@metafoo.de>
+ */
+-----------------jz4770.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Maarten ter Huurne <maarten@treewalker.org>");
+MODULE_AUTHOR("Paul Cercueil <paul@crapouillou.net>");
+-----------------wm8903.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright 2008 Wolfson Microelectronics PLC.
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------wm8728.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+-----------------wm8991.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/* Copyright 2007 Wolfson Microelectronics PLC. */
+-----------------wm5102.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2012 Wolfson Microelectronics plc
+-----------------es8316.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Everest Semi ES8316 ALSA SoC Codec Driver");
+MODULE_AUTHOR("David Yang <yangxiaohua@everest-semi.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cs35l45.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC CS35L45 driver");
+MODULE_AUTHOR("James Schulman, Cirrus Logic Inc, <james.schulman@cirrus.com>");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------es83xx-dsm-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Intel Corporation, 2022
+Copyright Everest Semiconductor Co.,Ltd
+
+MODULE_DESCRIPTION("Everest Semi ES83xx DSM helpers")
+MODULE_LICENSE("GPL")
+-----------------cs42l51-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 CirrusLogic, Inc.
+
+MODULE_LICENSE("GPL")
+-----------------cs35l36.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright 2018 Cirrus Logic, Inc.
+
+// Author: James Schulman <james.schulman@cirrus.com>
+-----------------rt1016.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT1016 driver");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------da732x_reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * da732x_reg.h --- Dialog DA732X ALSA SoC Audio Registers Header File
+ *
+ * Copyright (C) 2012 Dialog Semiconductor GmbH
+ *
+ * Author: Michal Hajduk <Michal.Hajduk@diasemi.com>
+ */
+-----------------wm8960.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------wm8958-dsp2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt715-sdca-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2020 Realtek Semiconductor Corp.
+-----------------adau1761.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2014 Analog Devices Inc.
+-----------------lm49453.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("M R Swami Reddy <MR.Swami.Reddy@ti.com>");
+MODULE_DESCRIPTION("ASoC LM49453 driver");
+-----------------wm5100-tables.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------max9867.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Ladislav Michl <ladis@linux-mips.org>");
+
+MODULE_LICENSE("GPL");
+-----------------ts3a227e.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright (C) 2014 Google, Inc.
+-----------------rt5659.c-----------------
+The extracted parts that are associated with software license or copyright are:
+
+* `// SPDX-License-Identifier: GPL-2.0-only`
+* `Copyright 2015 Realtek Semiconductor Corp.`
+* `Author: Bard Liao <bardliao@realtek.com>`
+* `MODULE_LICENSE("GPL v2");`
+* `MODULE_AUTHOR("Bard Liao <bardliao@realtek.com>");`
+* `MODULE_DESCRIPTION("ASoC RT5659 driver");`
+-----------------ak4641.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Harald Welte <laforge@gnufiish.org>");
+MODULE_DESCRIPTION("SoC AK4641 driver");
+-----------------adau1977-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+  Author: Lars-Peter Clausen <lars@metafoo.de>
+
+MODULE_DESCRIPTION("ASoC ADAU1977/ADAU1978/ADAU1979 driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------wm8988.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2005 Openedhand Ltd.
+ *
+ * Author: Richard Purdie <richard@openedhand.com>
+ *
+ * Based on WM8753.h
+-----------------tlv320aic31xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Jyri Sarha <jsarha@ti.com>");
+
+MODULE_DESCRIPTION("ASoC TLV320AIC31xx CODEC Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------rt1318.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_DESCRIPTION("ASoC RT1318 driver");
+-----------------pcm186x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2015-2017 Texas Instruments Incorporated - https://www.ti.com
+
+MODULE_AUTHOR("Andreas Dannenberg <dannenberg@ti.com>");
+MODULE_AUTHOR("Andrew F. Davis <afd@ti.com>");
+MODULE_DESCRIPTION("PCM186x Universal Audio ADC I2C Interface Driver");
+MODULE_LICENSE("GPL v2");
+-----------------cs35l35.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS35L35 driver");
+-----------------adau17x1.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wm8960.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8960 driver");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_LICENSE("GPL");
+-----------------hdac_hdmi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wm5102.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM5102 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:wm5102-codec");
+-----------------alc5632.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+* alc5632.h  --  ALC5632 ALSA SoC Audio Codec
+*
+* Copyright (C) 2011 The AC100 Kernel Team <ac100@lists.lauchpad.net>
+*
+* Authors:  Leon Romanovsky <leon@leon.nu>
+*           Andrey Danin <danindrey@mail.ru>
+*           Ilya Petrov <ilya.muromec@gmail.com>
+*           Marc Dietrich <marvin24@gmx.de>
+*
+* Based on alc5623.h by Arnaud Patard
+*/
+-----------------pcm179x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2013 Amarula Solutions
+-----------------wm8955.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2009 Wolfson Microelectronics, plc
+ */
+-----------------tas2552.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Dan Muprhy <dmurphy@ti.com>");
+MODULE_DESCRIPTION("TAS2552 Audio amplifier driver");
+MODULE_LICENSE("GPL");
+-----------------wm8900.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8900 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------ads117x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2009 ShotSpotter Inc.
+
+MODULE_DESCRIPTION("ASoC ads117x driver");
+MODULE_AUTHOR("Graeme Gregory");
+MODULE_LICENSE("GPL");
+-----------------tlv320aic23-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC TLV320AIC23 codec driver SPI");
+MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+MODULE_LICENSE("GPL");
+
+Copyright:   (C) 2008 Mistral Solutions Pvt Ltd.,
+-----------------rt5659.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/* Copyright 2015 Realtek Microelectronics */
+/* Author: Bard Liao <bardliao@realtek.com> */
+-----------------rt5677-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC RT5677 SPI driver");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------tscs42xx.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+// tscs42xx.h -- TSCS42xx ALSA SoC Audio driver
+// Copyright 2017 Tempo Semiconductor, Inc.
+// Author: Steven Eckhoff <steven.eckhoff.opensource@gmail.com>
+-----------------adau1761-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>")
+-----------------wm8998.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8998 driver");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:wm8998-codec");
+-----------------cs47l24.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2015 Cirrus Logic Inc.
+-----------------wcd9335.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------rt1308.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2019 Realtek Semiconductor Corp.
+ * Author: Derek Fang <derek.fang@realtek.com>
+ */
+-----------------da7219-aad.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (c) 2015 Dialog Semiconductor Ltd.
+ * 
+ * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
+ */
+-----------------ml26124.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tomoya MORINAGA <tomoya.rohm@gmail.com>");
+
+MODULE_DESCRIPTION("LAPIS Semiconductor ML26124 ALSA SoC codec driver");
+MODULE_LICENSE("GPL");
+-----------------cs42l51.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Arnaud Patard <arnaud.patard@rtp-net.org>");
+MODULE_DESCRIPTION("Cirrus Logic CS42L51 ALSA SoC Codec Driver");
+MODULE_LICENSE("GPL");
+-----------------pcm512x-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2014 Linaro Ltd
+MODULE_LICENSE("GPL v2")
+-----------------tas5720.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Andreas Dannenberg <dannenberg@ti.com>");
+
+MODULE_DESCRIPTION("TAS5720 Audio amplifier driver");
+
+MODULE_LICENSE("GPL");
+-----------------ak4104.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Asahi Kasei AK4104 ALSA SoC driver");
+MODULE_AUTHOR("Daniel Mack <daniel@caiaq.de>");
+-----------------lochnagar-sc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2017-2019 Cirrus Logic, Inc. and
+//                         Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("ASoC Lochnagar Sound Card Driver");
+
+MODULE_AUTHOR("Piotr Stankiewicz <piotrs@opensource.cirrus.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:lochnagar-soundcard");
+-----------------adau1701.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC ADAU1701 SigmaDSP driver");
+MODULE_AUTHOR("Cliff Cai <cliff.cai@analog.com>");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------adau1372.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC ADAU1372 CODEC driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL v2");
+-----------------hdac_hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("HDMI HD codec");
+MODULE_AUTHOR("Samreen Nilofer<samreen.nilofer@intel.com>");
+MODULE_AUTHOR("Subhransu S. Prusty<subhransu.s.prusty@intel.com>");
+-----------------rt5682.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright 2018 Realtek Semiconductor Corp.
+// Author: Bard Liao <bardliao@realtek.com>
+-----------------max98371.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("anish kumar <yesanishhere@gmail.com>");
+MODULE_DESCRIPTION("ALSA SoC MAX98371 driver");
+-----------------rt286.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2011 Realtek Microelectronics
+Author: Johnny Hsu <johnnyhsu@realtek.com>
+-----------------cs4271-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * CS4271 SPI audio driver
+ *
+ * Copyright (c) 2010 Alexander Sverdlin <subaparts@yandex.ru>
+*/
+
+MODULE_DESCRIPTION("ASoC CS4271 SPI Driver");
+MODULE_AUTHOR("Alexander Sverdlin <subaparts@yandex.ru>");
+MODULE_LICENSE("GPL");
+-----------------cs42l42.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2016-2022 Cirrus Logic, Inc.
+ */
+-----------------es8326.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * es8326.h -- es8326 ALSA SoC audio driver
+ * Copyright Everest Semiconductor Co.,Ltd
+ *
+ * Authors: David Yang <yangxiaohua@everest-semi.com>
+ */
+-----------------cs53l30.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Paul Handrigan, Cirrus Logic Inc, <Paul.Handrigan@cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS53L30 driver");
+-----------------rt700.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT700 driver SDW");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wm_adsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2012 Wolfson Microelectronics plc
+-----------------wm9081.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------tas2780.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2020-2022 Texas Instruments Incorporated - https://www.ti.com
+ *
+ * Author: Raphael Xu <raphael-xu@ti.com>
+ */
+-----------------sgtl5000.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Freescale SGTL5000 ALSA SoC Codec Driver");
+MODULE_AUTHOR("Zeng Zhaoming <zengzm.kernel@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8737.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------max98363.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2022 Analog Devices Inc. */
+-----------------wm8753.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC WM8753 driver");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_LICENSE("GPL");
+-----------------wm8510.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wm8998.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2015 Cirrus Logic, Inc.
+-----------------rt1016.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+This is a SPDX license identifier indicating that the code is licensed under the GNU General Public License version 2.
+
+/*
+ * rt1016.h  --  RT1016 ALSA SoC audio amplifier driver
+ *
+ * Copyright 2020 Realtek Semiconductor Corp.
+ * Author: Oder Chiou <oder_chiou@realtek.com>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+This is the copyright notice stating that the code is owned by Realtek Semiconductor Corp. and is licensed under the GNU General Public License version 2.
+-----------------msm8916-wcd-digital.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2016, The Linux Foundation. All rights reserved.
+-----------------adau1977.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2014 Analog Devices Inc.
+-----------------tfa989x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2021 Stephan Gerhold
+ *
+ * Register definitions/sequences taken from various tfa98xx kernel drivers:
+ * Copyright (C) 2014-2020 NXP Semiconductors, All Rights Reserved.
+ * Copyright (C) 2013 Sony Mobile Communications Inc.
+ */
+
+MODULE_DESCRIPTION("ASoC NXP/Goodix TFA989X (TFA1) driver");
+MODULE_AUTHOR("Stephan Gerhold <stephan@gerhold.net>");
+MODULE_LICENSE("GPL");
+-----------------madera.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Cirrus Logic Madera class codecs common support
+ *
+ * Copyright (C) 2015-2018 Cirrus Logic, Inc. and
+ *                         Cirrus Logic International Semiconductor Ltd.
+ */
+-----------------si476x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2012 Innovative Converged Devices(ICD)
+Copyright (C) 2013 Andrey Smirnov
+
+MODULE_AUTHOR("Andrey Smirnov <andrew.smirnov@gmail.com>");
+MODULE_DESCRIPTION("ASoC Si4761/64 codec driver");
+MODULE_LICENSE("GPL");
+-----------------wm8770.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2010 Wolfson Microelectronics plc
+-----------------inno_rk3036.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------gtm601.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2015 Goldelico GmbH
+
+MODULE_DESCRIPTION("ASoC gtm601 driver")
+
+MODULE_AUTHOR("Marek Belisko <marek@goldelico.com>")
+
+MODULE_LICENSE("GPL")
+-----------------max98504.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * MAX98504 ALSA SoC Audio driver
+ *
+ * Copyright 2011 - 2012 Maxim Integrated Products
+ * Copyright 2016 Samsung Electronics Co., Ltd.
+ */
+-----------------rt715-sdca-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright(c) 2020 Realtek Semiconductor Corp.
+-----------------mc13783.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC MC13783 driver");
+MODULE_AUTHOR("Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>");
+MODULE_AUTHOR("Philippe Retornaz <philippe.retornaz@epfl.ch>");
+MODULE_LICENSE("GPL");
+-----------------wm8711.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright 2006 Wolfson Microelectronics
+ */
+-----------------da7219.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * da7219.c - DA7219 ALSA SoC Codec Driver
+ *
+ * Copyright (c) 2015 Dialog Semiconductor
+ *
+ * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
+ */
+
+#include <linux/acpi.h>
+#include <linux/clk.h>
+#include <linux/clkdev.h>
+#include <linux/clk-provider.h>
+#include <linux/i2c.h>
+#include <linux/of.h>
+#include <linux/property.h>
+#include <linux/regmap.h>
+#include <linux/slab.h>
+#include <linux/pm.h>
+#include <linux/module.h>
+#include <linux/delay.h>
+#include <linux/regulator/consumer.h>
+#include <sound/pcm.h>
+#include <sound/pcm_params.h>
+#include <sound/soc.h>
+#include <sound/soc-dapm.h>
+#include <sound/initval.h>
+#include <sound/tlv
+-----------------wm5100.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------pcm179x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC PCM179X driver");
+MODULE_AUTHOR("Michael Trimarchi <michael@amarulasolutions.com>");
+MODULE_LICENSE("GPL");
+-----------------wm9081.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM9081 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8993.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------ml26124.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
+ */
+-----------------max98373-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/* Copyright (c) 2020 Maxim Integrated */
+-----------------cs35l32.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2014 CirrusLogic, Inc.
+-----------------adau1372.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2016 Analog Devices Inc.
+  Author: Lars-Peter Clausen <lars@metafoo.de>
+-----------------rtq9128.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("ChiYuan Huang <cy_huang@richtek.com>");
+MODULE_DESCRIPTION("RTQ9128 4CH Audio Amplifier Driver");
+-----------------mt6359.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT6359 ALSA SoC codec driver");
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>");
+MODULE_AUTHOR("Eason Yen <eason.yen@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------rt5616.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT5616 driver");
+MODULE_AUTHOR("Bard Liao <bardliao@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------arizona.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_DESCRIPTION("ASoC Wolfson Arizona class device support");
+-----------------rt715.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("ASoC rt715 driver");
+MODULE_DESCRIPTION("ASoC rt715 driver SDW");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------src4xxx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC SRC4XXX CODEC driver");
+MODULE_AUTHOR("Matt Flax <flatmax@flatmax.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5682-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2")
+-----------------rt5651.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rk817_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RK817 codec driver");
+MODULE_AUTHOR("binyuan <kevan.lan@rock-chips.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:rk817-codec");
+-----------------max9867.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2013-2015 Maxim Integrated Products
+-----------------wm8997.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2012 Wolfson Microelectronics plc
+-----------------wm8991.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC WM8991 driver");
+MODULE_AUTHOR("Graeme Gregory");
+MODULE_LICENSE("GPL");
+-----------------rt5670-dsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt5670-dsp.h  --  RT5670 ALSA SoC DSP driver
+ *
+ * Copyright 2014 Realtek Microelectronics
+ * Author: Bard Liao <bardliao@realtek.com>
+ */
+-----------------rt1015.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019 Realtek Semiconductor Corp.
+Author: Jack Yu <jack.yu@realtek.com>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.
+-----------------rt5660.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt5660.h  --  RT5660 ALSA SoC audio driver
+ *
+ * Copyright 2016 Realtek Semiconductor Corp.
+ * Author: Oder Chiou <oder_chiou@realtek.com>
+ */
+-----------------pcm3060.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
+-----------------wm8731.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Richard Purdie");
+-----------------cs42l51.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * cs42l51.h
+ *
+ * ASoC Driver for Cirrus Logic CS42L51 codecs
+ *
+ * Copyright (c) 2010 Arnaud Patard <apatard@mandriva.com>
+ */
+-----------------rt711-sdca-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2021 Realtek Semiconductor Corp.
+-----------------ak4613.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+-----------------wcd937x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2023-2024 Qualcomm Innovation Center, Inc. All rights reserved.
+-----------------ak5558.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright (C) 2016 Asahi Kasei Microdevices Corporation
+ * Copyright 2018 NXP
+ */
+-----------------max98926.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * max98926.h -- MAX98926 ALSA SoC Audio driver
+ * Copyright 2013-2015 Maxim Integrated Products
+ */
+-----------------nau8824.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * NAU88L24 ALSA SoC audio driver
+ *
+ * Copyright 2016 Nuvoton Technology Corp.
+ * Author: John Hsu <KCHSU0@nuvoton.com>
+ */
+-----------------tlv320dac33.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright:   (C) 2009 Nokia Corporation
+ */
+-----------------rt5631.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT5631 driver");
+MODULE_AUTHOR("flove <flove@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------cs4349.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tim Howe <tim.howe@cirrus.com>");
+
+MODULE_DESCRIPTION("Cirrus Logic CS4349 ALSA SoC Codec Driver");
+
+MODULE_LICENSE("GPL");
+-----------------max98927.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("ALSA SoC MAX98927 driver");
+MODULE_AUTHOR("Ryan Lee <ryans.lee@maximintegrated.com>");
+MODULE_LICENSE("GPL");
+-----------------max98390.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2020, Maxim Integrated.
+ */
+-----------------adau-utils.h-----------------
+`/* SPDX-License-Identifier: GPL-2.0 */`
+-----------------sdw-mockup.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021 Intel Corporation
+//
+MODULE_DESCRIPTION("ASoC SDW mockup codec driver");
+MODULE_AUTHOR("Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>");
+MODULE_LICENSE("GPL");
+-----------------sti-sas.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("audio codec for STMicroelectronics sti platforms");
+MODULE_AUTHOR("Arnaud.pouliquen@st.com");
+MODULE_LICENSE("GPL v2");
+-----------------wm8940.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------cs-amp-lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2024 Cirrus Logic, Inc. and
+               Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("Cirrus Logic amplifier library");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(FW_CS_DSP);
+-----------------wm8523.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2009 Wolfson Microelectronics, plc
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ *
+ * Based on wm8753.h
+ */
+-----------------adav80x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright 2011 Analog Devices Inc.
+ */
+-----------------tas2780.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Raphael Xu <raphael-xu@ti.com>");
+MODULE_DESCRIPTION("TAS2780 I2C Smart Amplifier driver");
+-----------------mt6359-accdet.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (C) 2021 MediaTek Inc.
+ * Author: Argus Lin <argus.lin@mediatek.com>
+ */
+-----------------rt5682s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright 2021 Realtek Semiconductor Corp.
+// Author: Derek Fang <derek.fang@realtek.com>
+-----------------spdif_receiver.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Vipin Kumar <vipin.kumar@st.com>");
+MODULE_DESCRIPTION("ASoC SPDIF DIR driver");
+-----------------ak4671.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Joonyoung Shim <jy0922.shim@samsung.com>");
+MODULE_DESCRIPTION("ASoC AK4671 codec driver");
+-----------------wcd938x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+-----------------rt711-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright(c) 2019 Realtek Semiconductor Corp.
+-----------------rt715-sdca.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2020 Realtek Semiconductor Corp.
+-----------------rt5514.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT5514 driver");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------nau8315.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2020 Nuvoton Technology Crop.
+
+MODULE_DESCRIPTION("ASoC NAU8315 Mono Class-D Amplifier Driver");
+
+MODULE_AUTHOR("David Lin <ctlin0@nuvoton.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------rk3328_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (c) 2017, Fuzhou Rockchip Electronics Co., Ltd All rights reserved.
+-----------------max9877.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2009 Samsung Electronics Co.Ltd
+-----------------mt6660.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2019 MediaTek Inc.
+-----------------wm8955.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8955 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------cs40l50-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright 2024 Cirrus Logic, Inc.
+//
+// Author: James Ogletree <james.ogletree@cirrus.com>
+-----------------wm1250-ev1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+
+MODULE_DESCRIPTION("WM1250-EV1 audio I/O module driver");
+
+MODULE_LICENSE("GPL");
+-----------------jz4725b.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (C) 2019, Paul Cercueil <paul@crapouillou.net>
+-----------------rt298.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt298.h  --  RT298 ALSA SoC audio driver
+ *
+ * Copyright 2011 Realtek Microelectronics
+ * Author: Johnny Hsu <johnnyhsu@realtek.com>
+ */
+-----------------tlv320aic26.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008 Secret Lab Technologies Ltd.
+-----------------mt6357.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT6357 ALSA SoC codec driver");
+MODULE_AUTHOR("Nicolas Belin <nbelin@baylibre.com>");
+MODULE_LICENSE("GPL");
+-----------------adau1761.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC ADAU1361/ADAU1461/ADAU1761/ADAU1961 CODEC driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------rt1308.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Derek Fang <derek.fang@realtek.com>");
+MODULE_DESCRIPTION("ASoC RT1308 amplifier driver");
+-----------------tas2770.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * ALSA SoC TAS2770 codec driver
+ *
+ *  Copyright (C) 2016-2017 Texas Instruments Incorporated - https://www.ti.com/
+ */
+-----------------rt712-sdca-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt712-sdca-sdw.h -- RT712 SDCA ALSA SoC audio driver header
+ *
+ * Copyright(c) 2023 Realtek Semiconductor Corp.
+ */
+-----------------rt712-sdca-dmic.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2023 Realtek Semiconductor Corp.
+-----------------rt711.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * rt711.h -- RT711 ALSA SoC audio driver header
+ *
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------sta350.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC STA350 driver");
+MODULE_AUTHOR("Sven Brandau <info@brandau.biz>");
+MODULE_LICENSE("GPL");
+-----------------da9055.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC DA9055 Codec driver");
+MODULE_AUTHOR("David Chen, Ashish Chavan");
+MODULE_LICENSE("GPL");
+-----------------uda1334.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ab8500-codec.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (C) ST-Ericsson SA 2012
+ *
+ * Author: Ola Lilja <ola.o.lilja@stericsson.com>,
+ *         Kristoffer Karlsson <kristoffer.karlsson@stericsson.com>,
+ *         Roger Nilsson <roger.xr.nilsson@stericsson.com>,
+ *         for ST-Ericsson.
+ *
+ *         Based on the early work done by:
+ *         Mikko J. Lehto <mikko.lehto@symbio.com>,
+ *         Mikko Sarmanne <mikko.sarmanne@symbio.com>,
+ *         for ST-Ericsson.
+ */
+-----------------cs35l33.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2016 Cirrus Logic, Inc.
+-----------------wm9713.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC WM9713/WM9714 driver");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_LICENSE("GPL");
+-----------------wcd939x-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+-----------------adau7118-hw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2019 Analog Devices Inc.
+-----------------cs42l56.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS42L56 driver");
+-----------------wm8580.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2008 Samsung Electronics.
+Author: Ryu Euiyoul
+         ryu.real@gmail.com
+-----------------isabelle.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------tas2781-fmwlib.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Texas Firmware Support");
+MODULE_AUTHOR("Shenghao Ding, TI, <shenghao-ding@ti.com>");
+MODULE_LICENSE("GPL");
+-----------------uda1380.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Giorgio Padrin");
+MODULE_DESCRIPTION("Audio support for codec Philips UDA1380");
+MODULE_LICENSE("GPL");
+-----------------wm8990.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * wm8990.h  --  audio driver for WM8990
+ *
+ * Copyright 2007 Wolfson Microelectronics PLC.
+ * Author: Graeme Gregory
+ *         graeme.gregory@wolfsonmicro.com or linux@wolfsonmicro.com
+ */
+-----------------tfa9879.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * tfa9879.h  --  driver for NXP Semiconductors TFA9879
+ *
+ * Copyright (C) 2014 Axentia Technologies AB
+ * Author: Peter Rosin <peda@axentia.se>
+ */
+-----------------rt1305.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * RT1305.h  --  RT1305 ALSA SoC amplifier component driver
+ *
+ * Copyright 2018 Realtek Semiconductor Corp.
+ * Author: Shuming Fan <shumingf@realtek.com>
+ */
+-----------------cs4265.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt700-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------wm8903.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2008-12 Wolfson Microelectronics
+Copyright 2011-2012 NVIDIA, Inc.
+
+Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+
+TODO:
+  - TDM mode configuration.
+-----------------wm8996.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------rl6231.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("RL6231 class device shared support");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------ak4535.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2005 Openedhand Ltd.
+ *
+ * Author: Richard Purdie <richard@openedhand.com>
+ *
+ * Based on wm8753.h
+-----------------adau1781.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2014 Analog Devices Inc.
+-----------------max98396.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2022, Analog Devices Inc.
+-----------------rt1308-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * rt1308-sdw.h -- RT1308 ALSA SoC audio driver header
+ *
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------ssm2305.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2018 Pengutronix, Marco Felsch <kernel@pengutronix.de>
+
+MODULE_DESCRIPTION("ASoC SSM2305 amplifier driver");
+MODULE_AUTHOR("Marco Felsch <m.felsch@pengutronix.de>");
+MODULE_LICENSE("GPL v2");
+-----------------rt5668.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt5514-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("RT5514 SPI driver");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------pcm186x-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2015-2017 Texas Instruments Incorporated - https://www.ti.com
+MODULE_AUTHOR("Andreas Dannenberg <dannenberg@ti.com>");
+MODULE_AUTHOR("Andrew F. Davis <afd@ti.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cs35l35.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2016 Cirrus Logic, Inc.
+-----------------wm9705.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM9705 driver");
+MODULE_AUTHOR("Ian Molton");
+MODULE_LICENSE("GPL v2")
+-----------------max98925.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * max98925.h -- MAX98925 ALSA SoC Audio driver
+ *
+ * Copyright 2013-2015 Maxim Integrated Products
+ */
+-----------------chv3-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC Chameleon v3 codec driver");
+MODULE_AUTHOR("Pawel Anikiel <pan@semihalf.com>");
+-----------------wm8727.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (C) 2009 Imagination Technologies Ltd.
+MODULE_DESCRIPTION("ASoC wm8727 driver");
+MODULE_AUTHOR("Neil Jones");
+MODULE_LICENSE("GPL");
+-----------------adau1781.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("ASoC ADAU1381/ADAU1781 driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------tscs454.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// tscs454.c -- TSCS454 ALSA SoC Audio driver
+// Copyright 2018 Tempo Semiconductor, Inc.
+// Author: Steven Eckhoff <steven.eckhoff.opensource@gmail.com>
+-----------------max98388.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * max98388.h -- MAX98388 ALSA SoC audio driver header
+ *
+ * Copyright(c) 2022, Analog Devices Inc.
+ */
+-----------------max98520.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright (c) 2021, Maxim Integrated.
+ */
+-----------------nau8821.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rt700-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2")
+-----------------wm8961.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8961 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5663.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------tpa6130a2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * ALSA SoC TPA6130A2 amplifier driver
+ 
+ * Copyright (C) Nokia Corporation
+ 
+ * Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
+ */
+-----------------rt722-sdca-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2023 Realtek Semiconductor Corp.
+-----------------cs42l43-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2022-2023 Cirrus Logic, Inc. and
+                         Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("CS42L43 CODEC SoundWire Driver");
+MODULE_AUTHOR("Charles Keepax <ckeepax@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------adau1977-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>")
+-----------------ad1836.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright 2009-2011 Analog Devices Inc.
+-----------------isabelle.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2012 Texas Instruments, Inc
+-----------------cs42l43.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+Copyright (C) 2022-2023 Cirrus Logic, Inc. and Cirrus Logic International Semiconductor Ltd.
+-----------------ad1980.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright:	Analog Devices Inc.
+ * Author:	Roy Huang <roy.huang@analog.com>
+ * 		Cliff Cai <cliff.cai@analog.com>
+ */
+
+MODULE_DESCRIPTION("ASoC ad1980 driver (Obsolete)");
+MODULE_AUTHOR("Roy Huang, Cliff Cai");
+MODULE_LICENSE("GPL");
+-----------------pcm3168a-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2015 Imagination Technologies Ltd.
+MODULE_LICENSE("GPL v2")
+-----------------wm8985.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8985 / WM8758 driver");
+MODULE_AUTHOR("Dimitris Papastamos <dp@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------max9850.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2011 taskit GmbH
+
+MODULE_AUTHOR("Christian Glindkamp <christian.glindkamp@taskit.de>");
+
+MODULE_LICENSE("GPL");
+-----------------mt6358.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt6358.h  --  mt6358 ALSA SoC audio codec driver
+ *
+ * Copyright (c) 2018 MediaTek Inc.
+ * Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+ */
+-----------------nau8821.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("John Hsu <kchsu0@nuvoton.com>");
+
+MODULE_AUTHOR("Seven Lee <wtli@nuvoton.com>");
+-----------------tlv320aic32x4-spi.c-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright 2011-2019 NW Digital Radio
+ *
+ * Author: Annaliese McDermond <nh6z@nh6z.net>
+ *
+ * Based on sound/soc/codecs/wm8974 and TI driver for kernel 2.6.27.
+ *
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Annaliese McDermond <nh6z@nh6z.net>");
+MODULE_DESCRIPTION("ASoC TLV320AIC32x4 codec driver SPI");
+-----------------wm9713.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wcd-mbhc-v2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("wcd MBHC v2 module");
+MODULE_LICENSE("GPL");
+-----------------cs35l56-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (C) 2023 Cirrus Logic, Inc. and
+//                    Cirrus Logic International Semiconductor Ltd.
+MODULE_DESCRIPTION("ASoC CS35L56 SPI driver");
+MODULE_IMPORT_NS(SND_SOC_CS35L56_CORE);
+MODULE_IMPORT_NS(SND_SOC_CS35L56_SHARED);
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------twl6040.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rt1305.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT1305 amplifier driver");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wm8350.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8350 driver");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:wm8350-codec");
+-----------------alc5632.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Leon Romanovsky <leon@leon.nu>");
+-----------------max98373.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ryan Lee <ryans.lee@maximintegrated.com>");
+-----------------da7218.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * da7218.h - DA7218 ALSA SoC Codec Driver
+ *
+ * Copyright (c) 2015 Dialog Semiconductor
+ *
+ * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
+ */
+-----------------cpcap.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Sebastian Reichel");
+-----------------jz4760.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("JZ4760 SoC internal codec driver");
+MODULE_AUTHOR("Christophe Branchereau <cbranchereau@gmail.com>");
+MODULE_AUTHOR("Paul Cercueil <paul@crapouillou.net>");
+MODULE_LICENSE("GPL v2");
+-----------------nau8540.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * NAU85L40 ALSA SoC audio driver
+ *
+ * Copyright 2016 Nuvoton Technology Corp.
+ * Author: John Hsu <KCHSU0@nuvoton.com>
+ */
+-----------------sta350.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright: 2011 Raumfeld GmbH
+Author: Sven Brandau <info@brandau.biz>
+based on code from:
+      Raumfeld GmbH
+        Johannes Stezenbach <js@sig21.net>
+	Wolfson Microelectronics PLC.
+	  Mark Brown <broonie@opensource.wolfsonmicro.com>
+-----------------rt5631.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs35l56-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (C) 2023 Cirrus Logic, Inc. and
+//                    Cirrus Logic International Semiconductor Ltd.
+MODULE_DESCRIPTION("ASoC CS35L56 I2C driver");
+MODULE_IMPORT_NS(SND_SOC_CS35L56_CORE);
+MODULE_IMPORT_NS(SND_SOC_CS35L56_SHARED);
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------wl1273.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Matti Aaltonen <matti.j.aaltonen@nokia.com>");
+
+MODULE_DESCRIPTION("ASoC WL1273 codec driver");
+
+MODULE_LICENSE("GPL");
+-----------------twl6040.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC TWL6040 codec driver");
+MODULE_AUTHOR("Misael Lopez Cruz");
+MODULE_LICENSE("GPL");
+-----------------rt5670.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------cs42l43-jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2022-2023 Cirrus Logic, Inc. and Cirrus Logic International Semiconductor Ltd.
+-----------------max98388.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ALSA SoC MAX98388 driver");
+MODULE_AUTHOR("Ryan Lee <ryans.lee@analog.com>");
+-----------------ts3a227e.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC ts3a227e driver");
+MODULE_AUTHOR("Dylan Reid <dgreid@chromium.org>");
+-----------------rt712-sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wm8804-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ * Copyright 2015 Cirrus Logic Inc
+ 
+ MODULE_DESCRIPTION("ASoC WM8804 driver - SPI");
+MODULE_AUTHOR("Charles Keepax <ckeepax@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------max98357a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved. */
+-----------------ssm2518.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC SSM2518 driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------rt715-sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC rt715 driver SDW SDCA");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wm8728.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2008 Wolfson Microelectronics plc
+-----------------nau8325.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wm2200.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * wm2200.h - WM2200 audio codec interface
+ *
+ * Copyright 2012 Wolfson Microelectronics PLC.
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------cs53l30.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/* Copyright 2015 Cirrus Logic, Inc. */
+-----------------wm8804.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8804 driver");
+MODULE_AUTHOR("Dimitris Papastamos <dp@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------sta32x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright: 2011 Raumfeld GmbH
+Author: Johannes Stezenbach <js@sig21.net>
+
+based on code from:
+Wolfson Microelectronics PLC.
+Mark Brown <broonie@opensource.wolfsonmicro.com>
+-----------------rt711-sdca-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT711 SDCA SDW driver");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------rk3328_codec.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2017, Fuzhou Rockchip Electronics Co., Ltd All rights reserved.
+-----------------ak4554.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2013 Renesas Solutions Corp.
+MODULE_LICENSE("GPL v2")
+MODULE_DESCRIPTION("SoC AK4554 driver")
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>")
+-----------------wm8900.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------lpass-wsa-macro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+-----------------cx20442.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC CX20442-11 voice modem codec driver");
+MODULE_AUTHOR("Janusz Krzysztofik");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:cx20442-codec");
+-----------------cirrus_legacy.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2021 Cirrus Logic, Inc. and Cirrus Logic International Semiconductor Ltd.
+-----------------tas2562.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Dan Murphy <dmurphy@ti.com>");
+
+MODULE_DESCRIPTION("TAS2562 Audio amplifier driver");
+MODULE_LICENSE("GPL");
+-----------------ak4375.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Vincent Knecht <vincent.knecht@mailoo.org>");
+
+MODULE_DESCRIPTION("ASoC AK4375 DAC driver");
+
+MODULE_LICENSE("GPL");
+-----------------tlv320dac33.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC TLV320DAC33 codec driver");
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_LICENSE("GPL");
+-----------------max98925.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ralph Birt <rdbirt@gmail.com>, Anish kumar <anish.kumar@maximintegrated.com>");
+MODULE_DESCRIPTION("ALSA SoC MAX98925 driver");
+-----------------sigmadsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+/*
+ * Load firmware files from Analog Devices SigmaStudio
+ 
+ * Copyright 2009-2011 Analog Devices Inc.
+-----------------cs35l56.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Driver for Cirrus Logic CS35L56 smart amp
+ *
+ * Copyright (C) 2023 Cirrus Logic, Inc. and
+ *                    Cirrus Logic International Semiconductor Ltd.
+-----------------tlv320adcx140.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Dan Murphy <dmurphy@ti.com>");
+MODULE_DESCRIPTION("ASoC TLV320ADCX140 CODEC Driver");
+MODULE_LICENSE("GPL v2");
+-----------------mt6660.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2019 MediaTek Inc.
+-----------------es8316.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright Everest Semiconductor Co.,Ltd
+ *
+ * Author: David Yang <yangxiaohua@everest-semi.com>
+ */
+-----------------max98088.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * max98088.h -- MAX98088 ALSA SoC Audio driver
+ *
+ * Copyright 2010 Maxim Integrated Products
+ */
+-----------------twl4030.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------es8311.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * es8311.c -- es8311 ALSA SoC audio driver
+ *
+ * Copyright (C) 2024 Matteo Martelli <matteomartelli3@gmail.com>
+ *
+ * Author: Matteo Martelli <matteomartelli3@gmail.com>
+ */
+-----------------ak4535.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Richard Purdie");
+MODULE_DESCRIPTION("Soc AK4535 driver");
+-----------------max9877.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2009 Samsung Electronics Co.Ltd
+MODULE_LICENSE("GPL")
+-----------------tlv320aic23.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ALSA SoC TLV320AIC23 codec driver
+ *
+ * Author:      Arun KS, <arunks@mistralsolutions.com>
+ * Copyright:   (C) 2008 Mistral Solutions Pvt Ltd
+ */
+-----------------tpa6130a2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+
+MODULE_DESCRIPTION("TPA6130A2 Headphone amplifier driver");
+
+MODULE_LICENSE("GPL");
+-----------------tas5720.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C)2015-2016 Texas Instruments Incorporated -  https://www.ti.com
+-----------------wm8962.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright 2010-2 Wolfson Microelectronics plc
+
+// Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+-----------------pcm1681.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) StreamUnlimited GmbH 2013
+	Marek Belisko <marek.belisko@streamunlimited.com>
+
+MODULE_DESCRIPTION("Texas Instruments PCM1681 ALSA SoC Codec Driver")
+MODULE_AUTHOR("Marek Belisko <marek.belisko@streamunlimited.com>")
+MODULE_LICENSE("GPL")
+-----------------cs47l90.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// ALSA SoC Audio driver for CS47L90 codec
+
+// Copyright (C) 2015-2019 Cirrus Logic, Inc. and
+//                         Cirrus Logic International Semiconductor Ltd.
+-----------------sma1303.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * sma1303.h -- sma1303 ALSA SoC Audio driver
+ *
+ * Copyright 2023 Iron Device Corporation
+ *
+ * Author: Kiseok Jo <kiseok.jo@irondevice.com>
+ *
+ */
+-----------------da732x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2012 Dialog Semiconductor GmbH
+ *
+ * Author: Michal Hajduk <Michal.Hajduk@diasemi.com>
+ */
+-----------------wm8782.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright: 2011 Raumfeld GmbH
+Author: Johannes Stezenbach <js@sig21.net>
+
+based on ad73311.c
+Copyright:	Analog Devices Inc.
+Author:	Cliff Cai <cliff.cai@analog.com>
+
+MODULE_DESCRIPTION("ASoC WM8782 driver");
+MODULE_AUTHOR("Johannes Stezenbach <js@sig21.net>");
+MODULE_LICENSE("GPL");
+-----------------wm2200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM2200 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------adav803.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+
+MODULE_LICENSE("GPL")
+-----------------cs35l45.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2019-2022 Cirrus Logic, Inc.
+ *
+ * Author: James Schulman <james.schulman@cirrus.com>
+ *
+ */
+-----------------wm5110.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM5110 driver");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:wm5110-codec");
+-----------------rt5514-spi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2015 Realtek Semiconductor Corp.
+Author: Oder Chiou <oder_chiou@realtek.com>
+-----------------lpass-va-macro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+-----------------wm8741.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2010 Wolfson Microelectronics, plc
+-----------------stac9766.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC stac9766 driver");
+MODULE_AUTHOR("Jon Smirl <jonsmirl@gmail.com>");
+-----------------peb2466.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+MODULE_DESCRIPTION("PEB2466 ALSA SoC driver");
+MODULE_LICENSE("GPL");
+-----------------rt9120.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("ChiYuan Huang <cy_huang@richtek.com>");
+
+MODULE_DESCRIPTION("RT9120 Audio Amplifier Driver");
+
+MODULE_LICENSE("GPL");
+-----------------inno_rk3036.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------max98095.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * max98095.c -- MAX98095 ALSA SoC Audio driver
+ *
+ * Copyright 2011 Maxim Integrated Products
+ */
+-----------------mt6357.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2024 Baylibre
+-----------------ak4671.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2009 Samsung Electronics Co.Ltd
+-----------------madera.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Cirrus Logic Madera class codecs common support
+
+// Copyright (C) 2015-2019 Cirrus Logic, Inc. and
+//                         Cirrus Logic International Semiconductor Ltd.
+-----------------src4xxx.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright 2021-2022 Deqx Pty Ltd
+// Author: Matt R Flax <flatmax@flatmax.com>
+-----------------wm_hubs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+-----------------pcm3060.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
+-----------------nau8810.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * NAU8810 ALSA SoC audio driver
+ *
+ * Copyright 2016 Nuvoton Technology Corp.
+ * Author: David Lin <ctlin0@nuvoton.com>
+ */
+-----------------pcm6240.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2022 - 2024 Texas Instruments Incorporated
+https://www.ti.com
+-----------------rt5640.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------nau8825.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2015 Google Inc.
+ * Author: Anatol Pomozov <anatol.pomozov@chrominium.org>
+ */
+-----------------bt-sco.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("ASoC generic bluetooth sco link driver");
+
+MODULE_LICENSE("GPL");
+-----------------ak4619.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("SoC AK4619 driver");
+MODULE_AUTHOR("Khanh Le <khanh.le.xr@renesas.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cs47l85.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// ALSA SoC Audio driver for CS47L85 codec
+//
+// Copyright (C) 2015-2019 Cirrus Logic, Inc. and
+//                         Cirrus Logic International Semiconductor Ltd.
+-----------------wm8741.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ssm2602-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2014 Analog Devices Inc.
+-----------------ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Soc Generic AC97 driver");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:ac97-codec");
+-----------------adau1781-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>")
+-----------------lpass-tx-macro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+-----------------cs42l73.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2011 Cirrus Logic, Inc.
+-----------------adav80x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_AUTHOR("Yi Li <yi.li@analog.com>>");
+-----------------wm8961.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rt5677-spi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2013 Realtek Semiconductor Corp.
+-----------------max98504.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * MAX98504 ALSA SoC Audio driver
+ 
+ * Copyright 2013 - 2014 Maxim Integrated Products
+ * Copyright 2016 Samsung Electronics Co., Ltd.
+ */
+-----------------tlv320adcx140.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2020 Texas Instruments Incorporated - https://www.ti.com/
+-----------------rt1015.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT1015 driver");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wm8978.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2009 Guennadi Liakhovetski <g.liakhovetski@gmx.de>
+-----------------es8328-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Sutajio Ko-Usagi PTE LTD
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("ASoC ES8328 audio CODEC SPI driver")
+MODULE_AUTHOR("Sean Cross <xobs@kosagi.com>")
+-----------------mt6359-accdet.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT6359 ALSA SoC codec jack driver");
+MODULE_AUTHOR("Argus Lin <argus.lin@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------tlv320aic26.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2008 Secret Lab Technologies Ltd.
+-----------------wm8400.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown");
+-----------------framer-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+MODULE_DESCRIPTION("FRAMER ALSA SoC driver");
+MODULE_LICENSE("GPL");
+-----------------cs42l52.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * cs42l52.h -- CS42L52 ALSA SoC audio driver
+ *
+ * Copyright 2012 CirrusLogic, Inc.
+ *
+ * Author: Georgi Vlaev <joe@nucleusys.com>
+ * Author: Brian Austin <brian.austin@cirrus.com>
+ */
+-----------------cs4271-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Alexander Sverdlin <subaparts@yandex.ru>
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Alexander Sverdlin <subaparts@yandex.ru>")
+-----------------wm8995.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8995 driver");
+MODULE_AUTHOR("Dimitris Papastamos <dp@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------rt298.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT298 driver");
+MODULE_AUTHOR("Bard Liao <bardliao@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------cs42xx8.c-----------------
+Copyright (C) 2014 Freescale Semiconductor, Inc.
+
+MODULE_DESCRIPTION("Cirrus Logic CS42448/CS42888 ALSA SoC Codec Driver");
+MODULE_AUTHOR("Freescale Semiconductor, Inc.");
+MODULE_LICENSE("GPL");
+-----------------ak5386.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC driver for AK5386 ADC");
+MODULE_AUTHOR("Daniel Mack <zonque@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------rt722-sdca-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT722 SDCA SDW driver");
+MODULE_AUTHOR("Jack Yu <jack.yu@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------tda7419.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matt Porter <mporter@konsulko.com>");
+-----------------spdif_transmitter.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright:   (C) 2009 MontaVista Software, Inc., <source@mvista.com>
+Copyright:   (C) 2009  Texas Instruments, India
+
+MODULE_AUTHOR("Steve Chen <schen@mvista.com>");
+MODULE_DESCRIPTION("SPDIF dummy codec driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------wcd938x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs42l56.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2014 CirrusLogic, Inc.
+-----------------rt5645.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------mc13783.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright 2008 Juergen Beisert, kernel@pengutronix.de
+ */
+-----------------tas2562.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2019 Texas Instruments Incorporated -  https://www.ti.com
+ *
+ * Author: Dan Murphy <dmurphy@ti.com>
+ */
+-----------------wm8971.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+/*
+ * Copyright 2005 Lab126, Inc.
+ */
+-----------------cs35l56-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2023 Cirrus Logic, Inc. and
+                    Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("ASoC CS35L56 SoundWire driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+-----------------da7213.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Adam Thomson <Adam.Thomson.Opensource@diasemi.com>");
+MODULE_AUTHOR("David Rau <David.Rau.opensource@dm.renesas.com>");
+
+MODULE_DESCRIPTION("ASoC DA7213 Codec driver");
+-----------------ad193x-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright 2014 Analog Devices Inc.
+-----------------lpass-rx-macro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+-----------------cs4234.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * ALSA SoC Audio driver for CS4234 codec
+ *
+ * Copyright (C) 2020 Cirrus Logic, Inc. and
+ *                    Cirrus Logic International Semiconductor Ltd.
+ */
+-----------------cros_ec_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------cs42l42-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC CS42L42 SoundWire driver");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_CS42L42_CORE);
+-----------------lm49453.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2012  Texas Instruments, Inc
+-----------------wm8400.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2008 Wolfson Microelectronics PLC.
+Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+-----------------pcm5102a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Florian Meier <florian.meier@koalo.de>")
+MODULE_DESCRIPTION("ASoC PCM5102A codec driver")
+-----------------rt5677.c-----------------
+The extracted parts associated with software license or copyright are:
+
+* `// SPDX-License-Identifier: GPL-2.0-only`
+* `/* Copyright 2013 Realtek Semiconductor Corp. */`
+* `MODULE_LICENSE("GPL v2");`
+* `MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");`
+* `MODULE_DESCRIPTION("ASoC RT5677 driver");`
+-----------------ad193x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("ASoC ad193x driver");
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------aw8738.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Awinic AW8738 Amplifier Driver");
+MODULE_LICENSE("GPL v2");
+-----------------tas2764.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2020 Texas Instruments Incorporated -  https://www.ti.com
+-----------------hda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("HD-Audio codec driver");
+MODULE_AUTHOR("Cezary Rojewski <cezary.rojewski@intel.com>");
+MODULE_LICENSE("GPL");
+-----------------rt711-sdca.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt711-sdca.h -- RT711 SDCA ALSA SoC audio driver header
+ *
+ * Copyright(c) 2021 Realtek Semiconductor Corp.
+ */
+-----------------wm8904.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * wm8904.h  --  WM8904 ASoC driver
+ *
+ * Copyright 2009 Wolfson Microelectronics, plc
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------cs4271.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Alexander Sverdlin <subaparts@yandex.ru>");
+
+MODULE_DESCRIPTION("Cirrus Logic CS4271 ALSA SoC Codec Driver");
+MODULE_LICENSE("GPL");
+-----------------lm4857.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2007 Wolfson Microelectronics PLC.
+Author: Graeme Gregory
+         graeme.gregory@wolfsonmicro.com
+Copyright 2011 Lars-Peter Clausen <lars@metafoo.de>
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("LM4857 amplifier driver");
+MODULE_LICENSE("GPL");
+-----------------rt1318-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright(c) 2022 Realtek Semiconductor Corp.
+-----------------max9860.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Peter Rosin <peda@axentia.se>")
+-----------------rt274.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Bard Liao <bardliao@realtek.com>");
+MODULE_DESCRIPTION("ASoC RT274 driver");
+-----------------rt5665.c-----------------
+There are several parts associated with software license or copyright in the provided source code:
+
+1. The first line of the source code:
+   ```
+   // SPDX-License-Identifier: GPL-2.0-only
+   ```
+
+   This is a license identifier, which specifies the license under which the code is released. In this case, it is the GNU General Public License, version 2.0, with the "only" modifier indicating that the code is released under the GPL-2.0-only license.
+
+2. The copyright notice at the top of the source code:
+   ```
+   /*
+   * rt5665.c  --  RT5665/RT5658 ALSA SoC audio codec driver
+   *
+   * Copyright 2016 Realtek Semiconductor Corp.
+   * Author: Bard Liao <bardliao@realtek.com>
+   */
+   ```
+
+   This is a copyright notice, which specifies the copyright holder (Realtek Semiconductor Corp.) and the author (B
+-----------------rt274.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2016 Realtek Microelectronics
+Author: Bard Liao <bardliao@realtek.com>
+-----------------wm8994.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * wm8994.c  --  WM8994 ALSA SoC Audio driver
+ *
+ * Copyright 2009-12 Wolfson Microelectronics plc
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------nau8822.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC NAU8822 codec driver");
+MODULE_AUTHOR("David Lin <ctlin0@nuvoton.com>");
+MODULE_LICENSE("GPL v2");
+-----------------wm2000.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------cs530x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("CS530X CODEC Driver");
+MODULE_AUTHOR("Paul Handrigan <paulha@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------wcd-mbhc-v2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------tlv320aic32x4.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------wm8974.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Liam Girdwood");
+-----------------max98371.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2011-2012 Maxim Integrated Products
+-----------------adau7118-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright 2019 Analog Devices Inc.
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+MODULE_DESCRIPTION("ADAU7118 8 channel PDM-to-I2S/TDM Converter driver over I2C");
+MODULE_LICENSE("GPL");
+-----------------rt5682-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT5682 driver SDW");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------rt711-sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt1318-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC RT1318 driver SDCA SDW");
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+-----------------sigmadsp-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2009-2011 Analog Devices Inc.
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("SigmaDSP I2C firmware loader");
+
+MODULE_LICENSE("GPL");
+-----------------wm8940.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8940 driver");
+MODULE_AUTHOR("Jonathan Cameron");
+MODULE_LICENSE("GPL");
+-----------------max98090.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * max98090.h -- MAX98090 ALSA SoC Audio driver
+ *
+ * Copyright 2011-2012 Maxim Integrated Products
+ */
+-----------------wm8804-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2015 Cirrus Logic Inc
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Charles Keepax <ckeepax@opensource.wolfsonmicro.com>")
+MODULE_DESCRIPTION("ASoC WM8804 driver - I2C")
+-----------------rl6347a.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2015 Realtek Semiconductor Corp.
+-----------------cs35l33.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Paul Handrigan, Cirrus Logic Inc, <paul.handrigan@cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS35L33 driver");
+-----------------cx2072x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * ALSA SoC CX20721/CX20723 codec driver
+ *
+ * Copyright:	(C) 2017 Conexant Systems, Inc.
+ * Author:	Simon Ho, <Simon.ho@conexant.com>
+ */
+-----------------sigmadsp-regmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2009-2011 Analog Devices Inc.
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("SigmaDSP regmap firmware loader");
+
+MODULE_LICENSE("GPL");
+-----------------aw88399.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2023 AWINIC Technology CO., LTD
+-----------------ab8500-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC AB8500 codec driver");
+MODULE_LICENSE("GPL v2");
+-----------------tscs42xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Tempo Semiconductor <steven.eckhoff.opensource@gmail.com>");
+MODULE_DESCRIPTION("ASoC TSCS42xx driver");
+MODULE_LICENSE("GPL");
+-----------------max98927.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (C) 2016-2017 Maxim Integrated Products
+ * Author: Ryan Lee <ryans.lee@maximintegrated.com>
+ */
+-----------------simple-mux.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Simple Audio Mux driver");
+MODULE_AUTHOR("Alexandre Belloni <alexandre.belloni@bootlin.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5682.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------aw88261.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2023 awinic Technology CO., LTD
+-----------------adau1977.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC ADAU1977/ADAU1978/ADAU1979 driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------ssm2602.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * File:         sound/soc/codecs/ssm2602.h
+ * Author:       Cliff Cai <Cliff.Cai@analog.com>
+ *
+ * Created:      Tue June 06 2008
+ *
+ * Modified:
+ *               Copyright 2008 Analog Devices Inc.
+ *
+ * Bugs:         Enter bugs at http://blackfin.uclinux.org/
+ */
+-----------------wm8995.h-----------------
+The extracted parts associated with software license or copyright are:
+
+* `/* SPDX-License-Identifier: GPL-2.0-only */`
+* `Copyright 2010 Wolfson Microelectronics plc`
+* `/* Copyright (C) 2010-2011 Wolfson Microelectronics plc. */`
+* `/* All rights reserved. */`
+* `/* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: */`
+* `/* 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. */`
+* `/* 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. */`
+* `/* 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission
+-----------------rt5677.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * rt5677.h  --  RT5677 ALSA SoC audio driver
+ *
+ * Copyright 2013 Realtek Semiconductor Corp.
+ * Author: Oder Chiou <oder_chiou@realtek.com>
+ */
+-----------------da732x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC DA732X driver");
+MODULE_AUTHOR("Michal Hajduk <michal.hajduk@diasemi.com>");
+MODULE_LICENSE("GPL");
+-----------------rt5616.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------tas2770.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Shi Fu <shifu0704@thundersoft.com>");
+
+MODULE_DESCRIPTION("TAS2770 I2C Smart Amplifier driver");
+MODULE_LICENSE("GPL v2");
+-----------------wm8983.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------rt1019.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2021 Realtek Semiconductor Corp.
+-----------------max9860.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Driver for the MAX9860 Mono Audio Voice Codec
+ *
+ * Author: Peter Rosin <peda@axentia.s>
+ *         Copyright 2016 Axentia Technologies
+ */
+-----------------rl6231.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2014 Realtek Semiconductor Corp.
+ */
+-----------------wm8731-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2005 Openedhand Ltd.
+Copyright 2006-12 Wolfson Microelectronics, plc
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Richard Purdie")
+MODULE_DESCRIPTION("ASoC WM8731 driver - SPI")
+-----------------rt1015p.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright 2020 The Linux Foundation. All rights reserved.
+MODULE_DESCRIPTION("ASoC RT1015P driver");
+MODULE_LICENSE("GPL v2");
+-----------------tas571x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2015 Google, Inc.
+-----------------adau1761-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2014 Analog Devices Inc. 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+-----------------rt715-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright(c) 2019 Realtek Semiconductor Corp.
+ */
+-----------------pcm179x-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) Amarula Solutions B.V. 2013
+
+MODULE_DESCRIPTION("ASoC PCM179X SPI driver")
+
+MODULE_AUTHOR("Michael Trimarchi <michael@amarulasolutions.com>")
+
+MODULE_LICENSE("GPL")
+-----------------max98390.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Steve Lee <steves.lee@maximintegrated.com>");
+MODULE_DESCRIPTION("ALSA SoC MAX98390 driver");
+-----------------uda1380.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2005 Giorgio Padrin <giorgio@mandarinlogiq.org>
+ */
+-----------------ssm2602.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC SSM2602/SSM2603/SSM2604 driver");
+MODULE_AUTHOR("Cliff Cai");
+MODULE_LICENSE("GPL");
+-----------------wm8904.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * wm8904.c  --  WM8904 ALSA SoC Audio driver
+ *
+ * Copyright 2009-12 Wolfson Microelectronics plc
+ *
+ * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
+ */
+-----------------rt722-sdca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt711.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ASoC RT711 SDW driver");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+MODULE_LICENSE("GPL");
+-----------------cs42l52.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC CS42L52 driver");
+MODULE_AUTHOR("Georgi Vlaev, Nucleus Systems Ltd, <joe@nucleusys.com>");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------pcm3168a-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright (C) 2015 Imagination Technologies Ltd.
+ 
+ MODULE_DESCRIPTION("PCM3168A I2C codec driver");
+ MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+ MODULE_LICENSE("GPL v2");
+-----------------cs4341.c-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Alexander Shiyan <shc_work@mail.ru>");
+MODULE_DESCRIPTION("Cirrus Logic CS4341 ALSA SoC Codec Driver");
+-----------------cs35l41-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2017-2021 Cirrus Logic, Inc.
+
+MODULE_DESCRIPTION("I2C CS35L41 driver");
+MODULE_AUTHOR("David Rhodes, Cirrus Logic Inc, <david.rhodes@cirrus.com>");
+MODULE_LICENSE("GPL")
+-----------------cs35l41.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright 2017-2021 Cirrus Logic, Inc.
+ *
+ * Author: David Rhodes <david.rhodes@cirrus.com>
+ */
+-----------------nau8540.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wm8770.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Dimitris Papastamos <dp@opensource.wolfsonmicro.com>");
+MODULE_DESCRIPTION("ASoC WM8770 driver");
+-----------------wm8983.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC WM8983 driver");
+MODULE_AUTHOR("Dimitris Papastamos <dp@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+-----------------jz4740.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("JZ4740 SoC internal codec driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL v2");
+-----------------pcm186x.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Texas Instruments PCM186x Universal Audio ADC
+ *
+ * Copyright (C) 2015-2017 Texas Instruments Incorporated - https://www.ti.com
+ *	Andreas Dannenberg <dannenberg@ti.com>
+ *	Andrew F. Davis <afd@ti.com>
+ */
+-----------------wm9090.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+
+MODULE_DESCRIPTION("WM9090 ASoC driver");
+
+MODULE_LICENSE("GPL");
+-----------------max98088.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Hsiang, Jesse Marroquin");
+-----------------lpass-macro-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2022, The Linux Foundation. All rights reserved.
+ */
+-----------------da7219.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2015 Dialog Semiconductor
+-----------------wcd-clsh-v2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hda-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Author: Cezary Rojewski <cezary.rojewski@intel.com>
+-----------------es8311.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC ES8311 driver");
+MODULE_AUTHOR("Matteo Martelli <matteomartelli3@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8731-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+Copyright 2005 Openedhand Ltd.
+ 
+Copyright 2006-12 Wolfson Microelectronics, plc
+ 
+MODULE_LICENSE("GPL");
+ 
+MODULE_DESCRIPTION("ASoC WM8731 driver - I2C");
+MODULE_AUTHOR("Richard Purdie");
+-----------------adau1373.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("ASoC ADAU1373 driver");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_LICENSE("GPL");
+-----------------wm8750.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------rt5660.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Oder Chiou <oder_chiou@realtek.com>");
+-----------------max98926.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ALSA SoC MAX98926 driver");
+MODULE_AUTHOR("Anish kumar <anish.kumar@maximintegrated.com>");
+MODULE_LICENSE("GPL");
+-----------------adav801.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+-----------------es8328.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs35l34.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * cs35l34.h -- CS35L34 ALSA SoC audio driver
+ *
+ * Copyright 2016 Cirrus Logic, Inc.
+ *
+ * Author: Paul Handrigan <Paul.Handrigan@cirrus.com>
+ */
+-----------------da7213.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2013 Dialog Semiconductor
+ *
+ * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
+ * Author: David Rau <David.Rau.opensource@dm.renesas.com>
+ */
+-----------------ak4642.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Soc AK4642 driver");
+MODULE_AUTHOR("Kuninori Morimoto <morimoto.kuninori@renesas.com>");
+MODULE_LICENSE("GPL v2")
+-----------------cq93vc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2010 Texas Instruments, Inc
+
+MODULE_DESCRIPTION("Texas Instruments DaVinci ASoC CQ0093 Voice Codec Driver")
+
+MODULE_AUTHOR("Miguel Aguilar")
+
+MODULE_LICENSE("GPL")
+-----------------wm8580.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------wm8510.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------da7210.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_DESCRIPTION("ASoC DA7210 driver");
+MODULE_AUTHOR("David Chen, Kuninori Morimoto");
+MODULE_LICENSE("GPL");
+-----------------pcm6240.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+//
+// Copyright (C) 2022 - 2024 Texas Instruments Incorporated
+// https://www.ti.com
+//
+-----------------max9768.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2011, 2012 by Wolfram Sang, Pengutronix e.K.
+
+MODULE_AUTHOR("Wolfram Sang <kernel@pengutronix.de>");
+
+MODULE_DESCRIPTION("ASoC MAX9768 amplifier driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------tlv320aic23-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright:   (C) 2008 Mistral Solutions Pvt Ltd,
+
+MODULE_DESCRIPTION("ASoC TLV320AIC23 codec driver I2C");
+MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+MODULE_LICENSE("GPL");
+-----------------cs35l41-lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("CS35L41 library");
+MODULE_AUTHOR("David Rhodes, Cirrus Logic Inc, <david.rhodes@cirrus.com>");
+MODULE_AUTHOR("Lucas Tanure, Cirrus Logic Inc, <tanureal@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------tfa9879.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Copyright (C) 2014 Axentia Technologies AB
+// Author: Peter Rosin <peda@axentia.se>
+-----------------pcm1789.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2018 Bootlin
+// Mylène Josserand <mylene.josserand@bootlin.com>
+-----------------nau8325.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * nau8325.h -- Nuvoton NAU8325 audio codec driver
+ *
+ * Copyright 2023 Nuvoton Technology Crop.
+ * Author: Seven Lee <WTLI@nuvoton.com>
+ *	   David Lin <CTLIN0@nuvoton.com>
+ */
+-----------------wcd934x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2019, Linaro Limited
+-----------------wm8776.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------wm8997.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8997 driver");
+MODULE_AUTHOR("Charles Keepax <ckeepax@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:wm8997-codec");
+-----------------wsa883x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2015-2021, The Linux Foundation. All rights reserved.
+-----------------dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Generic DMIC driver");
+MODULE_AUTHOR("Liam Girdwood <lrg@slimlogic.co.uk>");
+MODULE_LICENSE("GPL");
+-----------------wm8996.h-----------------
+The extracted parts associated with software license or copyright are:
+
+* SPDX-License-Identifier: GPL-2.0-or-later
+* Copyright 2011 Wolfson Microelectronics PLC.
+-----------------tas2781-comlib.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("TAS2781 common library");
+MODULE_AUTHOR("Shenghao Ding, TI, <shenghao-ding@ti.com>");
+MODULE_LICENSE("GPL");
+-----------------max98363.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ryan Lee <ryans.lee@analog.com>");
+-----------------wm8776.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2009 Wolfson Microelectronics plc
+-----------------rt1017-sdca-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2023 Realtek Semiconductor Corp.
+ */
+-----------------bd28623.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 Socionext Inc.
+
+MODULE_AUTHOR("Katsuhiro Suzuki <suzuki.katsuhiro@socionext.com>");
+
+MODULE_DESCRIPTION("ROHM BD28623 speaker amplifier driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------rt1320-sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright(c) 2024 Realtek Semiconductor Corp.
+-----------------hda.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright(c) 2021-2022 Intel Corporation
+ *
+ * Author: Cezary Rojewski <cezary.rojewski@intel.com>
+ */
+-----------------es8326.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Yang <yangxiaohua@everest-semi.com>");
+MODULE_DESCRIPTION("ASoC es8326 driver");
+-----------------cs35l32.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS35L32 driver");
+-----------------wm8524.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2009 Wolfson Microelectronics plc
+Copyright 2017 NXP
+
+Based on WM8523 ALSA SoC Audio driver written by Mark Brown
+
+MODULE_DESCRIPTION("ASoC WM8524 driver")
+MODULE_AUTHOR("Mihai Serban <mihai.serban@nxp.com>")
+MODULE_ALIAS("platform:wm8524-codec")
+MODULE_LICENSE("GPL")
+-----------------pcm3060-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
+
+MODULE_DESCRIPTION("PCM3060 I2C driver");
+MODULE_AUTHOR("Kirill Marinushkin <k.marinushkin@gmail.com>");
+MODULE_LICENSE("GPL v2")
+-----------------wm8990.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_DESCRIPTION("ASoC WM8990 driver");
+-----------------audio-iio-aux.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+MODULE_DESCRIPTION("IIO ALSA SoC aux driver");
+-----------------cs42l42.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC CS42L42 driver");
+MODULE_AUTHOR("James Schulman, Cirrus Logic Inc, <james.schulman@cirrus.com>");
+MODULE_AUTHOR("Brian Austin, Cirrus Logic Inc, <brian.austin@cirrus.com>");
+MODULE_AUTHOR("Michael White, Cirrus Logic Inc, <michael.white@cirrus.com>");
+MODULE_AUTHOR("Lucas Tanure <tanureal@opensource.cirrus.com>");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Vitaly Rodionov <vitalyr@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8993.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_DESCRIPTION("ASoC WM8993 driver");
+-----------------sma1303.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("ALSA SoC SMA1303 driver");
+MODULE_AUTHOR("Gyuhwa Park, <gyuhwa.park@irondevice.com>");
+MODULE_AUTHOR("Kiseok Jo, <kiseok.jo@irondevice.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cs47l35.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Piotr Stankiewicz <piotrs@opensource.cirrus.com>");
+MODULE_DESCRIPTION("ASoC CS47L35 driver");
+-----------------wm8350.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2008 Wolfson Microelectronics PLC.
+-----------------hdmi-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jyri Sarha <jsarha@ti.com>");
+MODULE_DESCRIPTION("HDMI Audio Codec Driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" HDMI_CODEC_DRV_NAME);
+-----------------alc5623.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * alc5623.h  --  alc562[123] ALSA Soc Audio driver
+ *
+ * Copyright 2008 Realtek Microelectronics
+ * Copyright 2010 Arnaud Patard <arnaud.patard@rtp-net.org>
+ *
+ * Author: flove <flove@realtek.com>
+ * Arnaud Patard <arnaud.patard@rtp-net.org>
+ */
+-----------------rt1316-sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ASoC RT1316 driver SDCA SDW");
+MODULE_AUTHOR("Shuming Fan <shumingf@realtek.com>");
+-----------------wm2000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------tlv320aic3x-spi.c-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright:   (C) 2008 Mistral Solutions Pvt Ltd.,
+ *
+ * MODULE_DESCRIPTION("ASoC TLV320AIC3x codec driver SPI");
+ * MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+ * MODULE_LICENSE("GPL");
+-----------------ak4118.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Asahi Kasei AK4118 ALSA SoC driver");
+MODULE_AUTHOR("Adrien Charruel <adrien.charruel@devialet.com>");
+MODULE_LICENSE("GPL");
+-----------------88pm860x-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC 88PM860x driver");
+MODULE_AUTHOR("Haojian Zhuang <haojian.zhuang@marvell.com>");
+MODULE_LICENSE("GPL");
+-----------------wm8753.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright 2003 Wolfson Microelectronics PLC.
+ * Author: Liam Girdwood <lrg@slimlogic.co.uk>
+ */
+-----------------adau1701.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright 2011 Analog Devices Inc.
+-----------------tlv320aic3x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC TLV320AIC3X codec driver");
+MODULE_AUTHOR("Vladimir Barinov");
+MODULE_LICENSE("GPL");
+-----------------ad193x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2014 Analog Devices Inc.
+-----------------cs42xx8.h-----------------
+Copyright (C) 2014 Freescale Semiconductor, Inc.
+
+This file is licensed under the terms of the GNU General Public License version 2. This program is licensed "as is" without any warranty of any kind, whether express or implied.
+-----------------adau1372-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright 2016 Analog Devices Inc.
+ 
+ MODULE_LICENSE("GPL v2")
+-----------------rt712-sdca.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * rt712-sdca.h -- RT712 SDCA ALSA SoC audio driver header
+ *
+ * Copyright(c) 2023 Realtek Semiconductor Corp.
+ */
+-----------------max98520.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("George Song <george.song@maximintegrated.com>");
+-----------------mt6359.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright (C) 2020 MediaTek Inc.
+ * Author: Argus Lin <argus.lin@mediatek.com>
+ */
+-----------------wm9712.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Liam Girdwood");
+-----------------tlv320aic32x4-clk.c-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Clock Tree for the Texas Instruments TLV320AIC32x4
+ *
+ * Copyright 2019 Annaliese McDermond
+ *
+ * Author: Annaliese McDermond <nh6z@nh6z.net>
+ */
+-----------------es8328-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2014 Sutajio Ko-Usagi PTE LTD
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Sean Cross <xobs@kosagi.com>")
+-----------------rk3308_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Xing Zheng <zhengxing@rock-chips.com>");
+MODULE_AUTHOR("Luca Ceresoli <luca.ceresoli@bootlin.com>");
+MODULE_DESCRIPTION("ASoC RK3308 Codec Driver");
+MODULE_LICENSE("GPL");
+-----------------sgtl5000.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright 2010-2011 Freescale Semiconductor, Inc.
+ */
+-----------------tas5086.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Daniel Mack <zonque@gmail.com>");
+MODULE_DESCRIPTION("Texas Instruments TAS5086 ALSA SoC Codec Driver");
+MODULE_LICENSE("GPL");
+-----------------cx20442.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2009 Janusz Krzysztofik <jkrzyszt@tis.icnet.pl>
+-----------------pcm512x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Mark Brown <broonie@kernel.org>");
+MODULE_DESCRIPTION("ASoC PCM512x codec driver");
+-----------------wm8985.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------wm8804.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright 2010 Wolfson Microelectronics plc
+ *
+ * Author: Dimitris Papastamos <dp@opensource.wolfsonmicro.com>
+ */
+-----------------wm8978.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("ASoC WM8978 codec driver");
+MODULE_AUTHOR("Guennadi Liakhovetski <g.liakhovetski@gmx.de>");
+MODULE_LICENSE("GPL");
+-----------------wm5110.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2012 Wolfson Microelectronics plc
+-----------------cs47l24.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.wolfsonmicro.com>");
+MODULE_DESCRIPTION("ASoC CS47L24 driver");
+-----------------aw87390.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------ssm2518.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2013 Analog Devices Inc.
+Author: Lars-Peter Clausen <lars@metafoo.de>
+-----------------tas6424.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * ALSA SoC Texas Instruments TAS6424 Quad-Channel Audio Amplifier
+ *
+ * Copyright (C) 2016-2017 Texas Instruments Incorporated - https://www.ti.com/
+ *	Author: Andreas Dannenberg <dannenberg@ti.com>
+ *	Andrew F. Davis <afd@ti.com>
+ */

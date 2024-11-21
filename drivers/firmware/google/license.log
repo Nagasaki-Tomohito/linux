@@ -1,0 +1,70 @@
+-----------------vpd_decode.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2017 Google Inc.
+-----------------vpd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Google, Inc.");
+-----------------cbmem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2022 Google LLC
+
+MODULE_AUTHOR("Jack Rosenthal <jrosenth@chromium.org>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Driver for exporting CBMEM entries in sysfs");
+-----------------memconsole-x86-legacy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Google, Inc.");
+MODULE_DESCRIPTION("EBDA specific parts of the memory based BIOS console.");
+MODULE_DEVICE_TABLE(dmi, memconsole_dmi_table);
+-----------------memconsole-coreboot.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Google, Inc.");
+MODULE_DESCRIPTION("Memory based BIOS console accessed through coreboot table");
+-----------------memconsole.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2017 Google Inc.
+-----------------coreboot_table.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Google, Inc.");
+-----------------gsmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Google, Inc.");
+MODULE_DESCRIPTION("EFI SMI interface for Google platforms");
+-----------------coreboot_table.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2014 Gerd Hoffmann <kraxel@redhat.com>
+Copyright 2017 Google Inc.
+Copyright 2017 Samuel Holland <samuel@sholland.org>
+-----------------framebuffer-coreboot.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+Copyright 2012-2013 David Herrmann <dh.herrmann@gmail.com>
+ 
+Copyright 2017 Google Inc.
+ 
+Copyright 2017 Samuel Holland <samuel@sholland.org>
+ 
+MODULE_AUTHOR("Samuel Holland <samuel@sholland.org>");
+ 
+MODULE_DESCRIPTION("Memory based framebuffer accessed through coreboot table");
+ 
+MODULE_LICENSE("GPL");
+-----------------memconsole.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2017 Google Inc.
+-----------------vpd_decode.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2017 Google Inc.

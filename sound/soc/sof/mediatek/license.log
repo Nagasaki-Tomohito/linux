@@ -1,0 +1,14 @@
+-----------------mtk-adsp-common.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+-----------------adsp_helper.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2021 MediaTek Corporation. All rights reserved.
+ */
+-----------------mtk-adsp-common.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2022 MediaTek Inc. All rights reserved.
+
+MODULE_LICENSE("Dual BSD/GPL");

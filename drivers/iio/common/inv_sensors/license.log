@@ -1,0 +1,10 @@
+-----------------inv_sensors_timestamp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2020 Invensense, Inc.
+ */
+
+MODULE_AUTHOR("InvenSense, Inc.");
+MODULE_DESCRIPTION("InvenSense sensors timestamp module");
+MODULE_LICENSE("GPL");

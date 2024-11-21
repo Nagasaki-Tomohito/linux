@@ -1,0 +1,27 @@
+-----------------amd_sfh_interface.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2022, Advanced Micro Devices, Inc.
+All Rights Reserved.
+-----------------amd_sfh_init.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2022, Advanced Micro Devices, Inc.
+All Rights Reserved.
+-----------------amd_sfh_desc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2022, Advanced Micro Devices, Inc.
+All Rights Reserved.
+-----------------amd_sfh_init.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2022, Advanced Micro Devices, Inc.
+All Rights Reserved.
+-----------------amd_sfh_interface.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2022, Advanced Micro Devices, Inc.
+All Rights Reserved.
+
+EXPORT_SYMBOL_GPL(amd_get_sfh_info);

@@ -1,0 +1,17 @@
+-----------------hdac_ext_controller.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014-2015 Intel Corp
+-----------------hdac_ext_bus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+
+EXPORT_SYMBOL_GPL(snd_hdac_ext_bus_init);
+EXPORT_SYMBOL_GPL(snd_hdac_ext_bus_exit);
+EXPORT_SYMBOL_GPL(snd_hdac_ext_bus_device_remove);
+EXPORT_SYMBOL_GPL(snd_hda_ext_driver_register);
+EXPORT_SYMBOL_GPL(snd_hda_ext_driver_unregister);
+-----------------hdac_ext_stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2015 Intel Corp

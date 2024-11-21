@@ -1,0 +1,20 @@
+-----------------aica.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Adrian McMenamin <adrian@mcmen.demon.co.uk>");
+MODULE_DESCRIPTION("Dreamcast AICA sound (pcm) driver");
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("aica_firmware.bin");
+-----------------aica.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright Adrian McMenamin
+ * <adrian@mcmen.demon.co.uk>
+ * 2006 */
+-----------------sh_dac_audio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2009 by Rafael Ignacio Zurita <rizurita@yahoo.com>
+
+Based on sh_dac_audio.c (Copyright (C) 2004, 2005 by Andriy Skulysh)
+
+MODULE_LICENSE("GPL");

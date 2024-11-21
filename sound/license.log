@@ -1,0 +1,16 @@
+-----------------last.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Advanced Linux Sound Architecture
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------ac97_bus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------sound_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Alan Cox");
+MODULE_DESCRIPTION("Core sound module");

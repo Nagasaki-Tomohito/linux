@@ -1,0 +1,82 @@
+-----------------dice-tcelectronic.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2018 Takashi Sakamoto
+ */
+-----------------dice-weiss.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2023 Rolf Anderegg and Michele Perrone
+-----------------dice-harman.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2021 Takashi Sakamoto
+-----------------dice-alesis.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2018 Takashi Sakamoto
+ */
+-----------------dice-presonus.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2019 Takashi Sakamoto
+-----------------dice-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ * Copyright (c) 2014 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+ */
+-----------------dice-mytek.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+ 
+/*
+ * Copyright (c) 2018 Melvin Vermeeren
+ */
+-----------------dice-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ * Copyright (c) 2014 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------dice.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * TC Applied Technologies Digital Interface Communications Engine driver
+ *
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ */
+-----------------dice.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) Clemens Ladisch
+ * Copyright (c) 2014 Takashi Sakamoto
+ */
+-----------------dice-interface.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------dice-hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+Copyright (c) 2014 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------dice-transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) Clemens Ladisch
+ * Copyright (c) 2014 Takashi Sakamoto
+-----------------dice-midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Takashi Sakamoto
+-----------------dice-extension.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 Takashi Sakamoto
+-----------------dice-focusrite.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2022 Takashi Sakamoto
+-----------------dice-proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) Clemens Ladisch
+ * Copyright (c) 2014 Takashi Sakamoto

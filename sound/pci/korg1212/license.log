@@ -1,0 +1,5 @@
+-----------------korg1212.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("korg/k1212.dsp");

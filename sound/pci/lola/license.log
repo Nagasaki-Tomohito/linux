@@ -1,0 +1,27 @@
+-----------------lola_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+-----------------lola_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------lola.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Digigram Lola driver");
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+-----------------lola_clock.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+-----------------lola_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------lola.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Support for Digigram Lola PCI-e boards
+ *
+ *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+ */

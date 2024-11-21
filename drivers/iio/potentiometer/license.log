@@ -1,0 +1,113 @@
+-----------------mcp41010.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2018 Chris Coffey <cmc@babblebit.net>
+ * Based on: Slawomir Stepien's code from mcp4131.c
+ *
+ * Datasheet: https://ww1.microchip.com/downloads/en/devicedoc/11195c.pdf
+ *
+ * DEVID	#Wipers	#Positions	Resistance (kOhm)
+ * mcp41010	1	256		10
+ * mcp41050	1	256		50
+ * mcp41100	1	256		100
+ * mcp42010	2	256		10
+ * mcp42050	2	256		50
+ * mcp42100	2	256		100
+ */
+
+MODULE_AUTHOR("Chris Coffey <cmc@babblebit.net>");
+MODULE_DESCRIPTION("MCP41010 digital potentiometer");
+MODULE_LICENSE
+-----------------x9250.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+MODULE_DESCRIPTION("X9250 ALSA SoC driver");
+MODULE_LICENSE("GPL");
+-----------------mcp4531.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Peter Rosin <peda@axentia.se>");
+MODULE_DESCRIPTION("MCP4531 digital potentiometer");
+MODULE_LICENSE("GPL v2");
+-----------------tpl0102.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2016, 2018
+Author: Matt Ranostay <matt.ranostay@konsulko.com>
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("TPL0102 digital potentiometer");
+MODULE_LICENSE("GPL");
+-----------------ad5110.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Mugilraj Dhavachelvan <dmugil2000@gmail.com>");
+MODULE_DESCRIPTION("AD5110 digital potentiometer");
+MODULE_LICENSE("GPL v2");
+-----------------mcp4131.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Slawomir Stepien <sst@poczta.fm>");
+
+MODULE_DESCRIPTION("MCP4131 digital potentiometer");
+
+MODULE_LICENSE("GPL v2");
+-----------------max5432.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Martin Kaiser <martin@kaiser.cx>");
+MODULE_DESCRIPTION("max5432-max5435 digital potentiometers");
+MODULE_LICENSE("GPL v2");
+-----------------ds1803.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Maxim Integrated DS1803 and similar digital potentiometer driver
+ * Copyright (c) 2016 Slawomir Stepien
+ * Copyright (c) 2022 Jagath Jog J
+ *
+ * Datasheet: https://datasheets.maximintegrated.com/en/ds/DS1803.pdf
+ * Datasheet: https://datasheets.maximintegrated.com/en/ds/DS3502.pdf
+ *
+ * DEVID	#Wipers	#Positions	Resistor Opts (kOhm)	i2c address
+ * ds1803	2	256		10, 50, 100		0101xxx
+ * ds3502	1	128		10			01010xx
+ */
+
+MODULE_AUTHOR("Slawomir Stepien <sst@poczta.fm>");
+MODULE_AUTHOR("Jagath Jog J <jagath
+-----------------ad5272.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Phil Reid <preid@eletromag.com.au>");
+
+MODULE_DESCRIPTION("AD5272 digital potentiometer");
+
+MODULE_LICENSE("GPL v2");
+-----------------mcp4018.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Industrial I/O driver for Microchip digital potentiometers
+ * Copyright (c) 2018  Axentia Technologies AB
+ * Author: Peter Rosin <peda@axentia.se>
+ *
+ * Datasheet: http://www.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+ *
+ * DEVID	#Wipers	#Positions	Resistor Opts (kOhm)
+ * mcp4017	1	128		5, 10, 50, 100
+ * mcp4018	1	128		5, 10, 50, 100
+ * mcp4019	1	128		5, 10, 50, 100
+ */
+
+MODULE_AUTHOR("Peter Rosin <peda@axentia.se>");
+MODULE_DESCRIPTION("MCP4018 digital potentiometer");
+MODULE_LICENSE("GPL v2");
+-----------------max5487.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2016 Cristina-Gabriela Moraru <cristina.moraru09@gmail.com>
+MODULE_AUTHOR("Cristina-Gabriela Moraru <cristina.moraru09@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------max5481.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Maury Anderson <maury.anderson@rockwellcollins.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("max5481 SPI driver");

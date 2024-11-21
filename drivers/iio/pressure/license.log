@@ -1,0 +1,281 @@
+-----------------cros_ec_baro.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2017 Google, Inc
+MODULE_LICENSE("GPL v2")
+-----------------zpa2326.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Gregor Boirie <gregor.boirie@parrot.com>");
+MODULE_DESCRIPTION("Core driver for Murata ZPA2326 pressure sensor");
+-----------------mpl115.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2014 Peter Meerwald <pmeerw@pmeerw.net>
+Copyright (c) 2016 Akinobu Mita <akinobu.mita@gmail.com>
+-----------------bmp280-regmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------bmp280-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("BMP280 SPI bus driver");
+MODULE_IMPORT_NS(IIO_BMP280);
+-----------------st_pressure_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2013 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------hsc030pa_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+*
+ * Copyright (c) 2023 Petre Rodan <petre.rodan@subdimension.ro>
+*
+ * MODULE_AUTHOR("Petre Rodan <petre.rodan@subdimension.ro>");
+* MODULE_DESCRIPTION("Honeywell HSC and SSC pressure sensor spi driver");
+* MODULE_LICENSE("GPL");
+* MODULE_IMPORT_NS(IIO_HONEYWELL_HSC030PA);
+-----------------zpa2326.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2016 Parrot S.A.
+-----------------hsc030pa.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Honeywell TruStability HSC Series pressure/temperature sensor
+ *
+ * Copyright (c) 2023 Petre Rodan <petre.rodan@subdimension.ro>
+-----------------hid-sensor-press.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("HID Sensor Pressure");
+MODULE_AUTHOR("Archana Patni <archana.patni@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------hsc030pa.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Petre Rodan <petre.rodan@subdimension.ro>");
+
+MODULE_LICENSE("GPL");
+-----------------hp206c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+-----------------t5403.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+-----------------hp03.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------icp10100.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("InvenSense, Inc.");
+MODULE_DESCRIPTION("InvenSense icp10100 driver");
+MODULE_LICENSE("GPL");
+-----------------mprls0025pa_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+/*
+ * MPRLS0025PA - Honeywell MicroPressure MPR series SPI sensor driver
+ *
+ * Copyright (c) 2024 Petre Rodan <petre.rodan@subdimension.ro>
+ *
+ * Data sheet:
+ *  https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/micropressure-mpr-series/documents/sps-siot-mpr-series-datasheet-32332628-ciid-172626.pdf
+ */
+
+MODULE_AUTHOR("Petre Rodan <petre.rodan@subdimension.ro>");
+MODULE_DESCRIPTION("Honeywell MPR pressure sensor spi driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HONEYWELL_MPRLS0025PA);
+-----------------st_pressure.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright 2013 STMicroelectronics Inc.
+-----------------zpa2326_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ms5611.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
+-----------------ms5611_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Tomasz Duszynski <tduszyns@gmail.com>");
+MODULE_DESCRIPTION("MS5611 core driver");
+MODULE_LICENSE("GPL v2");
+-----------------mpl115_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Peter Meerwald <pmeerw@pmeerw.net>
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_LICENSE("GPL");
+-----------------st_pressure_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2013 STMicroelectronics Inc.
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+MODULE_LICENSE("GPL v2");
+-----------------st_pressure_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ms5637.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2015 Measurement-Specialties
+ */
+MODULE_DESCRIPTION("Measurement-Specialties ms5637 temperature & pressure driver");
+MODULE_AUTHOR("William Markezana <william.markezana@meas-spec.com>");
+MODULE_AUTHOR("Ludovic Tancerel <ludovic.tancerel@maplehightech.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_MEAS_SPEC_SENSORS);
+-----------------bmp280.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mpl3115.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Freescale MPL3115 pressure/temperature driver");
+-----------------bmp280-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2010 Christoph Mair <christoph.mair@gmail.com>
+ * Copyright (c) 2012 Bosch Sensortec GmbH
+ * Copyright (c) 2012 Unixphere AB
+ * Copyright (c) 2014 Intel Corporation
+ * Copyright (c) 2016 Linus Walleij <linus.walleij@linaro.org>
+ *
+ * Driver for Bosch Sensortec BMP180 and BMP280 digital pressure sensor.
+ *
+ * Datasheet:
+ * https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
+ * https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
+ * https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme
+-----------------mpl115.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_DESCRIPTION("Freescale MPL115 pressure/temperature driver");
+
+MODULE_LICENSE("GPL");
+-----------------st_pressure_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2013 STMicroelectronics Inc.
+-----------------rohm-bm1390.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Matti Vaittinen <mazziesaccount@gmail.com>");
+
+MODULE_DESCRIPTION("Driver for ROHM BM1390 pressure sensor");
+MODULE_LICENSE("GPL");
+-----------------mprls0025pa.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+MODULE_DESCRIPTION("Honeywell MPR pressure sensor core driver");
+MODULE_LICENSE("GPL");
+-----------------bmp280-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ms5611_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
+
+MODULE_AUTHOR("Tomasz Duszynski <tduszyns@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("MS5611 i2c driver");
+
+MODULE_IMPORT_NS(IIO_MS5611);
+-----------------mprls0025pa.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) Andreas Klinger <ak@it-klinger.de>
+-----------------sdp500.c-----------------
+GPL-2.0-only
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Thomas Sioutas <thomas.sioutas@prodrive-technologies.com>")
+MODULE_DESCRIPTION("Driver for Sensirion SDP500 differential pressure sensor")
+-----------------zpa2326_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016 Parrot S.A.
+
+MODULE_AUTHOR("Gregor Boirie <gregor.boirie@parrot.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------dps310.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright IBM Corp 2019
+-----------------ms5611_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
+
+MODULE_AUTHOR("Tomasz Duszynski <tduszyns@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("MS5611 spi driver");
+
+MODULE_IMPORT_NS(IIO_MS5611);
+-----------------mpl115_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2016 Akinobu Mita <akinobu.mita@gmail.com>
+
+MODULE_AUTHOR("Akinobu Mita <akinobu.mita@gmail.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_MPL115);
+-----------------hsc030pa_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2023 Petre Rodan <petre.rodan@subdimension.ro>
+
+MODULE_AUTHOR("Petre Rodan <petre.rodan@subdimension.ro>");
+MODULE_DESCRIPTION("Honeywell HSC and SSC pressure sensor i2c driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HONEYWELL_HSC030PA);
+-----------------mprls0025pa_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+
+MODULE_DESCRIPTION("Honeywell MPR pressure sensor i2c driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_HONEYWELL_MPRLS0025PA);
+-----------------abp060mg.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2016 - Marcin Malagowski <mrc@bourne.st>
+ */
+
+MODULE_AUTHOR("Marcin Malagowski <mrc@bourne.st>");
+MODULE_DESCRIPTION("Honeywell ABP pressure sensor driver");
+MODULE_LICENSE("GPL");
+-----------------dlhl60d.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Tomislav Denis <tomislav.denis@avl.com>");
+
+MODULE_DESCRIPTION("Driver for All Sensors DLH series pressure sensors");
+
+MODULE_LICENSE("GPL v2");

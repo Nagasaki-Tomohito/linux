@@ -1,0 +1,29 @@
+-----------------ssp_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+-----------------ssp_iio_sensor.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------ssp_dev.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Samsung Electronics");
+MODULE_DESCRIPTION("ssp sensorhub driver");
+-----------------ssp_iio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+
+MODULE_AUTHOR("Karol Wrona <k.wrona@samsung.com>");
+
+MODULE_DESCRIPTION("Samsung sensorhub commons");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_SSP_SENSORS);
+-----------------ssp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+ */

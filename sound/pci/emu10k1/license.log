@@ -1,0 +1,166 @@
+-----------------emupcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emu10k1_callback.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emu10k1_patch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2000 Takashi iwai <tiwai@suse.de>
+-----------------emu10k1_synth.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2000 Takashi Iwai <tiwai@suse.de>
+
+MODULE_LICENSE("GPL")
+-----------------tina2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+ *  Driver tina2 chips
+ */
+-----------------p16v.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+ *  Driver p16v chips
+ *  Version: 0.25
+ *
+ *  FEATURES currently supported:
+ *    Output fixed at S32_LE, 2 channel to hw:0,0
+ *    Rates: 44.1, 48, 96, 192.
+ *
+ *  Changelog:
+ *  0.8
+ *    Use separate card based buffer for periods table.
+ *  0.9
+ *    Use 2 channel output streams instead of 8 channel.
+ *       (8 channel output streams might be good for ASIO type output)
+ *    Corrected speaker output, so Front -> Front etc.
+ *  0.10
+ *    Fixed missed interrupts.
+ *  0.11
+ *    Add Sound card model number and
+-----------------p17v.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+ *  Driver p17v chips
+ */
+-----------------emu10k1_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emufx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *                   James Courtier-Dutton <James@superbug.co.uk>
+ *                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+ *                   Creative Labs, Inc.
+ *
+ *  Routines for effect processor FX8010
+ */
+-----------------p16v.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+ *  Driver p16v chips
+ *
+ *  This code was initially based on code from ALSA's emu10k1x.c which is:
+ *  Copyright (c) by Francisco Moraes <fmoraes@nc.rr.com>
+ */
+-----------------emuproc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+                   Lee Revell <rlrevell@joe-job.com>
+                   James Courtier-Dutton <James@superbug.co.uk>
+                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+                   Creative Labs, Inc.
+-----------------io.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *                   Lee Revell <rlrevell@joe-job.com>
+ *                   James Courtier-Dutton <James@superbug.co.uk>
+ *                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+ *                   Creative Labs, Inc.
+ *
+ *  Routines for control of EMU10K1 chips
+ */
+-----------------emu10k1_synth_local.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (C) 2000 Takashi Iwai <tiwai@suse.de>
+-----------------voice.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+                   Lee Revell <rlrevell@joe-job.com>
+                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+                   Creative Labs, Inc.
+-----------------emumpu401.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Routines for control of EMU10K1 MPU-401 in UART mode
+ */
+-----------------timer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Lee Revell <rlrevell@joe-job.com>
+ *                   Clemens Ladisch <clemens@ladisch.de>
+ *                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+ */
+-----------------emu10k1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  The driver for the EMU10K1 (SB Live!) based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *                   James Courtier-Dutton <James@superbug.co.uk>
+ */
+-----------------emu10k1x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Francisco Moraes <fmoraes@nc.rr.com>
+ *  Driver EMU10K1X chips
+ *
+ *  Parts of this code were adapted from audigyls.c driver which is
+ *  Copyright (c) by James Courtier-Dutton <James@superbug.demon.co.uk>
+ *
+ *  BUGS:
+ *    --
+ *
+ *  TODO:
+ *
+ *  Chips (SB0200 model):
+ *    - EMU10K1X-DBQ
+ *    - STAC 9708T
+ */
+-----------------memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emumixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>,
+ *                   Takashi Iwai <tiwai@suse.de>
+ *                   Lee Revell <rlrevell@joe-job.com>
+ *                   James Courtier-Dutton <James@superbug.co.uk>
+ *                   Oswald Buddenhagen <oswald.buddenhagen@gmx.de>
+ *                   Creative Labs, Inc.
+ *
+ *  Routines for control of EMU10K1 chips / mixer routines
+ */
+-----------------irq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *                   Creative Labs, Inc.
+ *  Routines for IRQ control of EMU10K1 chips

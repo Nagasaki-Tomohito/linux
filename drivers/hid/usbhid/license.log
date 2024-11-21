@@ -1,0 +1,42 @@
+-----------------hid-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andreas Gal");
+MODULE_AUTHOR("Vojtech Pavlik");
+MODULE_AUTHOR("Jiri Kosina");
+MODULE_DESCRIPTION(DRIVER_DESC);
+-----------------hid-pidff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hiddev.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------usbkbd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 1999-2001 Vojtech Pavlik
+ *
+ *  USB HIDBP Keyboard support
+ */
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR(DRIVER_AUTHOR);
+MODULE_DESCRIPTION(DRIVER_DESC);
+-----------------usbhid.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2001 Vojtech Pavlik
+ *  Copyright (c) 2006 Jiri Kosina
+-----------------usbmouse.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 1999-2001 Vojtech Pavlik
+ *
+ *  USB HIDBP Mouse support
+ */
+
+MODULE_LICENSE("GPL");

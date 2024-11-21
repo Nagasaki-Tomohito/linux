@@ -1,0 +1,59 @@
+-----------------XPPen__DecoMini4.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2024 José Expósito */
+-----------------Huion__Dial-2.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2024 Red Hat, Inc */
+-----------------Wacom__ArtPen.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2024 Benjamin Tissoires */
+
+char _license[] SEC("license") = "GPL";
+-----------------Huion__Inspiroy-2-S.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* Copyright (c) 2024 Red Hat, Inc */
+-----------------IOGEAR__Kaliber-MMOmentum.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2023 Benjamin Tissoires */
+
+char _license[] SEC("license") = "GPL";
+-----------------Huion__Kamvas-Pro-19.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2024 Benjamin Tissoires */
+-----------------Microsoft__Xbox-Elite-2.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2024 Benjamin Tissoires */
+-----------------hid_bpf_helpers.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2022 Benjamin Tissoires */
+-----------------XPPen__ArtistPro16Gen2.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* Copyright (c) 2023 Benjamin Tissoires */
+-----------------hid_report_helpers.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2024 Red Hat, Inc
+ */
+-----------------hid_bpf.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/* Copyright (c) 2022 Benjamin Tissoires */
+-----------------HP__Elite-Presenter.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2023 Benjamin Tissoires */
+-----------------Thrustmaster__TCA-Yoke-Boeing.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* Copyright (c) 2024 Kumar Swarnam Iyer (kumar.s.iyer65@gmail.com) */
+-----------------XPPen__Artist24.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2023 Benjamin Tissoires */
+-----------------FR-TEC__Raptor-Mach-2.bpf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* Copyright (c) 2024 Benjamin Tissoires */

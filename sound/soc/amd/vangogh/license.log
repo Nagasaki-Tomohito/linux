@@ -1,0 +1,42 @@
+-----------------pci-acp5x.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright (C) 2021, 2023 Advanced Micro Devices, Inc. All rights reserved.
+-----------------vg_chip_offset_byte.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * AMD ACP 5.x Register Documentation
+ *
+ * Copyright 2021 Advanced Micro Devices, Inc.
+ */
+-----------------acp5x-pcm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// AMD ALSA SoC PCM Driver
+//
+// Copyright (C) 2021 Advanced Micro Devices, Inc. All rights reserved.
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+MODULE_DESCRIPTION("AMD ACP 5.x PCM Driver");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------acp5x-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+
+MODULE_DESCRIPTION("AMD ACP5.x CPU DAI Driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------acp5x-mach.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+MODULE_DESCRIPTION("NAU8821/CS35L41 & NAU8821/MAX98388 audio support");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------acp5x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (C) 2021 Advanced Micro Devices, Inc. All rights reserved.

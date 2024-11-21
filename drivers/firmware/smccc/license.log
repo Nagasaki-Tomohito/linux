@@ -1,0 +1,14 @@
+-----------------kvm_guest.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------smccc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2020 Arm Limited
+ */
+-----------------soc_id.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright 2020 Arm Limited
+ */

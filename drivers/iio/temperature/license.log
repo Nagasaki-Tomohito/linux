@@ -1,0 +1,126 @@
+-----------------mlx90614.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+MODULE_AUTHOR("Vianney le Clément de Saint-Marcq <vianney.leclement@essensium.com>");
+MODULE_AUTHOR("Crt Mori <cmo@melexis.com>");
+MODULE_LICENSE("GPL");
+-----------------hid-sensor-temperature.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2"); 
+MODULE_AUTHOR("Song Hongyan <hongyan.song@intel.com>");
+-----------------max31856.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2018-2019 Rockwell Collins
+MODULE_AUTHOR("Paresh Chaudhary <paresh.chaudhary@rockwellcollins.com>");
+MODULE_AUTHOR("Patrick Havelange <patrick.havelange@essensium.com>");
+MODULE_LICENSE("GPL");
+-----------------iqs620at-temp.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+/*
+ * Azoteq IQS620AT Temperature Sensor
+ 
+ * Copyright (C) 2019 Jeff LaBundy <jeff@labundy.com>
+ */
+ 
+MODULE_AUTHOR("Jeff LaBundy <jeff@labundy.com>");
+MODULE_DESCRIPTION("Azoteq IQS620AT Temperature Sensor");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:iqs620at-temp");
+-----------------max31865.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Navin Sankar Velliangiri <navin@linumiz.com>");
+
+MODULE_DESCRIPTION("Maxim MAX31865 RTD-to-Digital Converter sensor driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------mcp9600.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Dimitri Fedrau <dima.fedrau@gmail.com>");
+MODULE_AUTHOR("Andrew Hepp <andrew.hepp@ahepp.dev>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Microchip MCP9600 thermocouple EMF converter driver");
+-----------------tsys01.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Measurement-Specialties
+
+MODULE_DESCRIPTION("Measurement-Specialties tsys01 temperature driver")
+
+MODULE_AUTHOR("William Markezana <william.markezana@meas-spec.com>")
+
+MODULE_AUTHOR("Ludovic Tancerel <ludovic.tancerel@maplehightech.com>")
+
+MODULE_LICENSE("GPL v2")
+
+MODULE_IMPORT_NS(IIO_MEAS_SPEC_SENSORS)
+-----------------tmp117.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
+
+MODULE_AUTHOR("Puranjay Mohan <puranjay12@gmail.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("TI TMP117 Temperature sensor driver");
+-----------------mlx90635.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Crt Mori <cmo@melexis.com>");
+
+MODULE_DESCRIPTION("Melexis MLX90635 contactless Infra Red temperature sensor driver");
+MODULE_LICENSE("GPL");
+-----------------ltc2983.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Nuno Sa <nuno.sa@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices LTC2983 SPI Temperature sensors");
+
+MODULE_LICENSE("GPL");
+-----------------mlx90632.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Crt Mori <cmo@melexis.com>");
+MODULE_DESCRIPTION("Melexis MLX90632 contactless Infra Red temperature sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------tsys02d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Measurement-Specialties
+
+GPL v2
+-----------------tmp007.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Manivannan Sadhasivam <manivannanece23@gmail.com>");
+
+MODULE_DESCRIPTION("TI TMP007 IR thermopile sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------max30208.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Rajat Khandelwal <rajat.khandelwal@linux.intel.com>");
+
+MODULE_DESCRIPTION("Maxim MAX30208 digital temperature sensor");
+
+MODULE_LICENSE("GPL");
+-----------------maxim_thermocouple.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("Maxim thermocouple sensors");
+MODULE_DEVICE_TABLE(spi, maxim_thermocouple_id);
+MODULE_DEVICE_TABLE(of, maxim_thermocouple_of_match);
+-----------------tmp006.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("TI TMP006 IR thermopile sensor driver");

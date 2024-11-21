@@ -1,0 +1,10 @@
+-----------------zynqmp-debug.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2014-2018 Xilinx, Inc.
+-----------------zynqmp.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------zynqmp-debug.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2014-2018 Xilinx

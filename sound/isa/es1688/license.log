@@ -1,0 +1,14 @@
+-----------------es1688.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Driver for generic ESS AudioDrive ESx688 soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_DESCRIPTION(CRD_NAME);
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("snd_es968");
+-----------------es1688_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later

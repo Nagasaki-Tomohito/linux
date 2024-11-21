@@ -1,0 +1,17 @@
+-----------------galaxy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------azt1605.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Aztech AZT1605 Driver
+ * Copyright (C) 2007,2010  Rene Herman
+ */
+-----------------azt2316.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Aztech AZT2316 Driver
+ * Copyright (C) 2007,2010  Rene Herman
+ */

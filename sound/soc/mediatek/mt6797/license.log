@@ -1,0 +1,59 @@
+-----------------mt6797-mt6351.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 MediaTek Inc.
+
+MODULE_DESCRIPTION("MT6797 MT6351 ALSA SoC machine driver")
+
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>")
+
+MODULE_LICENSE("GPL v2")
+-----------------mt6797-interconnection.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Mediatek MT6797 audio driver interconnection definition
+ *
+ * Copyright (c) 2018 MediaTek Inc.
+ * Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+ */
+-----------------mt6797-afe-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2018 MediaTek Inc.
+-----------------mt6797-dai-adda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2018 MediaTek Inc.
+// Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+-----------------mt6797-dai-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2018 MediaTek Inc.
+// Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+-----------------mt6797-afe-clk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 MediaTek Inc.
+-----------------mt6797-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt6797-reg.h  --  Mediatek 6797 audio driver reg definition
+ *
+ * Copyright (c) 2018 MediaTek Inc.
+ * Author: KaiChieh Chuang <kaichieh.chuang@mediatek.com>
+ */
+-----------------mt6797-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2018 MediaTek Inc.
+-----------------mt6797-dai-hostless.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 MediaTek Inc.
+-----------------mt6797-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Mediatek ALSA SoC AFE platform driver for 6797");
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>");
+MODULE_LICENSE("GPL v2");

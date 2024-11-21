@@ -1,0 +1,9 @@
+-----------------harmony.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Kyle McMartin <kyle@parisc-linux.org>");
+MODULE_DESCRIPTION("Harmony sound driver");
+-----------------harmony.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/* Copyright (C) 2004, Kyle McMartin <kyle@parisc-linux.org> */

@@ -1,0 +1,190 @@
+-----------------efi-init.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Extensible Firmware Interface
+ *
+ * Based on Extensible Firmware Interface Specification version 2.4
+ *
+ * Copyright (C) 2013 - 2015 Linaro Ltd.
+ */
+-----------------reboot.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2014 Intel Corporation; author Matt Fleming
+ * Copyright (c) 2014 Red Hat, Inc., Mark Salter <msalter@redhat.com>
+ */
+-----------------efibc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2013-2016, Intel Corporation.
+
+MODULE_AUTHOR("Jeremy Compostella <jeremy.compostella@intel.com>");
+
+MODULE_AUTHOR("Matt Gumbel <matthew.k.gumbel@intel.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------capsule-loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("EFI capsule firmware binary loader");
+MODULE_LICENSE("GPL v2");
+-----------------rci2-table.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2019 Dell Inc
+by Narendra K <Narendra.K@dell.com>
+-----------------cper-x86.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2018, Advanced Micro Devices, Inc.
+-----------------memmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------apple-properties.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 Lukas Wunner <lukas@wunner.de>
+-----------------embedded-firmware.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 Hans de Goede <hdegoede@redhat.com>
+
+EXPORT_SYMBOL_NS_GPL(efi_embedded_fw_list, TEST_FIRMWARE);
+EXPORT_SYMBOL_NS_GPL(efi_embedded_fw_checked, TEST_FIRMWARE);
+EXPORT_SYMBOL_GPL(efi_get_embedded_fw);
+-----------------tpm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2017 Google, Inc.
+     Thiebaud Weksteen <tweek@google.com>
+-----------------esrt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Peter Jones <pjones@redhat.com>");
+MODULE_DESCRIPTION("EFI System Resource Table support");
+MODULE_LICENSE("GPL");
+-----------------efi-pstore.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------cper-arm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * UEFI Common Platform Error Record (CPER) support
+ *
+ * Copyright (C) 2017, The Linux Foundation. All rights reserved.
+ */
+-----------------riscv-runtime.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2020 Western Digital Corporation or its affiliates.
+-----------------cper_cxl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2022 Advanced Micro Devices, Inc.
+-----------------mokvar-table.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 Red Hat
+-----------------memattr.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2016 Linaro Ltd. <ard.biesheuvel@linaro.org>
+ */
+-----------------capsule.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright 2013 Intel Corporation; author Matt Fleming
+ */
+
+EXPORT_SYMBOL_GPL(efi_capsule_supported);
+EXPORT_SYMBOL_GPL(efi_capsule_update);
+-----------------arm-runtime.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+ 
+ Copyright (C) 2013, 2014 Linaro Ltd.
+-----------------cper.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2010, Intel Corp.
+ *	Author: Huang Ying <ying.huang@intel.com>
+ *
+ * CPER is the format used to describe platform hardware error by
+ * various tables, such as ERST, BERT and HEST etc.
+ *
+ * For more information about CPER, please refer to Appendix N of UEFI
+ * Specification version 2.4.
+ */
+
+EXPORT_SYMBOL_GPL(cper_next_record_id);
+EXPORT_SYMBOL_GPL(cper_severity_str);
+EXPORT_SYMBOL_GPL(cper_mem_err_type_str);
+EXPORT_SYMBOL_GPL(cper_mem_err_status_str);
+EXPORT_SYMBOL_GPL(cper_mem_err_location);
+EXPORT_SYMBOL_GPL(cper_dimm_err_location);
+EXPORT_SYMBOL_GPL(cper_mem_err_pack);
+EXPORT_SYMBOL_GPL(cper_mem_err_unpack);
+EXPORT_SYMBOL_GPL(cper_estatus_print);
+EXPORT_SYMBOL_GPL(cper_estatus_check_header);
+
+-----------------earlycon.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2013 Intel Corporation; author Matt Fleming
+ */
+-----------------runtime-wrappers.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 Linaro Ltd. <ard.biesheuvel@linaro.org>
+
+Copyright (C) 1999 VA Linux Systems
+
+Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
+
+Copyright (C) 1999-2002 Hewlett-Packard Co.
+
+Copyright (C) 2005-2008 Intel Co.
+
+Copyright (C) 2013 SuSE Labs
+-----------------vars.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ * Copyright (C) 2001,2003,2004 Dell <Matt_Domsch@dell.com>
+ * Copyright (C) 2004 Intel Corporation <matthew.e.tolentino@intel.com>
+-----------------cper_cxl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+ Copyright (C) 2022 Advanced Micro Devices, Inc.
+-----------------unaccepted_memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------dev-path-parser.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 Lukas Wunner <lukas@wunner.de>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License (version 2) as
+published by the Free Software Foundation.
+-----------------fdtparams.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------efi-bgrt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright 2012 Intel Corporation
+ * Author: Josh Triplett <josh@joshtriplett.org>
+ *
+ * Based on the bgrt driver:
+ * Copyright 2012 Red Hat, Inc <mjg@redhat.com>
+ * Author: Matthew Garrett
+-----------------sysfb_efi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Generic System Framebuffers
+ * Copyright (c) 2012-2013 David Herrmann <dh.herrmann@gmail.com>
+ *
+ * EFI Quirks Copyright (c) 2006 Edgar Hucek <gimli@dark-green.com>
+ */
+-----------------efi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2001,2003,2004 Dell <Matt_Domsch@dell.com>
+Copyright (C) 2004 Intel Corporation <matthew.e.tolentino@intel.com>
+Copyright (C) 2013 Tom Gundersen <teg@jklm.no>

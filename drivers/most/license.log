@@ -1,0 +1,26 @@
+-----------------core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Christian Gromm <christian.gromm@microchip.com>");
+MODULE_DESCRIPTION("Core module of stacked MOST Linux driver");
+-----------------most_usb.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Christian Gromm <christian.gromm@microchip.com>");
+MODULE_DESCRIPTION("HDM_4_USB");
+-----------------configfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013-2015 Microchip Technology Germany II GmbH & Co. KG
+-----------------most_snd.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Christian Gromm <christian.gromm@microchip.com>");
+MODULE_DESCRIPTION("Sound Component Module for Mostcore");
+-----------------most_cdev.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Christian Gromm <christian.gromm@microchip.com>");
+MODULE_DESCRIPTION("character device component for mostcore");

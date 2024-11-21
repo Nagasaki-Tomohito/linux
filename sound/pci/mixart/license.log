@@ -1,0 +1,46 @@
+-----------------mixart_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2003 by Digigram <alsa@digigram.com>
+-----------------mixart_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 by Digigram <alsa@digigram.com>
+-----------------mixart_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Driver for Digigram miXart soundcards
+ *
+ * mixer callbacks
+ *
+ * Copyright (c) 2003 by Digigram <alsa@digigram.com>
+ */
+-----------------mixart_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_FIRMWARE("mixart/miXart8.xlx");
+MODULE_FIRMWARE("mixart/miXart8.elf");
+MODULE_FIRMWARE("mixart/miXart8AES.xlx");
+-----------------mixart.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Driver for Digigram miXart soundcards
+ *
+ * main header file
+ *
+ * Copyright (c) 2003 by Digigram <alsa@digigram.com>
+-----------------mixart_hwdep.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2003 by Digigram <alsa@digigram.com>
+ */
+-----------------mixart_mixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2003 by Digigram <alsa@digigram.com>
+-----------------mixart.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");

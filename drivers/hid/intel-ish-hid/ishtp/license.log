@@ -1,0 +1,53 @@
+-----------------hbm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------client.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------bus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ISHTP bus driver");
+MODULE_LICENSE("GPL");
+-----------------init.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2003-2016, Intel Corporation.
+ */
+-----------------client.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2003-2016, Intel Corporation.
+-----------------hbm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * ISHTP bus layer messages handling
+ *
+ * Copyright (c) 2003-2016, Intel Corporation.
+ */
+-----------------loader.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (c) 2024, Intel Corporation.
+ */
+-----------------loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2024, Intel Corporation.
+-----------------bus.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * ISHTP bus definitions
+ *
+ * Copyright (c) 2014-2016, Intel Corporation.
+ */
+-----------------dma-if.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2003-2016, Intel Corporation.
+-----------------ishtp-dev.h-----------------
+Copyright (c) 2003-2016, Intel Corporation.
+-----------------client-buffers.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2003-2016, Intel Corporation.

@@ -1,0 +1,80 @@
+-----------------awacs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ * code based on dmasound.c.
+-----------------pmac.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+/*
+ * Driver for PowerMac onboard soundchips
+ * Copyright (c) 2001 by Takashi Iwai <tiwai@suse.de>
+ *   based on dmasound.c.
+-----------------powermac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2001 by Takashi Iwai <tiwai@suse.de>
+   based on dmasound.c.
+
+MODULE_LICENSE("GPL");
+-----------------snd_ps3.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Audio support for PS3
+ * Copyright (C) 2007 Sony Computer Entertainment Inc.
+ * All rights reserved.
+ * Copyright 2006, 2007 Sony Corporation
+ */
+-----------------burgundy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * PMac Burgundy lowlevel functions
+ *
+ * Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ * code based on dmasound.c.
+ */
+-----------------burgundy.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Driver for PowerMac Burgundy onboard soundchips
+ * Copyright (c) 2001 by Takashi Iwai <tiwai@suse.de>
+ *   based on dmasound.c.
+-----------------tumbler_volume.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------beep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------pmac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------keywest.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+-----------------snd_ps3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------awacs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Driver for PowerMac AWACS onboard soundchips
+ * Copyright (c) 2001 by Takashi Iwai <tiwai@suse.de>
+ *   based on dmasound.c.
+ */
+-----------------tumbler.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------daca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+-----------------snd_ps3_reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2007 Sony Computer Entertainment Inc.
+ * Copyright 2006, 2007 Sony Corporation
+ * All rights reserved.
+ */

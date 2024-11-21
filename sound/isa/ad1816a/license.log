@@ -1,0 +1,11 @@
+-----------------ad1816a_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ad1816a.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2000 by Massimo Piccioni <dafastidio@libero.it>
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Massimo Piccioni <dafastidio@libero.it>");
+MODULE_DESCRIPTION("AD1816A, AD1815");

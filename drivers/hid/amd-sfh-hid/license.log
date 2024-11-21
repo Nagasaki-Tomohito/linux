@@ -1,0 +1,29 @@
+-----------------amd_sfh_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+/*
+ * Copyright (c) 2022, Advanced Micro Devices, Inc.
+ * All Rights Reserved.
+ *
+ * Author: Basavaraj Natikar <Basavaraj.Natikar@amd.com>
+ */
+-----------------amd_sfh_hid.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2020-2021 Advanced Micro Devices, Inc.
+-----------------amd_sfh_client.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2020-2021 Advanced Micro Devices, Inc.
+-----------------amd_sfh_hid.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2020-2021 Advanced Micro Devices, Inc.
+-----------------amd_sfh_pcie.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2020-2021 Advanced Micro Devices, Inc.
+-----------------amd_sfh_pcie.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("Dual BSD/GPL");

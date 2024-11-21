@@ -1,0 +1,27 @@
+-----------------iio_dummy_evgen.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("IIO dummy driver");
+MODULE_LICENSE("GPL v2")
+-----------------iio_simple_dummy_events.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2011 Jonathan Cameron
+-----------------iio_simple_dummy_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2011 Jonathan Cameron
+-----------------iio_simple_dummy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("IIO dummy driver");
+MODULE_LICENSE("GPL v2");
+-----------------iio_simple_dummy.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/**
+ * Copyright (c) 2011 Jonathan Cameron
+ *
+ * Join together the various functionality of iio_simple_dummy driver
+ */
+-----------------iio_dummy_evgen.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

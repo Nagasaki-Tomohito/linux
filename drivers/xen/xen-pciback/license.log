@@ -1,0 +1,26 @@
+-----------------pci_stub.c-----------------
+MODULE_DESCRIPTION("Xen PCI-device stub driver");
+MODULE_LICENSE("Dual BSD/GPL");
+MODULE_ALIAS("xen-backend:pci");
+-----------------passthrough.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------conf_space_capability.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------conf_space.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------xenbus.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------pciback_ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------conf_space_quirks.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------pciback.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------conf_space.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------conf_space_header.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------conf_space_quirks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------vpci.c-----------------
+// SPDX-License-Identifier: GPL-2.0

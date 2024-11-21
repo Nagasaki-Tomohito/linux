@@ -1,0 +1,10 @@
+-----------------iqs624-pos.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+Copyright (C) 2019 Jeff LaBundy <jeff@labundy.com>
+-----------------hid-sensor-custom-intel-hinge.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Sensor INTEL Hinge");
+MODULE_AUTHOR("Ye Xiang <xiang.ye@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);

@@ -1,0 +1,18 @@
+-----------------vxp_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vxpocket.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vxp_ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vxpocket.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Driver for Digigram VXpocket soundcards
+ *
+ * Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>

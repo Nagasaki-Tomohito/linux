@@ -1,0 +1,8 @@
+-----------------mpfs-auto-update.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022-2023 Microchip Corporation. All rights reserved.
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Conor Dooley <conor.dooley@microchip.com>");
+MODULE_DESCRIPTION("PolarFire SoC Auto Update FPGA reprogramming");

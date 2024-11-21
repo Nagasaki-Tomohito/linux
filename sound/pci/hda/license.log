@@ -1,0 +1,368 @@
+-----------------hda_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+ 
+Copyright (c) 2007 Takashi Iwai <tiwai@suse.de>
+-----------------patch_realtek.c-----------------
+The code snippet appears to be a part of the ALSA (Advanced Linux Sound Architecture) driver for Realtek HD-audio codecs. It defines various structures and functions for handling Realtek codecs.
+
+The `struct alc_spec` structure is used to store various parameters for the Realtek codecs, including the vendor ID, model ID, and other configuration settings.
+
+The `alc_parse_auto_config` function is used to parse the codec configuration from the BIOS.
+
+The `alc_fixup` structure is used to store various fixup functions for the Realtek codecs, including the `alc269_fixup` function.
+
+The `alc269_fixup` function is used to set up the Realtek ALC269 codec.
+
+The `alc269_parse_auto_config` function is used to parse the codec configuration from the BIOS.
+
+The `alc269_fixup_models` array stores various model-specific fixup functions for the Realtek ALC269 codec.
+
+The `alc269_fixup_tbl` array stores various vendor-specific
+-----------------hda_local.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------hda_jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+-----------------hda_generic.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2012 Takashi Iwai <tiwai@suse.de>
+-----------------cirrus_scodec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (C) 2021, 2023 Cirrus Logic, Inc. and
+//               Cirrus Logic International Semiconductor Ltd.
+
+MODULE_DESCRIPTION("HDA Cirrus side-codec library");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+EXPORT_SYMBOL_NS_GPL(cirrus_scodec_get_speaker_id, SND_HDA_CIRRUS_SCODEC);
+-----------------cs35l41_hda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("CS35L41 HDA Driver");
+MODULE_IMPORT_NS(SND_HDA_CS_DSP_CONTROLS);
+MODULE_IMPORT_NS(SND_SOC_CS_AMP_LIB);
+MODULE_AUTHOR("Lucas Tanure, Cirrus Logic Inc, <tanureal@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(FW_CS_DSP);
+-----------------cs35l41_hda_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright 2021 Cirrus Logic, Inc.
+//
+// Author: Lucas Tanure <tanureal@opensource.cirrus.com>
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lucas Tanure <tanureal@opensource.cirrus.com>");
+MODULE_DESCRIPTION("HDA CS35L41 driver");
+MODULE_IMPORT_NS(SND_HDA_SCODEC_CS35L41);
+-----------------cs35l56_hda.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only
+ *
+ * Copyright (C) 2023 Cirrus Logic, Inc. and
+ *                    Cirrus Logic International Semiconductor Ltd.
+ */
+-----------------hda_intel.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *
+ *  hda_intel.c - Implementation of primary alsa driver code base
+ *                for Intel HD Audio.
+ *
+ *  Copyright(c) 2004 Intel Corporation
+ *
+ *  Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+ *                     PeiSen Hou <pshou@realtek.com.tw>
+ *
+ *  CONTACTS:
+ *
+ *  Matt Jared		matt.jared@intel.com
+ *  Andy Kopp		andy.kopp@intel.com
+ *  Dan Kogan		dan.d.kogan@intel.com
+ *
+ *  CHANGES:
+ *
+ *  2004.12.01	Major rewrite by tiwai, merged the work of pshou
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Intel HDA driver");
+-----------------hda_bind.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * HD-audio codec driver binding
+ * Copyright (c) Takashi Iwai <tiwai@suse.de>
+ */
+
+EXPORT_SYMBOL_GPL(snd_hda_codec_set_name);
+EXPORT_SYMBOL_GPL(__hda_codec_driver_register);
+EXPORT_SYMBOL_GPL(hda_codec_driver_unregister);
+EXPORT_SYMBOL_GPL(snd_hda_codec_configure);
+-----------------cs35l41_hda_property.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright 2023 Cirrus Logic, Inc.
+ */
+-----------------cs35l41_hda_property.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2023 Cirrus Logic, Inc.
+-----------------patch_ca0132.c-----------------
+The extracted parts that are associated with software license or copyright are:
+
+```
+/*
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ *
+ * Copyright (c) 2011, Creative Technology Ltd.
+ *
+ * Based on patch_ca0110.c
+ * Copyright (c) 2008 Takashi Iwai <tiwai@suse.de>
+ */
+```
+
+This is a comment block at the top of the file, specifying the license and copyright information for the code.
+-----------------thinkpad_helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------cs35l56_hda.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("CS35L56 HDA Driver");
+MODULE_IMPORT_NS(FW_CS_DSP);
+MODULE_IMPORT_NS(SND_HDA_CIRRUS_SCODEC);
+MODULE_IMPORT_NS(SND_HDA_CS_DSP_CONTROLS);
+MODULE_IMPORT_NS(SND_SOC_CS35L56_SHARED);
+MODULE_IMPORT_NS(SND_SOC_CS_AMP_LIB);
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------hda_intel.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------hda_controller.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hp_x360_helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------hda_auto_parser.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------cs35l56_hda_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2023 Cirrus Logic, Inc. and
+                    Cirrus Logic International Semiconductor Ltd.
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>")
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>")
+-----------------patch_conexant.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Conexant HD-audio codec");
+-----------------hda_controller_trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hda_auto_parser.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2012 Takashi Iwai <tiwai@suse.de>
+-----------------cs35l41_hda_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2021 Cirrus Logic, Inc.
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lucas Tanure <tanureal@opensource.cirrus.com>");
+-----------------patch_senarytech.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Senarytech HD-audio codec");
+-----------------hda_beep.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (c) 2008 Embedded Alley Solutions Inc
+-----------------hda_component.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2021 Cirrus Logic, Inc. and
+                    Cirrus Logic International Semiconductor Ltd.
+-----------------patch_sigmatel.c-----------------
+Here are the extracted parts associated with software license or copyright:
+
+1. `// SPDX-License-Identifier: GPL-2.0-or-later`
+2. `Copyright (c) 2005 Embedded Alley Solutions, Inc.`
+3. `Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>`
+4. `MODULE_LICENSE("GPL");`
+5. `MODULE_DESCRIPTION("IDT/Sigmatel HD-audio codec");`
+-----------------hda_eld.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hda_tegra.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------patch_cmedia.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("C-Media HD-audio codec");
+-----------------patch_cs8409.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2021 Cirrus Logic, Inc. and Cirrus Logic International Semiconductor Ltd.
+-----------------cirrus_scodec_test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("KUnit test for the Cirrus side-codec library");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+-----------------cs35l56_hda_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2023 Cirrus Logic, Inc. and
+                    Cirrus Logic International Semiconductor Ltd.
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>")
+MODULE_AUTHOR("Simon Trimmer <simont@opensource.cirrus.com>")
+-----------------cirrus_scodec.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright (C) 2023 Cirrus Logic, Inc. and
+ *                    Cirrus Logic International Semiconductor Ltd.
+ */
+-----------------patch_si3054.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Si3054 HD-audio modem codec");
+-----------------patch_analog.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Analog Devices HD-audio codec");
+-----------------patch_cs8409.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Cirrus Logic HDA bridge");
+-----------------ca0132_regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * HD audio interface patch for Creative CA0132 chip.
+ * CA0132 registers defines.
+ *
+ * Copyright (c) 2011, Creative Technology Ltd.
+ */
+-----------------tas2781_hda_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("TAS2781 HDA Driver");
+MODULE_AUTHOR("Shenghao Ding, TI, <shenghao-ding@ti.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(SND_SOC_TAS2781_FMWLIB);
+-----------------patch_via.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ideapad_s740_helper.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------hda_generic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Universal Interface for Intel High Definition Audio Codec
+ *
+ * Generic widget tree parser
+ *
+ * Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+ */
+-----------------hda_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------patch_ca0110.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2008 Takashi Iwai <tiwai@suse.de>
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("Creative CA0110-IBG HD-audio codec")
+-----------------hda_component.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("HD Audio component binding library");
+MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");
+MODULE_LICENSE("GPL");
+-----------------hda_sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * sysfs interface for HD-audio codec
+ *
+ * Copyright (c) 2014 Takashi Iwai <tiwai@suse.de>
+ *
+ * split from hda_hwdep.c
+ */
+-----------------hda_controller.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------patch_hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *
+ *  patch_hdmi.c - routines for HDMI/DisplayPort codecs
+ *
+ *  Copyright(c) 2008-2010 Intel Corporation
+ *  Copyright (c) 2006 ATI Technologies Inc.
+ *  Copyright (c) 2008 NVIDIA Corp.  All rights reserved.
+ *  Copyright (c) 2008 Wei Ni <wni@nvidia.com>
+ *  Copyright (c) 2013 Anssi Hannula <anssi.hannula@iki.fi>
+ *
+ *  Authors:
+ *			Wu Fengguang <wfg@linux.intel.com>
+ *
+ *  Maintained by:
+ *			Wu Fengguang <wfg@linux.intel.com>
+ */
+
+//...
+-----------------hda_cs_dsp_ctl.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2022 Cirrus Logic, Inc.
+
+MODULE_DESCRIPTION("CS_DSP ALSA Control HDA Library");
+
+MODULE_AUTHOR("Stefan Binding, <sbinding@opensource.cirrus.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(FW_CS_DSP);
+-----------------patch_cs8409-tables.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2021 Cirrus Logic, Inc. and
+                    Cirrus Logic International Semiconductor Ltd.
+
+Author: Lucas Tanure <tanureal@opensource.cirrus.com>
+-----------------hda_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hda_cs_dsp_ctl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 
+
+ * Copyright 2022 Cirrus Logic, Inc.
+
+ * Author: Stefan Binding <sbinding@opensource.cirrus.com>
+-----------------hda_jack.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+-----------------hda_intel_trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------patch_cirrus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Cirrus Logic HD-audio codec");
+-----------------hda_beep.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2008 Embedded Alley Solutions Inc
+-----------------cs35l41_hda.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright 2021 Cirrus Logic, Inc.
+ *
+ * Author: Lucas Tanure <tanureal@opensource.cirrus.com>
+ */

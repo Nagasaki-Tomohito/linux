@@ -1,0 +1,14 @@
+-----------------ac97c.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2005-2009 Atmel Corporation
+-----------------ac97c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Driver for Atmel AC97C
+ *
+ * Copyright (C) 2005-2009 Atmel Corporation
+ */
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Driver for Atmel AC97 controller");
+MODULE_AUTHOR("Hans-Christian Egtvedt <egtvedt@samfundet.no>");

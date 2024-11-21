@@ -1,0 +1,11 @@
+-----------------imx-sm-bbm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * System Control and Management Interface (SCMI) NXP BBM Protocol
+ *
+ * Copyright 2024 NXP
+ */
+-----------------imx-sm-misc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");

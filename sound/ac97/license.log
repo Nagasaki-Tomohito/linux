@@ -1,0 +1,22 @@
+-----------------snd_ac97_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  Copyright (C) 2016 Robert Jarzmik <robert.jarzmik@free.fr>
+ */
+-----------------bus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Robert Jarzmik <robert.jarzmik@free.fr>");
+MODULE_DESCRIPTION("AC97 bus interface");
+-----------------ac97_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2016 Robert Jarzmik <robert.jarzmik@free.fr>
+-----------------codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  Copyright (C) 2016 Robert Jarzmik <robert.jarzmik@free.fr>
+ */

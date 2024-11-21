@@ -1,0 +1,63 @@
+-----------------adis16480.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Analog Devices ADIS16480 IMU driver");
+MODULE_IMPORT_NS(IIO_ADISLIB);
+-----------------fxos8700.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------fxos8700_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Robert Jones <rjones@gateworks.com>");
+-----------------kmx61.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------fxos8700_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------adis.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Common library code for ADIS16XXX devices");
+-----------------adis16400.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Manuel Stahl <manuel.stahl@iis.fraunhofer.de>");
+MODULE_DESCRIPTION("Analog Devices ADIS16400/5 IMU SPI driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_ADISLIB);
+-----------------adis16460.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * ADIS16460 IMU driver
+ *
+ * Copyright 2019 Analog Devices Inc.
+ */
+
+MODULE_AUTHOR("Dragos Bogdan <dragos.bogdan@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADIS16460 IMU driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_ADISLIB);
+-----------------adis16475.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * ADIS16475 IMU driver
+ *
+ * Copyright 2019 Analog Devices Inc.
+ */
+-----------------adis_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright 2012 Analog Devices Inc.
+ *   Author: Lars-Peter Clausen <lars@metafoo.de>
+ */
+-----------------adis_trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2012 Analog Devices Inc.
+   Author: Lars-Peter Clausen <lars@metafoo.de>
+-----------------fxos8700_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")

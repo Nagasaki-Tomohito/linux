@@ -1,0 +1,132 @@
+-----------------soc-intel-quirks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2019, Intel Corporation.
+-----------------soc-acpi-intel-cht-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2017, Intel Corporation.
+ */
+-----------------soc-acpi-intel-mtl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+EXPORT_SYMBOL_GPL(snd_soc_acpi_intel_mtl_machines);
+EXPORT_SYMBOL_GPL(snd_soc_acpi_intel_mtl_sdw_machines);
+-----------------soc-acpi-intel-jsl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) 2019-2020, Intel Corporation.
+-----------------soc-acpi-intel-kbl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2018, Intel Corporation.
+-----------------soc-acpi-intel-bxt-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2018, Intel Corporation.
+-----------------soc-acpi-intel-arl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2023 Intel Corporation.
+-----------------soc-acpi-intel-ehl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2019, Intel Corporation.
+-----------------soc-acpi-intel-skl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+/*
+ * Copyright (c) 2018, Intel Corporation.
+ */
+-----------------soc-acpi-intel-cml-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2019, Intel Corporation.
+-----------------soc-acpi-intel-glk-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2018, Intel Corporation.
+ */
+-----------------soc-acpi-intel-rpl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2022 Intel Corporation.
+-----------------soc-acpi-intel-sdw-mockup-match.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2021, Intel Corporation.
+-----------------soc-acpi-intel-adl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2020, Intel Corporation.
+-----------------soc-acpi-intel-byt-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017, Intel Corporation.
+-----------------soc-acpi-intel-icl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2018, Intel Corporation.
+-----------------soc-acpi-intel-hsw-bdw-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017, Intel Corporation.
+-----------------soc-acpi-intel-ssp-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2023 Intel Corporation
+
+MODULE_DESCRIPTION("ASoC Intel SOF Common Machine Driver Helpers");
+
+MODULE_AUTHOR("Brent Lu <brent.lu@intel.com>");
+
+MODULE_LICENSE("GPL");
+-----------------soc-acpi-intel-lnl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2023, Intel Corporation
+-----------------sst-ipc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2015, Intel Corporation
+-----------------soc-acpi-intel-ptl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2024, Intel Corporation.
+-----------------sst-ipc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 2015, Intel Corporation
+-----------------sst-dsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2013, Intel Corporation
+-----------------soc-acpi-intel-tgl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2019, Intel Corporation.
+-----------------sst-dsp-priv.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2013, Intel Corporation
+ */
+-----------------soc-acpi-intel-sdw-mockup-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2021, Intel Corporation.
+-----------------soc-acpi-intel-hda-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (c) 2018, Intel Corporation.
+-----------------soc-acpi-intel-cfl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2019, Intel Corporation.
+-----------------soc-acpi-intel-cnl-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2018, Intel Corporation.
+-----------------sst-dsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2013, Intel Corporation
+ */

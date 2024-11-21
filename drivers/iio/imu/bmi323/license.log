@@ -1,0 +1,25 @@
+-----------------bmi323_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2023, Jagath Jog J <jagathjog1996@gmail.com>
+
+MODULE_LICENSE("GPL")
+
+MODULE_AUTHOR("Jagath Jog J <jagathjog1996@gmail.com>")
+-----------------bmi323_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2023, Jagath Jog J <jagathjog1996@gmail.com>
+-----------------bmi323_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2023, Jagath Jog J <jagathjog1996@gmail.com>
+
+MODULE_DESCRIPTION("Bosch BMI323 IMU driver");
+MODULE_AUTHOR("Jagath Jog J <jagathjog1996@gmail.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_BMI323);
+-----------------bmi323.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2023, Jagath Jog J <jagathjog1996@gmail.com>

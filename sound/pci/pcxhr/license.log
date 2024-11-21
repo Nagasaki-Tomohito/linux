@@ -1,0 +1,48 @@
+-----------------pcxhr_hwdep.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcxhr_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Driver for Digigram pcxhr soundcards
+ *
+ * main header file
+ *
+ * Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr_mixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr_mix22.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcxhr_mix22.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2004 by Digigram <alsa@digigram.com>
+-----------------pcxhr_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcxhr.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Driver for Digigram pcxhr compatible soundcards
+ *
+ * main file with alsa callbacks
+ *
+ * Copyright (c) 2004 by Digigram <alsa@digigram.com>
+ */
+
+
+MODULE_LICENSE("GPL");

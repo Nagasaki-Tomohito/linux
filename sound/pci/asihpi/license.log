@@ -1,0 +1,123 @@
+-----------------hpios.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+ Copyright (C) 1997-2012  AudioScience Inc. <support@audioscience.com>
+
+(C) Copyright AudioScience Inc. 1997-2003
+-----------------hpidebug.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/************************************************************************
+
+    AudioScience HPI driver
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+-----------------hpi6000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+(C) Copyright AudioScience Inc. 1997-2011
+
+(C) Copyright AudioScience Inc. 1998-2003
+-----------------hpicmn.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+(C) Copyright AudioScience Inc. 1998-2003
+
+(C) Copyright 1997-2014  AudioScience Inc. <support@audioscience.com>
+-----------------hpipcida.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+
+(C) Copyright AudioScience Inc. 1998-2003
+-----------------hpi6000.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+(C) Copyright AudioScience Inc. 1998-2003
+-----------------hpimsgx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+
+(C) Copyright AudioScience Inc. 1997-2003
+-----------------hpi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/******************************************************************************
+
+    AudioScience HPI driver
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+
+*/
+/******************************************************************************/
+-----------------hpidebug.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+-----------------hpimsgx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>
+
+(C) Copyright AudioScience Inc. 2002
+-----------------hpicmn.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+    AudioScience HPI driver
+    Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>
+-----------------hpios.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+
+(C) Copyright AudioScience Inc. 1997-2003
+-----------------hpioctl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+-----------------hpi6205.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+(C) Copyright AudioScience Inc. 1998-2010
+-----------------asihpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  Asihpi soundcard
+ *  Copyright (c) by AudioScience Inc <support@audioscience.com>
+ *
+ *  The following is not a condition of use, merely a request:
+ *  If you modify this program, particularly if you fix errors, AudioScience Inc
+ *  would appreciate it if you grant us the right to use those modifications
+ *  for any purpose including commercial applications.
+ */
+-----------------hpimsginit.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>
+(C) Copyright AudioScience Inc. 2007
+-----------------hpifunc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------hpimsginit.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+    Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+
+    (C) Copyright AudioScience Inc. 2007
+-----------------hpi6205.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+Copyright AudioScience, Inc., 2003
+-----------------hpioctl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>
+-----------------hpi_version.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hpidspcd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
+-----------------hpi_internal.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* (C) Copyright AudioScience Inc. 1996-2009 */
+/* (C) Copyright 1997-2012  AudioScience Inc. <support@audioscience.com> */
+-----------------hpidspcd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>

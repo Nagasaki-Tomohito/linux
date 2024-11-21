@@ -1,0 +1,49 @@
+-----------------spdif_in_regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (ST) 2011 Vipin Kumar (vipin.kumar@st.com)
+-----------------spdif_out.c-----------------
+Copyright (C) 2012 ST Microelectronics
+Vipin Kumar <vipin.kumar@st.com>
+
+This file is licensed under the terms of the GNU General Public
+License version 2. This program is licensed "as is" without any
+warranty of any kind, whether express or implied.
+
+MODULE_AUTHOR("Vipin Kumar <vipin.kumar@st.com>");
+MODULE_DESCRIPTION("SPEAr SPDIF OUT SoC Interface");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:spdif_out");
+-----------------spear_pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2013, NVIDIA CORPORATION.  All rights reserved.
+-----------------spdif_in.c-----------------
+Copyright (C) 2012 ST Microelectronics
+Vipin Kumar <vipin.kumar@st.com>
+
+This file is licensed under the terms of the GNU General Public
+License version 2. This program is licensed "as is" without any
+warranty of any kind, whether express or implied.
+
+MODULE_AUTHOR("Vipin Kumar <vipin.kumar@st.com>");
+MODULE_DESCRIPTION("SPEAr SPDIF IN SoC Interface");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:spdif_in");
+-----------------spdif_out_regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (ST) 2011 Vipin Kumar (vipin.kumar@st.com)
+ */
+-----------------spear_pcm.c-----------------
+Copyright (C) 2012 ST Microelectronics
+Rajeev Kumar<rajeevkumar.linux@gmail.com>
+
+This file is licensed under the terms of the GNU General Public
+License version 2. This program is licensed "as is" without any
+warranty of any kind, whether express or implied.
+
+MODULE_AUTHOR("Rajeev Kumar <rajeevkumar.linux@gmail.com>");
+MODULE_DESCRIPTION("SPEAr PCM DMA module");
+MODULE_LICENSE("GPL");

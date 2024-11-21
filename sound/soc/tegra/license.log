@@ -1,0 +1,281 @@
+-----------------tegra30_ahub.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * tegra30_ahub.h - Definitions for Tegra30 AHUB driver
+ *
+ * Copyright (c) 2011,2012, NVIDIA CORPORATION.  All rights reserved.
+ */
+-----------------tegra210_dmic.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2020 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010,2012 - NVIDIA, Inc.
+
+Copyright (c) 2009-2010, NVIDIA Corporation.
+Scott Peterson <speterson@nvidia.com>
+Vijay Mali <vmali@nvidia.com>
+
+Copyright (C) 2010 Google, Inc.
+Iliyan Malchev <malchev@google.com>
+
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+MODULE_DESCRIPTION("Tegra PCM ASoC driver");
+MODULE_LICENSE("GPL");
+-----------------tegra_audio_graph_card.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2020-2021 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra186_dspk.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// SPDX-FileCopyrightText: Copyright (c) 2020-2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+-----------------tegra210_sfc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2021-2023 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra30_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+
+MODULE_LICENSE("GPL");
+-----------------tegra_asoc_machine.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------tegra210_peq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+-----------------tegra20_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2010,2012 - NVIDIA, Inc.
+ *
+ * Based on code copyright/by:
+ *
+ * Copyright (c) 2009-2010, NVIDIA Corporation.
+ * Scott Peterson <speterson@nvidia.com>
+ *
+ * Copyright (C) 2010 Google, Inc.
+ * Iliyan Malchev <malchev@google.com>
+ */
+-----------------tegra210_ope.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+-----------------tegra210_ahub.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2020-2022, NVIDIA CORPORATION.  All rights reserved.
+ *
+ */
+-----------------tegra20_ac97.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * tegra20_ac97.h - Definitions for the Tegra20 AC97 controller driver
+ *
+ * Copyright (c) 2012 Lucas Stach <dev@lynxeye.de>
+ *
+ * Partly based on code copyright/by:
+ *
+ * Copyright (c) 2011,2012 Toradex Inc.
+-----------------tegra210_admaif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Songhee Baek <sbaek@nvidia.com>");
+MODULE_DESCRIPTION("Tegra210 ASoC ADMAIF driver");
+MODULE_LICENSE("GPL v2");
+-----------------tegra20_spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+MODULE_DESCRIPTION("Tegra20 SPDIF ASoC driver");
+-----------------tegra186_asrc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+ */
+-----------------tegra20_ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Lucas Stach");
+MODULE_DESCRIPTION("Tegra20 AC97 ASoC driver");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:" DRV_NAME);
+MODULE_DEVICE_TABLE(of, tegra20_ac97_of_match);
+-----------------tegra186_asrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Junghyun Kim <juskim@nvidia.com>");
+MODULE_DESCRIPTION("Tegra186 ASRC ASoC driver");
+-----------------tegra210_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright (c) 2020 NVIDIA CORPORATION. All rights reserved.
+-----------------tegra210_amx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
+ */
+-----------------tegra210_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Arun Shamanna Lakshmi <aruns@nvidia.com>");
+
+MODULE_DESCRIPTION("Tegra210 MIXER ASoC driver");
+MODULE_LICENSE("GPL v2");
+-----------------tegra210_adx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Arun Shamanna Lakshmi <aruns@nvidia.com>");
+-----------------tegra210_sfc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// 
+// tegra210_sfc.c - Tegra210 SFC driver
+// 
+// Copyright (c) 2021-2023 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra210_amx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Songhee Baek <sbaek@nvidia.com>");
+MODULE_DESCRIPTION("Tegra210 AMX ASoC driver");
+MODULE_LICENSE("GPL v2");
+-----------------tegra_wm8903.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010-2012 - NVIDIA, Inc.
+
+(c) 2009, 2010 Nvidia Graphics Pvt. Ltd.
+
+Copyright 2007 Wolfson Microelectronics PLC.
+-----------------tegra210_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Songhee Baek <sbaek@nvidia.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------tegra186_dspk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2020 NVIDIA CORPORATION. All rights reserved.
+ */
+-----------------tegra_asoc_machine.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------tegra210_mbdrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+-----------------tegra210_mvc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Arun Shamanna Lakshmi <aruns@nvidia.com>");
+
+MODULE_DESCRIPTION("Tegra210 MVC ASoC driver");
+MODULE_LICENSE("GPL v2");
+-----------------tegra210_dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Rahul Mittal <rmittal@nvidia.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------tegra30_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * tegra30_i2s.h - Definitions for Tegra30 I2S driver
+ *
+ * Copyright (c) 2011,2012, NVIDIA CORPORATION.  All rights reserved.
+ */
+-----------------tegra210_peq.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+ */
+-----------------tegra210_ope.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+-----------------tegra_pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2010,2012 - NVIDIA, Inc.
+ *
+ * Copyright (c) 2009-2010, NVIDIA Corporation.
+ * Scott Peterson <speterson@nvidia.com>
+ *
+ * Copyright (C) 2010 Google, Inc.
+ * Iliyan Malchev <malchev@google.com>
+-----------------tegra210_mixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
+ *
+-----------------tegra210_mbdrc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+ */
+-----------------tegra210_adx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
+ */
+-----------------tegra20_das.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010 - NVIDIA, Inc.
+
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Tegra20 DAS driver");
+
+MODULE_ALIAS("platform:" DRV_NAME);
+
+MODULE_DEVICE_TABLE(of, tegra20_das_of_match);
+-----------------tegra_cif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2020 NVIDIA CORPORATION.  All rights reserved.
+ */
+-----------------tegra210_admaif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2020 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra210_mvc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2021 NVIDIA CORPORATION.  All rights reserved.
+-----------------tegra210_ahub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+MODULE_AUTHOR("Mohan Kumar <mkumard@nvidia.com>");
+MODULE_DESCRIPTION("Tegra210 ASoC AHUB driver");
+MODULE_LICENSE("GPL v2");
+-----------------tegra20_spdif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (C) 2011 - NVIDIA, Inc.
+ *
+ * Based on code copyright/by:
+ * Copyright (c) 2008-2009, NVIDIA Corporation
+ */
+-----------------tegra30_ahub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Stephen Warren <swarren@nvidia.com>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Tegra30 AHUB driver");
+MODULE_ALIAS("platform:" DRV_NAME);
+MODULE_DEVICE_TABLE(of, tegra30_ahub_of_match);
+-----------------tegra20_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010,2012 - NVIDIA, Inc.
+
+Copyright (c) 2009-2010, NVIDIA Corporation.
+
+Copyright (C) 2010 Google, Inc.

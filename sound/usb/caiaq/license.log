@@ -1,0 +1,27 @@
+-----------------audio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Daniel Mack <daniel@caiaq.de>");
+MODULE_DESCRIPTION("caiaq USB audio");
+MODULE_LICENSE("GPL");
+-----------------control.h-----------------
+SPDX-License-Identifier: GPL-2.0
+-----------------device.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------control.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------input.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   Copyright (c) 2006,2007 Daniel Mack
+-----------------input.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------midi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------audio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

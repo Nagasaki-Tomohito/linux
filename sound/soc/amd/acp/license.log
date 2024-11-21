@@ -1,0 +1,100 @@
+-----------------acp-pdm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Advanced Micro Devices, Inc.
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp70.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-i2s.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-rembrandt.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-sdw-sof-mach.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Vijendar Mukunda <Vijendar.Mukunda@amd.com");
+-----------------acp63.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-sof-mach.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2021, 2023 Advanced Micro Devices, Inc.
+//
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ACP SOF Machine Driver");
+-----------------acp-legacy-common.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-mach-common.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+MODULE_LICENSE("GPL v2");
+-----------------amd-sdw-acpi.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2023 Advanced Micro Devices, Inc. All rights reserved.
+//
+// MODULE_LICENSE("Dual BSD/GPL");
+MODULE_DESCRIPTION("AMD SoundWire ACPI helpers");
+-----------------acp-platform.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------amd.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2021 Advanced Micro Devices, Inc. All rights reserved.
+-----------------acp-legacy-mach.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2021 Advanced Micro Devices, Inc.
+//
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ACP chrome audio support");
+-----------------soc_amd_sdw_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only
+ *  Copyright (c) 2024 Advanced Micro Devices, Inc. All rights reserved
+ */
+-----------------acp-mach.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+/*
+ * Copyright(c) 2021 Advanced Micro Devices, Inc. All rights reserved.
+ */
+-----------------acp-renoir.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------acp-pci.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Advanced Micro Devices, Inc. All rights reserved.
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------chip_offset_byte.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+/*
+ * This file is provided under a dual BSD/GPLv2 license. When using or
+ * redistributing this file, you may do so under either license.
+ *
+ * Copyright(c) 2021 Advanced Micro Devices, Inc. All rights reserved.
+ *
+ * Author: Ajit Kumar Pandey <AjitKumar.Pandey@amd.com>
+ */
+-----------------amd-acp63-acpi-match.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2024 Advanced Micro Devices, Inc.
+
+MODULE_DESCRIPTION("AMD ACP6.3 tables and support for ACPI enumeration");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");

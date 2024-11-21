@@ -1,0 +1,145 @@
+-----------------seq_ports.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_queue.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------seq_midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   Generic MIDI synth driver for ALSA sequencer
+ *   Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+ *                         Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------seq_clientmgr.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------seq_info.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_system.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+
+EXPORT_SYMBOL_GPL(snd_seq_system_broadcast);
+-----------------seq_prioq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   ALSA sequencer Priority Queue
+ *   Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+ */
+-----------------seq_timer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+                              Jaroslav Kysela <perex@perex.cz>
+-----------------seq_memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  ALSA sequencer Memory Manager
+ *  Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+ *                        Jaroslav Kysela <perex@perex.cz>
+ *                2000 by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------seq_lock.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------seq_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   32bit -> 64bit ioctl wrapper for sequencer API
+ *   Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------seq_ump_client.c-----------------
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ALSA sequencer client for UMP rawmidi");
+-----------------seq_system.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  ALSA sequencer System Client
+ *  Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_midi_event.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1998,99 Takashi Iwai <tiwai@suse.de>,
+                        Jaroslav Kysela <perex@perex.cz>
+
+MODULE_LICENSE("GPL");
+-----------------seq_midi_emul.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------seq_virmidi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("Virtual Raw MIDI client on Sequencer");
+MODULE_LICENSE("GPL");
+-----------------seq_clientmgr.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *   ALSA sequencer Client Manager
+ *   Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_ump_convert.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------seq_prioq.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *   ALSA sequencer Priority Queue
+ *   Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_timer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  ALSA sequencer Timer
+ *  Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_ports.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------seq_ump_convert.h-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------seq_fifo.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *   ALSA sequencer FIFO
+ *   Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_fifo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+
+MODULE_AUTHOR("Frank van de Pol <fvdpol@coil.demon.nl>, Jaroslav Kysela <perex@perex.cz>")
+
+MODULE_LICENSE("GPL")
+-----------------seq_lock.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 by Takashi Iwai <tiwai@suse.de>
+-----------------seq_queue.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 1998-1999 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_memory.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  ALSA sequencer Memory Manager
+ *  Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+ */
+-----------------seq_info.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
+-----------------seq_dummy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("ALSA sequencer MIDI-through client");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("snd-seq-client-" __stringify(SNDRV_SEQ_CLIENT_DUMMY));

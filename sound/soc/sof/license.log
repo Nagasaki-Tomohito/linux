@@ -1,0 +1,235 @@
+-----------------ipc3-loader.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Intel Corporation
+-----------------nocodec.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2018 Intel Corporation
+//
+MODULE_LICENSE("Dual BSD/GPL");
+MODULE_DESCRIPTION("ASoC sof nocodec");
+MODULE_AUTHOR("Liam Girdwood");
+MODULE_ALIAS("platform:sof-nocodec");
+-----------------ipc3-priv.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2021 Intel Corporation
+-----------------stream-ipc.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2019 Intel Corporation
+-----------------ipc4-telemetry.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+/*
+ * Copyright(c) 2023 Intel Corporation
+ */
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------sof-pci-dev.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2021 Intel Corporation
+-----------------core.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------ipc4-topology.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2022 Intel Corporation
+-----------------ipc3-dtrace.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ipc4-priv.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+Copyright(c) 2022 Intel Corporation
+-----------------ipc3-control.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2021 Intel Corporation
+-----------------sof-client-ipc-flood-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2022 Intel Corporation
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("SOF IPC Flood Test Client Driver");
+MODULE_IMPORT_NS(SND_SOC_SOF_CLIENT);
+-----------------sof-client-probes-ipc3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2019-2022 Intel Corporation
+-----------------sof-client-ipc-msg-injector.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("SOF IPC Message Injector Client Driver");
+MODULE_IMPORT_NS(SND_SOC_SOF_CLIENT);
+-----------------sof-acpi-dev.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2018 Intel Corporation
+//
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------sof-audio.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2019 Intel Corporation
+-----------------sof-client.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2022 Intel Corporation
+-----------------sof-client-ipc-kernel-injector.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2023 Google Inc
+//
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("SOF IPC Kernel Injector Client Driver");
+MODULE_IMPORT_NS(SND_SOC_SOF_CLIENT);
+-----------------topology.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------sof-audio.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+Copyright(c) 2019 Intel Corporation
+-----------------compress.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright 2021 NXP
+
+// Author: Daniel Baluta <daniel.baluta@nxp.com>
+-----------------ipc4-loader.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Intel Corporation
+-----------------sof-of-dev.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+/*
+ * This file is provided under a dual BSD/GPLv2 license.  When using or
+ * redistributing this file, you may do so under either license.
+ *
+ * Copyright 2021 NXP
+ */
+-----------------ipc4-topology.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+-----------------ipc4-control.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Intel Corporation
+-----------------control.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2018 Intel Corporation
+-----------------iomem-utils.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018-2022 Intel Corporation
+-----------------ipc.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------ipc4.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2022 Intel Corporation
+-----------------sof-client-probes-ipc4.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2019-2022 Intel Corporation
+//
+-----------------ipc3.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2021 Intel Corporation
+-----------------trace.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2022 Intel Corporation
+-----------------ops.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+Copyright(c) 2018 Intel Corporation
+-----------------fw-file-profile.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2023 Intel Corporation
+-----------------sof-utils.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2022 Intel Corporation
+-----------------sof-of-dev.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright 2019 NXP
+//
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------sof-acpi-dev.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2021 Intel Corporation
+-----------------ipc4-mtrace.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2022 Intel Corporation
+-----------------sof-client-probes.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------loader.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------debug.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------sof-pci-dev.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------ipc4-telemetry.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018-2023 Intel Corporation
+-----------------sof-client-probes.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------pm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------ipc3-pcm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2021 Intel Corporation
+-----------------ops.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+Copyright(c) 2018 Intel Corporation
+-----------------sof-utils.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2018-2022 Intel Corporation
+
+MODULE_LICENSE("Dual BSD/GPL")
+-----------------ipc4-fw-reg.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2022 Intel Corporation
+-----------------sof-priv.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+-----------------sof-client.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------ipc3-topology.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// This file is provided under a dual BSD/GPLv2 license.  When using or
+// redistributing this file, you may do so under either license.
+//
+// Copyright(c) 2021 Intel Corporation
+//
+-----------------ipc4-pcm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2022 Intel Corporation

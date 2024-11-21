@@ -1,0 +1,22 @@
+-----------------xlnx_formatter_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>");
+MODULE_DESCRIPTION("ASoC driver for Xilinx audio formatter");
+-----------------xlnx_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2018 Xilinx, Inc.
+
+// Author: Praveen Vuppala <praveenv@xilinx.com>
+// Author: Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>
+-----------------xlnx_spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2018 Xilinx, Inc.
+
+MODULE_AUTHOR("Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>");
+
+MODULE_DESCRIPTION("XILINX SPDIF driver");
+
+MODULE_LICENSE("GPL v2");

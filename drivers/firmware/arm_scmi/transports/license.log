@@ -1,0 +1,26 @@
+-----------------mailbox.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Sudeep Holla <sudeep.holla@arm.com>");
+MODULE_DESCRIPTION("SCMI Mailbox Transport driver");
+MODULE_LICENSE("GPL");
+-----------------smc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Peng Fan <peng.fan@nxp.com>");
+MODULE_AUTHOR("Nikunj Kela <quic_nkela@quicinc.com>");
+
+MODULE_DESCRIPTION("SCMI SMC Transport driver");
+
+MODULE_LICENSE("GPL");
+-----------------virtio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Igor Skalkin <igor.skalkin@opensynergy.com>");
+MODULE_AUTHOR("Peter Hilber <peter.hilber@opensynergy.com>");
+MODULE_AUTHOR("Cristian Marussi <cristian.marussi@arm.com>");
+MODULE_DESCRIPTION("SCMI VirtIO Transport driver");
+-----------------optee.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Etienne Carriere <etienne.carriere@foss.st.com>");
+MODULE_DESCRIPTION("SCMI OPTEE Transport driver");

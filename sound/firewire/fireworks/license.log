@@ -1,0 +1,55 @@
+-----------------fireworks_command.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2009-2010 Clemens Ladisch
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2009-2010 Clemens Ladisch
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+
+MODULE_LICENSE("GPL");
+-----------------fireworks_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2009-2010 Clemens Ladisch
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks_stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * fireworks_stream.c - a part of driver for Fireworks based devices
+ *
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks_transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------fireworks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * fireworks.h - a part of driver for Fireworks based devices
+ *
+ * Copyright (c) 2009-2010 Clemens Ladisch
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------fireworks_midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * fireworks_midi.c - a part of driver for Fireworks based devices
+ *
+ * Copyright (c) 2009-2010 Clemens Ladisch
+ * Copyright (c) 2013-2014 Takashi Sakamoto

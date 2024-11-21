@@ -1,0 +1,49 @@
+-----------------mt8173-max98090.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2015 MediaTek Inc.
+ * Author: Koro Chen <koro.chen@mediatek.com>
+ */
+-----------------mt8173-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2015 MediaTek Inc.
+Author: Koro Chen <koro.chen@mediatek.com>
+             Sascha Hauer <s.hauer@pengutronix.de>
+             Hidalgo Huang <hidalgo.huang@mediatek.com>
+             Ir Lian <ir.lian@mediatek.com>
+-----------------mt8173-rt5650-rt5676.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * mt8173-rt5650-rt5676.c  --  MT8173 machine driver with RT5650/5676 codecs
+ *
+ * Copyright (c) 2015 MediaTek Inc.
+ * Author: Koro Chen <koro.chen@mediatek.com>
+ */
+
+MODULE_DESCRIPTION("MT8173 RT5650 and RT5676 SoC machine driver");
+MODULE_AUTHOR("Koro Chen <koro.chen@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:mtk-rt5650-rt5676");
+-----------------mt8173-rt5650.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT8173 RT5650 SoC machine driver");
+MODULE_AUTHOR("Koro Chen <koro.chen@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:mtk-rt5650");
+-----------------mt8173-rt5650-rt5514.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2016 MediaTek Inc.
+Author: Koro Chen <koro.chen@mediatek.com>
+
+MODULE_DESCRIPTION("MT8173 RT5650 and RT5514 SoC machine driver")
+MODULE_AUTHOR("Koro Chen <koro.chen@mediatek.com>")
+MODULE_LICENSE("GPL v2")
+MODULE_ALIAS("platform:mtk-rt5650-rt5514")
+-----------------mt8173-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Mediatek ALSA SoC AFE platform driver");
+MODULE_AUTHOR("Koro Chen <koro.chen@mediatek.com>");
+MODULE_LICENSE("GPL v2");

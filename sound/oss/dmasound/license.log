@@ -1,0 +1,35 @@
+-----------------dmasound_q40.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------dmasound_atari.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------dmasound.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------dmasound_core.c-----------------
+This is the extracted part associated with software license or copyright:
+
+```
+/*
+ *  This file is subject to the terms and conditions of the GNU General Public
+ *  License.  See the file COPYING in the main directory of this archive
+ *  for more details.
+ *
+ *  MODULE_LICENSE("GPL");
+ *  MODULE_DESCRIPTION("Atari/Amiga/Q40 core DMA sound driver");
+ *
+ *  Copyright (C) 1995 by Michael Schlueter & Michael Marte
+ *
+ *  Copyright (C) 1998 by Andreas Schwab
+ *
+ *  Copyright (C) 1999 by Richard Zidlicky
+ *
+ *  Copyright (C) 2000 by Geert Uytterhoeven
+ *
+ *  Copyright (C) 2001 by Iain Sandoe
+ */
+```
+-----------------dmasound_paula.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Amiga Paula DMA Sound Driver");
+MODULE_ALIAS("platform:amiga-audio");

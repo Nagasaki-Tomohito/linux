@@ -1,0 +1,128 @@
+-----------------ct20k2reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctdaio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctpcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+-----------------cttimer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------cthw20k2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctamixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ *
+-----------------ctamixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------cthw20k1.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+-----------------ctsrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctpcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ *
+ * @File	ctpcm.c
+ *
+ * @Brief
+ * This file contains the definition of the pcm device functions.
+ *
+ * @Author	Liu Chun
+ * @Date 	Apr 2 2008
+ */
+-----------------ctmixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctresource.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ct20k1reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------xfi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Creative Technology Ltd")
+MODULE_DESCRIPTION("X-Fi driver version 1.03")
+-----------------cthardware.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------cttimer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------ctvmem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+* Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+-----------------ctvmem.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------cthw20k2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctatc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------cthw20k1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctmixer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctdaio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctresource.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctatc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ctimap.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+-----------------ctsrc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------cthardware.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+ */
+-----------------ctimap.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.

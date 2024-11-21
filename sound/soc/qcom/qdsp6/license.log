@@ -1,0 +1,89 @@
+-----------------q6asm-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6afe.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6apm-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2021, Linaro Limited
+-----------------q6afe-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6apm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-lpass-clocks.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+-----------------q6routing.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6asm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-lpass-clocks.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-lpass-ports.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+MODULE_DESCRIPTION("ASoC MSM QDSP6 helper functions")
+MODULE_LICENSE("GPL v2")
+-----------------topology.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+-----------------q6adm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------audioreach.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-errno.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6afe.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6routing.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6prm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------q6dsp-lpass-ports.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+-----------------q6afe-clocks.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+-----------------q6asm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------q6prm-clocks.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2021, Linaro Limited
+-----------------q6prm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2021, Linaro Limited
+-----------------q6apm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Audio Process Manager");
+-----------------q6adm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, Linaro Limited
+-----------------audioreach.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+-----------------q6apm-lpass-dais.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2021, Linaro Limited

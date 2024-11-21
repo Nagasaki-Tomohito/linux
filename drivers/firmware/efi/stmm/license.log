@@ -1,0 +1,16 @@
+-----------------tee_stmm_efi.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ilias Apalodimas <ilias.apalodimas@linaro.org>");
+MODULE_AUTHOR("Masahisa Kojima <masahisa.kojima@linaro.org>");
+MODULE_DESCRIPTION("TEE based EFI runtime variable service driver");
+-----------------mm_communication.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ *  Headers for EFI variable service via StandAloneMM, EDK2 application running
+ *  in OP-TEE. Most of the structs and defines resemble the EDK2 naming.
+ *
+ *  Copyright (c) 2017, Intel Corporation. All rights reserved.
+ *  Copyright (C) 2020 Linaro Ltd.

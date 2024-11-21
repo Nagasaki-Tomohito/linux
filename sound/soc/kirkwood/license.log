@@ -1,0 +1,28 @@
+-----------------kirkwood-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Arnaud Patard, <arnaud.patard@rtp-net.org>");
+
+MODULE_DESCRIPTION("Kirkwood I2S SoC Interface");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:mvebu-audio");
+-----------------armada-370-db.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) 2014 Marvell
+ *
+ * Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
+ */
+
+MODULE_AUTHOR("Thomas Petazzoni <thomas.petazzoni@free-electrons.com>");
+MODULE_DESCRIPTION("ALSA SoC a370db audio client");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:a370db-audio");
+-----------------kirkwood.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+(c) 2010 Arnaud Patard <apatard@mandriva.com>
+-----------------kirkwood-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later

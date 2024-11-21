@@ -1,0 +1,19 @@
+-----------------imx8m.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------imx8ulp.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------imx-common.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+-----------------imx-common.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright 2020 NXP
+//
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------imx8.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+MODULE_LICENSE("Dual BSD/GPL");

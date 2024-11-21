@@ -1,0 +1,18 @@
+-----------------ymfpci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Definitions for Yahama YMF724/740/744/754 chips
+ */
+-----------------ymfpci_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ymfpci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  The driver for the Yamaha's DS1/DS1E cards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_LICENSE("GPL");

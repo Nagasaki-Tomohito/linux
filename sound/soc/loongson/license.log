@@ -1,0 +1,31 @@
+-----------------loongson_i2s_pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2023 Loongson Technology Corporation Limited
+// Author: Yingkun Meng <mengyingkun@loongson.cn>
+-----------------loongson_card.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Loongson ASoc Sound Card driver");
+MODULE_AUTHOR("Loongson Technology Corporation Limited");
+MODULE_LICENSE("GPL");
+-----------------loongson_dma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+Copyright (C) 2023 Loongson Technology Corporation Limited
+-----------------loongson_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2023 Loongson Technology Corporation Limited.
+Author: Yingkun Meng <mengyingkun@loongson.cn>
+-----------------loongson_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * ALSA I2S interface for the Loongson platform
+ *
+ * Copyright (C) 2023 Loongson Technology Corporation Limited
+ * Author: Yingkun Meng <mengyingkun@loongson.cn>
+ */
+-----------------loongson_dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2023 Loongson Technology Corporation Limited

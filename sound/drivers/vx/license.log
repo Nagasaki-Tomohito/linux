@@ -1,0 +1,29 @@
+-----------------vx_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------vx_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vx_uer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vx_cmd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vx_cmd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vx_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("Common routines for Digigram VX drivers");
+-----------------vx_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>

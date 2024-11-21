@@ -1,0 +1,5 @@
+-----------------mca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Martin Povišer <povik+lin@cutebit.org>");
+MODULE_DESCRIPTION("ASoC Apple MCA driver");
+MODULE_LICENSE("GPL");

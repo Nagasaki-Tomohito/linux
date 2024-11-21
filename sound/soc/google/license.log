@@ -1,0 +1,6 @@
+-----------------chv3-i2s.c-----------------
+MODULE_AUTHOR("Pawel Anikiel <pan@semihalf.com>");
+
+MODULE_DESCRIPTION("Chameleon v3 I2S interface");
+
+MODULE_LICENSE("GPL");

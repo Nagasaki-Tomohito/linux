@@ -1,0 +1,678 @@
+-----------------sdhci-of-ma35d1.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_DESCRIPTION("SDHCI platform driver for Nuvoton MA35");
+MODULE_AUTHOR("Shan-Chun Hung <shanchun1218@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------dw_mmc-k3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2013 Linaro Ltd.
+ * Copyright (c) 2013 HiSilicon Limited.
+ */
+
+MODULE_DESCRIPTION("K3 Specific DW-MSHC Driver Extension");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:dwmmc_k3");
+-----------------dw_mmc-exynos.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2012-2014 Samsung Electronics Co., Ltd.
+-----------------cavium-octeon.c-----------------
+This file is subject to the terms and conditions of the GNU General Public
+License.  See the file "COPYING" in the main directory of this archive
+for more details.
+
+Copyright (C) 2012-2017 Cavium Inc.
+
+MODULE_AUTHOR("Cavium Inc. <support@cavium.com>");
+
+MODULE_LICENSE("GPL");
+-----------------wbsd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  linux/drivers/mmc/host/wbsd.h - Winbond W83L51xD SD/MMC driver
+ *
+ *  Copyright (C) 2004-2007 Pierre Ossman, All Rights Reserved.
+-----------------litex_mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("LiteX SDCard driver");
+MODULE_AUTHOR("Antmicro <contact@antmicro.com>");
+MODULE_AUTHOR("Kamil Rakoczy <krakoczy@antmicro.com>");
+MODULE_AUTHOR("Maciej Dudek <mdudek@internships.antmicro.com>");
+MODULE_AUTHOR("Paul Mackerras <paulus@ozlabs.org>");
+MODULE_AUTHOR("Gabriel Somlo <gsomlo@gmail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-of-sparx5.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL v2")
+-----------------meson-mx-sdhc-mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_DESCRIPTION("Meson6, Meson8, Meson8b and Meson8m2 SDHC Host Driver");
+MODULE_AUTHOR("Martin Blumenstingl <martin.blumenstingl@googlemail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sunplus-mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Tony Huang <tonyhuang.sunplus@gmail.com>");
+MODULE_AUTHOR("Li-hao Kuo <lhjeff911@gmail.com>");
+MODULE_DESCRIPTION("Sunplus MMC controller driver");
+MODULE_LICENSE("GPL");
+-----------------mmc_hsq.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MMC Host Software Queue support");
+MODULE_LICENSE("GPL v2");
+-----------------rtsx_usb_sdmmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Roger Tseng <rogerable@realtek.com>");
+MODULE_DESCRIPTION("Realtek USB SD/MMC Card Host Driver");
+-----------------toshsd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2014 Ondrej Zary
+
+Copyright (C) 2007 Richard Betts, All Rights Reserved.
+
+Based on asic3_mmc.c Copyright (c) 2005 SDG Systems, LLC
+-----------------meson-gx-mmc.c-----------------
+MODULE_DESCRIPTION("Amlogic S905*/GX*/AXG SD/eMMC driver");
+MODULE_AUTHOR("Kevin Hilman <khilman@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mvsdio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Maen Suleiman, Nicolas Pitre");
+
+MODULE_DESCRIPTION("Marvell MMC,SD,SDIO Host Controller driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:mvsdio");
+-----------------dw_mmc-hi3798mv200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2024 Yang Xiwen <forbidden405@outlook.com>
+Copyright (c) 2018 HiSilicon Technologies Co., Ltd.
+
+MODULE_DESCRIPTION("HiSilicon Hi3798MV200 Specific DW-MSHC Driver Extension");
+MODULE_LICENSE("GPL");
+-----------------atmel-mci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Atmel MultiMedia Card Interface driver
+ *
+ * Copyright (C) 2004-2008 Atmel Corporation
+ */
+-----------------sdhci-iproc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (C) 2014 Broadcom Corporation
+-----------------mxs-mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("FREESCALE MXS MMC peripheral");
+MODULE_AUTHOR("Freescale Semiconductor");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRIVER_NAME);
+-----------------cavium.c-----------------
+This file is subject to the terms and conditions of the GNU General Public License.  See the file "COPYING" in the main directory of this archive for more details.
+
+Copyright (C) 2012-2017 Cavium Inc.
+-----------------mmci_stm32_sdmmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------meson-mx-sdhc-clkc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ * Amlogic Meson SDHC clock controller
+ *
+ * Copyright (C) 2020 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+ */
+-----------------meson-mx-sdio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Meson6, Meson8 and Meson8b SDIO/MMC Host Driver");
+MODULE_AUTHOR("Carlo Caione <carlo@endlessm.com>");
+MODULE_AUTHOR("Martin Blumenstingl <martin.blumenstingl@googlemail.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mtk-sd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sdhci-msm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+-----------------sdhci-pic32.c-----------------
+Copyright (C) 2015 Microchip
+Andrei Pistirica, Paul Thacker
+
+This file is licensed under the terms of the GNU General Public
+License version 2. This program is licensed "as is" without any
+warranty of any kind, whether express or implied.
+
+MODULE_DESCRIPTION("Microchip PIC32 SDHCI driver");
+MODULE_AUTHOR("Pistirica Sorin Andrei & Sandeep Sheriker");
+MODULE_LICENSE("GPL v2");
+-----------------bcm2835.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------renesas_sdhi_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Renesas SDHI core driver");
+MODULE_LICENSE("GPL v2");
+-----------------ushc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("USB SD Host Controller driver");
+MODULE_AUTHOR("David Vrabel <david.vrabel@csr.com>");
+MODULE_LICENSE("GPL");
+-----------------cqhci-crypto.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * CQHCI crypto engine (inline encryption) support
+ *
+ * Copyright 2020 Google LLC
+ */
+-----------------mmc_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Mike Lavender, David Brownell, Hans-Peter Nilsson, Jan Nikitenko");
+MODULE_DESCRIPTION("SPI SD/MMC host driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("spi:mmc_spi");
+-----------------sdhci_am654.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Driver for SDHCI Controller on TI's AM654 devices");
+MODULE_AUTHOR("Faiz Abbas <faiz_abbas@ti.com>");
+MODULE_LICENSE("GPL");
+-----------------sdhci-of-aspeed.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/* Copyright (C) 2019 ASPEED Technology Inc. */
+/* Copyright (C) 2019 IBM Corp. */
+-----------------cb710-mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michał Mirosław <mirq-linux@rere.qmqm.pl>");
+
+MODULE_DESCRIPTION("ENE CB710 memory card reader driver - MMC/SD part");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:cb710-mmc");
+-----------------sdhci-esdhc-imx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------sdhci-pxav3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2")
+-----------------sdhci-of-at91.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("SDHCI driver for at91");
+MODULE_AUTHOR("Ludovic Desroches <ludovic.desroches@atmel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------dw_mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("DW Multimedia Card Interface driver");
+MODULE_AUTHOR("NXP Semiconductor VietNam");
+MODULE_AUTHOR("Imagination Technologies Ltd");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci_f_sdh30.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (C) 2013 - 2015 Fujitsu Semiconductor, Ltd
+ *              Vincent Yang <vincent.yang@tw.fujitsu.com>
+ * Copyright (C) 2015 Linaro Ltd  Andy Green <andy.green@linaro.org>
+ * Copyright (C) 2019 Socionext Inc.
+ */
+-----------------sunxi-mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("David Lanzendörfer <david.lanzendoerfer@o2s.ch>");
+-----------------dw_mmc-rockchip.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Addy Ke <addy.ke@rock-chips.com>");
+
+MODULE_DESCRIPTION("Rockchip Specific DW-MSHC Driver Extension");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:dwmmc_rockchip");
+-----------------dw_mmc-pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2012 Vayavya Labs Pvt. Ltd.
+
+MODULE_DESCRIPTION("DW Multimedia Card PCI Interface driver");
+
+MODULE_AUTHOR("Shashidhar Hiremath <shashidharh@vayavyalabs.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-bcm-kona.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (C) 2013 Broadcom Corporation
+-----------------mmci_qcom_dml.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *
+ * Copyright (c) 2011, The Linux Foundation. All rights reserved.
+ */
+-----------------sdhci-acpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------of_mmc_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) MontaVista Software, Inc. 2008.
+-----------------sdhci-sprd.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------tmio_mmc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Driver for the MMC / SD / SDIO cell found in:
+ *
+ * TC6393XB TC6391XB TC6387XB T7L66XB ASIC3
+ *
+ * Copyright (C) 2015-19 Renesas Electronics Corporation
+ * Copyright (C) 2016-19 Sang Engineering, Wolfram Sang
+ * Copyright (C) 2016-17 Horms Solutions, Simon Horman
+ * Copyright (C) 2007 Ian Molton
+ * Copyright (C) 2004 Ian Molton
+ */
+-----------------omap.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("OMAP Multimedia Card driver");
+MODULE_AUTHOR("Juha Yrjölä");
+-----------------mmc_hsq.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------sdhci_f_sdh30.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2013 - 2015 Fujitsu Semiconductor, Ltd
+              Vincent Yang <vincent.yang@tw.fujitsu.com>
+Copyright (C) 2015 Linaro Ltd  Andy Green <andy.green@linaro.org>
+Copyright (C) 2019 Socionext Inc.
+-----------------wbsd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------alcor.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Oleksij Rempel <linux@rempel-privat.de>");
+MODULE_DESCRIPTION("PCI driver for Alcor Micro AU6601 Secure Digital Host Controller Interface");
+MODULE_LICENSE("GPL");
+-----------------rtsx_pci_sdmmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Wei WANG <wei_wang@realsil.com.cn>");
+MODULE_DESCRIPTION("Realtek PCI-E SD/MMC Card Host Driver");
+-----------------omap_hsmmc.c-----------------
+Copyright (C) 2007 Texas Instruments.
+Authors:
+	Syed Mohammed Khasim	<x0khasim@ti.com>
+	Madhusudhan		<madhu.cr@ti.com>
+	Mohit Jalori		<mjalori@ti.com>
+This file is licensed under the terms of the GNU General Public License
+version 2. This program is licensed "as is" without any warranty of any
+kind, whether express or implied.
+-----------------sdhci-npcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * NPCM SDHC MMC host controller driver.
+ *
+ * Copyright (c) 2023 Nuvoton Technology corporation.
+ */
+
+MODULE_DESCRIPTION("NPCM Secure Digital Host Controller Interface driver");
+MODULE_AUTHOR("Tomer Maimon <tomer.maimon@nuvoton.com>");
+MODULE_LICENSE("GPL");
+-----------------renesas_sdhi_sys_dmac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016-19 Renesas Electronics Corporation
+Copyright (C) 2016-19 Sang Engineering, Wolfram Sang
+Copyright (C) 2017 Horms Solutions, Simon Horman
+Copyright (C) 2010-2011 Guennadi Liakhovetski
+
+MODULE_DESCRIPTION("Renesas SDHI driver")
+MODULE_AUTHOR("Magnus Damm")
+MODULE_LICENSE("GPL v2")
+MODULE_ALIAS("platform:sh_mobile_sdhi")
+-----------------sdhci-omap.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("SDHCI driver for OMAP SoCs");
+MODULE_AUTHOR("Texas Instruments Inc.");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:sdhci_omap");
+-----------------mmci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ARM PrimeCell PL180/181 Multimedia Card Interface driver");
+MODULE_LICENSE("GPL");
+-----------------dw_mmc-pltfm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (C) 2012, Samsung Electronics Co., Ltd.
+-----------------davinci_mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Texas Instruments India");
+MODULE_DESCRIPTION("MMC/SD driver for Davinci MMC controller");
+MODULE_ALIAS("platform:davinci_mmc");
+-----------------renesas_sdhi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Renesas Mobile SDHI
+ *
+ * Copyright (C) 2017 Horms Solutions Ltd., Simon Horman
+ * Copyright (C) 2017-19 Renesas Electronics Corporation
+-----------------sdhci-cadence.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Masahiro Yamada <yamada.masahiro@socionext.com>");
+MODULE_DESCRIPTION("Cadence SD/SDIO/eMMC Host Controller Driver");
+-----------------sdhci-cqhci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2022 The Chromium OS Authors
+-----------------sdhci-brcmstb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("SDHCI driver for Broadcom BRCMSTB SoCs");
+MODULE_AUTHOR("Broadcom");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-of-dwcmshc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Driver for Synopsys DesignWare Cores Mobile Storage Host Controller
+ *
+ * Copyright (C) 2018 Synaptics Incorporated
+ *
+ * Author: Jisheng Zhang <jszhang@kernel.org>
+ */
+-----------------uniphier-sd.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Masahiro Yamada <yamada.masahiro@socionext.com>");
+
+MODULE_DESCRIPTION("UniPhier SD/eMMC host controller driver");
+MODULE_LICENSE("GPL v2");
+-----------------pxamci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cavium.h-----------------
+This file is subject to the terms and conditions of the GNU General Public License.  See the file "COPYING" in the main directory of this archive for more details.
+
+Copyright (C) 2012-2017 Cavium Inc.
+-----------------dw_mmc-pltfm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2009 NXP Semiconductors
+Copyright (C) 2009, 2010 Imagination Technologies Ltd.
+
+MODULE_DESCRIPTION("DW Multimedia Card Interface driver");
+MODULE_AUTHOR("NXP Semiconductor VietNam");
+MODULE_AUTHOR("Imagination Technologies Ltd");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-pci-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2005-2008 Pierre Ossman, All Rights Reserved.
+
+Thanks to the following companies for their support:
+
+     - JMicron (hardware and technical support)
+
+... 
+
+/* Define Host controllers for Intel Merrifield platform */
+#define INTEL_MRFLD_EMMC_0	0
+#define INTEL_MRFLD_EMMC_1	1
+#define INTEL_MRFLD_SD		2
+#define INTEL_MRFLD_SDIO	3
+
+... 
+
+static const guid_t intel_dsm_guid =
+	GUID_INIT(0xF6C13EA5, 0x65CD, 0x461F,
+		  0xAB, 0x7A, 0x29, 0xF7, 0xE8, 0xD5, 0xBD, 0x61);
+
+... 
+
+static const struct sdhci_pci_fixes sd
+-----------------sh_mmcif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("SuperH on-chip MMC/eMMC interface driver");
+MODULE_AUTHOR("Yusuke Goda <yusuke.goda.sx@renesas.com>");
+MODULE_ALIAS("platform:" DRIVER_NAME);
+-----------------sdhci-of-arasan.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Arasan Secure Digital Host Controller Interface.
+ * Copyright (C) 2011 - 2012 Michal Simek <monstr@monstr.eu>
+ * Copyright (c) 2012 Wind River Systems, Inc.
+ * Copyright (C) 2013 Pengutronix e.K.
+ * Copyright (C) 2013 Xilinx Inc.
+ *
+ * Based on sdhci-of-esdhc.c
+ *
+ * Copyright (c) 2007 Freescale Semiconductor, Inc.
+ * Copyright (c) 2009 MontaVista Software, Inc.
+ *
+ * Authors: Xiaobo Xie <X.Xie@freescale.com>
+ *	    Anton Vorontsov <avorontsov@ru.mvista.com>
+ */
+-----------------sdhci-pci-o2micro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------cqhci-crypto.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright 2020 Google LLC
+-----------------dw_mmc-exynos.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Samsung Specific DW-MSHC Driver Extension");
+
+MODULE_AUTHOR("Thomas Abraham <thomas.ab@samsung.com");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:dwmmc_exynos");
+-----------------jz4740_mmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("JZ4740 SD/MMC controller driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+-----------------sdhci-tegra.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("SDHCI driver for Tegra");
+MODULE_AUTHOR("Google, Inc.");
+MODULE_LICENSE("GPL v2");
+-----------------toshsd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Ondrej Zary, Richard Betts");
+MODULE_DESCRIPTION("Toshiba PCI Secure Digital Host Controller Interface driver");
+MODULE_LICENSE("GPL");
+-----------------sdhci-pci-gli.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * Copyright (C) 2019 Genesys Logic, Inc.
+ *
+ * Authors: Ben Chuang <ben.chuang@genesyslogic.com.tw>
+ *
+ * Version: v0.9.0 (2019-08-08)
+ */
+-----------------renesas_sdhi_internal_dmac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Renesas SDHI driver for internal DMAC");
+MODULE_AUTHOR("Yoshihiro Shimoda");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-milbeaut.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2013 - 2015 Fujitsu Semiconductor, Ltd
+ *              Vincent Yang <vincent.yang@tw.fujitsu.com>
+ * Copyright (C) 2015 Linaro Ltd  Andy Green <andy.green@linaro.org>
+ * Copyright (C) 2019 Socionext Inc.
+ *              Takao Orito <orito.takao@socionext.com>
+ */
+-----------------sdhci-dove.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------sdhci-spear.c-----------------
+Copyright (C) 2010 ST Microelectronics
+Viresh Kumar <vireshk@kernel.org>
+
+This file is licensed under the terms of the GNU General Public License version 2. This program is licensed "as is" without any warranty of any kind, whether express or implied.
+-----------------sdhci-of-esdhc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("SDHCI OF driver for Freescale MPC eSDHC");
+MODULE_AUTHOR("Xiaobo Xie <X.Xie@freescale.com>, "
+	      "Anton Vorontsov <avorontsov@ru.mvista.com>");
+MODULE_LICENSE("GPL v2");
+-----------------cqhci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2015, The Linux Foundation. All rights reserved. */
+-----------------cqhci-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Venkat Gopalakrishnan <venkatg@codeaurora.org>");
+
+MODULE_DESCRIPTION("Command Queue Host Controller Interface driver");
+MODULE_LICENSE("GPL v2");
+-----------------dw_mmc-bluefield.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2018 Mellanox Technologies.
+ */
+
+MODULE_DESCRIPTION("BlueField DW Multimedia Card driver");
+MODULE_AUTHOR("Mellanox Technologies");
+MODULE_LICENSE("GPL v2");
+-----------------moxart-mmc.c-----------------
+Copyright (C) 2014 Jonas Jensen
+
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-xenon-phy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sdhci-s3c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("Samsung SDHCI (HSMMC) glue");
+MODULE_AUTHOR("Ben Dooks, <ben@simtec.co.uk>");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-esdhc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) 2007 Freescale Semiconductor, Inc.
+Copyright (c) 2009 MontaVista Software, Inc.
+Copyright (c) 2010 Pengutronix e.K.
+Copyright 2020 NXP
+-----------------sdhci-pltfm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright 2010 MontaVista Software, LLC.
+ *
+ * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
+ */
+-----------------sdhci-pci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------sdhci-of-hlwd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2009 The GameCube Linux Team
+Copyright (C) 2009 Albert Herranz
+
+Copyright (c) 2007 Freescale Semiconductor, Inc.
+Copyright (c) 2009 MontaVista Software, Inc.
+
+MODULE_DESCRIPTION("Nintendo Wii SDHCI OF driver");
+MODULE_AUTHOR("The GameCube Linux Team, Albert Herranz");
+MODULE_LICENSE("GPL v2")
+-----------------sdhci-pxav2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("SDHCI driver for pxav2");
+MODULE_AUTHOR("Marvell International Ltd.");
+MODULE_LICENSE("GPL v2");
+-----------------via-sdmmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("VIA Technologies Inc.");
+MODULE_DESCRIPTION("VIA SD/MMC Card Interface driver");
+-----------------mmci.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+-----------------sdricoh_cs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Sascha Sommer <saschasommer@freenet.de>");
+MODULE_DESCRIPTION("Ricoh PCMCIA Secure Digital Interface driver");
+MODULE_PARM_DESC(switchlocked, "Switch the cards locked status."
+		"Use this when unlocked cards are shown readonly (default 0)");
+-----------------sdhci-esdhc-mcf.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("SDHCI driver for Freescale ColdFire eSDHC");
+MODULE_AUTHOR("Angelo Dureghello <angelo.dureghello@timesys.com>");
+MODULE_LICENSE("GPL v2");
+-----------------tifm_sd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------tmio_mmc_core.c-----------------
+Fail
+-----------------sdhci-pci-arasan.c-----------------
+Fail
+-----------------sdhci.c-----------------
+Fail
+-----------------cb710-mmc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright by Michał Mirosław, 2008-2009
+-----------------dw_mmc-starfive.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022 StarFive Technology Co., Ltd.
+
+MODULE_DESCRIPTION("StarFive JH7110 Specific DW-MSHC Driver Extension");
+
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:dwmmc_starfive");
+-----------------sdhci-xenon.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("SDHCI platform driver for Marvell Xenon SDHC");
+MODULE_AUTHOR("Hu Ziji <huziji@marvell.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sdhci-pltfm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("SDHCI platform and OF driver helper");
+MODULE_AUTHOR("Intel Corporation");
+MODULE_LICENSE("GPL v2");
+-----------------vub300.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Tony Olech <tony.olech@elandigitalsystems.com>");
+MODULE_DESCRIPTION("VUB300 USB to SD/MMC/SDIO adapter driver");
+-----------------dw_mmc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2009 NXP Semiconductors
+Copyright (C) 2009, 2010 Imagination Technologies Ltd.
+-----------------meson-mx-sdhc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * Copyright (C) 2020 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+ */
+-----------------mvsdio.h-----------------

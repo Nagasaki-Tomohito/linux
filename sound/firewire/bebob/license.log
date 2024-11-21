@@ -1,0 +1,58 @@
+-----------------bebob_terratec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------bebob_focusrite.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------bebob_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------bebob.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * bebob.h - a part of driver for BeBoB based devices
+ *
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------bebob_midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------bebob_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * bebob_pcm.c - a part of driver for BeBoB based devices
+ *
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------bebob_command.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * bebob_command.c - driver for BeBoB based devices
+ *
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------bebob_stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------bebob.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * bebob.c - a part of driver for BeBoB based devices
+ *
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------bebob_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2013-2014 Takashi Sakamoto
+ */
+-----------------bebob_yamaha_terratec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013-2014 Takashi Sakamoto
+-----------------bebob_maudio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only

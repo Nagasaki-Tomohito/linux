@@ -1,0 +1,47 @@
+-----------------tascam-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Takashi Sakamoto
+-----------------tascam.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * tascam.h - a part of driver for TASCAM FireWire series
+ *
+ * Copyright (c) 2015 Takashi Sakamoto
+ */
+-----------------tascam-proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Takashi Sakamoto
+-----------------tascam-transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * tascam-transaction.c - a part of driver for TASCAM FireWire series
+ *
+ * Copyright (c) 2015 Takashi Sakamoto
+ */
+-----------------tascam-hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2015 Takashi Sakamoto
+ */
+-----------------tascam-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Takashi Sakamoto
+-----------------tascam.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2015 Takashi Sakamoto
+ */
+
+MODULE_LICENSE("GPL");
+-----------------tascam-midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Takashi Sakamoto
+-----------------amdtp-tascam.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 Takashi Sakamoto

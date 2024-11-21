@@ -1,0 +1,113 @@
+-----------------sdw.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+-----------------lpass-lpaif-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+ */
+-----------------lpass-hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("QTi LPASS HDMI Driver");
+-----------------lpass-cpu.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("QTi LPASS CPU Driver");
+MODULE_LICENSE("GPL");
+-----------------sc7180.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------x1e80100.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2023, Linaro Limited
+-----------------sdm845.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+-----------------sc8280xp.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2022, Linaro Limited
+-----------------sm8250.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2020, Linaro Limited
+
+MODULE_AUTHOR("Srinivas Kandagatla <srinivas.kandagatla@linaro.org")
+MODULE_DESCRIPTION("SM8250 ASoC Machine Driver")
+MODULE_LICENSE("GPL")
+-----------------common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL")
+-----------------lpass.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2010-2011,2013-2015,2020 The Linux Foundation. All rights reserved.
+ *
+-----------------lpass-sc7180.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------lpass-ipq806x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+ */
+-----------------common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+-----------------storm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+ */
+
+MODULE_DESCRIPTION("QTi IPQ806x-based Storm Machine Driver");
+MODULE_LICENSE("GPL");
+-----------------apq8096.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2018, Linaro Limited
+MODULE_AUTHOR("Srinivas Kandagatla <srinivas.kandagatla@linaro.org>")
+MODULE_DESCRIPTION("APQ8096 ASoC Machine Driver")
+MODULE_LICENSE("GPL")
+-----------------lpass-apq8016.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("APQ8016 LPASS CPU Driver");
+-----------------lpass-sc7280.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------sdw.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2018-2023, Linaro Limited.
+// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Qualcomm ASoC SoundWire helper functions");
+-----------------lpass-platform.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------sc7280.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------lpass-cdc-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------lpass-hdmi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (c) 2020 The Linux Foundation. All rights reserved.
+ */
+-----------------apq8016_sbc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Srinivas Kandagatla <srinivas.kandagatla@linaro.org>");
+MODULE_DESCRIPTION("APQ8016 ASoC Machine Driver");

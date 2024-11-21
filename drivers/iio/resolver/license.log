@@ -1,0 +1,31 @@
+-----------------ad2s1200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * ad2s1200.c simple support for the ADI Resolver to Digital Converters:
+ * AD2S1200/1205
+ *
+ * Copyright (c) 2018-2018 David Veenstra <davidjulianveenstra@gmail.com>
+ * Copyright (c) 2010-2010 Analog Devices Inc.
+ */
+
+MODULE_AUTHOR("David Veenstra <davidjulianveenstra@gmail.com>");
+MODULE_AUTHOR("Graff Yang <graff.yang@gmail.com>");
+MODULE_DESCRIPTION("Analog Devices AD2S1200/1205 Resolver to Digital SPI driver");
+MODULE_LICENSE("GPL v2");
+-----------------ad2s90.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2010-2010 Analog Devices Inc.
+
+MODULE_AUTHOR("Graff Yang <graff.yang@gmail.com>");
+
+MODULE_DESCRIPTION("Analog Devices AD2S90 Resolver to Digital SPI driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ad2s1210.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Graff Yang <graff.yang@gmail.com>");
+MODULE_DESCRIPTION("Analog Devices AD2S1210 Resolver to Digital SPI driver");
+MODULE_LICENSE("GPL v2");

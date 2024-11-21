@@ -1,0 +1,35 @@
+-----------------w1_int.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+ */
+-----------------w1.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Evgeniy Polyakov <zbr@ioremap.net>");
+MODULE_DESCRIPTION("Driver for 1-wire Dallas network protocol.");
+MODULE_LICENSE("GPL");
+-----------------w1_netlink.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2003 Evgeniy Polyakov <zbr@ioremap.net>
+-----------------w1_family.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+-----------------w1_io.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+ */
+-----------------w1_internal.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+-----------------w1_netlink.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2003 Evgeniy Polyakov <zbr@ioremap.net>
+ */

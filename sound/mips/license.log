@@ -1,0 +1,32 @@
+-----------------ad1843.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2003 Vivien Chappelier <vivien.chappelier@linux-mips.org>
+Copyright 2008 Thomas Bogendoerfer <tsbogend@alpha.franken.de>
+
+inspired from vwsnd.c (SGI VW audio driver)
+  Copyright 1999 Silicon Graphics, Inc.  All rights reserved.
+-----------------hal2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Thomas Bogendoerfer");
+MODULE_DESCRIPTION("ALSA driver for SGI HAL2 audio");
+-----------------hal2.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ *  Driver for HAL2 sound processors
+ *  Copyright (c) 1999 Ulf Carlsson <ulfc@bun.falkenberg.se>
+ *  Copyright (c) 2001, 2002, 2003 Ladislav Michl <ladis@linux-mips.org>
+ */
+-----------------snd-n64.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ *   Sound driver for Nintendo 64.
+ *
+ *   Copyright 2021 Lauri Kasanen
+ */
+-----------------sgio2audio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");

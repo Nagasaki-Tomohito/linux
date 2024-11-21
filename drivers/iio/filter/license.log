@@ -1,0 +1,5 @@
+-----------------admv8818.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com");
+MODULE_DESCRIPTION("Analog Devices ADMV8818");
+MODULE_LICENSE("GPL v2");

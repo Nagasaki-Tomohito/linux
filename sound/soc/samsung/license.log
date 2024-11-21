@@ -1,0 +1,152 @@
+-----------------tobermory.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Copyright 2011 Wolfson Microelectronics
+-----------------idma.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright (c) 2011 Samsung Electronics Co., Ltd.
+//     http://www.samsung.com
+-----------------idma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2011 Samsung Electronics Co., Ltd
+ *		http://www.samsung.com
+ */
+-----------------i2s-regs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (c) 2011 Samsung Electronics Co., Ltd.
+		http://www.samsung.com
+-----------------i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2010 Samsung Electronics Co. Ltd.
+	Jaswinder Singh <jassisinghbrar@gmail.com>
+-----------------littlemill.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Littlemill audio support
+//
+// Copyright 2011 Wolfson Microelectronics
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Jaswinder Singh, <jassisinghbrar@gmail.com>");
+MODULE_DESCRIPTION("S3C PCM Controller Driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:samsung-pcm");
+-----------------lowland.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2011 Wolfson Microelectronics
+MODULE_DESCRIPTION("Lowland audio support");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:lowland");
+-----------------dma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+-----------------spdif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2010 Samsung Electronics Co. Ltd
+	http://www.samsung.com/
+-----------------smdk_wm8994.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------smdk_spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2010 Samsung Electronics Co., Ltd.
+
+MODULE_AUTHOR("Seungwhan Youn, <sw.youn@samsung.com>");
+
+MODULE_DESCRIPTION("ALSA SoC SMDK+S/PDIF");
+
+MODULE_LICENSE("GPL");
+-----------------dmaengine.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mark Brown <broonie@linaro.org>");
+-----------------speyside.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2011 Wolfson Microelectronics
+
+MODULE_DESCRIPTION("Speyside audio support");
+
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:speyside");
+-----------------smdk_wm8994pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2011 Samsung Electronics Co., Ltd
+		http://www.samsung.com
+
+MODULE_AUTHOR("Sangbeom Kim, <sbkim73@samsung.com>");
+
+MODULE_DESCRIPTION("ALSA SoC SMDK WM8994 for PCM");
+
+MODULE_LICENSE("GPL");
+-----------------arndale.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright (c) 2014, Insignal Co., Ltd.
+
+MODULE_AUTHOR("Claude <claude@insignal.co.kr>");
+
+MODULE_DESCRIPTION("ALSA SoC Driver for Arndale Board");
+
+MODULE_LICENSE("GPL");
+-----------------midas_wm1811.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Simon Shields <simon@lineageos.org>");
+
+MODULE_DESCRIPTION("ASoC support for Midas");
+MODULE_LICENSE("GPL v2");
+-----------------aries_wm8994.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------odroid.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Seungwhan Youn, <sw.youn@samsung.com>");
+
+MODULE_DESCRIPTION("Samsung S/PDIF Controller Driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:samsung-spdif");
+-----------------tm2_wm5110.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Copyright (C) 2015 - 2016 Samsung Electronics Co., Ltd.
+//
+// Authors: Inha Song <ideal.song@samsung.com>
+//          Sylwester Nawrocki <s.nawrocki@samsung.com>
+
+MODULE_AUTHOR("Inha Song <ideal.song@samsung.com>");
+MODULE_DESCRIPTION("ALSA SoC Exynos TM2 Audio Support");
+MODULE_LICENSE("GPL v2");
+-----------------i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Jaswinder Singh, <jassisinghbrar@gmail.com>");
+
+MODULE_DESCRIPTION("Samsung I2S Interface");
+MODULE_LICENSE("GPL");
+-----------------snow.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------bells.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_DESCRIPTION("Bells audio support");
+MODULE_AUTHOR("Mark Brown <broonie@opensource.wolfsonmicro.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:bells");

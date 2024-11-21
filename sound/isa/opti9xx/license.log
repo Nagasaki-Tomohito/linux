@@ -1,0 +1,47 @@
+-----------------miro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Miro miroSOUND PCM1 pro, PCM12, PCM20 Radio");
+
+MODULE_AUTHOR("Martin Langer <martin-langer@gmx.de>");
+-----------------opti92x-ad1848.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1998-2000 by Massimo Piccioni <dafastidio@libero.it>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Massimo Piccioni <dafastidio@libero.it>");
+MODULE_DESCRIPTION("OPTi92X - AD1848");
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Massimo Piccioni <dafastidio@libero.it>");
+#ifdef OPTi93X
+MODULE_DESCRIPTION("OPTi93X");
+#else	/* OPTi93X */
+#ifdef CS4231
+MODULE_DESCRIPTION("OPTi92X - CS4231");
+#else	/* CS4231 */
+MODULE_DESCRIPTION("OPTi92X - AD1848");
+#endif	/* CS4231 */
+#endif	/* OPTi93X */
+-----------------opti93x.c-----------------
+// No explicit license or copyright information found in this snippet.
+-----------------opti92x-cs4231.c-----------------
+// This file is part of the Opti-92x AD1848 driver for Linux.
+// 
+// Copyright (C) 1992  Richard Hirst
+// 
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA

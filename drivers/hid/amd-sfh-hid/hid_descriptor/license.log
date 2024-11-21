@@ -1,0 +1,22 @@
+-----------------amd_sfh_hid_report_desc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright 2020-2021 Advanced Micro Devices, Inc.
+-----------------amd_sfh_hid_desc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  AMD SFH Report Descriptor generator
+ *  Copyright 2020-2021 Advanced Micro Devices, Inc.
+ *  Authors: Nehal Bakulchandra Shah <Nehal-Bakulchandra.Shah@amd.com>
+ *	     Sandeep Singh <sandeep.singh@amd.com>
+ *	     Basavaraj Natikar <Basavaraj.Natikar@amd.com>
+ */
+-----------------amd_sfh_hid_desc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * HID report descriptors, structures and routines
+ * Copyright 2020-2021 Advanced Micro Devices, Inc.
+ * Authors: Nehal Bakulchandra Shah <Nehal-bakulchandra.shah@amd.com>
+ *	    Sandeep Singh <Sandeep.singh@amd.com>
+ *	    Basavaraj Natikar <Basavaraj.Natikar@amd.com>
+ */

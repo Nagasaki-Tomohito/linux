@@ -1,0 +1,28 @@
+-----------------cs4231.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Driver for CS4231 sound chips found on Sparcs.
+ * Copyright (C) 2002, 2008 David S. Miller <davem@davemloft.net>
+ *
+ * Based entirely upon drivers/sbus/audio/cs4231.c which is:
+ * Copyright (C) 1996, 1997, 1998 Derrick J Brashear (shadow@andrew.cmu.edu)
+ * and also sound/isa/cs423x/cs4231_lib.c which is:
+ * Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------amd7930.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Thomas K. Dyas and David S. Miller");
+MODULE_DESCRIPTION("Sun AMD7930");
+-----------------dbri.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004, 2005 Martin Habets (mhabets@users.sourceforge.net)
+
+Converted to ring buffered version by Krzysztof Helt (krzysztof.h1@wp.pl)
+
+Based entirely upon drivers/sbus/audio/dbri.c which is:
+Copyright (C) 1997 Rudolf Koenig (rfkoenig@immd4.informatik.uni-erlangen.de)
+Copyright (C) 1998, 1999 Brent Baccala (baccala@freesoft.org)

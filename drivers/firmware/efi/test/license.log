@@ -1,0 +1,8 @@
+-----------------efi_test.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ivan Hu <ivan.hu@canonical.com>");
+MODULE_DESCRIPTION("EFI Test Driver");
+-----------------efi_test.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+Copyright(C) 2012-2016 Canonical Ltd.

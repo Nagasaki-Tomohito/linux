@@ -1,0 +1,205 @@
+-----------------sound.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Advanced Linux Sound Architecture driver for soundcards.");
+MODULE_LICENSE("GPL");
+
+#ifdef CONFIG_SND_DEBUG
+struct dentry *sound_debugfs_root;
+EXPORT_SYMBOL_GPL(sound_debugfs_root);
+#endif
+
+MODULE_PARM_DESC(major, "Major # for sound driver.");
+module_param(major, int, 0444);
+
+MODULE_PARM_DESC(cards_limit, "Count of auto-loadable soundcards.");
+module_param(cards_limit, int, 0444);
+-----------------hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_LICENSE("GPL");
+-----------------device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------ump.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("Universal MIDI Packet (UMP) Core Driver");
+MODULE_LICENSE("GPL");
+-----------------hwdep_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+-----------------jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>, Abramo Bagnara <abramo@alsa-project.org>");
+
+MODULE_LICENSE("GPL");
+-----------------control_led.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------hrtimer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * ALSA timer back-end using hrtimer
+ * Copyright (C) 2008 Takashi Iwai
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("ALSA hrtimer backend");
+MODULE_ALIAS("snd-timer-" __stringify(SNDRV_TIMER_GLOBAL_HRTIMER));
+-----------------misc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Misc and compatibility things
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------isadma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------sound_oss.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Advanced Linux Sound Architecture
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------pcm_native.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcm_memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Digital Audio (PCM) abstract layer
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------info.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------memalloc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------control_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * compat ioctls for control API
+ *
+ *   Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------pcm_drm_eld.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+EXPORT_SYMBOL_GPL(snd_pcm_hw_constraint_eld);
+-----------------init.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------control.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Routines for driver control interface
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------pcm_dmaengine.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("PCM dmaengine helper APIs");
+MODULE_LICENSE("GPL");
+-----------------rawmidi_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   32bit -> 64bit ioctl wrapper for raw MIDI API
+ *   Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ */
+-----------------ump_convert.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcm_misc.c-----------------
+Copyright (c) 1998 by Jaroslav Kysela <perex@perex.cz>
+
+   This library is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Library General Public License as
+   published by the Free Software Foundation; either version 2 of
+   the License, or (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Library General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+   License along with this library; if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+-----------------ctljack.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
+-----------------pcm_trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------timer_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+-----------------sound_kunit.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("Sound core KUnit test");
+MODULE_AUTHOR("Ivan Orlov");
+MODULE_LICENSE("GPL");
+-----------------rawmidi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Midlevel RawMidi code for ALSA.");
+-----------------vmaster.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2008 by Takashi Iwai <tiwai@suse.de>
+-----------------pcm_timer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------compress_offload.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Vinod Koul <vinod.koul@linux.intel.com>");
+MODULE_DESCRIPTION("ALSA Compressed offload framework");
+-----------------info_oss.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------pcm_param_trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------pcm_compat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Takashi Iwai <tiwai@suse.de>
+-----------------timer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pcm_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------memory.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ * 
+ *  Misc memory accessors
+ */
+-----------------pcm_iec958.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------pcm_local.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (c) Takashi Sakamoto <o-takashi@sakamocchi.jp>
+-----------------seq_device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("ALSA sequencer device management");
+MODULE_LICENSE("GPL");

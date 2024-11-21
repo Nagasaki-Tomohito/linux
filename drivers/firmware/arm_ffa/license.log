@@ -1,0 +1,19 @@
+-----------------bus.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2021 ARM Ltd.
+ */
+-----------------smccc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2021 ARM Ltd.
+ */
+-----------------common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (C) 2021 ARM Ltd.
+ */
+-----------------driver.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only

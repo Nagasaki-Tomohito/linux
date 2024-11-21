@@ -1,0 +1,169 @@
+-----------------omap-mcbsp-priv.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------omap-mcpdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------omap-dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("OMAP DMIC ASoC Interface");
+-----------------davinci-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------davinci-i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * ALSA SoC I2S (McBSP) Audio Layer for TI DAVINCI processor
+ *
+ * Author:      Vladimir Barinov, <vbarinov@embeddedalley.com>
+ * Copyright:   (C) 2007 MontaVista Software, Inc., <source@mvista.com>
+ */
+-----------------omap-twl4030.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com
+All rights reserved.
+
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("ALSA SoC for TI SoC based boards with twl4030 codec");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:omap-twl4030");
+-----------------omap-dmic.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------sdma-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ *  Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com
+ *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
+ */
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("sDMA PCM ASoC platform driver");
+MODULE_LICENSE("GPL v2");
+-----------------edma-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+Copyright (C) 2014 Texas Instruments, Inc.
+ 
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("eDMA PCM ASoC platform driver");
+MODULE_LICENSE("GPL");
+EXPORT_SYMBOL_GPL(edma_pcm_platform_register);
+-----------------omap-hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jyri Sarha <jsarha@ti.com>");
+
+MODULE_DESCRIPTION("OMAP HDMI Audio Driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------osk5912.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008 Mistral Solutions
+
+MODULE_AUTHOR("Arun KS <arunks@mistralsolutions.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("ALSA SoC OSK 5912");
+-----------------sdma-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ *  Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com
+ *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
+ */
+-----------------davinci-mcasp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright:   (C) 2009 MontaVista Software, Inc., <source@mvista.com>
+ * Copyright:   (C) 2009  Texas Instruments, India
+ */
+-----------------j721e-evm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("ASoC machine driver for j721e Common Processor Board");
+MODULE_LICENSE("GPL v2");
+-----------------omap-abe-twl6040.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------omap-mcbsp-st.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2004 Nokia Corporation
+Author: Samuel Ortiz <samuel.ortiz@nokia.com>
+Contact: Jarkko Nikula <jarkko.nikula@bitmer.com>
+          Peter Ujfalusi <peter.ujfalusi@ti.com>
+-----------------omap-mcpdm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 2009 - 2011 Texas Instruments
+-----------------omap3pandora.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Grazvydas Ignotas <notasas@gmail.com>");
+
+MODULE_DESCRIPTION("ALSA SoC OMAP3 Pandora");
+
+MODULE_LICENSE("GPL");
+-----------------udma-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ *  Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com
+ */
+-----------------n810.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@bitmer.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ALSA SoC Nokia N810");
+-----------------omap-mcbsp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008 Nokia Corporation
+-----------------davinci-evm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Vladimir Barinov");
+
+MODULE_DESCRIPTION("TI DAVINCI EVM ASoC driver");
+
+MODULE_LICENSE("GPL");
+-----------------rx51.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Nokia Corporation");
+
+MODULE_DESCRIPTION("ALSA SoC Nokia RX-51");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:rx51-audio");
+-----------------davinci-mcasp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ams-delta.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Janusz Krzysztofik <jkrzyszt@tis.icnet.pl>");
+-----------------edma-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2014 Texas Instruments, Inc.
+-----------------udma-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ *  Copyright (C) 2020 Texas Instruments Incorporated - https://www.ti.com
+ *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
+ */
+MODULE_AUTHOR("Peter Ujfalusi <peter.ujfalusi@ti.com>");
+MODULE_DESCRIPTION("UDMA PCM ASoC platform driver");
+MODULE_LICENSE("GPL v2");
+-----------------omap-mcbsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@bitmer.com>");
+
+MODULE_DESCRIPTION("OMAP I2S SoC Interface");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:omap-mcbsp");

@@ -1,0 +1,21 @@
+-----------------cs8427.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+-----------------i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <kraxel@cs.tu-berlin.de>
+(c) 1998 Gerd Knorr <
+-----------------tea6330t.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>

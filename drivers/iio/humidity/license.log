@@ -1,0 +1,92 @@
+-----------------htu21.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Measurement-Specialties
+
+MODULE_LICENSE("GPL v2")
+-----------------hdc3020.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Javier Carrasco <javier.carrasco.cruz@gmail.com>");
+MODULE_AUTHOR("Li peiyu <579lpy@gmail.com>");
+MODULE_DESCRIPTION("TI HDC3020 humidity and temperature sensor driver");
+MODULE_LICENSE("GPL");
+-----------------hts221_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi@st.com>");
+MODULE_DESCRIPTION("STMicroelectronics hts221 buffer driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-sensor-humidity.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Environmental humidity sensor");
+MODULE_AUTHOR("Song Hongyan <hongyan.song@intel.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------hdc100x.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("TI HDC100x humidity and temperature sensor driver");
+-----------------hdc2010.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Eugene Zaikonnikov <ez@norphonic.com>");
+MODULE_DESCRIPTION("TI HDC2010 humidity and temperature sensor driver");
+MODULE_LICENSE("GPL");
+-----------------hts221.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+Copyright 2016 STMicroelectronics Inc.
+-----------------ens210.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------am2315.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) 2016, Intel Corporation.
+-----------------si7005.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Peter Meerwald <pmeerw@pmeerw.net>
+
+MODULE_AUTHOR("Peter Meerwald <pmeerw@pmeerw.net>");
+
+MODULE_DESCRIPTION("Silabs Si7005 humidity and temperature sensor driver");
+
+MODULE_LICENSE("GPL");
+-----------------dht11.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) Harald Geyer <harald@ccbib.org>
+ */
+
+MODULE_AUTHOR("Harald Geyer <harald@ccbib.org>");
+MODULE_DESCRIPTION("DHT11 humidity/temperature sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------si7020.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013,2014  Uplogix, Inc.
+
+MODULE_DESCRIPTION("Silicon Labs Si7013/20/21 Relative Humidity and Temperature Sensors");
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Barksdale <dbarksdale@uplogix.com>");
+-----------------hts221_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright 2016 STMicroelectronics Inc.
+ *
+ * Lorenzo Bianconi <lorenzo.bianconi@st.com>
+ */
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi@st.com>");
+MODULE_DESCRIPTION("STMicroelectronics hts221 i2c driver");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(IIO_HTS221);
+-----------------hts221_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------hts221_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lorenzo Bianconi <lorenzo.bianconi@st.com>");
+
+MODULE_LICENSE("GPL v2");

@@ -1,0 +1,10 @@
+-----------------at73c213.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2006 - 2007 Atmel Corporation
+-----------------at73c213.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Hans-Christian Egtvedt <egtvedt@samfundet.no>");
+
+MODULE_LICENSE("GPL");

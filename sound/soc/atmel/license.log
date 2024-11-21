@@ -1,0 +1,130 @@
+-----------------mchp-spdiftx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Codrin Ciubotariu <codrin.ciubotariu@microchip.com>");
+MODULE_DESCRIPTION("Microchip S/PDIF TX Controller Driver");
+MODULE_LICENSE("GPL v2");
+-----------------atmel-pcm-pdc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Sedji Gaouaou <sedji.gaouaou@atmel.com>");
+MODULE_DESCRIPTION("Atmel PCM module");
+-----------------mchp-i2s-mcc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Microchip I2S Multi-Channel Controller driver");
+MODULE_AUTHOR("Codrin Ciubotariu <codrin.ciubotariu@microchip.com>");
+MODULE_LICENSE("GPL v2");
+-----------------atmel-classd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("Atmel ClassD driver under ALSA SoC architecture");
+MODULE_AUTHOR("Songjun Wu <songjun.wu@atmel.com>");
+MODULE_LICENSE("GPL");
+-----------------mikroe-proto.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Florian Meier");
+MODULE_DESCRIPTION("ASoC Driver for PROTO board (WM8731)");
+MODULE_LICENSE("GPL");
+-----------------atmel-pdmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Atmel PDMIC driver under ALSA SoC architecture");
+MODULE_AUTHOR("Songjun Wu <songjun.wu@atmel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------atmel-pcm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2012 Atmel
+
+Copyright 2008 Atmel
+
+MODULE_AUTHOR("Bo Shen <voice.shen@atmel.com>");
+
+MODULE_DESCRIPTION("Atmel DMA based PCM module");
+
+MODULE_LICENSE("GPL");
+-----------------atmel-classd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------atmel-pdmic.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mchp-pdmc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Microchip PDMC driver under ALSA SoC architecture");
+MODULE_AUTHOR("Codrin Ciubotariu <codrin.ciubotariu@microchip.com>");
+MODULE_LICENSE("GPL v2");
+-----------------tse850-pcm5142.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 Axentia Technologies AB
+-----------------atmel_ssc_dai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2005 SAN People
+Copyright (C) 2008 Atmel
+-----------------mchp-spdifrx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Codrin Ciubotariu <codrin.ciubotariu@microchip.com>");
+
+MODULE_DESCRIPTION("Microchip S/PDIF RX Controller Driver");
+MODULE_LICENSE("GPL v2");
+-----------------atmel-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (C) 2005 SAN People
+ *  Copyright (C) 2008 Atmel
+ *
+ * Copyright 2006 Endrelia Technologies Inc.
+ *
+ * (C) 2004 MontaVista Software, Inc.
+-----------------atmel_wm8904.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2012 Atmel
+
+MODULE_AUTHOR("Bo Shen <voice.shen@atmel.com>");
+
+MODULE_DESCRIPTION("ALSA SoC machine driver for Atmel EK with WM8904 codec");
+
+MODULE_LICENSE("GPL");
+-----------------sam9g20_wm8731.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2005 SAN People
+Copyright (C) 2008 Atmel
+
+Copyright 2006 Endrelia Technologies Inc.
+
+Copyright 2005 Wolfson Microelectronics PLC.
+Copyright 2005 Openedhand Ltd.
+
+MODULE_AUTHOR("Sedji Gaouaou <sedji.gaouaou@atmel.com>");
+MODULE_DESCRIPTION("ALSA SoC AT91SAM9G20EK_WM8731");
+MODULE_ALIAS("platform:atmel-sam9g20ek-audio");
+MODULE_LICENSE("GPL");
+-----------------atmel-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Cyrille Pitchen <cyrille.pitchen@atmel.com>");
+MODULE_DESCRIPTION("Atmel I2S Controller driver");
+-----------------atmel_ssc_dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Sedji Gaouaou, sedji.gaouaou@atmel.com, www.atmel.com");
+MODULE_DESCRIPTION("ATMEL SSC ASoC Interface");
+MODULE_LICENSE("GPL");
+-----------------sam9x5_wm8731.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2011 Atmel,
+		  Nicolas Ferre <nicolas.ferre@atmel.com>
+
+Copyright (C) 2013 Paratronic,
+		  Richard Genoud <richard.genoud@gmail.com>
+
+MODULE_AUTHOR("Nicolas Ferre <nicolas.ferre@atmel.com>");
+MODULE_AUTHOR("Richard Genoud <richard.genoud@gmail.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRV_NAME);

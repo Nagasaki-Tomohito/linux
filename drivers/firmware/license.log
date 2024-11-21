@@ -1,0 +1,123 @@
+-----------------stratix10-svc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Intel Stratix10 Service Layer Driver");
+MODULE_AUTHOR("Richard Gong <richard.gong@intel.com>");
+-----------------arm_scpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------dmi-sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2011 Google, Inc.
+-----------------iscsi_ibft.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2007-2010 Red Hat, Inc.
+by Peter Jones <pjones@redhat.com>
+Copyright 2008 IBM, Inc.
+by Konrad Rzeszutek <konradr@linux.vnet.ibm.com>
+Copyright 2008
+by Konrad Rzeszutek <ketuzsezr@darnok.org>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Jones <pjones@redhat.com> and "
+	      "Konrad Rzeszutek <ketuzsezr@darnok.org>");
+MODULE_DESCRIPTION("sysfs interface to BIOS iBFT information");
+MODULE_VERSION(IBFT_ISCSI_VERSION);
+-----------------memmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------edd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matt Domsch <Matt_Domsch@Dell.com>");
+MODULE_DESCRIPTION("sysfs interface to BIOS EDD information");
+MODULE_VERSION("0.16");
+-----------------qemu_fw_cfg.c-----------------
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Gabriel L. Somlo <somlo@cmu.edu>");
+MODULE_DESCRIPTION("QEMU fw_cfg sysfs support");
+-----------------sysfb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (c) 2012-2013 David Herrmann <dh.herrmann@gmail.com>
+ */
+-----------------mtk-adsp-ipc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (c) 2022 MediaTek Corporation. All rights reserved.
+ * Author: Allen-KH Cheng <allen-kh.cheng@mediatek.com>
+ */
+
+MODULE_AUTHOR("Allen-KH Cheng <allen-kh.cheng@mediatek.com>");
+MODULE_DESCRIPTION("MTK ADSP IPC Driver");
+MODULE_LICENSE("GPL");
+-----------------turris-mox-rwtm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Turris Mox rWTM firmware driver
+ *
+ * Copyright (C) 2019, 2024 Marek Behún <kabel@kernel.org>
+ */
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Turris Mox rWTM firmware driver");
+MODULE_AUTHOR("Marek Behun <kabel@kernel.org>");
+-----------------ti_sci.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("TI System Control Interface(SCI) driver");
+MODULE_AUTHOR("Nishanth Menon");
+MODULE_ALIAS("platform:ti-sci");
+-----------------ti_sci.h-----------------
+/* SPDX-License-Identifier: BSD-3-Clause */
+
+/*
+ * Texas Instruments System Control Interface (TISCI) Protocol
+ *
+ * Communication protocol with TI SCI hardware
+ * The system works in a message response protocol
+ * See: https://software-dl.ti.com/tisci/esd/latest/index.html for details
+ *
+ * Copyright (C)  2015-2016 Texas Instruments Incorporated - https://www.ti.com/
+-----------------dmi_scan.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------stratix10-rsu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2018-2019, Intel Corporation
+ */
+-----------------trusted_foundations.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2013, NVIDIA Corporation.
+-----------------arm_sdei.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2017 Arm Ltd.
+-----------------dmi-id.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2007, Lennart Poettering
+-----------------sysfb_simplefb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Generic System Framebuffers
+ * Copyright (c) 2012-2013 David Herrmann <dh.herrmann@gmail.com>
+ */
+-----------------iscsi_ibft_find.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  Copyright 2007-2010 Red Hat, Inc.
+ *  by Peter Jones <pjones@redhat.com>
+ *  Copyright 2007 IBM, Inc.
+ *  by Konrad Rzeszutek <konradr@linux.vnet.ibm.com>
+ *  Copyright 2008
+ *  by Konrad Rzeszutek <ketuzsezr@darnok.org>
+ */
+-----------------raspberrypi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")

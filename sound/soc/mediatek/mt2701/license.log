@@ -1,0 +1,64 @@
+-----------------mt2701-cs42448.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2016 MediaTek Inc.
+Author: Ir Lian <ir.lian@mediatek.com>
+	   Garlic Tseng <garlic.tseng@mediatek.com>
+
+MODULE_DESCRIPTION("MT2701 CS42448 ALSA SoC machine driver")
+MODULE_AUTHOR("Ir Lian <ir.lian@mediatek.com>")
+MODULE_LICENSE("GPL v2")
+MODULE_ALIAS("mt2701 cs42448 soc card")
+-----------------mt2701-afe-clock-ctrl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * mt2701-afe-clock-ctrl.h  --  Mediatek 2701 afe clock ctrl definition
+ *
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>
+ *	   Ryder Lee <ryder.lee@mediatek.com>
+ */
+-----------------mt2701-afe-clock-ctrl.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * mt2701-afe-clock-ctrl.c  --  Mediatek 2701 afe clock ctrl
+ *
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>
+ *	   Ryder Lee <ryder.lee@mediatek.com>
+ */
+-----------------mt2701-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Mediatek ALSA SoC AFE platform driver for 2701");
+MODULE_AUTHOR("Garlic Tseng <garlic.tseng@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mt2701-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * mt2701-afe-common.h  --  Mediatek 2701 audio driver definitions
+ *
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>
+ */
+-----------------mt2701-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt2701-reg.h  --  Mediatek 2701 audio driver reg definition
+ *
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>
+ */
+-----------------mt2701-wm8960.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2017 MediaTek Inc.
+Author: Ryder Lee <ryder.lee@mediatek.com>
+
+MODULE_DESCRIPTION("MT2701 WM8960 ALSA SoC machine driver");
+MODULE_AUTHOR("Ryder Lee <ryder.lee@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("mt2701 wm8960 soc card");

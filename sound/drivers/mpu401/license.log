@@ -1,0 +1,20 @@
+-----------------mpu401_uart.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_DESCRIPTION("Routines for control of MPU-401 in UART mode");
+-----------------mpu401.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Driver for generic MPU-401 boards (UART mode only)
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Copyright (c) 2004 by Castet Matthieu <castet.matthieu@free.fr>
+ */
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("MPU-401 UART");
+MODULE_LICENSE("GPL");

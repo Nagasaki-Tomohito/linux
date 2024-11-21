@@ -1,0 +1,59 @@
+-----------------core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Renesas R-Car audio driver");
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+MODULE_ALIAS("platform:rcar-pcm-audio");
+-----------------gen.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013 Renesas Solutions Corp.
+Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------cmd.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright (C) 2015 Renesas Solutions Corp.
+// Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------adg.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------ctu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2015 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------debugfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2021 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------src.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2013 Renesas Solutions Corp.
+Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------ssi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Renesas R-Car SSIU/SSI support
+//
+// Copyright (C) 2013 Renesas Solutions Corp.
+// Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+//
+// Based on fsi.c
+// Kuninori Morimoto <morimoto.kuninori@renesas.com>
+-----------------rsnd.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------ssiu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2015 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------dvc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2014 Renesas Solutions Corp.
+Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------mix.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2015 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>

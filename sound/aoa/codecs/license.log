@@ -1,0 +1,26 @@
+-----------------tas.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Apple Onboard Audio driver for tas codec (header)
+ *
+ * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------tas.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
+MODULE_DESCRIPTION("tas codec driver for snd-aoa");
+-----------------tas-basstreble.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------onyx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------toonie.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------tas-gain-table.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------onyx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only

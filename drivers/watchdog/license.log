@@ -1,0 +1,1632 @@
+-----------------max77620_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 NVIDIA CORPORATION. All rights reserved.
+Copyright (C) 2022 Luca Ceresoli
+
+MODULE_DESCRIPTION("Max77620 watchdog timer driver")
+
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Laxman Dewangan <ldewangan@nvidia.com>")
+MODULE_AUTHOR("Luca Ceresoli <luca.ceresoli@bootlin.com>")
+-----------------machzwd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Fernando Fuganti <fuganti@conectiva.com.br>");
+
+MODULE_DESCRIPTION("MachZ ZF-Logic Watchdog driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_PARM_DESC(nowayout,
+		"Watchdog cannot be stopped once started (default="
+				__MODULE_STRING(WATCHDOG_NOWAYOUT) ")");
+
+MODULE_PARM_DESC(action, "after watchdog resets, generate: "
+				"0 = RESET(*)  1 = SMI  2 = NMI  3 = SCI");
+-----------------iTCO_vendor.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------rc32434_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2006, Ondrej Zajicek <santiago@crfreenet.org>
+Copyright (C) 2008, Florian Fainelli <florian@openwrt.org>
+
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+-----------------bcm7038_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * Copyright (C) 2015 Broadcom Corporation
+ *
+ */
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Driver for Broadcom 7038 SoCs Watchdog");
+MODULE_AUTHOR("Justin Chen");
+-----------------f71808e_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("F71808E Watchdog Driver");
+MODULE_AUTHOR("Giel van Schijndel <me@mortis.eu>");
+MODULE_LICENSE("GPL");
+-----------------txx9wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2007 Atsushi Nemoto <anemo@mba.ocn.ne.jp>
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("TXx9 Watchdog Driver");
+MODULE_ALIAS("platform:txx9wdt");
+-----------------diag288_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright IBM Corp. 2004, 2013
+Author(s): Arnd Bergmann (arndb@de.ibm.com)
+	      Philipp Hachtmann (phacht@de.ibm.com)
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Arnd Bergmann <arndb@de.ibm.com>");
+MODULE_AUTHOR("Philipp Hachtmann <phacht@de.ibm.com>");
+-----------------bcm_kona_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2")
+-----------------jz4740_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (C) 2010, Paul Cercueil <paul@crapouillou.net>
+ *  JZ4740 Watchdog driver
+ */
+
+MODULE_AUTHOR("Paul Cercueil <paul@crapouillou.net>");
+
+MODULE_DESCRIPTION("jz4740 Watchdog Driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:jz4740-wdt");
+-----------------rzg2l_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Renesas RZ/G2L WDT Watchdog Driver
+ *
+ * Copyright (C) 2021 Renesas Electronics Corporation
+ */
+MODULE_DESCRIPTION("Renesas RZ/G2L WDT Watchdog Driver");
+MODULE_AUTHOR("Biju Das <biju.das.jz@bp.renesas.com>");
+MODULE_LICENSE("GPL v2");
+-----------------kempld_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Michael Brunner <michael.brunner@kontron.com>");
+MODULE_DESCRIPTION("KEM PLD Watchdog Driver");
+-----------------lpc18xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Ariel D'Alessandro <ariel@vanguardiasur.com.ar>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("NXP LPC18xx Watchdog Timer Driver");
+-----------------lenovo_se10_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Ober<dober@lenovo.com>");
+MODULE_AUTHOR("Mark Pearson <mpearson-lenovo@squebb.ca>");
+MODULE_DESCRIPTION("WDT driver for Lenovo SE10");
+-----------------gpio_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Alexander Shiyan <shc_work@mail.ru>");
+
+MODULE_DESCRIPTION("GPIO Watchdog");
+
+MODULE_LICENSE("GPL");
+-----------------wm831x_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * Watchdog driver for the wm831x PMICs
+ *
+ * Copyright (C) 2009 Wolfson Microelectronics
+ */
+-----------------pic32-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * PIC32 watchdog driver
+ *
+ * Joshua Henderson <joshua.henderson@microchip.com>
+ * Copyright (c) 2016, Microchip Technology Inc.
+ */
+MODULE_AUTHOR("Joshua Henderson <joshua.henderson@microchip.com>");
+MODULE_DESCRIPTION("Microchip PIC32 Watchdog Timer");
+MODULE_LICENSE("GPL");
+-----------------wdt.c-----------------
+(c) Copyright 1996-1997 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+						All Rights Reserved.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Alan Cox");
+MODULE_DESCRIPTION("Driver for ISA ICS watchdog cards (WDT500/501)");
+-----------------ath79_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008-2011 Gabor Juhos <juhosg@openwrt.org>
+Copyright (C) 2008 Imre Kaloz <kaloz@openwrt.org>
+
+This driver was based on: drivers/watchdog/ixp4xx_wdt.c
+	Author: Deepak Saxena <dsaxena@plexity.net>
+	Copyright 2004 (c) MontaVista, Software, Inc.
+
+which again was based on sa1100 driver,
+	Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Gabor Juhos <juhosg@openwrt.org");
+MODULE_AUTHOR("Imre Kaloz <kaloz@openwrt.org");
+-----------------sprd_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Eric Long <eric.long@spreadtrum.com>");
+
+MODULE_DESCRIPTION("Spreadtrum Watchdog Timer Controller Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------ftwdt010_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2017 Linus Walleij <linus.walleij@linaro.org>
+
+Inspired by the out-of-tree drivers from OpenWRT:
+Copyright (C) 2009 Paulius Zaleckas <paulius.zaleckas@teltonika.lt>
+
+MODULE_AUTHOR("Linus Walleij");
+MODULE_DESCRIPTION("Watchdog driver for Faraday Technology FTWDT010");
+MODULE_LICENSE("GPL");
+-----------------hpwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+(c) Copyright 2018 Hewlett Packard Enterprise Development LP
+Thomas Mingarelli <thomas.mingarelli@hpe.com>
+
+MODULE_AUTHOR("Tom Mingarelli");
+MODULE_DESCRIPTION("hpe watchdog driver");
+MODULE_LICENSE("GPL");
+MODULE_VERSION(HPWDT_VERSION);
+-----------------i6300esb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Ross Biro and David Härdeman");
+MODULE_DESCRIPTION("Watchdog driver for Intel 6300ESB chipsets");
+MODULE_LICENSE("GPL");
+-----------------softdog.c-----------------
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+							All Rights Reserved.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide
+warranty for any of this software. This material is provided
+"AS-IS" and at no charge.
+
+MODULE_AUTHOR("Alan Cox");
+MODULE_DESCRIPTION("Software Watchdog Device Driver");
+MODULE_LICENSE("GPL");
+-----------------wm8350_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2007, 2008 Wolfson Microelectronics <linux@wolfsonmicro.com>
+
+MODULE_AUTHOR("Mark Brown")
+
+MODULE_LICENSE("GPL")
+-----------------via_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Marc Vertes");
+
+MODULE_DESCRIPTION("Driver for watchdog timer on VIA chipset");
+
+MODULE_LICENSE("GPL");
+-----------------ts4800_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015 - Savoir-faire Linux
+
+MODULE_AUTHOR("Damien Riegel <damien.riegel@savoirfairelinux.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------sunplus_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2021 Sunplus Technology Co., Ltd.
+
+MODULE_AUTHOR("Xiantao Hu <xt.hu@cqplus1.com>");
+
+MODULE_DESCRIPTION("Sunplus Watchdog Timer Driver");
+
+MODULE_LICENSE("GPL");
+-----------------sbc8360.c-----------------
+*   (c) Copyright 2005 Webcon, Inc.
+*   (c) Copyright 2001 Charles Howes <chowes@vsol.net>
+*   (c) Copyright 2000-2001 Marek Michalkiewicz <marekm@linux.org.pl>
+*   (c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+*   (c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+*   MODULE_LICENSE("GPL");
+*   MODULE_AUTHOR("Ian E. Morgan <imorgan@webcon.ca>");
+*   MODULE_DESCRIPTION("SBC8360 watchdog driver");
+*   MODULE_VERSION("1.01");
+-----------------rtd119x_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2017 Andreas Färber
+-----------------indydog.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+(c) Copyright 2002 Guido Guenther <agx@sigxcpu.org>, All Rights Reserved.
+based on softdog.c by Alan Cox <alan@lxorguk.ukuu.org.uk>
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Guido Guenther <agx@sigxcpu.org>");
+MODULE_DESCRIPTION("Hardware Watchdog Device for SGI IP22");
+MODULE_LICENSE("GPL-2.0-or-later");
+-----------------wafer5823wdt.c-----------------
+(c) Copyright 2002 Justin Cormack <justin@street-vision.com>
+
+(c) Copyright 1996-1997 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide warranty for any of this software. This material is provided "AS-IS" and at no charge.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL");
+-----------------mena21_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2013 MEN Mikro Elektronik Nuernberg GmbH
+
+MODULE_AUTHOR("MEN Mikro Elektronik")
+
+MODULE_DESCRIPTION("MEN A21 Watchdog")
+
+MODULE_LICENSE("GPL")
+
+MODULE_ALIAS("platform:a21-watchdog")
+-----------------ie6xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2011 Alexander Stein
+                <alexander.stein@systec-electronic.com>
+
+MODULE_AUTHOR("Alexander Stein <alexander.stein@systec-electronic.com>");
+MODULE_DESCRIPTION("Intel Atom E6xx Watchdog Device Driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRIVER_NAME);
+-----------------arm_smc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Julius Werner <jwerner@chromium.org>");
+MODULE_DESCRIPTION("ARM Secure Monitor Call Watchdog Driver");
+MODULE_VERSION("1.0");
+-----------------imgpdc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Imagination Technologies Ltd.
+
+Based on drivers/watchdog/sunxi_wdt.c Copyright (c) 2013 Carlo Caione
+                                                     2012 Henrik Nordstrom
+
+MODULE_AUTHOR("Jude Abraham <Jude.Abraham@imgtec.com>");
+MODULE_AUTHOR("Naidu Tellapati <Naidu.Tellapati@imgtec.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------watchdog_pretimeout.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2015-2016 Mentor Graphics
+ */
+
+EXPORT_SYMBOL_GPL(watchdog_notify_pretimeout);
+EXPORT_SYMBOL(watchdog_register_governor);
+EXPORT_SYMBOL(watchdog_unregister_governor);
+-----------------gef_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Martyn Welch <martyn.welch@ge.com>");
+MODULE_DESCRIPTION("GE watchdog driver");
+MODULE_ALIAS("platform:gef_wdt");
+-----------------wdt285.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *	Intel 21285 watchdog driver
+ *	Copyright (c) Phil Blundell <pb@nexus.co.uk>, 1998
+ *
+ *	based on
+ *
+ *	SoftDog	0.05:	A Software Watchdog Device
+ *
+ *	(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+ *						All Rights Reserved.
+ */
+MODULE_AUTHOR("Phil Blundell <pb@nexus.co.uk>");
+MODULE_DESCRIPTION("Footbridge watchdog driver");
+MODULE_LICENSE("GPL");
+-----------------ts72xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2009 Mika Westerberg <mika.westerberg@iki.fi>
+
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@iki.fi>");
+MODULE_DESCRIPTION("TS-72xx SBC Watchdog");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:ts72xx-wdt");
+-----------------sp5100_tco.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+(c) Copyright 2009 Google Inc., All Rights Reserved.
+-----------------wdat_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+
+MODULE_DESCRIPTION("ACPI Hardware Watchdog (WDAT) driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:wdat_wdt");
+-----------------pretimeout_panic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2015-2016 Mentor Graphics
+
+MODULE_AUTHOR("Vladimir Zapolskiy <vladimir_zapolskiy@mentor.com>");
+MODULE_LICENSE("GPL");
+-----------------rt2880_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2011 Gabor Juhos <juhosg@openwrt.org>
+Copyright (C) 2013 John Crispin <john@phrozen.org>
+
+MODULE_DESCRIPTION("MediaTek/Ralink RT288x/RT3xxx hardware watchdog driver")
+MODULE_AUTHOR("Gabor Juhos <juhosg@openwrt.org")
+MODULE_LICENSE("GPL v2")
+-----------------uniphier_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Keiji Hayashibara <hayashibara.keiji@socionext.com>");
+MODULE_DESCRIPTION("UniPhier Watchdog Device Driver");
+-----------------imx7ulp_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Anson Huang <Anson.Huang@nxp.com>");
+-----------------xen_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jan Beulich <jbeulich@novell.com>");
+
+MODULE_DESCRIPTION("Xen WatchDog Timer Driver");
+
+MODULE_LICENSE("GPL");
+-----------------asm9260_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("asm9260 WatchDog Timer Driver");
+MODULE_AUTHOR("Oleksij Rempel <linux@rempel-privat.de>");
+MODULE_LICENSE("GPL");
+-----------------lantiq_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) 2010 John Crispin <john@phrozen.org>
+ * Copyright (C) 2017 Hauke Mehrtens <hauke@hauke-m.de>
+ * Based on EP93xx wdt driver
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("John Crispin <john@phrozen.org>");
+MODULE_DESCRIPTION("Lantiq SoC Watchdog");
+MODULE_PARM_DESC(nowayout, "Watchdog cannot be stopped once started");
+-----------------omap_wdt.h-----------------
+Copyright (C) 2004 Texas Instruments.
+-----------------advantech_ec_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2022 Advantech Europe B.V.
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Thomas Kastner <thomas.kastner@advantech.com>");
+MODULE_DESCRIPTION("Advantech Embedded Controller Watchdog Device Driver");
+MODULE_VERSION("20221019");
+MODULE_ALIAS("isa:" DRIVER_NAME);
+-----------------max63xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2009 Marc Zyngier <maz@misterjones.org>
+
+MODULE_AUTHOR("Marc Zyngier <maz@misterjones.org>");
+
+MODULE_LICENSE("GPL v2");
+-----------------cpwd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Eric Brower <ebrower@usa.net>");
+MODULE_DESCRIPTION("Hardware watchdog driver for Sun Microsystems CP1400/1500");
+-----------------s3c2410_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ben Dooks <ben@simtec.co.uk>, Dimitry Andric <dimitry.andric@tomtom.com>");
+MODULE_DESCRIPTION("S3C2410 Watchdog Device Driver");
+-----------------stmp3xxx_rtc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2011-12 Wolfram Sang, Pengutronix
+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Wolfram Sang <kernel@pengutronix.de>");
+MODULE_DESCRIPTION("STMP3XXX RTC Watchdog Driver");
+-----------------imx2_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2010 Wolfram Sang, Pengutronix e.K. <kernel@pengutronix.de>
+ * Copyright (C) 2014 Freescale Semiconductor, Inc.
+ *
+ * some parts adapted by similar drivers from Darius Augulis and Vladimir
+ * Zapolskiy, additional improvements by Wim Van Sebroeck.
+ *
+ * NOTE: MX1 has a slightly different Watchdog than MX2 and later:
+ *
+ *			MX1:		MX2+:
+ *			----		-----
+ * Registers:		32-bit		16-bit
+ * Stopable timer:	Yes		No
+ * Need to enable clk:	No		Yes
+ * Halt on suspend:	Manual		Can be automatic
+ */
+
+MODULE_AUTHOR("Wolfram Sang");
+MODULE_DESCRIPTION("Watchdog driver for IMX2 and later");
+MODULE_LICENSE("GPL v2
+-----------------at91sam9_wdt.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ * Copyright (C) 2007 Andrew Victor
+ * Copyright (C) 2007 Atmel Corporation.
+ * Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries
+-----------------sbsa_gwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("SBSA Generic Watchdog Driver");
+MODULE_AUTHOR("Fu Wei <fu.wei@linaro.org>");
+MODULE_AUTHOR("Suravee Suthikulpanit <Suravee.Suthikulpanit@amd.com>");
+MODULE_AUTHOR("Al Stone <al.stone@linaro.org>");
+MODULE_AUTHOR("Timur Tabi <timur@codeaurora.org>");
+-----------------ixp4xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2004 (c) MontaVista, Software, Inc.
+
+Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
+
+MODULE_AUTHOR("Deepak Saxena <dsaxena@plexity.net>");
+
+MODULE_DESCRIPTION("IXP4xx Network Processor Watchdog");
+
+MODULE_LICENSE("GPL");
+-----------------imx_sc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright 2018-2019 NXP.
+ */
+
+MODULE_AUTHOR("Robin Gong <yibin.gong@nxp.com>");
+MODULE_DESCRIPTION("NXP i.MX system controller watchdog driver");
+MODULE_LICENSE("GPL v2");
+-----------------mtk_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matthias Brugger <matthias.bgg@gmail.com>");
+MODULE_DESCRIPTION("Mediatek WatchDog Timer Driver");
+MODULE_VERSION(DRV_VERSION);
+-----------------at91rm9200_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ * Watchdog driver for Atmel AT91RM9200 (Thunder)
+ *
+ *  Copyright (C) 2003 SAN People (Pty) Ltd
+ *
+ */
+
+MODULE_AUTHOR("Andrew Victor");
+MODULE_DESCRIPTION("Watchdog driver for Atmel AT91RM9200");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:atmel_st_watchdog");
+-----------------mixcomwd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 ITConsult-Pro Co. <info@itc.hu>
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Gergely Madarasz <gorgo@itc.hu>");
+MODULE_DESCRIPTION("MixCom Watchdog driver");
+MODULE_VERSION(VERSION);
+-----------------iTCO_vendor_support.c-----------------
+(c) Copyright 2006-2009 Wim Van Sebroeck <wim@iguana.be>.
+
+Neither Wim Van Sebroeck nor Iguana vzw. admit liability nor
+provide warranty for any of this software. This material is
+provided "AS-IS" and at no charge.
+
+MODULE_AUTHOR("Wim Van Sebroeck <wim@iguana.be>, "
+        "R. Seretny <lkpatches@paypc.com>");
+
+MODULE_LICENSE("GPL");
+-----------------wdt977.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Woody Suwalski <woodys@xandros.com>");
+
+MODULE_DESCRIPTION("W83977AF Watchdog driver");
+
+MODULE_LICENSE("GPL");
+-----------------sb_wdog.c-----------------
+(c) Copyright 2007 OnStor, Inc. * Andrew Sharp <andy.sharp@lsi.com>
+
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+version 1 or 2 as published by the Free Software Foundation.
+-----------------bcm2835_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2013 Lubomir Rintel <lkundrak@v3.sk>
+
+MODULE_AUTHOR("Lubomir Rintel <lkundrak@v3.sk>");
+MODULE_DESCRIPTION("Driver for Broadcom BCM2835 watchdog timer");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:bcm2835-wdt");
+-----------------w83627hf_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+(c) Copyright 2013 Guenter Roeck
+(c) Copyright 2007 Vlad Drukker <vlad@storewiz.com>
+(c) Copyright 2003,2007 Pádraig Brady <P@draigBrady.com>
+(c) Copyright 2000-2001 Marek Michalkiewicz <marekm@linux.org.pl>
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+-----------------simatic-ipc-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (c) Siemens AG, 2020-2021
+-----------------menz69_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2018 Johannes Thumshirn <jth@kernel.org>
+ */
+
+MODULE_AUTHOR("Johannes Thumshirn <jth@kernel.org>");
+
+MODULE_DESCRIPTION("Watchdog driver for the MEN z069 IP-Core");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("mcb:16z069");
+
+MODULE_IMPORT_NS(MCB);
+-----------------octeon-wdt-main.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cavium Inc. <support@cavium.com>");
+MODULE_DESCRIPTION("Cavium Inc. OCTEON Watchdog driver.");
+-----------------twl4030_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) Nokia Corporation
+ *
+ * Written by Timo Kokkonen <timo.t.kokkonen at nokia.com>
+ */
+
+MODULE_AUTHOR("Nokia Corporation");
+MODULE_DESCRIPTION("TWL4030 Watchdog");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:twl4030_wdt");
+-----------------db8500_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (C) ST-Ericsson SA 2011-2013
+ */
+
+MODULE_AUTHOR("Jonas Aaberg <jonas.aberg@stericsson.com>");
+MODULE_DESCRIPTION("DB8500 Watchdog Driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:db8500_wdt");
+-----------------sc1200wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2002 Zwane Mwaikambo <zwane@commfireservices.com>,
+			All Rights Reserved.
+
+The author(s) of this software shall not be held liable for damages
+of any nature resulting due to the use of this software. This
+software is provided AS-IS with no warranties.
+
+MODULE_AUTHOR("Zwane Mwaikambo <zwane@commfireservices.com>");
+MODULE_DESCRIPTION(
+	"Driver for National Semiconductor PC87307/PC97307 watchdog component");
+MODULE_LICENSE("GPL");
+-----------------sc520_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2001    Scott Jennings <linuxdrivers@oro.net>
+           9/27 - 2001      [Initial release]
+
+MODULE_AUTHOR("Scott and Bill Jennings");
+MODULE_DESCRIPTION(
+	"Driver for watchdog timer in AMD \"Elan\" SC520 uProcessor");
+MODULE_LICENSE("GPL");
+-----------------of_xilinx_wdt.c-----------------
+(C) Copyright 2013 - 2014 Xilinx, Inc.
+(C) Copyright 2011 (Alejandro Cabrera <aldaya@gmail.com>)
+
+MODULE_AUTHOR("Alejandro Cabrera <aldaya@gmail.com>");
+MODULE_DESCRIPTION("Xilinx Watchdog driver");
+MODULE_LICENSE("GPL");
+-----------------m54xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2010 (c) Philippe De Muyter <phdm@macqel.be>
+
+Copyright 2004 (c) MontaVista, Software, Inc.
+
+Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
+
+MODULE_AUTHOR("Philippe De Muyter <phdm@macqel.be>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Coldfire M54xx Watchdog");
+
+MODULE_PARM_DESC(nowayout, "Watchdog cannot be stopped once started");
+
+MODULE_PARM_DESC(heartbeat, "Watchdog heartbeat in seconds (default 30s)");
+-----------------stpmic1_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) STMicroelectronics 2018
+// Author: Pascal Paillet <p.paillet@st.com> for STMicroelectronics.
+-----------------mpc8xxx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2008  MontaVista Software, Inc.
+                     Anton Vorontsov <avorontsov@ru.mvista.com>
+
+MODULE_AUTHOR("Dave Updegraff, Kumar Gala");
+MODULE_DESCRIPTION("Driver for watchdog timer in MPC8xx/MPC83xx/MPC86xx "
+                   "uProcessors");
+MODULE_LICENSE("GPL");
+-----------------intel-mid_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 Intel Corporation. All rights reserved.
+
+MODULE_AUTHOR("David Cohen <david.a.cohen@linux.intel.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Watchdog Driver for Intel MID platform");
+MODULE_ALIAS("platform:intel_mid_wdt");
+-----------------davinci_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2006-2013 Texas Instruments.
+
+2007 (c) MontaVista Software, Inc.
+
+MODULE_AUTHOR("Texas Instruments");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:davinci-wdt");
+-----------------advantechwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+(c) Copyright 2000-2001 Marek Michalkiewicz <marekm@linux.org.pl>
+
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide warranty for any of this software. This material is provided "AS-IS" and at no charge.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Marek Michalkiewicz <marekm@linux.org.pl>");
+MODULE_DESCRIPTION("Advantech Single Board Computer WDT driver");
+-----------------rza_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2017 Renesas Electronics America, Inc.
+Copyright (C) 2017 Chris Brandt
+-----------------ni903x_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2016 National Instruments Corp.
+ */
+
+MODULE_DESCRIPTION("NI 903x Watchdog");
+MODULE_AUTHOR("Jeff Westfahl <jeff.westfahl@ni.com>");
+MODULE_AUTHOR("Kyle Roeschley <kyle.roeschley@ni.com>");
+MODULE_LICENSE("GPL");
+-----------------pretimeout_noop.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2015-2016 Mentor Graphics
+ */
+-----------------renesas_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2015-17 Wolfram Sang, Sang Engineering <wsa@sang-engineering.com>
+ * Copyright (C) 2015-17 Renesas Electronics Corporation
+ */
+
+MODULE_DESCRIPTION("Renesas WDT Watchdog Driver");
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Wolfram Sang <wsa@sang-engineering.com>");
+-----------------wdrtas.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(C) Copyright IBM Corp. 2005
+-----------------nic7018_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2016 National Instruments Corp.
+ */
+-----------------pnx4008_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
+
+(C) 2012 Wolfram Sang, Pengutronix
+
+MODULE_AUTHOR("MontaVista Software, Inc. <source@mvista.com>");
+MODULE_AUTHOR("Wolfram Sang <kernel@pengutronix.de>");
+
+MODULE_LICENSE("GPL");
+-----------------geodewdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/* 
+ * Copyright (C) 2006-2007, Advanced Micro Devices, Inc.
+ * Copyright (C) 2009  Andres Salomon <dilinger@collabora.co.uk>
+ */
+
+MODULE_AUTHOR("Advanced Micro Devices, Inc");
+MODULE_DESCRIPTION("Geode GX/LX Watchdog Driver");
+MODULE_LICENSE("GPL");
+-----------------da9055_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ * Copyright(c) 2012 Dialog Semiconductor Ltd.
+ 
+MODULE_AUTHOR("David Dajun Chen <dchen@diasemi.com>");
+MODULE_DESCRIPTION("DA9055 watchdog");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:da9055-watchdog");
+-----------------keembay_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Watchdog driver for Intel Keem Bay non-secure watchdog.
+ *
+ * Copyright (C) 2020 Intel Corporation
+ */
+MODULE_DESCRIPTION("Intel Keem Bay SoC watchdog driver");
+MODULE_AUTHOR("Wan Ahmad Zainie <wan.ahmad.zainie.wan.mohamad@intel.com");
+MODULE_LICENSE("GPL v2");
+-----------------pseries-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2022 International Business Machines, Inc.
+ */
+
+MODULE_AUTHOR("Alexey Kardashevskiy");
+MODULE_AUTHOR("Scott Cheloha");
+MODULE_DESCRIPTION("POWER Architecture Platform Watchdog Driver");
+MODULE_LICENSE("GPL");
+-----------------ep93xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2004 Ray Lehtiniemi
+Copyright (c) 2006 Tower Technologies
+Based on ep93xx driver, bits from alim7101_wdt.c
+
+Copyright (c) 2012 H Hartley Sweeten <hsweeten@visionengravers.com>
+	Convert to a platform device and use the watchdog framework API
+
+MODULE_AUTHOR("Ray Lehtiniemi <rayl@mail.com>");
+MODULE_AUTHOR("Alessandro Zummo <a.zummo@towertech.it>");
+MODULE_AUTHOR("H Hartley Sweeten <hsweeten@visionengravers.com>");
+MODULE_LICENSE("GPL");
+-----------------eurotechwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+(c) Copyright 2001 Ascensit <support@ascensit.com>
+(c) Copyright 2001 Rodolfo Giometti <giometti@ascensit.com>
+(c) Copyright 2002 Rob Radez <rob@osinvestor.com>
+
+(c) Copyright 1996-1997 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide warranty for any of this software. This material is provided "AS-IS" and at no charge.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_AUTHOR("Rodolfo Giometti");
+MODULE_DESCRIPTION("Driver for Eurotech CPU-1220/1410 on board watchdog");
+MODULE_LICENSE("GPL");
+-----------------stm32_iwdg.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Yannick Fertre <yannick.fertre@st.com>");
+MODULE_DESCRIPTION("STMicroelectronics STM32 Independent Watchdog Driver");
+MODULE_LICENSE("GPL v2");
+-----------------st_lpc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ Copyright (C) 2014 STMicroelectronics -- All Rights Reserved
+ 
+ MODULE_AUTHOR("David Paris <david.paris@st.com>");
+ MODULE_DESCRIPTION("ST LPC Watchdog Driver");
+ MODULE_LICENSE("GPL");
+-----------------it8712f_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2006-2007 Jorge Boncompte - DTI2 <jorge@dti2.net>
+
+The author(s) of this software shall not be held liable for damages
+of any nature resulting due to the use of this software. This
+software is provided AS-IS with no warranties.
+-----------------scx200_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2001,2002 Christer Weinigel <wingel@nano-system.com>
+
+Some code taken from:
+National Semiconductor PC87307/PC97307 (ala SC1200) WDT driver
+(c) Copyright 2002 Zwane Mwaikambo <zwane@commfireservices.com>
+
+The author(s) of this software shall not be held liable for damages
+of any nature resulting due to the use of this software. This
+software is provided AS-IS with no warranties.
+
+MODULE_LICENSE("GPL")
+-----------------starfive-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Xingyu Wu <xingyu.wu@starfivetech.com>");
+MODULE_AUTHOR("Samin Guo <samin.guo@starfivetech.com>");
+MODULE_DESCRIPTION("StarFive Watchdog Device Driver");
+MODULE_LICENSE("GPL");
+-----------------rdc321x_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Florian Fainelli <florian@openwrt.org>");
+MODULE_DESCRIPTION("RDC321x watchdog driver");
+MODULE_LICENSE("GPL");
+-----------------watchdog_pretimeout.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------npcm_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2018 Nuvoton Technology corporation.
+// Copyright (c) 2018 IBM Corp.
+-----------------loongson1_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (c) 2016 Yang Ling <gnaygnil@gmail.com>
+ */
+
+MODULE_AUTHOR("Yang Ling <gnaygnil@gmail.com>");
+MODULE_DESCRIPTION("Loongson1 Watchdog Driver");
+MODULE_LICENSE("GPL");
+-----------------gxp-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/* Copyright (C) 2022 Hewlett-Packard Enterprise Development Company, L.P. */
+
+MODULE_AUTHOR("Nick Hawkins <nick.hawkins@hpe.com>");
+MODULE_AUTHOR("Jean-Marie Verdun <verdun@hpe.com>");
+MODULE_DESCRIPTION("Driver for GXP watchdog timer");
+MODULE_LICENSE("GPL");
+-----------------smsc37b787_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(C) Copyright 2003-2006  Sven Anders <anders@anduras.de>
+
+MODULE_AUTHOR("Sven Anders <anders@anduras.de>");
+
+MODULE_LICENSE("GPL");
+-----------------shwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("SuperH watchdog driver");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------orion_wdt.c-----------------
+GPL v2
+MODULE_AUTHOR("Sylver Bruneau <sylver.bruneau@googlemail.com>")
+MODULE_DESCRIPTION("Orion Processor Watchdog")
+MODULE_LICENSE("GPL v2")
+MODULE_ALIAS("platform:orion_wdt")
+-----------------bd96801_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+-----------------sch311x_wdt.c-----------------
+(c) Copyright 2008 Wim Van Sebroeck <wim@iguana.be>.
+
+Neither Wim Van Sebroeck nor Iguana vzw. admit liability nor provide warranty for any of this software. This material is provided "AS-IS" and at no charge.
+
+MODULE_AUTHOR("Wim Van Sebroeck <wim@iguana.be>");
+MODULE_DESCRIPTION("SMSC SCH311x WatchDog Timer Driver");
+MODULE_LICENSE("GPL");
+-----------------w83877f_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2001    Scott Jennings <linuxdrivers@oro.net>
+
+MODULE_AUTHOR("Scott and Bill Jennings");
+MODULE_DESCRIPTION("Driver for watchdog timer in w83877F chip");
+MODULE_LICENSE("GPL");
+-----------------watchdog_core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+(c) Copyright 2008-2011 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+(c) Copyright 2008-2011 Wim Van Sebroeck <wim@iguana.be>.
+
+(c) Copyright 2021 Hewlett Packard Enterprise Development LP.
+
+Neither Alan Cox, CymruNet Ltd., Wim Van Sebroeck nor Iguana vzw. admit liability nor provide warranty for any of this software.
+This material is provided "AS-IS" and at no charge.
+-----------------rn5t618_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 Beniamino Galvani <b.galvani@gmail.com>
+
+MODULE_AUTHOR("Beniamino Galvani <b.galvani@gmail.com>");
+MODULE_DESCRIPTION("RN5T618 watchdog driver");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:rn5t618-wdt");
+-----------------menf21bmc_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2014 MEN Mikro Elektronik Nuernberg GmbH
+
+MODULE_DESCRIPTION("MEN 14F021P00 BMC Watchdog driver");
+MODULE_AUTHOR("Andreas Werner <andreas.werner@men.de>");
+MODULE_LICENSE("GPL v2");
+-----------------ibmasr.c-----------------
+// SPDX-License-Identifier: GPL-1.0+
+
+Copyright (c) 2005 Andrey Panin <pazke@donpac.ru>
+
+Based on driver written by Pete Reynolds.
+Copyright (c) IBM Corporation, 1998-2004.
+
+MODULE_DESCRIPTION("IBM Automatic Server Restart driver");
+MODULE_AUTHOR("Andrey Panin");
+MODULE_LICENSE("GPL");
+-----------------sama5d4_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2015-2019 Microchip Technology Inc. and its subsidiaries
+
+MODULE_AUTHOR("Atmel Corporation")
+
+MODULE_DESCRIPTION("Atmel SAMA5D4 Watchdog Timer driver")
+
+MODULE_LICENSE("GPL v2")
+-----------------rzv2h_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2024 Renesas Electronics Corporation.
+-----------------sa1100_wdt.c-----------------
+(c) Copyright 2000 Oleg Drokin <green@crimea.edu>
+	Neither Oleg Drokin nor iXcelerator.com admit liability nor provide
+		warranty for any of this software. This material is provided
+		"AS-IS" and at no charge.
+
+(c) Copyright 2000           Oleg Drokin <green@crimea.edu>
+
+MODULE_AUTHOR("Oleg Drokin <green@crimea.edu>");
+MODULE_DESCRIPTION("SA1100/PXA2xx Watchdog");
+
+MODULE_LICENSE("GPL");
+MODULE_PARM_DESC(margin, "Watchdog margin in seconds (default 60s)");
+-----------------alim1535_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Alan Cox");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("ALi M1535 PMU Watchdog Timer driver");
+-----------------watchdog_hrtimer_pretimeout.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * (c) Copyright 2021 Hewlett Packard Enterprise Development LP.
+ */
+-----------------sbc60xxwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2000    Jakob Oestergaard <jakob@unthought.net>
+
+MODULE_AUTHOR("Jakob Oestergaard <jakob@unthought.net>");
+
+MODULE_DESCRIPTION("60xx Single Board Computer Watchdog Timer driver");
+
+MODULE_LICENSE("GPL");
+-----------------mei_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Intel Corporation");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Device driver for Intel MEI iAMT watchdog");
+-----------------bd9576_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>");
+MODULE_DESCRIPTION("ROHM BD9576/BD9573 Watchdog driver");
+MODULE_ALIAS("platform:bd9576-wdt");
+-----------------rzn1_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2018 Renesas Electronics Europe Ltd.
+
+MODULE_DESCRIPTION("Renesas RZ/N1 hardware watchdog");
+MODULE_AUTHOR("Phil Edworthy <phil.edworthy@renesas.com>");
+MODULE_LICENSE("GPL");
+-----------------watchdog_core.c-----------------
+(c) Copyright 2008-2011 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+						All Rights Reserved.
+
+(c) Copyright 2008-2011 Wim Van Sebroeck <wim@iguana.be>.
+
+MODULE_AUTHOR("Alan Cox <alan@lxorguk.ukuu.org.uk>");
+MODULE_AUTHOR("Wim Van Sebroeck <wim@iguana.be>");
+
+MODULE_LICENSE("GPL");
+-----------------dw_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jamie Iles");
+MODULE_DESCRIPTION("Synopsys DesignWare Watchdog Driver");
+MODULE_LICENSE("GPL");
+-----------------booke_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------sl28cpld_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("sl28cpld Watchdog Driver");
+MODULE_AUTHOR("Michael Walle <michael@walle.cc>");
+-----------------sunxi_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2013 Carlo Caione
+                    2012 Henrik Nordstrom
+
+(c) Copyright 2010 Novell, Inc.
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Carlo Caione <carlo.caione@gmail.com>");
+MODULE_AUTHOR("Henrik Nordstrom <henrik@henriknordstrom.net>");
+MODULE_DESCRIPTION("sunxi WatchDog Timer Driver");
+MODULE_VERSION(DRV_VERSION);
+-----------------aspeed_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright 2016 IBM Corporation
+ *
+ * Joel Stanley <joel@jms.id.au>
+ */
+
+MODULE_DESCRIPTION("Aspeed Watchdog Driver");
+MODULE_LICENSE("GPL");
+-----------------pc87413_wdt.c-----------------
+(C) Copyright 2006 Sven Anders, <anders@anduras.de>
+                     and Marcus Junker, <junker@anduras.de>
+
+Neither Sven Anders, Marcus Junker nor ANDURAS AG
+admit liability nor provide warranty for any of this software.
+This material is provided "AS-IS" and at no charge.
+
+MODULE_AUTHOR("Sven Anders <anders@anduras.de>");
+MODULE_AUTHOR("Marcus Junker <junker@anduras.de>");
+MODULE_DESCRIPTION("PC87413 WDT driver");
+MODULE_LICENSE("GPL");
+-----------------wd501p.h-----------------
+/* SPDX-License-Identifier: GPL-1.0+ */
+
+(c) Copyright 1995	CymruNET Ltd
+-----------------msc313e_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2019 - 2021 Daniel Palmer
+ * Copyright (C) 2021 Romain Perier
+ */
+-----------------rti_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+(c) Copyright 2019-2020 Texas Instruments Inc.
+All rights reserved.
+
+MODULE_AUTHOR("Tero Kristo <t-kristo@ti.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("K3 RTI Watchdog Driver");
+
+MODULE_PARM_DESC(heartbeat,
+		 "Watchdog heartbeat period in seconds from 1 to "
+		 __MODULE_STRING(MAX_HEARTBEAT) ", default "
+		 __MODULE_STRING(DEFAULT_HEARTBEAT));
+-----------------da9063_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Mariusz Wojtasik <mariusz.wojtasik@diasemi.com>");
+
+MODULE_DESCRIPTION("Watchdog driver for Dialog DA9063");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:" DA9063_DRVNAME_WATCHDOG);
+-----------------nv_tco.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+(c) Copyright 2005 Google Inc., All Rights Reserved.
+
+(c) Copyright 2000 kernel concepts <nils@kernelconcepts.de>, All Rights
+Reserved.
+https://www.kernelconcepts.de
+
+(c) Copyright 2000	kernel concepts <nils@kernelconcepts.de>
+developed for
+                              Jentro AG, Haar/Munich (Germany)
+-----------------sbc_epx_c3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2006 Calin A. Culianu <calin@ajvar.org>, All Rights Reserved.
+
+based on softdog.c by Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Calin A. Culianu <calin@ajvar.org>");
+MODULE_DESCRIPTION("Hardware Watchdog Device for Winsystems EPX-C3 SBC.  "
+	"Note that there is no way to probe for this device -- "
+	"so only use it if you are *sure* you are running on this specific "
+	"SBC system from Winsystems!  It writes to IO ports 0x1ee and 0x1ef!");
+-----------------meson_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2014 Carlo Caione
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Carlo Caione <carlo@caione.org>");
+
+MODULE_DESCRIPTION("Meson Watchdog Timer Driver");
+-----------------moxart_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * MOXA ART SoCs watchdog driver.
+ *
+ * Copyright (C) 2013 Jonas Jensen
+ *
+ * Jonas Jensen <jonas.jensen@gmail.com>
+ *
+ */
+MODULE_DESCRIPTION("MOXART watchdog driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jonas Jensen <jonas.jensen@gmail.com>");
+-----------------sbc_fitpc2_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Denis Turischev <denis@compulab.co.il>");
+MODULE_DESCRIPTION("SBC-FITPC2 Watchdog");
+MODULE_PARM_DESC(margin, "Watchdog margin in seconds (default 60s)");
+MODULE_PARM_DESC(nowayout, "Watchdog cannot be stopped once started");
+-----------------qcom-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2014, The Linux Foundation. All rights reserved. */
+-----------------pic32-dmt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016, Microchip Technology Inc.
+
+MODULE_AUTHOR("Purna Chandra Mandal <purna.mandal@microchip.com>");
+
+MODULE_DESCRIPTION("Microchip PIC32 DMT Driver");
+
+MODULE_LICENSE("GPL");
+-----------------wdt_pci.c-----------------
+(c) Copyright 1996-1997 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("JP Nollmann, Alan Cox");
+MODULE_DESCRIPTION("Driver for the ICS PCI-WDT500/501 watchdog cards");
+-----------------ib700wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+(c) Copyright 2001 Charles Howes <chowes@vsol.net>
+
+(c) Copyright 2000-2001 Marek Michalkiewicz <marekm@linux.org.pl>
+
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, All Rights Reserved.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide warranty for any of this software. This material is provided "AS-IS" and at no charge.
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Charles Howes <chowes@vsol.net>");
+
+MODULE_DESCRIPTION("IB700 SBC watchdog driver");
+-----------------xilinx_wwdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2022 - 2023, Advanced Micro Devices, Inc.
+
+MODULE_AUTHOR("Neeli Srinivas <srinivas.neeli@amd.com>");
+
+MODULE_DESCRIPTION("Xilinx window watchdog driver");
+
+MODULE_LICENSE("GPL");
+-----------------marvell_gti_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/* Marvell GTI Watchdog driver
+ *
+ * Copyright (C) 2023 Marvell.
+ */
+
+MODULE_AUTHOR("Bharat Bhushan <bbhushan2@marvell.com>");
+MODULE_DESCRIPTION("Marvell GTI watchdog driver");
+MODULE_LICENSE("GPL");
+-----------------nv_tco.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+(c) Copyright 2005 Google Inc., All Rights Reserved.
+
+(c) Copyright 2000 kernel concepts <nils@kernelconcepts.de>, All Rights
+Reserved.
+
+https://www.kernelconcepts.de
+
+MODULE_AUTHOR("Mike Waychison");
+
+MODULE_DESCRIPTION("TCO timer driver for NV chipsets");
+
+MODULE_LICENSE("GPL");
+-----------------sp5100_tco.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Priyanka Gupta");
+MODULE_DESCRIPTION("TCO timer driver for SP5100/SB800 chipset");
+-----------------sp805_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Viresh Kumar <vireshk@kernel.org>");
+MODULE_DESCRIPTION("ARM SP805 Watchdog Driver");
+-----------------armada_37xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Marek Behun <kabel@kernel.org>");
+
+MODULE_DESCRIPTION("Armada 37xx CPU Watchdog");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:armada_37xx_wdt");
+-----------------acquirewdt.c-----------------
+(c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>, 
+						All Rights Reserved.
+
+Neither Alan Cox nor CymruNet Ltd. admit liability nor provide
+warranty for any of this software. This material is provided
+"AS-IS" and at no charge.
+
+(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+
+MODULE_AUTHOR("David Woodhouse");
+MODULE_DESCRIPTION("Acquire Inc. Single Board Computer Watchdog Timer driver");
+MODULE_LICENSE("GPL");
+-----------------bcm47xx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2008 Aleksandar Radovanovic <biblbroks@sezampro.rs>
+Copyright (C) 2009 Matthieu CASTET <castet.matthieu@free.fr>
+Copyright (C) 2012-2013 Hauke Mehrtens <hauke@hauke-m.de>
+
+MODULE_AUTHOR("Aleksandar Radovanovic");
+MODULE_AUTHOR("Hauke Mehrtens <hauke@hauke-m.de>");
+MODULE_LICENSE("GPL");
+-----------------pcwd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ken Hollis <kenji@bitgate.com>, "
+		"Wim Van Sebroeck <wim@iguana.be>");
+MODULE_DESCRIPTION("Berkshire ISA-PC Watchdog driver");
+MODULE_VERSION(WATCHDOG_VERSION);
+-----------------mlx_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Michael Shych <michaelsh@mellanox.com>");
+MODULE_DESCRIPTION("Mellanox watchdog driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:mlx-wdt");
+-----------------cadence_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Xilinx, Inc.");
+
+MODULE_DESCRIPTION("Watchdog driver for Cadence WDT");
+
+MODULE_LICENSE("GPL");
+-----------------meson_gxbb_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
+
+MODULE_AUTHOR("Neil Armstrong <narmstrong@baylibre.com>");
+
+MODULE_DESCRIPTION("Amlogic Meson GXBB Watchdog timer driver");
+
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------at91sam9_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2008 Renaud CERRATO r.cerrato@til-technologies.fr
+-----------------mt7621_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2014 John Crispin <john@phrozen.org>
+
+MODULE_DESCRIPTION("MediaTek MT762x hardware watchdog driver");
+MODULE_AUTHOR("John Crispin <john@phrozen.org>");
+MODULE_LICENSE("GPL v2");
+-----------------cros_ec_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Cros EC Watchdog Device Driver");
+-----------------digicolor_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ * Copyright (C) 2015 Paradox Innovation Ltd.
+ 
+ MODULE_AUTHOR("Baruch Siach <baruch@tkos.co.il>");
+ 
+ MODULE_DESCRIPTION("Driver for Conexant Digicolor watchdog timer");
+ 
+ MODULE_LICENSE("GPL");
+-----------------riowd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* riowd.c - driver for hw watchdog inside Super I/O of RIO
+ *
+ * Copyright (C) 2001, 2008 David S. Miller (davem@davemloft.net)
+ */
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("David S. Miller <davem@davemloft.net>");
+MODULE_DESCRIPTION("Hardware watchdog driver for Sun RIO");
+-----------------tqmx86_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Andrew Lunn <andrew@lunn.ch>");
+MODULE_DESCRIPTION("TQMx86 Watchdog");
+MODULE_ALIAS("platform:tqmx86-wdt");
+MODULE_LICENSE("GPL");
+-----------------retu_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2004, 2005 Nokia Corporation
+
+Based on code written by Amit Kucheria and Michael Buesch.
+Rewritten by Aaro Koskinen.
+
+MODULE_ALIAS("platform:retu-wdt");
+MODULE_DESCRIPTION("Retu watchdog");
+MODULE_AUTHOR("Amit Kucheria");
+MODULE_AUTHOR("Aaro Koskinen <aaro.koskinen@iki.fi>");
+MODULE_LICENSE("GPL");
+-----------------visconti_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (c) 2020 TOSHIBA CORPORATION
+ * Copyright (c) 2020 Toshiba Electronic Devices & Storage Corporation
+ * Copyright (c) 2020 Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>
+ */
+
+MODULE_DESCRIPTION("TOSHIBA Visconti Watchdog Driver");
+MODULE_AUTHOR("Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp");
+MODULE_LICENSE("GPL v2");
+-----------------ziirave_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (C) 2015 Zodiac Inflight Innovations
+ *
+ * Author: Martyn Welch <martyn.welch@collabora.co.uk>
+ *
+ * Based on twl4030_wdt.c by Timo Kokkonen <timo.t.kokkonen at nokia.com>:
+ *
+ * Copyright (C) Nokia Corporation
+ */
+-----------------pcwd_usb.c-----------------
+(c) Copyright 2004-2007 Wim Van Sebroeck <wim@iguana.be>. 
+
+MODULE_LICENSE("GPL");
+-----------------pm8916_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------da9062_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * Watchdog device driver for DA9062 and DA9061 PMICs
+ * Copyright (C) 2015  Dialog Semiconductor Ltd.
+ *
+ */
+-----------------sbc7240_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+(c) Copyright 2007  Gilles Gigan <gilles.gigan@jcu.edu.au>
+
+MODULE_AUTHOR("Gilles Gigan");
+MODULE_DESCRIPTION("Watchdog device driver for single board"
+		   " computers EPIC Nano 7240 from iEi");
+MODULE_LICENSE("GPL");
+-----------------rave-sp-wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2017 Zodiac Inflight Innovation
+-----------------pika_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2008 PIKA Technologies
+   Sean MacLennan <smaclennan@pikatech.com>
+
+MODULE_AUTHOR("Sean MacLennan <smaclennan@pikatech.com>");
+MODULE_DESCRIPTION("PIKA FPGA based Watchdog Timer");
+MODULE_LICENSE("GPL");
+-----------------tegra_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2014, NVIDIA CORPORATION.  All rights reserved.
+ */
+MODULE_AUTHOR("NVIDIA Corporation");
+MODULE_DESCRIPTION("Tegra Watchdog Driver");
+MODULE_LICENSE("GPL v2");
+-----------------da9052_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright(c) 2012 Dialog Semiconductor Ltd.
+-----------------watchdog_dev.c-----------------
+(c) Copyright 2008-2011 Alan Cox <alan@lxorguk.ukuu.org.uk>,
+All Rights Reserved.
+
+(c) Copyright 2008-2011 Wim Van Sebroeck <wim@iguana.be>.
+
+(c) Copyright 2021 Hewlett Packard Enterprise Development LP.
+-----------------pcwd_pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Wim Van Sebroeck <wim@iguana.be>");
+MODULE_DESCRIPTION("Berkshire PCI-PC Watchdog driver");
+MODULE_LICENSE("GPL");
+-----------------apple_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only OR MIT
+/*
+ * Apple SoC Watchdog driver
+ *
+ * Copyright (C) The Asahi Linux Contributors
+ */
+-----------------sun4v_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------cpu5wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Heiko Ronsdorf <hero@ihg.uni-duisburg.de>");
+
+MODULE_LICENSE("GPL");
+-----------------realtek_otto_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------iTCO_wdt.c-----------------
+(c) Copyright 2006-2011 Wim Van Sebroeck <wim@iguana.be>.
+
+Neither Wim Van Sebroeck nor Iguana vzw. admit liability nor
+provide warranty for any of this software. This material is
+provided "AS-IS" and at no charge.
+
+MODULE_AUTHOR("Wim Van Sebroeck <wim@iguana.be>");
+MODULE_DESCRIPTION("Intel TCO WatchDog Timer Driver");
+MODULE_VERSION(DRV_VERSION);
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------omap_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2003 MontaVista Software, Inc.
+Copyright (c) 2004 Texas Instruments.
+Copyright (c) 2005 David Brownell
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("George G. Davis")
+MODULE_DESCRIPTION("Driver for the TI OMAP 16xx/24xx/34xx 32KHz (non-secure) watchdog")
+MODULE_ALIAS("platform:omap_wdt")
+-----------------it87_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Oliver Schuster");
+MODULE_DESCRIPTION("Hardware Watchdog Device Driver for IT87xx EC-LPC I/O");
+-----------------alim7101_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Steve Hill");
+
+MODULE_DESCRIPTION("ALi M7101 PMU Computer Watchdog Timer driver");
+
+MODULE_LICENSE("GPL");
+-----------------ebc-c384_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Watchdog timer driver for the WinSystems EBC-C384
+ * Copyright (C) 2016 William Breathitt Gray
+ */
+
+MODULE_AUTHOR("William Breathitt Gray <vilhelm.gray@gmail.com>");
+
+MODULE_DESCRIPTION("WinSystems EBC-C384 watchdog timer driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("isa:" MODULE_NAME);
+-----------------exar_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("David Müller <d.mueller@elsoft.ch>");
+
+MODULE_DESCRIPTION("Exar/MaxLinear Watchdog Driver");
+
+MODULE_LICENSE("GPL");
+-----------------mtx-1_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+(C) Copyright 2005 4G Systems <info@4g-systems.biz>, All Rights Reserved.
+http://www.4g-systems.biz
+
+(C) Copyright 2007 OpenWrt.org, Florian Fainelli <florian@openwrt.org>
+(c) Copyright 2005    4G Systems <info@4g-systems.biz>
+
+MODULE_AUTHOR("Michael Stickel, Florian Fainelli");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Driver for the MTX-1 watchdog");
+MODULE_ALIAS("platform:mtx1-wdt");
+-----------------w83977f_wdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jose Goncalves <jose.goncalves@inov.pt>");
+MODULE_DESCRIPTION("Driver for watchdog timer in W83977F I/O chip");

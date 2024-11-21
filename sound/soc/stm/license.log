@@ -1,0 +1,36 @@
+-----------------stm32_adfsdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("stm32 DFSDM DAI driver");
+MODULE_AUTHOR("Arnaud Pouliquen <arnaud.pouliquen@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:" STM32_ADFSDM_DRV_NAME);
+-----------------stm32_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("STM32 Soc i2s Interface");
+MODULE_AUTHOR("Olivier Moysan, <olivier.moysan@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:stm32-i2s");
+-----------------stm32_sai.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016, STMicroelectronics - All Rights Reserved
+Author(s): Olivier Moysan <olivier.moysan@st.com> for STMicroelectronics.
+
+MODULE_DESCRIPTION("STM32 Soc SAI Interface");
+MODULE_AUTHOR("Olivier Moysan <olivier.moysan@st.com>");
+MODULE_ALIAS("platform:st,stm32-sai");
+MODULE_LICENSE("GPL v2");
+-----------------stm32_sai_sub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("STM32 Soc SAI sub-block Interface");
+MODULE_AUTHOR("Olivier Moysan <olivier.moysan@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:st,stm32-sai-sub");
+-----------------stm32_spdifrx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------stm32_sai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (C) 2016, STMicroelectronics - All Rights Reserved

@@ -1,0 +1,35 @@
+-----------------proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 1998-2003 Geert Uytterhoeven
+
+Copyright (C) 1997, 1998 Martin Mares <mj@atrey.karlin.mff.cuni.cz>
+-----------------zorro-sysfs.c-----------------
+Copyright (C) 2003 Geert Uytterhoeven
+
+This file is subject to the terms and conditions of the GNU General Public License.  See the file COPYING in the main directory of this archive for more details.
+-----------------zorro-driver.c-----------------
+*   Copyright (C) 2003 Geert Uytterhoeven
+*   This file is subject to the terms and conditions of the GNU General Public License.  See the file COPYING in the main directory of this archive for more details.
+-----------------zorro.c-----------------
+Copyright (C) 1995-2003 Geert Uytterhoeven
+
+This file is subject to the terms and conditions of the GNU General Public
+License.  See the file COPYING in the main directory of this archive
+for more details.
+
+MODULE_LICENSE("GPL");
+-----------------zorro.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------names.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 1999--2000 Geert Uytterhoeven
+
+Copyright 1992--1999 Drew Eckhardt, Frederic Potter, David Mosberger-Tang, Martin Mares
+-----------------gen-devlist.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+(c) 2000 Geert Uytterhoeven <geert@linux-m68k.org>
+
+(c) 1999--2000 Martin Mares <mj@ucw.cz>

@@ -1,0 +1,73 @@
+-----------------au88x0_a3d.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright  2003  mjander
+mjander@users.sourceforge.net
+-----------------au8830.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------au88x0_xtalk.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au88x0_a3ddata.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+ *            au88x0_a3ddata.c
+ *
+ *  Wed Nov 19 21:11:32 2003
+ *  Copyright  2003  mjander
+ *  mjander@users.sourceforge.org
+-----------------au88x0_synth.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au8810.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------au88x0_wt.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright 2003 mjander
+mjander@users.sourceforge.org
+-----------------au88x0_xtalk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright  2003  mjander
+mjander@users.sourceforge.org
+-----------------au88x0_game.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Should you need to contact me, the author, you can do so either by
+e-mail - mail your message to <vojtech@suse.cz>, or by paper mail:
+Vojtech Pavlik, Ucitelska 1576, Prague 8, 182 00 Czech Republic
+-----------------au88x0_mpu401.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ 
+Modified for the Aureal Vortex based Soundcards
+by Manuel Jander (mjande@embedded.cl).
+-----------------au8830.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------au88x0.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Aureal vortex");
+-----------------au88x0_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au88x0_eq.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+ Cobbled together from various sources, this is the copyright notice found in the source code.
+-----------------au8810.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------au88x0_eqdata.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------au8820.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------au88x0_a3d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au88x0_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au88x0_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------au88x0_eq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------au88x0.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------au8820.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

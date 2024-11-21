@@ -1,0 +1,126 @@
+-----------------srf04.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2017 Andreas Klinger <ak@it-klinger.de>
+-----------------pulsedlight-lidar-lite-v2.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("PulsedLight LIDAR sensor");
+MODULE_LICENSE("GPL");
+-----------------irsd200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Waqar Hameed <waqar.hameed@axis.com>");
+-----------------vcnl3020.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------cros_ec_mkbp_proximity.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+-----------------isl29501.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Mathieu Othacehe <m.othacehe@gmail.com>");
+MODULE_DESCRIPTION("ISL29501 Time of Flight sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------sx_common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Gwendal Grignou <gwendal@chromium.org>");
+
+MODULE_DESCRIPTION("Common functions and structures for Semtech sensor");
+MODULE_LICENSE("GPL v2");
+-----------------rfd77402.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Peter Meerwald-Stadler <pmeerw@pmeerw.net>");
+MODULE_DESCRIPTION("RFD77402 Time-of-Flight sensor driver");
+-----------------as3935.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("AS3935 lightning sensor");
+MODULE_LICENSE("GPL");
+-----------------sx9324.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Gwendal Grignou <gwendal@chromium.org>");
+
+MODULE_DESCRIPTION("Driver for Semtech SX9324 proximity sensor");
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(SEMTECH_PROX);
+-----------------sx9500.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Vlad Dogaru <vlad.dogaru@intel.com>");
+MODULE_DESCRIPTION("Driver for Semtech SX9500 proximity sensor");
+MODULE_LICENSE("GPL v2");
+-----------------mb1232.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+Copyright (c) 2019 Andreas Klinger <ak@it-klinger.de>
+ 
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+MODULE_DESCRIPTION("Maxbotix I2CXL-MaxSonar i2c ultrasonic ranger driver");
+MODULE_LICENSE("GPL");
+-----------------ping.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+
+MODULE_DESCRIPTION("PING sensors for distance measuring using one GPIOs");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:ping");
+-----------------sx9360.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Gwendal Grignou <gwendal@chromium.org>");
+MODULE_DESCRIPTION("Driver for Semtech SX9360 proximity sensor");
+MODULE_LICENSE("GPL v2");
+MODULE_IMPORT_NS(SEMTECH_PROX);
+-----------------srf08.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Andreas Klinger <ak@it-klinger.de>");
+
+MODULE_DESCRIPTION("Devantech SRF02/SRF08/SRF10 i2c ultrasonic ranger driver");
+
+MODULE_LICENSE("GPL");
+-----------------aw96103.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Wang Shuaijie <wangshuaijie@awinic.com>");
+
+MODULE_DESCRIPTION("Driver for Awinic AW96103 proximity sensor");
+MODULE_LICENSE("GPL v2");
+-----------------sx_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2021 Google LLC.
+ */
+-----------------sx9310.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Gwendal Grignou <gwendal@chromium.org>");
+
+MODULE_AUTHOR("Daniel Campello <campello@chromium.org>");
+
+MODULE_DESCRIPTION("Driver for Semtech SX9310/SX9311 proximity sensor");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(SEMTECH_PROX);
+-----------------vl53l0x-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2016 STMicroelectronics Imaging Division.
+Copyright (C) 2018 Song Qiang <songqiang1304521@gmail.com>
+Copyright (C) 2020 Ivan Drobyshevskyi <drobyshevskyi@gmail.com>
+
+MODULE_AUTHOR("Song Qiang <songqiang1304521@gmail.com>");
+MODULE_DESCRIPTION("ST vl53l0x ToF ranging sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------hx9023s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Yasin Lee <yasin.lee.x@gmail.com>");
+MODULE_DESCRIPTION("Driver for TYHX HX9023S SAR sensor");
+MODULE_LICENSE("GPL");

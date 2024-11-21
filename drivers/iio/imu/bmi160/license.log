@@ -1,0 +1,19 @@
+-----------------bmi160_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+MODULE_DESCRIPTION("Bosch BMI160 driver");
+MODULE_LICENSE("GPL v2");
+-----------------bmi160_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (c) 2016, Intel Corporation.
+MODULE_LICENSE("GPL v2")
+-----------------bmi160_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2016, Intel Corporation.
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com")
+
+MODULE_LICENSE("GPL v2")
+-----------------bmi160.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

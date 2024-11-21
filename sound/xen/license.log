@@ -1,0 +1,44 @@
+-----------------xen_snd_front_alsa.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 OR MIT */
+
+/*
+ * Xen para-virtual sound device
+ *
+ * Copyright (C) 2016-2018 EPAM Systems Inc.
+ *
+ * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
+ */
+-----------------xen_snd_front_cfg.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+
+/*
+ * Xen para-virtual sound device
+ *
+ * Copyright (C) 2016-2018 EPAM Systems Inc.
+ *
+ * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
+ */
+-----------------xen_snd_front_evtchnl.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+
+Copyright (C) 2016-2018 EPAM Systems Inc.
+-----------------xen_snd_front.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+
+MODULE_DESCRIPTION("Xen virtual sound device frontend");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("xen:" XENSND_DRIVER_NAME);
+-----------------xen_snd_front.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 OR MIT */
+
+Copyright (C) 2016-2018 EPAM Systems Inc.
+-----------------xen_snd_front_cfg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 OR MIT */
+
+Copyright (C) 2016-2018 EPAM Systems Inc.
+-----------------xen_snd_front_evtchnl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 OR MIT */
+
+Copyright (C) 2016-2018 EPAM Systems Inc.
+-----------------xen_snd_front_alsa.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT

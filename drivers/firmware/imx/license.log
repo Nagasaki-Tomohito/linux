@@ -1,0 +1,40 @@
+-----------------sm-misc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ * Copyright 2024 NXP
+ */
+-----------------imx-dsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@nxp.com>");
+
+MODULE_DESCRIPTION("IMX DSP IPC protocol driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------misc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2016 Freescale Semiconductor, Inc.
+Copyright 2017~2018 NXP
+  Author: Dong Aisheng <aisheng.dong@nxp.com>
+-----------------rm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ * Copyright 2020 NXP
+-----------------imx-scu.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Dong Aisheng <aisheng.dong@nxp.com>");
+
+MODULE_DESCRIPTION("IMX SCU firmware protocol driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------imx-scu-soc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright 2019 NXP.
+ */
+-----------------imx-scu-irq.c-----------------
+// SPDX-License-Identifier: GPL-2.0+

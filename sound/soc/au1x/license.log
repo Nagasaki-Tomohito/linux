@@ -1,0 +1,35 @@
+-----------------db1200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("DB1200/DB1300/DB1550 ASoC audio support");
+MODULE_AUTHOR("Manuel Lauss");
+-----------------psc-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------psc-ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------db1000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("DB1000/DB1500/DB1100 ASoC audio");
+MODULE_AUTHOR("Manuel Lauss");
+-----------------ac97c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Au1000/1500/1100 AC97C ASoC driver");
+MODULE_AUTHOR("Manuel Lauss");
+-----------------i2sc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Au1000/1500/1100 I2S ASoC driver");
+MODULE_AUTHOR("Manuel Lauss");
+-----------------psc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+(c) 2007-2011 MSC Vertriebsges.m.b.H., Manuel Lauss <manuel.lauss@gmail.com>
+-----------------dbdma2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Au12x0/Au1550 PSC Audio DMA driver");
+MODULE_AUTHOR("Manuel Lauss");

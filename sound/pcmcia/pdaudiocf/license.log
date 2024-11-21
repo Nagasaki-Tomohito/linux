@@ -1,0 +1,22 @@
+-----------------pdaudiocf_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 by Jaroslav Kysela <perex@perex.cz>
+-----------------pdaudiocf_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 by Jaroslav Kysela <perex@perex.cz>
+-----------------pdaudiocf.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2003 by Jaroslav Kysela <perex@perex.cz>
+-----------------pdaudiocf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 by Jaroslav Kysela <perex@perex.cz>
+
+MODULE_LICENSE("GPL");
+-----------------pdaudiocf_irq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 by Jaroslav Kysela <perex@perex.cz>

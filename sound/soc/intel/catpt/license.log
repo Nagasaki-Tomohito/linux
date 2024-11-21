@@ -1,0 +1,70 @@
+-----------------messages.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation
+ *
+ * Author: Cezary Rojewski <cezary.rojewski@intel.com>
+ */
+-----------------messages.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2020 Intel Corporation
+-----------------device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2020 Intel Corporation
+
+Author: Cezary Rojewski <cezary.rojewski@intel.com>
+
+Special thanks to:
+    Marcin Barlik <marcin.barlik@intel.com>
+    Piotr Papierkowski <piotr.papierkowski@intel.com>
+
+for sharing LPT-LP and WTP-LP AudioDSP architecture expertise and
+helping backtrack its historical background
+
+MODULE_AUTHOR("Cezary Rojewski <cezary.rojewski@intel.com>");
+
+MODULE_DESCRIPTION("Intel LPT/WPT AudioDSP driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation
+ */
+-----------------core.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation
+ * 
+ * Author: Cezary Rojewski <cezary.rojewski@intel.com>
+ */
+-----------------ipc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2020 Intel Corporation
+-----------------registers.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2020 Intel Corporation
+ *
+ * Author: Cezary Rojewski <cezary.rojewski@intel.com>
+ */
+-----------------loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2020 Intel Corporation
+-----------------dsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2020 Intel Corporation
+//
+-----------------sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2020 Intel Corporation
+//
+// Author: Cezary Rojewski <cezary.rojewski@intel.com>

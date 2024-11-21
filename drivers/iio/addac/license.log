@@ -1,0 +1,20 @@
+-----------------ad74115.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD74115 ADDAC");
+MODULE_LICENSE("GPL");
+-----------------stx104.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("William Breathitt Gray <vilhelm.gray@gmail.com>");
+
+MODULE_DESCRIPTION("Apex Embedded Systems STX104 IIO driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(I8254);
+-----------------ad74413r.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Cosmin Tanislav <cosmin.tanislav@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD74413R ADDAC");
+MODULE_LICENSE("GPL v2");

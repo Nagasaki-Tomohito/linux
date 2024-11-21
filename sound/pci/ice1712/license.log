@@ -1,0 +1,174 @@
+-----------------revo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------maya44.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wm8766.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2012 Ondrej Zary <linux@rainbow-software.org>
+-----------------phase.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------wm8766.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2012 Ondrej Zary <linux@rainbow-software.org>
+-----------------psc724.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------amp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+-----------------juli.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------pontis.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+ Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------envy24ht.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *   ALSA driver for ICEnsemble VT1724 (Envy24)
+ *
+ *	Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------hoontech.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+-----------------revo.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright (c) 2003 Takashi Iwai <tiwai@suse.de>
+-----------------prodigy_hifi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *   ALSA driver for ICEnsemble VT1724 (Envy24HT)
+ *
+ *   Lowlevel functions for Audiotrak Prodigy 7.1 Hifi
+ *   based on pontis.c
+ *
+ *      Copyright (c) 2007 Julian Scheel <julian@jusst.de>
+ *      Copyright (c) 2007 allank
+ *      Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+ */
+-----------------quartet.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------pontis.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------maya44.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------delta.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+-----------------ice1712.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *   ALSA driver for ICEnsemble ICE1712 (Envy24)
+ *
+ *	Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------ice1724.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("VIA ICEnsemble ICE1724/1720 (Envy24HT/PT)");
+MODULE_LICENSE("GPL");
+-----------------ews.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+ 
+Copyright (c) 2002 Takashi Iwai <tiwai@suse.de>
+-----------------quartet.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------ice1712.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   ALSA driver for ICEnsemble ICE1712 (Envy24)
+ *
+ *	Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("ICEnsemble ICE1712 (Envy24)");
+-----------------aureon.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright (c) 2003 Takashi Iwai <tiwai@suse.de>
+-----------------ak4xxx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *   Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+ */
+MODULE_LICENSE("GPL");
+-----------------prodigy_hifi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------psc724.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------amp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
+-----------------vt1720_mobo.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------delta.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------se.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------stac946x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------juli.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------vt1720_mobo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------phase.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2005 Misha Zhilin <misha@epiphan.com>
+-----------------ews.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------prodigy192.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wtm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2006 Guedez Clement <klem.dev@gmail.com>
+-----------------prodigy192.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *   Copyright (c) 2003 Takashi Iwai <tiwai@suse.de>
+ *   Copyright (c) 2003 Dimitromanolakis Apostolos <apostol@cs.utoronto.ca>
+ *   Copyright (c) 2004 Kouichi ONO <co2b@ceres.dti.ne.jp>
+ */
+-----------------aureon.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 Takashi Iwai <tiwai@suse.de>
+
+Copyright (c) 2003 Dimitromanolakis Apostolos <apostol@cs.utoronto.ca>
+-----------------wtm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------wm8776.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2012 Ondrej Zary <linux@rainbow-software.org>
+-----------------wm8776.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (c) 2012 Ondrej Zary <linux@rainbow-software.org>
+-----------------se.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2007 Shin-ya Okada  sh_okada(at)d4.dion.ne.jp
+-----------------hoontech.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>

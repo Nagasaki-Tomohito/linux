@@ -1,0 +1,59 @@
+-----------------aio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Socionext UniPhier AIO ALSA driver.
+ *
+ * Copyright (c) 2016-2018 Socionext Inc.
+ */
+-----------------evea.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Katsuhiro Suzuki <suzuki.katsuhiro@socionext.com>");
+
+MODULE_DESCRIPTION("UniPhier EVEA codec driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------aio-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------aio-ld11.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2016-2018 Socionext Inc.
+
+MODULE_AUTHOR("Katsuhiro Suzuki <suzuki.katsuhiro@socionext.com>");
+
+MODULE_DESCRIPTION("UniPhier LD11/LD20 AIO driver.");
+
+MODULE_LICENSE("GPL v2");
+-----------------aio-pxs2.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 Socionext Inc.
+
+MODULE_AUTHOR("Katsuhiro Suzuki <suzuki.katsuhiro@socionext.com>");
+
+MODULE_DESCRIPTION("UniPhier PXs2 AIO driver.");
+
+MODULE_LICENSE("GPL v2");
+-----------------aio-cpu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Katsuhiro Suzuki <suzuki.katsuhiro@socionext.com>");
+
+MODULE_DESCRIPTION("UniPhier AIO CPU DAI driver.");
+MODULE_LICENSE("GPL v2");
+-----------------aio-compress.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2017-2018 Socionext Inc.
+-----------------aio-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2016-2018 Socionext Inc.
+-----------------aio-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Socionext UniPhier AIO ALSA driver.
+ *
+ * Copyright (c) 2016-2018 Socionext Inc.
+ */

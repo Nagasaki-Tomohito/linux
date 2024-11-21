@@ -1,0 +1,16 @@
+-----------------uniperif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------uniperif_player.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) STMicroelectronics SA 2015
+Authors: Arnaud Pouliquen <arnaud.pouliquen@st.com>
+          for STMicroelectronics.
+-----------------sti_uniperif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("uniperipheral DAI driver");
+MODULE_AUTHOR("Arnaud Pouliquen <arnaud.pouliquen@st.com>");
+MODULE_LICENSE("GPL v2");
+-----------------uniperif_reader.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only

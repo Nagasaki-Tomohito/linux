@@ -1,0 +1,86 @@
+-----------------mt8188-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2022 MediaTek Inc.
+-----------------mt8188-afe-clk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022 MediaTek Inc.
+-----------------mt8188-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022 MediaTek Inc.
+-----------------mt8188-dai-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * MediaTek ALSA SoC Audio DAI PCM I/F Control
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Bicycle Tsai <bicycle.tsai@mediatek.com>
+ *         Trevor Wu <trevor.wu@mediatek.com>
+ *         Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-afe-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * mt8188-afe-clk.h  --  MediaTek 8188 afe clock ctrl definition
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Bicycle Tsai <bicycle.tsai@mediatek.com>
+ *         Trevor Wu <trevor.wu@mediatek.com>
+ *         Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-audsys-clk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * mt8188-audsys-clk.c  --  MediaTek 8188 audsys clock control
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-audsys-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2022 MediaTek Inc.
+Author: Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+-----------------mt8188-dai-etdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * MediaTek ALSA SoC Audio DAI eTDM Control
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Bicycle Tsai <bicycle.tsai@mediatek.com>
+ *         Trevor Wu <trevor.wu@mediatek.com>
+ *         Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-mt6359.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT8188-MT6359 ALSA SoC machine driver");
+MODULE_AUTHOR("Trevor Wu <trevor.wu@mediatek.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("mt8188 mt6359 soc card");
+-----------------mt8188-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt8188-reg.h  --  MediaTek 8188 audio driver reg definition
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Bicycle Tsai <bicycle.tsai@mediatek.com>
+ *         Trevor Wu <trevor.wu@mediatek.com>
+ *         Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-audsys-clkid.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt8188-audsys-clkid.h  --  MediaTek 8188 audsys clock id definition
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Chun-Chia Chiu <chun-chia.chiu@mediatek.com>
+ */
+-----------------mt8188-dai-adda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022 MediaTek Inc.

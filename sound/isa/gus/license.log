@@ -1,0 +1,124 @@
+-----------------interwave-stb.c-----------------
+// This file is part of the ALSA project.
+// 
+// ALSA is free software, licensed under the GNU General Public License.
+// 
+// You can redistribute it and/or modify it under the terms of the GNU
+// General Public License as published by the Free Software Foundation,
+// either version 2 of the License, or (at your option) any later version.
+// 
+// ALSA is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with ALSA; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+-----------------gus_uart.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Routines for the GF1 MIDI interface - like UART 6850
+-----------------interwave.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("AMD InterWave");
+
+MODULE_DESCRIPTION("AMD InterWave STB with TEA6330T");
+-----------------gus_io.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+I/O routines for GF1/InterWave synthesizer chips
+-----------------gus_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Routines for Gravis UltraSound soundcards");
+MODULE_LICENSE("GPL");
+-----------------gus_mem_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+-----------------gus_dram.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  DRAM access routines
+-----------------gus_irq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Routine for IRQ handling from GF1/InterWave chip
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gus_dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Routines for GF1 DMA control
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gus_timer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Routines for Gravis UltraSound soundcards - Timers
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gusextreme.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION(CRD_NAME);
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_LICENSE("GPL");
+-----------------gusclassic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Driver for Gravis UltraSound Classic soundcard
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_LICENSE("GPL");
+-----------------gus_reset.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gus_tables.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gus_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------gus_volume.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------gus_mixer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Routines for control of ICS 2101 chip and "mixer" in GF1 chip
+ */
+-----------------gus_mem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------gusmax.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Driver for Gravis UltraSound MAX soundcard
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Gravis UltraSound MAX");
+MODULE_LICENSE("GPL");

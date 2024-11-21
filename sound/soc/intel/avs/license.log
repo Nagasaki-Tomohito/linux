@@ -1,0 +1,168 @@
+-----------------messages.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright(c) 2021-2022 Intel Corporation
+ * 
+ * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ */
+-----------------messages.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------avs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2021-2022 Intel Corporation
+ *
+ * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ */
+-----------------control.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2021-2022 Intel Corporation
+ *
+ * Authors: Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Cezary Rojewski <cezary.rojewski@intel.com>
+ */
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Cezary Rojewski <cezary.rojewski@intel.com>");
+MODULE_AUTHOR("Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>");
+MODULE_DESCRIPTION("Intel cAVS sound driver");
+MODULE_LICENSE("GPL");
+-----------------utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2021-2022 Intel Corporation
+-----------------apl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------board_selection.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+// 
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+-----------------topology.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright(c) 2021 Intel Corporation
+ *
+ * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ */
+-----------------cnl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2021-2024 Intel Corporation
+-----------------probes.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------topology.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021 Intel Corporation
+-----------------cldma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright(c) 2021-2022 Intel Corporation
+-----------------control.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright(c) 2021-2022 Intel Corporation
+-----------------ipc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------debugfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------trace.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+// Author: Cezary Rojewski <cezary.rojewski@intel.com>
+//         Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------skl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+-----------------registers.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright(c) 2021-2022 Intel Corporation
+ *
+ * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ */
+-----------------loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// 
+// Copyright(c) 2021-2022 Intel Corporation
+// 
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------icl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2024 Intel Corporation
+-----------------utils.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright(c) 2023 Intel Corporation
+ */
+-----------------tgl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2024 Intel Corporation
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright(c) 2024 Intel Corporation
+-----------------path.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright(c) 2021 Intel Corporation
+ */
+-----------------dsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021-2022 Intel Corporation
+-----------------sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2024 Intel Corporation
+// 
+// Authors: Cezary Rojewski <cezary.rojewski@intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//
+-----------------cldma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright(c) 2021-2022 Intel Corporation
+//
+-----------------path.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright(c) 2021 Intel Corporation

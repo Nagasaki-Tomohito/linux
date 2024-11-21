@@ -1,0 +1,41 @@
+-----------------virtio_pcm_ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------virtio_jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2021 OpenSynergy GmbH
+-----------------virtio_card.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Virtio sound card driver");
+-----------------virtio_ctl_msg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * virtio-snd: Virtio sound device
+ * Copyright (C) 2021 OpenSynergy GmbH
+ */
+-----------------virtio_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * virtio-snd: Virtio sound device
+ * Copyright (C) 2021 OpenSynergy GmbH
+ */
+-----------------virtio_chmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2021 OpenSynergy GmbH
+-----------------virtio_pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * virtio-snd: Virtio sound device
+ * Copyright (C) 2021 OpenSynergy GmbH
+ */
+-----------------virtio_card.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+Copyright (C) 2021 OpenSynergy GmbH
+-----------------virtio_pcm_msg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------virtio_kctl.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+-----------------virtio_ctl_msg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+

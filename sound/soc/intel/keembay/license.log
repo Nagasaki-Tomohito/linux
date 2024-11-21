@@ -1,0 +1,16 @@
+-----------------kmb_platform.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ *  Intel KeemBay Platform driver
+ *
+ *  Copyright (C) 2020 Intel Corporation.
+ *
+ */
+-----------------kmb_platform.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("ASoC Intel KeemBay Platform driver");
+MODULE_AUTHOR("Sia Jee Heng <jee.heng.sia@intel.com>");
+MODULE_AUTHOR("Sit, Michael Wei Hong <michael.wei.hong.sit@intel.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:kmb_platform");

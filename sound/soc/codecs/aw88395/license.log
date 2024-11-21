@@ -1,0 +1,36 @@
+-----------------aw88395.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (c) 2022-2023 AWINIC Technology CO., LTD
+// Author: Bruce zhao <zhaolei@awinic.com>
+-----------------aw88395_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("AW88395 ACF File Parsing Lib");
+MODULE_LICENSE("GPL v2");
+-----------------aw88395_device.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2022-2023 AWINIC Technology CO., LTD
+-----------------aw88395_device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("AW88395 device lib");
+MODULE_LICENSE("GPL v2");
+-----------------aw88395_lib.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (c) 2022-2023 AWINIC Technology CO., LTD
+// Author: Bruce zhao <zhaolei@awinic.com>
+-----------------aw88395_data_type.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2022-2023 AWINIC Technology CO., LTD
+-----------------aw88395.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2")
+-----------------aw88395_reg.h-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+// Copyright (c) 2022-2023 AWINIC Technology CO., LTD

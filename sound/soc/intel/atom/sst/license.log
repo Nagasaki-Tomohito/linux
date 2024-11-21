@@ -1,0 +1,46 @@
+-----------------sst_pvt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008-14 Intel Corp
+
+EXPORT_SYMBOL_GPL(relocate_imr_addr_mrfld);
+-----------------sst_pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("Intel (R) SST(R) Audio Engine PCI Driver");
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Harsha Priya <priya.harsha@intel.com>");
+MODULE_AUTHOR("Dharageswari R <dharageswari.r@intel.com>");
+MODULE_AUTHOR("KP Jeeja <jeeja.kp@intel.com>");
+MODULE_LICENSE("GPL v2");
+-----------------sst_loader.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (C) 2008-14 Intel Corp
+-----------------sst_ipc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008-14 Intel Corporation
+-----------------sst.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2");
+
+EXPORT_SYMBOL_GPL(sst_alloc_drv_context);
+EXPORT_SYMBOL_GPL(sst_context_init);
+EXPORT_SYMBOL_GPL(sst_context_cleanup);
+EXPORT_SYMBOL_GPL(sst_configure_runtime_pm);
+-----------------sst_drv_interface.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------sst_acpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+MODULE_DESCRIPTION("Intel (R) SST(R) Audio Engine ACPI Driver")
+MODULE_AUTHOR("Ramesh Babu K V")
+MODULE_AUTHOR("Omair Mohammed Abdullah")
+-----------------sst.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2008-14 Intel Corporation
+-----------------sst_stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2008-14 Intel Corp

@@ -1,0 +1,48 @@
+-----------------iio-trig-sysfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Sysfs based trigger for the iio subsystem");
+
+MODULE_ALIAS("platform:iio-trig-sysfs");
+-----------------stm32-lptimer-trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) STMicroelectronics 2017
+MODULE_AUTHOR("Fabrice Gasnier <fabrice.gasnier@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("STMicroelectronics STM32 LPTIM trigger driver");
+MODULE_ALIAS("platform:stm32-lptimer-trigger");
+-----------------iio-trig-hrtimer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+* Copyright (C) Intuitive Aerial AB
+* Written by Marten Svanfeldt, marten@intuitiveaerial.com
+* Copyright (C) 2012, Analog Devices Inc.
+* 	Author: Lars-Peter Clausen <lars@metafoo.de>
+* Copyright (C) 2015, Intel Corporation
+
+MODULE_AUTHOR("Marten Svanfeldt <marten@intuitiveaerial.com>");
+MODULE_AUTHOR("Daniel Baluta <daniel.baluta@intel.com>");
+MODULE_DESCRIPTION("Periodic hrtimer trigger for the IIO subsystem");
+MODULE_LICENSE("GPL v2");
+-----------------stm32-timer-trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------iio-trig-interrupt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("Interrupt trigger for the iio subsystem");
+MODULE_LICENSE("GPL v2")
+-----------------iio-trig-loop.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+
+MODULE_DESCRIPTION("Loop based trigger for the iio subsystem");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:iio-trig-loop");

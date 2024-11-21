@@ -1,0 +1,61 @@
+-----------------control.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------chip.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Torsten Schenk <torsten.schenk@zoho.com>");
+MODULE_DESCRIPTION("TerraTec DMX 6Fire USB audio driver");
+-----------------comm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------firmware.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright: (C) Torsten Schenk
+-----------------control.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright: (C) Torsten Schenk
+-----------------midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------firmware.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright:	(C) Torsten Schenk
+-----------------common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright:	(C) Torsten Schenk
+-----------------midi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------chip.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright:	(C) Torsten Schenk
+ */
+-----------------comm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright:	(C) Torsten Schenk

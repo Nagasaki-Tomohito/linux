@@ -1,0 +1,10 @@
+-----------------ad7150.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+MODULE_DESCRIPTION("Analog Devices AD7150/1/6 capacitive sensor driver");
+MODULE_LICENSE("GPL v2");
+-----------------ad7746.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+MODULE_DESCRIPTION("Analog Devices AD7746/5/7 capacitive sensor driver");

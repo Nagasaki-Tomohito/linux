@@ -1,0 +1,67 @@
+-----------------dma-sh7760.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2007 Manuel Lauss <mano@roarinelk.homelinux.net>
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("SH7760 Audio DMA (DMABRG) driver");
+MODULE_AUTHOR("Manuel Lauss <mano@roarinelk.homelinux.net>");
+-----------------rz-ssi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Renesas RZ/G2L ASoC Serial Sound Interface Driver");
+MODULE_AUTHOR("Biju Das <biju.das.jz@bp.renesas.com>");
+-----------------hac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2007 Manuel Lauss <mano@roarinelk.homelinux.net>
+-----------------sh7760-ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("Generic SH7760 AC97 sound machine");
+MODULE_AUTHOR("Manuel Lauss <mano@roarinelk.homelinux.net>");
+-----------------siu.h-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright (C) 2009-2010 Guennadi Liakhovetski <g.liakhovetski@gmx.de>
+// Copyright (C) 2006 Carlos Munoz <carlos@kenati.com>
+-----------------migor.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2009-2010 Guennadi Liakhovetski <g.liakhovetski@gmx.de>
+
+MODULE_AUTHOR("Guennadi Liakhovetski <g.liakhovetski@gmx.de>");
+
+MODULE_DESCRIPTION("ALSA SoC Migor");
+
+MODULE_LICENSE("GPL v2");
+-----------------siu_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2009-2010 Guennadi Liakhovetski <g.liakhovetski@gmx.de>
+Copyright (C) 2006 Carlos Munoz <carlos@kenati.com>
+-----------------siu_dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Carlos Munoz <carlos@kenati.com>");
+MODULE_DESCRIPTION("ALSA SoC SH7722 SIU driver");
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("siu_spb.bin");
+-----------------ssi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2007 Manuel Lauss <mano@roarinelk.homelinux.net>
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("SuperH onchip SSI (I2S) audio driver");
+MODULE_AUTHOR("Manuel Lauss <mano@roarinelk.homelinux.net>");
+-----------------fsi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Fifo-attached Serial Interface (FSI) support for SH7724
+//
+// Copyright (C) 2009 Renesas Solutions Corp.
+// Kuninori Morimoto <morimoto.kuninori@renesas.com>
+//
+// Based on ssi.c
+// Copyright (c) 2007 Manuel Lauss <mano@roarinelk.homelinux.net>

@@ -1,0 +1,8 @@
+-----------------ms_sensors_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ms_sensors_i2c.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2015 Measurement-Specialties
+ */

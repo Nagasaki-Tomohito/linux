@@ -1,0 +1,11 @@
+-----------------hid_bpf_dispatch.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------hid_bpf_dispatch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Benjamin Tissoires");
+-----------------hid_bpf_struct_ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2024 Benjamin Tissoires

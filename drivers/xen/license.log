@@ -1,0 +1,333 @@
+-----------------swiotlb-xen.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  Copyright 2010
+ *  by Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
+ */
+-----------------gntdev-dmabuf.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Xen dma-buf functionality for gntdev.
+ *
+ * Copyright (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
+-----------------cpu_hotplug.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------xlate_mmu.c-----------------
+Copyright (C) 2015 Citrix Systems R&D Ltd.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN
+-----------------pvcalls-front.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------xen-acpi-pad.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2012, Intel Corporation.
+    Author: Liu, Jinsong <jinsong.liu@intel.com>
+-----------------gntdev-dmabuf.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
+-----------------xen-scsiback.c-----------------
+This is the extracted parts associated with software license or copyright:
+
+1. 
+```
+ * Copyright (c) 2008, FUJITSU Limited
+ *
+ * Based on the blkback driver code.
+ * Adaption to kernel taget core infrastructure taken from vhost/scsi.c
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License version 2
+ * as published by the Free Software Foundation; or, when distributed
+ * separately from the Linux kernel or incorporated into other
+ * software packages, subject to the following license:
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this source file (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software,
+ * and to permit persons to whom the
+-----------------xen-balloon.c-----------------
+* Copyright (c) 2003, B Dragovic
+* Copyright (c) 2003-2004, M Williamson, K Fraser
+* Copyright (c) 2005 Dan M. Smith, IBM Corporation
+* 
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License version 2
+* as published by the Free Software Foundation; or, when distributed
+* separately from the Linux kernel or incorporated into other
+* software packages, subject to the following license:
+* 
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this source file (the "Software"), to deal in the Software without
+* restriction, including without limitation the rights to use, copy, modify,
+* merge, publish, distribute, sublicense, and/or sell copies of the Software,
+* and to permit persons to whom the Software is furnished to do so, subject to
+
+-----------------dbgp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------balloon.c-----------------
+Copyright (c) 2003, B Dragovic
+Copyright (c) 2003-2004, M Williamson, K Fraser
+Copyright (c) 2005 Dan M. Smith, IBM Corporation
+Copyright (c) 2010 Daniel Kiper
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation; or, when distributed
+separately from the Linux kernel or incorporated into other
+software packages, subject to the following license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+
+-----------------sys-hypervisor.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  copyright (c) 2006 IBM Corporation
+ *  Authored by: Mike D. Day <ncmike@us.ibm.com>
+ */
+-----------------arm-device.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2015, Linaro Limited, Shannon Zhao
+ */
+-----------------mem-reservation.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2003, B Dragovic
+Copyright (c) 2003-2004, M Williamson, K Fraser
+Copyright (c) 2005 Dan M. Smith, IBM Corporation
+Copyright (c) 2010 Daniel Kiper
+Copyright (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
+-----------------gntdev-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2006-2007, D G Murray.
+ *           (c) 2009 Gerd Hoffmann <kraxel@redhat.com>
+ *           (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
+-----------------privcmd.h-----------------
+// No license or copyright information found in the provided source code snippet.
+-----------------grant-dma-ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2021, Juergen Gross <jgross@suse.com>
+ */
+
+MODULE_DESCRIPTION("Xen grant DMA-mapping layer");
+MODULE_AUTHOR("Juergen Gross <jgross@suse.com>");
+MODULE_LICENSE("GPL");
+-----------------pvcalls-front.h-----------------
+There are no parts associated with software license or copyright in this source code.
+-----------------grant-table.c-----------------
+Copyright (c) 2005-2006, Christopher Clark
+Copyright (c) 2004-2005, K A Fraser
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation; or, when distributed
+separately from the Linux kernel or incorporated into other
+software packages, subject to the following license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED
+-----------------privcmd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------acpi.c-----------------
+Copyright (c) 2011 Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
+Copyright (c) 2011 Yu Ke ke.yu@intel.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation; or, when distributed
+separately from the Linux kernel or incorporated into other
+software packages, subject to the following license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all
+-----------------pvcalls-back.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_DESCRIPTION("Xen PV Calls backend driver");
+MODULE_AUTHOR("Stefano Stabellini <sstabellini@kernel.org>");
+MODULE_LICENSE("GPL");
+-----------------gntdev.c-----------------
+Copyright (c) 2006-2007, D G Murray.
+           (c) 2009 Gerd Hoffmann <kraxel@redhat.com>
+           (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Derek G. Murray <Derek.Murray@cl.cam.ac.uk>, "
+	      "Gerd Hoffmann <kraxel@redhat.com>");
+MODULE_DESCRIPTION("User-space granted page access driver");
+-----------------mcelog.c-----------------
+* Copyright (c) 2012 Intel Corporation
+* Author: Liu, Jinsong <jinsong.liu@intel.com>
+* Author: Jiang, Yunhong <yunhong.jiang@intel.com>
+* Author: Ke, Liping <liping.ke@intel.com>
+* 
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License version 2
+* as published by the Free Software Foundation; or, when distributed
+* separately from the Linux kernel or incorporated into other
+* software packages, subject to the following license:
+* 
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this source file (the "Software"), to deal in the Software without
+* restriction, including without limitation the rights to use, copy, modify,
+* merge, publish, distribute, sublicense, and/or sell copies of the Software,
+* and to permit persons
+-----------------unpopulated-alloc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------privcmd-buf.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+
+Copyright (c) 2018 Juergen Gross
+
+MODULE_LICENSE("GPL")
+-----------------platform-pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2005, Intel Corporation.
+Copyright (c) 2007, XenSource Inc.
+Copyright (c) 2010, Citrix
+-----------------features.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright (c) 2006, Ian Campbell, XenSource Inc.
+-----------------xen-front-pgdir-shbuf.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR MIT
+
+MODULE_DESCRIPTION("Xen frontend/backend page directory based "
+		   "shared buffer handling");
+MODULE_AUTHOR("Oleksandr Andrushchenko");
+MODULE_LICENSE("GPL");
+-----------------evtchn.c-----------------
+Copyright (c) 2004-2005, K A Fraser
+Multi-process extensions Copyright (c) 2004, Steven Smith
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation; or, when distributed
+separately from the Linux kernel or incorporated into other
+software packages, subject to the following license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED
+-----------------gntalloc.c-----------------
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Carter Weatherly <carter.weatherly@jhuapl.edu>, "
+		"Daniel De Graaf <dgdegra@tycho.nsa.gov>");
+MODULE_DESCRIPTION("User-space grant reference allocator driver");
+-----------------pci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2009, Intel Corporation.
+ *
+ * Author: Weidong Han <weidong.han@intel.com>
+ */
+-----------------grant-dma-iommu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2022 EPAM Systems Inc.
+-----------------xen-acpi-processor.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>");
+MODULE_DESCRIPTION("Xen ACPI Processor P-states (and Cx) driver which uploads PM data to Xen hypervisor");
+MODULE_LICENSE("GPL");
+-----------------manage.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------pcpu.c-----------------
+Copyright (c) 2012 Intel Corporation
+Author: Liu, Jinsong <jinsong.liu@intel.com>
+Author: Jiang, Yunhong <yunhong.jiang@intel.com>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version 2
+as published by the Free Software Foundation; or, when distributed
+separately from the Linux kernel or incorporated into other
+software packages, subject to the following license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source file (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+
+-----------------time.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------efi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * EFI support for Xen.
+ *
+ * Copyright (C) 1999 VA Linux Systems
+ * Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
+ * Copyright (C) 1999-2002 Hewlett-Packard Co.
+ *	David Mosberger-Tang <davidm@hpl.hp.com>
+ *	Stephane Eranian <eranian@hpl.hp.com>
+ * Copyright (C) 2005-2008 Intel Co.
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ *	Bibo Mao <bibo.mao@intel.com>
+ *	Chandramouli Narayanan <mouli@linux.intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ * Copyright (C) 2011 Novell Co.
+ *	Jan Beulich <JBeulich
+-----------------biomerge.c-----------------
+// SPDX-License-Identifier: GPL-2.0

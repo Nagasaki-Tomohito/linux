@@ -1,0 +1,38 @@
+-----------------img-i2s-in.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------img-parallel-out.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+
+MODULE_DESCRIPTION("IMG Parallel Output Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------pistachio-internal-dac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL v2")
+-----------------img-spdif-out.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+
+MODULE_DESCRIPTION("IMG SPDIF Output driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------img-i2s-out.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+MODULE_DESCRIPTION("IMG I2S Output Driver");
+MODULE_LICENSE("GPL v2");
+-----------------img-spdif-in.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Damien Horsley <Damien.Horsley@imgtec.com>");
+
+MODULE_DESCRIPTION("IMG SPDIF Input driver");
+MODULE_LICENSE("GPL v2");

@@ -1,0 +1,30 @@
+-----------------bcm63xx-i2s-whistler.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (c) 2020 Broadcom Corporation
+MODULE_AUTHOR("Kevin,Li <kevin-ke.li@broadcom.com>");
+MODULE_DESCRIPTION("Broadcom DSL XPON ASOC I2S Interface");
+MODULE_LICENSE("GPL v2");
+-----------------bcm63xx-pcm-whistler.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Kevin,Li <kevin-ke.li@broadcom.com>");
+MODULE_DESCRIPTION("Broadcom DSL XPON ASOC PCM Interface");
+MODULE_LICENSE("GPL v2");
+-----------------cygnus-ssp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (C) 2014-2015 Broadcom Corporation
+-----------------bcm63xx-i2s.h-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (c) 2020 Broadcom Corporation
+// Author: Kevin-Ke Li <kevin-ke.li@broadcom.com>
+-----------------cygnus-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Broadcom");
+MODULE_DESCRIPTION("Cygnus ASoC PCM module");
+-----------------bcm2835-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Florian Meier <florian.meier@koalo.de>");
+-----------------cygnus-ssp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (C) 2014-2015 Broadcom Corporation */

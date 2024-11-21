@@ -1,0 +1,26 @@
+-----------------mt8195-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2021 MediaTek Corporation. All rights reserved.
+ */
+-----------------mt8195.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2021 MediaTek Corporation. All rights reserved.
+ * 
+ *  Header file for the mt8195 DSP register definition
+ */
+-----------------mt8195-loader.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright (c) 2021 Mediatek Corporation. All rights reserved.
+-----------------mt8195-clk.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+// Copyright(c) 2021 Mediatek Corporation. All rights reserved.
+-----------------mt8195.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+
+MODULE_LICENSE("Dual BSD/GPL");

@@ -1,0 +1,57 @@
+-----------------mop500_ab8500.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) ST-Ericsson SA 2012
+-----------------ux500_msp_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------ux500_msp_dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------ux500_pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) ST-Ericsson SA 2012
+-----------------ux500_msp_i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (C) ST-Ericsson SA 2012
+ *
+ * Author: Ola Lilja <ola.o.lilja@stericsson.com>,
+ *         for ST-Ericsson.
+ */
+-----------------mop500.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) ST-Ericsson SA 2012
+
+MODULE_LICENSE("GPL v2")
+MODULE_DESCRIPTION("ASoC MOP500 board driver")
+MODULE_AUTHOR("Ola Lilja")
+-----------------ux500_msp_dai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/*
+ * Copyright (C) ST-Ericsson SA 2012
+ * 
+ * Author: Ola Lilja <ola.o.lilja@stericsson.com>,
+ *         Roger Nilsson <roger.xr.nilsson@stericsson.com>
+ *         for ST-Ericsson.
+ */
+-----------------ux500_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) ST-Ericsson SA 2012
+
+MODULE_AUTHOR("Ola Lilja")
+MODULE_AUTHOR("Roger Nilsson")
+MODULE_DESCRIPTION("ASoC UX500 driver")
+MODULE_LICENSE("GPL v2")
+-----------------mop500_ab8500.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) ST-Ericsson SA 2012
+ *
+ * Author: Ola Lilja <ola.o.lilja@stericsson.com>,
+ *         Kristoffer Karlsson <kristoffer.karlsson@stericsson.com>
+ *         for ST-Ericsson.
+ */

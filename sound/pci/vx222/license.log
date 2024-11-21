@@ -1,0 +1,14 @@
+-----------------vx222_ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------vx222.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+-----------------vx222.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("Digigram VX222 V2/Mic");
+MODULE_LICENSE("GPL");

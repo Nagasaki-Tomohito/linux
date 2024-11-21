@@ -1,0 +1,46 @@
+-----------------kfifo_buf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_DESCRIPTION("Industrial I/O buffering based on kfifo");
+MODULE_LICENSE("GPL");
+-----------------industrialio-triggered-buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("IIO helper functions for setting up triggered buffers");
+
+MODULE_LICENSE("GPL");
+
+EXPORT_SYMBOL(iio_triggered_buffer_setup_ext);
+
+EXPORT_SYMBOL(iio_triggered_buffer_cleanup);
+
+EXPORT_SYMBOL_GPL(devm_iio_triggered_buffer_setup_ext);
+-----------------industrialio-buffer-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("DMA buffer for the IIO framework");
+MODULE_LICENSE("GPL v2");
+-----------------industrialio-buffer-dmaengine.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("DMA buffer for the IIO framework");
+MODULE_IMPORT_NS(IIO_DMA_BUFFER);
+-----------------industrialio-buffer-cb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Jonathan Cameron <jic23@kernel.org>");
+MODULE_DESCRIPTION("Industrial I/O callback buffer");
+MODULE_LICENSE("GPL");
+-----------------industrialio-hw-consumer.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+
+MODULE_DESCRIPTION("Hardware consumer buffer the IIO framework");
+
+MODULE_LICENSE("GPL v2");

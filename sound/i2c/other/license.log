@@ -1,0 +1,33 @@
+-----------------ak4113.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+Copyright (c) by Pavel Hofman <pavel.hofman@ivitera.com>
+
+MODULE_LICENSE("GPL")
+-----------------pt2258.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   ALSA Driver for the PT2258 volume controller.
+ *
+ *	Copyright (c) 2006  Jochen Voss <voss@seehuhn.de>
+ */
+-----------------ak4xxx-adda.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>, Takashi Iwai <tiwai@suse.de>");
+-----------------ak4117.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Routines for control of the AK4117 via 4-wire serial interface
+ *  IEC958 (S/PDIF) receiver by Asahi Kasei
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------ak4114.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) by Jaroslav Kysela <perex@perex.cz>

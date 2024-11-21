@@ -1,0 +1,30 @@
+-----------------max30100.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("MAX30100 heart rate and pulse oximeter sensor");
+-----------------max30102.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+
+MODULE_DESCRIPTION("MAX30102 heart rate/pulse oximeter and MAX30105 particle sensor driver");
+MODULE_LICENSE("GPL");
+-----------------afe440x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2015 Texas Instruments Incorporated - https://www.ti.com/
+	Andrew F. Davis <afd@ti.com>
+-----------------afe4404.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Andrew F. Davis <afd@ti.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------afe4403.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Andrew F. Davis <afd@ti.com>");
+MODULE_DESCRIPTION("TI AFE4403 Heart Rate Monitor and Pulse Oximeter AFE");

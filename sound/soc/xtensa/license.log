@@ -1,0 +1,5 @@
+-----------------xtfpga-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Max Filippov <jcmvbkbc@gmail.com>");
+MODULE_DESCRIPTION("xtfpga I2S controller driver");

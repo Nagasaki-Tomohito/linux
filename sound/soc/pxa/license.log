@@ -1,0 +1,51 @@
+-----------------pxa2xx-ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Nicolas Pitre");
+
+MODULE_DESCRIPTION("AC97 driver for the Intel PXA2xx chip");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:pxa2xx-ac97");
+-----------------pxa-ssp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------pxa2xx-i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------pxa-ssp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------spitz.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2005 Wolfson Microelectronics PLC.
+Copyright 2005 Openedhand Ltd.
+
+MODULE_AUTHOR("Richard Purdie");
+MODULE_DESCRIPTION("ALSA SoC Spitz");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:spitz-audio");
+-----------------pxa2xx-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Liam Girdwood, lrg@slimlogic.co.uk");
+MODULE_DESCRIPTION("pxa2xx I2S SoC Interface");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:pxa2xx-i2s");
+-----------------mmp-sspa.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2011 Marvell International Ltd.
+-----------------pxa2xx-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+/*
+ * Copyright:	(C) 2004 MontaVista Software, Inc.
+ */
+ 
+MODULE_AUTHOR("Nicolas Pitre");
+MODULE_DESCRIPTION("Intel PXA2xx PCM DMA module");
+MODULE_LICENSE("GPL");
+-----------------mmp-sspa.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2011 Marvell International Ltd.

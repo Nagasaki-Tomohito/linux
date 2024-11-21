@@ -1,0 +1,14 @@
+-----------------sprd-mcdt.h-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------sprd-pcm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------sprd-pcm-compress.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (C) 2019 Spreadtrum Communications Inc.
+-----------------sprd-mcdt.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("Spreadtrum Multi-Channel Data Transfer Driver");
+MODULE_LICENSE("GPL v2");
+-----------------sprd-pcm-dma.h-----------------
+// SPDX-License-Identifier: GPL-2.0

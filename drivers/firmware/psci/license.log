@@ -1,0 +1,9 @@
+-----------------psci_checker.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 ARM Limited
+-----------------psci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2015 ARM Limited
+ */

@@ -1,0 +1,71 @@
+-----------------sun4i-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Andrea Venturi <be17068@iperbole.bo.it>");
+MODULE_AUTHOR("Maxime Ripard <maxime.ripard@free-electrons.com>");
+MODULE_DESCRIPTION("Allwinner A10 I2S driver");
+MODULE_LICENSE("GPL");
+-----------------sun50i-codec-analog.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2016 Chen-Yu Tsai <wens@csie.org>
+
+Copyright (C) 2017 Marcus Cooper <codekipper@gmail.com>
+
+Copyright (C) 2018 Vasily Khoruzhick <anarsoul@gmail.com>
+
+MODULE_DESCRIPTION("Allwinner internal codec analog controls driver for A64");
+
+MODULE_AUTHOR("Vasily Khoruzhick <anarsoul@gmail.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:sun50i-codec-analog");
+-----------------sun8i-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Allwinner A33 (sun8i) codec driver");
+MODULE_AUTHOR("Mylène Josserand <mylene.josserand@free-electrons.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:sun8i-codec");
+-----------------sun8i-codec-analog.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Allwinner internal codec analog controls driver");
+MODULE_AUTHOR("Chen-Yu Tsai <wens@csie.org>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:sun8i-codec-analog");
+-----------------sun4i-spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Marcus Cooper <codekipper@gmail.com>");
+MODULE_AUTHOR("Andrea Venturi <be17068@iperbole.bo.it>");
+MODULE_DESCRIPTION("Allwinner sun4i SPDIF SoC Interface");
+MODULE_ALIAS("platform:sun4i-spdif");
+-----------------sun8i-adda-pr-regmap.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ * Copyright (C) 2018 Vasily Khoruzhick <anarsoul@gmail.com>
+ */
+-----------------sun8i-adda-pr-regmap.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+ 
+ * Copyright 2016 Chen-Yu Tsai <wens@csie.org>
+ * Copyright (C) 2018 Vasily Khoruzhick <anarsoul@gmail.com>
+ 
+MODULE_DESCRIPTION("Allwinner analog audio codec regmap driver");
+MODULE_AUTHOR("Vasily Khoruzhick <anarsoul@gmail.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:sunxi-adda-pr");
+-----------------sun50i-dmic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2021 Ban Tao <fengzheng923@gmail.com>
+-----------------sun4i-codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2014 Emilio López <emilio@elopez.com.ar>
+Copyright 2014 Jon Smirl <jonsmirl@gmail.com>
+Copyright 2015 Maxime Ripard <maxime.ripard@free-electrons.com>
+Copyright 2015 Adam Sampson <ats@offog.org>
+Copyright 2016 Chen-Yu Tsai <wens@csie.org>

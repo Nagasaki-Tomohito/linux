@@ -1,0 +1,21 @@
+-----------------cs5535audio_olpc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (C) 2006  Jaya Kumar <jayakumar.lkml@gmail.com>
+ * Copyright (C) 2007-2008  Andres Salomon <dilinger@debian.org>
+-----------------cs5535audio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cs5535audio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaya Kumar");
+MODULE_DESCRIPTION("CS5535 Audio");
+-----------------cs5535audio_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) Jaya Kumar
+-----------------cs5535audio_pm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) Jaya Kumar

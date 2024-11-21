@@ -1,0 +1,36 @@
+-----------------ac97_local.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Universal interface for Audio Codec '97
+ *
+ *  For more details look to AC '97 component specification revision 2.2
+ *  by Intel Corporation (http://developer.intel.com).
+-----------------ac97_id.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Universal interface for Audio Codec '97
+ *
+ *  For more details look to AC '97 component specification revision 2.2
+ *  by Intel Corporation (http://developer.intel.com).
+ */
+-----------------ac97_pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ac97_patch.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Universal interface for Audio Codec '97
+ *
+ *  For more details look to AC '97 component specification revision 2.2
+ *  by Intel Corporation (http://developer.intel.com).
+-----------------ac97_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ac97_patch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------ac97_codec.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");

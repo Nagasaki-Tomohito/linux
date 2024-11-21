@@ -1,0 +1,156 @@
+-----------------sps30.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------vz89x.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2015-2018
+Author: Matt Ranostay <matt.ranostay@konsulko.com>
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("SGX Sensortech MiCS VZ89X VOC sensors");
+MODULE_LICENSE("GPL v2");
+-----------------sps30_serial.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Tomasz Duszynski <tomasz.duszynski@octakon.com>");
+MODULE_DESCRIPTION("Sensirion SPS30 particulate matter sensor serial driver");
+MODULE_LICENSE("GPL v2");
+-----------------sgp30.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Andreas Brauchli <andreas.brauchli@sensirion.com>");
+
+MODULE_AUTHOR("Pascal Sachs <pascal.sachs@sensirion.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------bme680_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Himanshu Jha <himanshujha199640@gmail.com>");
+
+MODULE_DESCRIPTION("Bosch BME680 SPI driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_BME680);
+-----------------bme680.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------sunrise_co2.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Jacopo Mondi <jacopo@jmondi.org>");
+
+MODULE_DESCRIPTION("Senseair Sunrise 006-0-0007 CO2 sensor IIO driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------atlas-sensor.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("Atlas Scientific SM sensors");
+MODULE_LICENSE("GPL");
+-----------------ccs811.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Narcisa Vasile <narcisaanamaria12@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------ams-iaq-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2015, 2018
+Author: Matt Ranostay <matt.ranostay@konsulko.com>
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+MODULE_DESCRIPTION("AMS iAQ-Core VOC sensors");
+MODULE_LICENSE("GPL v2");
+-----------------scd30.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------sps30.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Tomasz Duszynski <tduszyns@gmail.com>");
+-----------------ags02ma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Anshul Dalal <anshulusr@gmail.com>");
+
+MODULE_DESCRIPTION("Aosong AGS02MA TVOC Driver");
+
+MODULE_LICENSE("GPL");
+-----------------ens160_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+-----------------scd30_serial.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Sensirion SCD30 carbon dioxide sensor serial driver
+ *
+ * Copyright (c) 2020 Tomasz Duszynski <tomasz.duszynski@octakon.com>
+ */
+-----------------scd30_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Tomasz Duszynski <tomasz.duszynski@octakon.com>");
+MODULE_DESCRIPTION("Sensirion SCD30 carbon dioxide sensor core driver");
+MODULE_LICENSE("GPL v2");
+-----------------ens160_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+-----------------scd30_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 Tomasz Duszynski <tomasz.duszynski@octakon.com>
+
+MODULE_AUTHOR("Tomasz Duszynski <tomasz.duszynski@octakon.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------atlas-ezo-sensor.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (C) 2020 Konsulko Group
+Author: Matt Ranostay <matt.ranostay@konsulko.com>
+
+MODULE_AUTHOR("Matt Ranostay <matt.ranostay@konsulko.com>");
+
+MODULE_DESCRIPTION("Atlas Scientific EZO sensors");
+
+MODULE_LICENSE("GPL");
+-----------------bme680_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------pms7003.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Plantower PMS7003 particulate matter sensor driver
+ *
+ * Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
+ */
+-----------------ens160.h-----------------
+SPDX-License-Identifier: GPL-2.0
+-----------------ens160_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Gustavo Silva <gustavograzs@gmail.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------scd4x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Roan van Dijk <roan@protonic.nl>");
+
+MODULE_DESCRIPTION("Sensirion SCD4X carbon dioxide sensor core driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------bme680_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------sps30_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 Tomasz Duszynski <tomasz.duszynski@octakon.com>
+
+MODULE_AUTHOR("Tomasz Duszynski <tomasz.duszynski@octakon.com>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("Sensirion SPS30 particulate matter sensor i2c driver");
+-----------------sgp40.c-----------------
+// SPDX-License-Identifier: GPL-2.0+

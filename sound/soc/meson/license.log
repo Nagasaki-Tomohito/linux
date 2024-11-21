@@ -1,0 +1,194 @@
+-----------------axg-card.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+MODULE_LICENSE("GPL v2");
+-----------------g12a-toacodec.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+
+MODULE_DESCRIPTION("Amlogic G12a To Internal DAC Codec Driver");
+MODULE_LICENSE("GPL v2");
+-----------------aiu-encoder-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0 OR MIT) */
+
+/*
+ * Copyright (c) 2018 BayLibre, SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+ */
+-----------------axg-tdm.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0 OR MIT)
+ *
+ * Copyright (c) 2018 Baylibre SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+ */
+-----------------g12a-tohdmitx.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2019 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------meson-codec-glue.h-----------------
+/* SPDX-License-Identifier: GPL-2.0
+ *
+ * Copyright (c) 2018 Baylibre SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+ */
+-----------------aiu-fifo-spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2020 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu-fifo.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0 OR MIT) */
+
+Copyright (c) 2020 BayLibre, SAS.
+-----------------axg-tdm-formatter.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------axg-fifo.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0 OR MIT) */
+
+/*
+ * Copyright (c) 2018 BayLibre, SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------meson-card-utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Amlogic Sound Card Utils");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------meson-codec-glue.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2019 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+
+MODULE_DESCRIPTION("Amlogic Codec Glue Helpers");
+
+MODULE_LICENSE("GPL v2");
+-----------------axg-spdifin.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+MODULE_LICENSE("GPL v2")
+-----------------aiu.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("Meson AIU Driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------t9015.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("ASoC Amlogic T9015 codec driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL");
+-----------------axg-tdmin.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("Amlogic AXG TDM input formatter driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------axg-toddr.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("Amlogic AXG capture fifo driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------axg-spdifout.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+MODULE_LICENSE("GPL v2")
+-----------------aiu-fifo.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu-codec-ctrl.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2020 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu-fifo-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2020 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------meson-card.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2020 BayLibre, SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu-acodec-ctrl.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2020 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------axg-tdm-interface.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+
+MODULE_DESCRIPTION("Amlogic AXG TDM interface driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------gx-card.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+// Copyright (c) 2020 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+MODULE_DESCRIPTION("Amlogic GX ALSA machine driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2")
+-----------------axg-pdm.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+MODULE_LICENSE("GPL v2")
+-----------------axg-fifo.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("Amlogic AXG/G12A fifo driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------axg-tdm-formatter.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0 OR MIT)
+ *
+ * Copyright (c) 2018 Baylibre SAS.
+ * Author: Jerome Brunet <jbrunet@baylibre.com>
+ */
+-----------------axg-tdmout.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+
+MODULE_DESCRIPTION("Amlogic AXG TDM output formatter driver");
+MODULE_AUTHOR("Jerome Brunet <jbrunet@baylibre.com>");
+MODULE_LICENSE("GPL v2");
+-----------------axg-frddr.c-----------------
+// SPDX-License-Identifier: (GPL-2.0 OR MIT)
+//
+// Copyright (c) 2018 BayLibre, SAS.
+// Author: Jerome Brunet <jbrunet@baylibre.com>
+-----------------aiu-encoder-spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 BayLibre, SAS.
+Author: Jerome Brunet <jbrunet@baylibre.com>

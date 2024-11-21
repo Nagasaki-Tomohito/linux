@@ -1,0 +1,8 @@
+-----------------jz4740-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Lars-Peter Clausen, <lars@metafoo.de>");
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Ingenic JZ4740 SoC I2S driver");
+MODULE_ALIAS("platform:jz4740-i2s");

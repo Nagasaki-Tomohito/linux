@@ -1,0 +1,37 @@
+-----------------qcom_scm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2010,2015,2019 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2015 Linaro Ltd.
+-----------------qcom_tzmem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2023-2024 Linaro Ltd.
+-----------------qcom_scm-smc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/* Copyright (c) 2015,2019 The Linux Foundation. All rights reserved. */
+-----------------qcom_qseecom.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (C) 2023 Maximilian Luz <luzmaximilian@gmail.com>
+MODULE_AUTHOR("Maximilian Luz <luzmaximilian@gmail.com>");
+MODULE_DESCRIPTION("Driver for the Qualcomm SEE (QSEECOM) interface");
+MODULE_LICENSE("GPL");
+-----------------qcom_scm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/* Copyright (c) 2010-2015,2019 The Linux Foundation. All rights reserved. */
+-----------------qcom_tzmem.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+/*
+ * Copyright (C) 2023-2024 Linaro Ltd.
+ */
+-----------------qcom_qseecom_uefisecapp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_AUTHOR("Maximilian Luz <luzmaximilian@gmail.com>");
+MODULE_DESCRIPTION("Client driver for Qualcomm SEE UEFI Secure App");
+MODULE_LICENSE("GPL");
+-----------------qcom_scm-legacy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/* Copyright (c) 2010,2015,2019 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2015 Linaro Ltd.

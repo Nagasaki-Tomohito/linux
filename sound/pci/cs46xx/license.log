@@ -1,0 +1,54 @@
+-----------------cs46xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  The driver for the Cirrus Logic's Sound Fusion CS46XX based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION("Cirrus Logic Sound Fusion CS46XX");
+-----------------cs46xx_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------cs46xx_lib.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  The driver for the Cirrus Logic's Sound Fusion CS46XX based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------cs46xx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+#ifndef __SOUND_CS46XX_H
+#define __SOUND_CS46XX_H
+
+/*
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>,
+ *		     Cirrus Logic, Inc.
+ *  Definitions for Cirrus Logic CS46xx chips
+ */
+-----------------cs46xx_dsp_task_types.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  The driver for the Cirrus Logic's Sound Fusion CS46XX based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------dsp_spos.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------dsp_spos_scb_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------cs46xx_dsp_spos.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  The driver for the Cirrus Logic's Sound Fusion CS46XX based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------dsp_spos.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  The driver for the Cirrus Logic's Sound Fusion CS46XX based soundcards
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------cs46xx_dsp_scb_types.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */

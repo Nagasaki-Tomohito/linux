@@ -1,0 +1,1353 @@
+-----------------hid-multitouch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  HID driver for multitouch panels
+ *
+ *  Copyright (c) 2010-2012 Stephane Chatty <chatty@enac.fr>
+ *  Copyright (c) 2010-2013 Benjamin Tissoires <benjamin.tissoires@gmail.com>
+ *  Copyright (c) 2010-2012 Ecole Nationale de l'Aviation Civile, France
+ *  Copyright (c) 2012-2013 Red Hat, Inc
+ *
+ *  This code is partly based on hid-egalax.c:
+ *
+ *  Copyright (c) 2010 Stephane Chatty <chatty@enac.fr>
+ *  Copyright (c) 2010 Henrik Rydberg <rydberg@euromail.se>
+ *  Copyright (c) 2010 Canonical, Ltd.
+ *
+ *  This code is partly based
+-----------------hid-xinmo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (c) 2013 Olivier Scherler
+MODULE_LICENSE("GPL");
+-----------------hid-picolcd_backlight.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+*   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  *
+*                                                                         *
+*   Based on Logitech G13 driver (v0.4)                                   *
+*     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>   *
+*                                                                         *
+ ***************************************************************************/
+-----------------hid-roccat-konepure.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Roccat KonePure driver for Linux
+ *
+ * Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat KonePure/Optical driver");
+MODULE_LICENSE("GPL v2");
+-----------------wacom.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ *  Copyright (c) 2000-2004 Vojtech Pavlik	<vojtech@ucw.cz>
+ *  Copyright (c) 2000 Andreas Bach Aaen	<abach@stofanet.dk>
+ *  Copyright (c) 2000 Clifford Wolf		<clifford@clifford.at>
+ *  Copyright (c) 2000 Sam Mosel		<sam.mosel@computer.org>
+ *  Copyright (c) 2000 James E. Blair		<corvus@gnu.org>
+ *  Copyright (c) 2000 Daniel Egger		<egger@suse.de>
+ *  Copyright (c) 2001 Frederic Lepied		<flepied@mandrakesoft.com>
+ *  Copyright (c) 2004 Panagiotis Issaris	<panagiot
+-----------------hid-axff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Sergei Kolzun <x0r@dv-life.ru>
+
+MODULE_AUTHOR("Sergei Kolzun");
+MODULE_DESCRIPTION("Force feedback support for ACRUX game controllers");
+MODULE_LICENSE("GPL");
+-----------------hid-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  HID support for Linux
+ *
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+ *  Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+ *  Copyright (c) 2006-2012 Jiri Kosina
+ */
+
+/*
+ */
+
+#define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
+
+#include <linux/module.h>
+#include <linux/slab.h>
+#include <linux/init.h>
+#include <linux/kernel.h>
+#include <linux/list.h>
+#include <linux/mm.h>
+#include <linux/spinlock.h>
+#include <linux/unaligned.h>
+#include <asm/byteorder.h>
+#include <linux/input.h>
+#include <linux/wait.h>
+#include <linux/vmalloc.h
+-----------------hid-holtek-kbd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2012 Tom Harwood
+*/
+
+MODULE_LICENSE("GPL");
+-----------------hid-picolcd.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/***************************************************************************
+ *   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  *
+ *                                                                         *
+ *   Based on Logitech G13 driver (v0.4)                                   *
+ *     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>   *
+ *                                                                         *
+ ***************************************************************************/
+-----------------hid-roccat-lua.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat Lua driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-vrc2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (C) 2022 Marcus Folkesson <marcus.folkesson@gmail.com>
+MODULE_AUTHOR("Marcus Folkesson <marcus.folkesson@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------hid-betopff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) 2014 Huang Bo <huangbobupt@163.com>
+ */
+MODULE_LICENSE("GPL");
+-----------------hid-monterey.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+MODULE_LICENSE("GPL-2.0-or-later")
+-----------------hid-lg-g15.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+
+MODULE_DESCRIPTION("HID driver for gaming keys on Logitech gaming keyboards");
+MODULE_LICENSE("GPL");
+-----------------hid-asus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Yusuke Fujimaki <usk.fujimaki@gmail.com>");
+MODULE_AUTHOR("Brendan McGrath <redmcg@redmandi.dyndns.org>");
+MODULE_AUTHOR("Victor Vlasenko <victor.vlasenko@sysgears.com>");
+MODULE_AUTHOR("Frederik Wenigwieser <frederik.wenigwieser@gmail.com>");
+-----------------hid-macally.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2019 Alex Henrie <alexhenrie24@gmail.com>
+-----------------hid-semitek.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) 2021 Benjamin Moody
+ */
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for Semitek keyboards");
+MODULE_LICENSE("GPL");
+-----------------hid-roccat-isku.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-wiimote-modules.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-roccat-kovaplus.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-roccat-pyra.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+-----------------hid-xiaomi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (c) 2021 Ilya Skriblovsky
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ilya Skriblovsky <IlyaSkriblovsky@gmail.com>");
+MODULE_DESCRIPTION("Fixing side buttons of Xiaomi Mi Silent Mouse");
+-----------------hid-gyration.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2008 Jiri Slaby
+Copyright (c) 2006-2008 Jiri Kosina
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("HID driver for some gyration \"special\" devices")
+MODULE_LICENSE("GPL")
+-----------------hid-elecom.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 2010 Richard Nauber <Richard.Nauber@gmail.com>
+ *  Copyright (c) 2016 Yuxuan Shui <yshuiv7@gmail.com>
+ *  Copyright (c) 2017 Diego Elio Pettenò <flameeyes@flameeyes.eu>
+ *  Copyright (c) 2017 Alex Manoussakis <amanou@gnu.org>
+ *  Copyright (c) 2017 Tomasz Kramkowski <tk@the-tk.com>
+ *  Copyright (c) 2020 YOSHIOKA Takuma <lo48576@hard-wi.red>
+ *  Copyright (c) 2022 Takahiro Fujii <fujii@xaxxi.net>
+ */
+
+MODULE_LICENSE("GPL");
+-----------------hid-penmount.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2014 Christian Gmeiner <christian.gmeiner <at> gmail.com>
+
+based on hid-penmount copyrighted by
+    PenMount Touch Solutions <penmount <at> seed.net.tw>
+
+MODULE_AUTHOR("Christian Gmeiner <christian.gmeiner@gmail.com>");
+MODULE_LICENSE("GPL");
+-----------------hid-icade.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2012 Bastien Nocera <hadess@hadess.net>
+Copyright (c) 2012 Benjamin Tissoires <benjamin.tissoires@gmail.com>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Bastien Nocera <hadess@hadess.net>");
+MODULE_DESCRIPTION("ION iCade input driver");
+-----------------hid-elan.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016 Alexandrov Stanislav <neko@nya.ai>
+-----------------hid-uclogic-core-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ *  HID driver for UC-Logic devices not fully compliant with HID standard
+ *
+ *  Copyright (c) 2022 José Expósito <jose.exposito89@gmail.com>
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("José Expósito <jose.exposito89@gmail.com>");
+-----------------hid-gaff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2008 Lukasz Lubojanski <lukasz@lubojanski.info>
+
+MODULE_LICENSE("GPL")
+-----------------hid-picolcd_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------hid-samsung.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("HID driver for some samsung \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-roccat-arvo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat Arvo driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-mcp2221.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Rishi Gupta <gupt21@gmail.com>");
+
+MODULE_DESCRIPTION("MCP2221 Microchip HID USB to I2C master bridge");
+MODULE_LICENSE("GPL v2");
+-----------------wacom_sys.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-picolcd_fb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------hid-thrustmaster.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020-2021 Dario Pagani <dario.pagani.146+linuxk@gmail.com>
+Copyright (c) 2020-2021 Kim Kuparinen <kimi.h.kuparinen@gmail.com>
+
+MODULE_AUTHOR("Dario Pagani <dario.pagani.146+linuxk@gmail.com>");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Driver to initialize some steering wheel joysticks from Thrustmaster");
+-----------------hid-roccat-pyra.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat Pyra driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-roccat-isku.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Stefan Achatz")
+MODULE_DESCRIPTION("USB Roccat Isku/FX driver")
+MODULE_LICENSE("GPL v2")
+-----------------hid-lg3ff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Force feedback support for Logitech Flight System G940
+ *
+ *  Copyright (c) 2009 Gary Stein <LordCnidarian@gmail.com>
+ */
+-----------------hid-waltop.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------hid-wiimote-debug.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Debug support for HID Nintendo Wii / Wii U peripherals
+ * Copyright (c) 2011-2013 David Herrmann <dh.herrmann@gmail.com>
+ */
+-----------------hid-sensor-custom.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("HID Sensor Custom and Generic sensor Driver");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_LICENSE("GPL");
+-----------------hid-vivaldi-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2022 Google, Inc
+-----------------hid-goodix-spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Goodix SPI driver for HID touchscreen");
+MODULE_AUTHOR("Goodix, Inc.");
+-----------------hid-google-stadiaff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright 2023 Google LLC
+-----------------hid-viewsonic.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2017 Nikolai Kondrashov
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for ViewSonic devices not fully compliant with HID standard");
+-----------------hid-roccat-ryos.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Roccat Ryos driver for Linux
+ *
+ * Copyright (c) 2013 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat Ryos MK/Glow/Pro driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-evision.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2022 Philippe Valembois
+
+MODULE_LICENSE("GPL")
+-----------------hid-plantronics.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("JD Cole <jd.cole@plantronics.com>");
+MODULE_AUTHOR("Terry Junge <terry.junge@plantronics.com>");
+-----------------hid-gembird.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2015 Red Hat, Inc
+Copyright (c) 2015 Benjamin Tissoires
+
+MODULE_AUTHOR("Benjamin Tissoires <benjamin.tissoires@gmail.com>");
+MODULE_DESCRIPTION("HID Gembird joypad driver");
+MODULE_LICENSE("GPL");
+-----------------hid-sjoy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Force feedback support for SmartJoy PLUS PS2->USB adapter
+ *
+ *  Copyright (c) 2009 Jussi Kivilinna <jussi.kivilinna@mbnet.fi>
+ *
+ *  Based of hid-pl.c and hid-gaff.c
+ *   Copyright (c) 2007, 2009 Anssi Hannula <anssi.hannula@gmail.com>
+ *   Copyright (c) 2008 Lukasz Lubojanski <lukasz@lubojanski.info>
+ */
+
+MODULE_DESCRIPTION("Force feedback support for SmartJoy PLUS PS2->USB adapter");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jussi Kivilinna");
+-----------------hid-nvidia-shield.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Rahul Rameshbabu <rrameshbabu@nvidia.com>");
+
+MODULE_DESCRIPTION("HID Driver for NVIDIA SHIELD peripherals.");
+MODULE_LICENSE("GPL");
+-----------------hid-ntrig.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+-----------------hid-pxrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (C) 2022 Marcus Folkesson <marcus.folkesson@gmail.com>
+-----------------hid-topre.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2022 Harry Stern <harry@harrystern.net>
+
+MODULE_LICENSE("GPL")
+-----------------hid-cmedia.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2015 Ben Chen <ben_chen@bizlinktech.com>
+Copyright (C) 2021 Thomas Weißschuh <linux@weissschuh.net>
+
+MODULE_LICENSE("GPL");
+-----------------hid-roccat-kovaplus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Roccat Kova[+] driver for Linux
+ *
+ * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-corsair.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2015 Clement Vuchener
+ * Copyright (c) 2017 Oscar Campos
+ * Copyright (c) 2017 Aaron Bottegal
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Clement Vuchener");
+MODULE_AUTHOR("Oscar Campos");
+MODULE_DESCRIPTION("HID driver for Corsair devices");
+-----------------hid-google-hammer.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2017 Google Inc.
+Author: Wei-Ning Huang <wnhuang@google.com>
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+MODULE_DESCRIPTION("HID driver for Google Hammer device.");
+MODULE_LICENSE("GPL");
+-----------------hid-apple.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Apple USB HID quirks support for Linux");
+MODULE_LICENSE("GPL");
+-----------------hid-steelseries.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for Steelseries devices");
+MODULE_AUTHOR("Bastien Nocera <hadess@hadess.net>");
+MODULE_AUTHOR("Simon Wood <simon@mungewell.org>");
+-----------------hid-nti.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Google, Inc.
+
+Copyright (c) 1999 Andreas Gal
+
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+
+Copyright (c) 2006-2007 Jiri Kosina
+
+Copyright (c) 2008 Jiri Slaby <jirislaby@gmail.com>
+
+MODULE_LICENSE("GPL")
+-----------------hid-magicmouse.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("Apple \"Magic\" Wireless Mouse driver");
+MODULE_LICENSE("GPL");
+-----------------hid-microsoft.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("HID driver for some microsoft \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-ft260.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------hid-generic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2007-2008 Oliver Neukum
+Copyright (c) 2006-2012 Jiri Kosina
+Copyright (c) 2012 Henrik Rydberg
+
+MODULE_AUTHOR("Henrik Rydberg")
+MODULE_DESCRIPTION("HID generic driver")
+MODULE_LICENSE("GPL")
+-----------------hid-vivaldi-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hid-roccat-kone.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL v2");
+-----------------hid-steam.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Rodrigo Rivas Costa <rodrigorivascosta@gmail.com>");
+-----------------hid-tivo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Jarod Wilson <jarod@redhat.com>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jarod Wilson <jarod@redhat.com>");
+-----------------hid-sigmamicro.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2016 Kinglong Mee
+ * Copyright (c) 2021 Desmond Lim
+ */
+
+MODULE_AUTHOR("Kinglong Mee <kinglongmee@gmail.com>");
+MODULE_AUTHOR("Desmond Lim <peckishrine@gmail.com>");
+MODULE_DESCRIPTION("SiGma Micro HID driver");
+MODULE_LICENSE("GPL");
+-----------------hid-uclogic-rdesc.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ *  HID driver for UC-Logic devices not fully compliant with HID standard
+ *  - original and fixed report descriptors
+ *
+ *  Copyright (c) 2010-2017 Nikolai Kondrashov
+ *  Copyright (c) 2013 Martin Rusko
+ */
+
+/*
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option)
+ * any later version.
+ */
+-----------------hid-roccat-koneplus.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-emsff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Ignaz Forster <ignaz.forster@gmx.de>
+
+MODULE_DESCRIPTION("Force feedback support for EMS Trio Linker Plus II");
+MODULE_LICENSE("GPL");
+-----------------hid-ezkey.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("HID driver for some ezkey \"special\" devices")
+MODULE_LICENSE("GPL")
+-----------------hid-udraw-ps3.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2016 Red Hat Inc. All Rights Reserved
+-----------------hid-uclogic-params.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option)
+ * any later version.
+-----------------wacom_wac.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------hid-ids.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+-----------------hid-chicony.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2007 Paul Walmsley
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+-----------------hid-roccat-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+-----------------hid-roccat-koneplus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+-----------------hidraw.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2007-2014 Jiri Kosina
+-----------------hid-redragon.c-----------------
+Copyright (c) 2017 Robert Munteanu
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+SPDX-License-Identifier: GPL-2.0+
+-----------------hid-sony.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-alps.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Masaki Ota <masaki.ota@jp.alps.com>");
+MODULE_DESCRIPTION("ALPS HID driver");
+-----------------hid-bigbenff.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_LICENSE("GPL");
+-----------------hid-lg4ff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-roccat-arvo.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-roccat-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Roccat common functions for device specific drivers
+ *
+ * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+
+MODULE_AUTHOR("Stefan Achatz");
+MODULE_DESCRIPTION("USB Roccat common driver");
+MODULE_LICENSE("GPL v2");
+-----------------hid-gfrm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Petri Gynther <pgynther@google.com>");
+MODULE_DESCRIPTION("Google Fiber TV Box remote control driver");
+-----------------hid-gt683r.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Copyright (c) 2014 Janne Kanniainen <janne.kanniainen@gmail.com>
+ */
+MODULE_AUTHOR("Janne Kanniainen");
+MODULE_DESCRIPTION("MSI GT683R led driver");
+MODULE_LICENSE("GPL");
+-----------------hid-wiimote.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (c) 2011-2013 David Herrmann <dh.herrmann@gmail.com>
+-----------------wacom_wac.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-logitech-dj.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------uhid.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Herrmann <dh.herrmann@gmail.com>");
+MODULE_DESCRIPTION("User-space I/O driver support for HID subsystem");
+MODULE_ALIAS_MISCDEV(UHID_MINOR);
+MODULE_ALIAS("devname:" UHID_NAME);
+-----------------hid-logitech-hidpp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  HIDPP protocol for Logitech receivers
+ *
+ *  Copyright (c) 2011 Logitech (c)
+ *  Copyright (c) 2012-2013 Google (c)
+ *  Copyright (c) 2013-2014 Red Hat Inc.
+ */
+
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  HIDPP protocol for Logitech receivers
+ *
+ *  Copyright (c) 2011 Logitech (c)
+ *  Copyright (c) 2012-2013 Google (c)
+ *  Copyright (c) 2013-2014 Red Hat Inc.
+ */
+
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ *  HIDPP protocol for Logitech receivers
+ *
+ *  Copyright (c) 2011 Logitech (c)
+ *  Copyright (c) 2012-2013 Google (c)
+ *  Copyright (
+-----------------hid-picolcd_leds.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ *
+ *   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  *
+ *                                                                         *
+ *   Based on Logitech G13 driver (v0.4)                                   *
+ *     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>   *
+ *                                                                         *
+ ***************************************************************************/
+-----------------hid-holtek-mouse.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ * Copyright (c) 2013 Christian Ohm
+ * Heavily inspired by various other HID drivers that adjust the report
+ * descriptor.
+*/
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for Holtek gaming mice");
+MODULE_LICENSE("GPL");
+-----------------hid-holtekff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Anssi Hannula <anssi.hannula@iki.fi>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Anssi Hannula <anssi.hannula@iki.fi>");
+MODULE_DESCRIPTION("Force feedback support for Holtek On Line Grip based devices");
+-----------------hid-debug.c-----------------
+The extracted parts that are associated with software license or copyright are:
+
+* `// SPDX-License-Identifier: GPL-2.0-or-later`
+* `/*
+ *  (c) 1999 Andreas Gal		<gal@cs.uni-magdeburg.de>
+ *  (c) 2000-2001 Vojtech Pavlik	<vojtech@ucw.cz>
+ *  (c) 2007-2009 Jiri Kosina
+ *
+ *  HID debugging support
+ */`
+* `/*
+ *
+ * Should you need to contact me, the author, you can do so either by
+ * e-mail - mail your message to <vojtech@ucw.cz>, or by paper mail:
+ * Vojtech Pavlik, Simunkova 1594, Prague 8, 182 00 Czech Republic
+ */`
+* `EXPORT_SYMBOL_GPL(hid_resolv_usage);`
+* `EXPORT_SYMBOL_GPL(hid_dump_field);`
+* `
+-----------------hid-appleir.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2006 James McKenzie
+Copyright (C) 2008 Greg Kroah-Hartman <greg@kroah.com>
+Copyright (C) 2008 Novell Inc.
+Copyright (C) 2010, 2012 Bastien Nocera <hadess@hadess.net>
+Copyright (C) 2013 Benjamin Tissoires <benjamin.tissoires@gmail.com>
+Copyright (C) 2013 Red Hat Inc. All Rights Reserved
+
+MODULE_LICENSE("GPL")
+-----------------hid-uclogic-params-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2022 José Expósito <jose.exposito89@gmail.com>
+-----------------hid-uclogic-rdesc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+/*
+ *  This program is free software; you can redistribute it and/or modify it
+ *  under the terms of the GNU General Public License as published by the Free
+ *  Software Foundation; either version 2 of the License, or (at your option)
+ *  any later version.
+ */
+-----------------hid-sunplus.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  HID driver for some sunplus "special" devices
+ *
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+ *  Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+ *  Copyright (c) 2006-2007 Jiri Kosina
+ *  Copyright (c) 2008 Jiri Slaby
+ */
+MODULE_DESCRIPTION("HID driver for some sunplus \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-belkin.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for some belkin \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-nintendo.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2019-2021 Daniel J. Ogorchock <djogorchock@gmail.com>
+Portions Copyright (c) 2020 Nadia Holmquist Pedersen <nadia@nhp.sh>
+Copyright (c) 2022 Emily Strickland <linux@emily.st>
+Copyright (c) 2023 Ryan McClelland <rymcclel@gmail.com>
+-----------------hid-saitek.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2012 Andreas Hübner
+
+MODULE_LICENSE("GPL");
+-----------------hid-rmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-u2fzero.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+This line indicates that the source code is licensed under the GNU General Public License, version 2.
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, version 2.
+
+This is a statement of the license terms for the software.
+-----------------hid-uclogic-params.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ *  HID driver for UC-Logic devices not fully compliant with HID standard
+ *  - tablet initialization and parameter retrieval
+ *
+ *  Copyright (c) 2018 Nikolai Kondrashov
+ */
+-----------------hid-aureal.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ *  Copyright (c) 2010 Franco Catrin <fcatrin@gmail.com>
+ *  Copyright (c) 2010 Ben Cropley <bcropley@internode.on.net>
+ 
+ *  Based on HID sunplus driver by
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+ *  Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+ *  Copyright (c) 2006-2007 Jiri Kosina
+ *  Copyright (c) 2008 Jiri Slaby
+ 
+ MODULE_LICENSE("GPL");
+-----------------hid-lg2ff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2008 Anssi Hannula <anssi.hannula@gmail.com>
+-----------------hid-cherry.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("HID driver for some cherry \"special\" devices")
+-----------------hid-lgff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+  Copyright (c) 2002-2004 Johann Deneux
+  Copyright (c) 2006 Anssi Hannula <anssi.hannula@gmail.com>
+
+Should you need to contact me, the author, you can do so by
+e-mail - mail your message to <johann.deneux@it.uu.se>
+
+"Force feedback for Logitech force feedback devices by Johann Deneux <johann.deneux@it.uu.se>"
+-----------------hid-winwing.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * HID driver for WinWing Orion 2 throttle
+ *
+ * Copyright (c) 2023 Ivan Gorinov
+ */
+-----------------hid-jabra.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2017 Niels Skou Olsen <nolsen@jabra.com>
+
+MODULE_AUTHOR("Niels Skou Olsen <nolsen@jabra.com>");
+
+MODULE_LICENSE("GPL");
+-----------------hid-zydacron.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Don Prince <dhprince.devel@yahoo.co.uk>
+
+MODULE_DESCRIPTION("HID driver for zydacron remote control");
+MODULE_LICENSE("GPL");
+-----------------hid-mf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016-2017 Marcel Hasler <mahasler@gmail.com>
+
+MODULE_DESCRIPTION("Force feedback support for Mayflash game controller adapters.");
+MODULE_LICENSE("GPL");
+-----------------hid-input.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (c) 2000-2001 Vojtech Pavlik
+ *  Copyright (c) 2006-2010 Jiri Kosina
+ *
+ *  HID to Linux Input mapping
+ */
+
+/*
+ *
+ * Should you need to contact me, the author, you can do so either by
+ * e-mail - mail your message to <vojtech@ucw.cz>, or by paper mail:
+ * Vojtech Pavlik, Simunkova 1594, Prague 8, 182 00 Czech Republic
+ */
+
+#include <linux/module.h>
+#include <linux/slab.h>
+#include <linux/kernel.h>
+
+#include <linux/hid.h>
+#include <linux/hid-debug.h>
+
+#include "hid-ids.h"
+
+#define unk	KEY_UNKNOWN
+
+static const unsigned char hid_keyboard[256] = {
+	  0,  0,  0,  0,30,
+-----------------hid-razer.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2021 Jelle van der Waa <jvanderwaa@redhat.com>
+
+MODULE_AUTHOR("Jelle van der Waa <jvanderwaa@redhat.com>");
+MODULE_DESCRIPTION("HID driver for gaming keys on Razer Blackwidow gaming keyboards");
+MODULE_LICENSE("GPL");
+-----------------hid-ortek.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+ *  Copyright (c) 2010 Johnathon Harris <jmharris@gmail.com>
+ *  Copyright (c) 2011 Jiri Kosina
+-----------------hid-cypress.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("HID driver for some cypress \"special\" devices")
+-----------------hid-primax.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2011 Google Inc. All Rights Reserved
+-----------------hid-pl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2007, 2009 Anssi Hannula <anssi.hannula@gmail.com>
+
+MODULE_LICENSE("GPL");
+-----------------hid-tmff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2003 Zinx Verituse <zinx@epicsol.org>
+Copyright (c) 2002 Johann Deneux
+
+MODULE_LICENSE("GPL")
+MODULE_DESCRIPTION("Force feedback support for various HID compliant devices by ThrustMaster")
+MODULE_LICENSE("GPL")
+-----------------hid-kensington.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (c) 2009 Jiri Kosina
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for Kensington Slimblade Trackball");
+-----------------hid-lg.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_DESCRIPTION("HID driver for some logitech \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-picolcd_lcd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+*   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  
+*   Based on Logitech G13 driver (v0.4)
+*     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>
+-----------------hid-letsketch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+MODULE_DESCRIPTION("Driver for the LetSketch / VSON WP9620N drawing tablet");
+-----------------hid-led.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Heiner Kallweit <hkallweit1@gmail.com>");
+MODULE_DESCRIPTION("Simple USB RGB LED driver");
+-----------------hid-zpff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2005, 2006 Anssi Hannula <anssi.hannula@gmail.com>
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Force feedback support for Zeroplus based devices");
+-----------------hid-playstation.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hid-roccat-lua.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+/*
+ * Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-roccat-savu.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
+
+MODULE_AUTHOR("Stefan Achatz")
+MODULE_DESCRIPTION("USB Roccat Savu driver")
+MODULE_LICENSE("GPL v2")
+-----------------hid-kye.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------hid-hyperv.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Microsoft Hyper-V Synthetic HID Driver");
+-----------------hid-lg4ff.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hid-accutouch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2016, Collabora Ltd.
+Copyright (c) 2016, General Electric Company
+
+Copyright (c) 2014 Christian Gmeiner <christian.gmeiner <at> gmail.com>
+
+MODULE_AUTHOR("Martyn Welch <martyn.welch@collabora.co.uk")
+MODULE_LICENSE("GPL")
+-----------------hid-sensor-hub.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID Sensor Hub driver");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@intel.com>");
+-----------------hid-roccat-kone.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
+ */
+-----------------hid-picolcd_debugfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------hid-megaworld.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2022 Frank Zago
+
+Copyright (c) 2005, 2006 Anssi Hannula <anssi.hannula@gmail.com>
+
+MODULE_LICENSE("GPL");
+-----------------hid-elo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013 Jiri Slaby
+
+MODULE_AUTHOR("Jiri Slaby <jslaby@suse.cz>");
+MODULE_DESCRIPTION("HID driver for ELO usb touchscreen 4000/4500");
+MODULE_LICENSE("GPL");
+-----------------hid-lcpower.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Chris Schlund 
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for LC Power Model RC1000MCE");
+-----------------hid-uclogic-rdesc-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ *  HID driver for UC-Logic devices not fully compliant with HID standard
+ *
+ *  Copyright (c) 2022 José Expósito <jose.exposito89@gmail.com>
+ */
+
+MODULE_DESCRIPTION("KUnit tests for the UC-Logic driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("José Expósito <jose.exposito89@gmail.com>");
+-----------------hid-mcp2200.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Johannes Roith <johannes@gnu-linux.rocks>");
+
+MODULE_DESCRIPTION("MCP2200 Microchip HID USB to GPIO bridge");
+
+MODULE_LICENSE("GPL");
+-----------------hid-ite.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017 Hans de Goede <hdegoede@redhat.com>
+
+MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
+
+MODULE_DESCRIPTION("HID driver for some ITE \"special\" devices");
+
+MODULE_LICENSE("GPL");
+-----------------hid-uclogic-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ *  HID driver for UC-Logic devices not fully compliant with HID standard
+ *
+ *  Copyright (c) 2010-2014 Nikolai Kondrashov
+ *  Copyright (c) 2013 Martin Rusko
+ */
+
+/*
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option)
+ * any later version.
+ */
+
+MODULE_AUTHOR("Martin Rusko");
+MODULE_AUTHOR("Nikolai Kondrashov");
+MODULE_DESCRIPTION("HID driver for UC-Logic devices not fully compliant with HID standard");
+MODULE_LICENSE("GPL");
+-----------------hid-twinhan.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2009 Bruno Prémont <bonbons@linux-vserver.org>
+
+MODULE_LICENSE("GPL");
+-----------------hid-a4tech.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+ *  Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+ *  Copyright (c) 2006-2007 Jiri Kosina
+ *  Copyright (c) 2008 Jiri Slaby
+ */
+
+MODULE_DESCRIPTION("HID driver for some a4tech \"special\" devices");
+MODULE_LICENSE("GPL");
+-----------------hid-vivaldi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2020 Google LLC.
+MODULE_AUTHOR("Sean O'Brien")
+MODULE_LICENSE("GPL")
+-----------------hid-lenovo.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  HID driver for Lenovo:
+ *  - ThinkPad USB Keyboard with TrackPoint (tpkbd)
+ *  - ThinkPad Compact Bluetooth Keyboard with TrackPoint (cptkbd)
+ *  - ThinkPad Compact USB Keyboard with TrackPoint (cptkbd)
+ *  - ThinkPad TrackPoint Keyboard II USB/Bluetooth (cptkbd/tpIIkbd)
+ *
+ *  Copyright (c) 2012 Bernhard Seibold
+ *  Copyright (c) 2014 Jamie Lentin <jm@lentin.co.uk>
+ *
+ * Linux IBM/Lenovo Scrollpoint mouse driver:
+ * - IBM Scrollpoint III
+ * - IBM Scrollpoint Pro
+ * - IBM Scrollpoint Optical
+ * - IBM Scrollpoint Optical 800dpi
+ * - IBM Scrollpoint Optical 800dpi Pro
+ * - Lenovo Scrollpoint Optical
+ *
+ *  Copyright (c) 2012 Peter De Wachter <pdew
+-----------------hid-maltron.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2008 Jiri Slaby
+Copyright (c) 2012 David Dillow <dave@thedillows.org>
+Copyright (c) 2006-2013 Jiri Kosina
+Copyright (c) 2013 Colin Leitner <colin.leitner@gmail.com>
+Copyright (c) 2014-2016 Frank Praznik <frank.praznik@gmail.com>
+Copyright (c) 2010 Richard Nauber <Richard.Nauber@gmail.com>
+Copyright (c) 2016 Yuxuan Shui <yshuiv7@gmail.com>
+Copyright (
+-----------------hid-input-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+/*
+ *  HID to Linux Input mapping
+ *
+ *  Copyright (c) 2022 José Expósito <jose.exposito89@gmail.com>
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("José Expósito <jose.exposito89@gmail.com>");
+-----------------hid-petalynx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999 Andreas Gal
+Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+Copyright (c) 2006-2007 Jiri Kosina
+Copyright (c) 2008 Jiri Slaby
+
+MODULE_LICENSE("GPL")
+-----------------hid-creative-sb0540.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2019 Red Hat Inc. All Rights Reserved
+ *
+ */
+-----------------hid-wiimote-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Herrmann <dh.herrmann@gmail.com>");
+MODULE_DESCRIPTION("Driver for Nintendo Wii / Wii U peripherals");
+-----------------hid-picolcd_cir.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+*   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  *
+*                                                                         *
+*   Based on Logitech G13 driver (v0.4)                                   *
+*     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>   *
+*                                                                         *
+ ***************************************************************************/
+-----------------hid-glorious.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2020 Samuel Čavoj <sammko@sammserver.com>
+-----------------hid-roccat-savu.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
+-----------------hid-quirks.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  HID quirks support for Linux
+ *
+ *  Copyright (c) 1999 Andreas Gal
+ *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
+ *  Copyright (c) 2005 Michael Haboustak <mike-@cinci.rr.com> for Concept2, Inc
+ *  Copyright (c) 2006-2007 Jiri Kosina
+ *  Copyright (c) 2007 Paul Walmsley
+ */
+
+/*
+ */
+
+#include <linux/hid.h>
+#include <linux/export.h>
+#include <linux/slab.h>
+#include <linux/mutex.h>
+#include <linux/input/elan-i2c-ids.h>
+
+#include "hid-ids.h"
+
+/*
+ * Alphabetically sorted by vendor then product.
+ */
+
+static const struct hid_device_id hid_quirks[] = {
+   ...
+};
+
+/*
+ *
+-----------------hid-topseed.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2008 Lev Babiev
+based on hid-cherry driver
+
+Modified to also support BTC "Emprex 3009URF III Vista MCE Remote" by
+Wayne Thomas 2010.
+
+Modified to support Conceptronic CLLRCMCE by
+Kees Bakker 2010.
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for TopSeed Cyberlink remote");
+-----------------hid-dr.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2009 Richard Walmsley <richwalm@gmail.com>
+
+MODULE_LICENSE("GPL");
+-----------------hid-keytouch.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2011 Jiri Kosina
+
+MODULE_LICENSE("GPL")
+MODULE_AUTHOR("Jiri Kosina")
+-----------------hid-cougar.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright (c) 2018 Daniel M. Lambea <dmlambea@gmail.com>
+-----------------hid-lg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------hid-cp2112.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("David Barksdale <dbarksdale@uplogix.com>");
+MODULE_DESCRIPTION("Silicon Labs HID USB to SMBus master bridge");
+-----------------hid-prodikeys.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("HID driver for the Prodikeys PC-MIDI Keyboard");
+-----------------hid-retrode.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------hid-speedlink.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+Copyright (c) 2011, 2013 Stefan Kriwanek <dev@stefankriwanek.de>
+MODULE_LICENSE("GPL");
+-----------------hid-roccat.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Stefan Achatz");
+
+MODULE_DESCRIPTION("USB Roccat char device");
+
+MODULE_LICENSE("GPL v2");

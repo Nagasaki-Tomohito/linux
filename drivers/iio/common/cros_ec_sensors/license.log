@@ -1,0 +1,14 @@
+-----------------cros_ec_sensors_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("ChromeOS EC sensor hub core functions");
+MODULE_LICENSE("GPL v2");
+-----------------cros_ec_lid_angle.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2018 Google, Inc
+
+MODULE_LICENSE("GPL v2")
+-----------------cros_ec_sensors.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")

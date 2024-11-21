@@ -1,0 +1,16 @@
+-----------------rme9652.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------hdsp.c-----------------
+* `// SPDX-License-Identifier: GPL-2.0-or-later`
+* `/*   ALSA driver for RME Hammerfall DSP audio interface(s) *      Copyright (c) 2002  Paul Davis                          Marcus Andersson                          Thomas Charbonnel */`
+* `MODULE_LICENSE("GPL");`
+-----------------hdspm.c-----------------
+The extracted parts that are associated with software license or copyright are:
+
+* `MODULE_LICENSE("GPL");`
+* `MODULE_AUTHOR("Winfried Ritsch <ritsch_AT_iem.at>, Paul Davis <paul@linuxaudiosystems.com>, Marcus Andersson, Thomas Charbonnel <thomas@undata.org>, Remy Bruno <remy.bruno@trinnov.com>, Florian Faber <faberman@linuxproaudio.org>, Adrian Knoth <adi@drcomp.erfurt.thur.de>");`
+* `MODULE_DESCRIPTION("RME HDSPM");`
+* `MODULE_AUTHOR("Copyright (c) 2003 Winfried Ritsch (IEM)");`
+* `MODULE_LICENSE("GPL-2.0-or-later");`

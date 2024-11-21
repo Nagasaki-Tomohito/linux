@@ -1,0 +1,46 @@
+-----------------emux_proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (C) 2000 Takashi Iwai <tiwai@suse.de>
+ */
+-----------------emux_oss.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1999 Takashi Iwai <tiwai@suse.de>
+-----------------emux_synth.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emux_effect.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (C) 1999 Steve Ratcliffe
+ *  Copyright (c) 1999-2000 Takashi Iwai <tiwai@suse.de>
+ *
+ *  Contains code based on awe_wave.c by Takashi Iwai
+ */
+-----------------emux.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2000 Takashi Iwai <tiwai@suse.de>
+
+MODULE_AUTHOR("Takashi Iwai");
+MODULE_DESCRIPTION("Routines for control of EMU WaveTable chip");
+MODULE_LICENSE("GPL");
+-----------------soundfont.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------emux_nrpn.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 1999-2000 Takashi Iwai <tiwai@suse.de>
+-----------------emux_hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2004 Takashi Iwai <tiwai@suse.de>
+-----------------emux_seq.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1999 Steve Ratcliffe
+Copyright (c) 1999-2000 Takashi Iwai <tiwai@suse.de>
+-----------------emux_voice.h-----------------
+*  Copyright (C) 1999 Steve Ratcliffe
+*  Copyright (c) 1999-2000 Takashi Iwai <tiwai@suse.de>

@@ -1,0 +1,59 @@
+-----------------cmi8328.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ondrej Zary <linux@rainbow-software.org>");
+MODULE_DESCRIPTION("C-Media CMI8328");
+-----------------azt2320.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1999-2000 by Massimo Piccioni <dafastidio@libero.it>
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Massimo Piccioni <dafastidio@libero.it>");
+MODULE_DESCRIPTION("Aztech Systems AZT2320");
+MODULE_LICENSE("GPL");
+-----------------sscape.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Chris Rankin");
+MODULE_DESCRIPTION("ENSONIQ SoundScape driver");
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("sndscape.co0");
+MODULE_FIRMWARE("sndscape.co1");
+MODULE_FIRMWARE("sndscape.co2");
+MODULE_FIRMWARE("sndscape.co3");
+MODULE_FIRMWARE("scope.cod");
+-----------------cmi8330.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("George Talusan <gstalusan@uwaterloo.ca>");
+MODULE_DESCRIPTION("C-Media CMI8330/CMI8329");
+-----------------adlib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------sc6000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2007 Krzysztof Helt <krzysztof.h1@wp.pl>
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Krzysztof Helt");
+MODULE_DESCRIPTION("Gallant SC-6000");
+-----------------es18xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------als100.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 1999-2000 by Massimo Piccioni <dafastidio@libero.it>
+Copyright (C) 1999-2002 by Massimo Piccioni <dafastidio@libero.it>
+
+MODULE_LICENSE("GPL");
+-----------------opl3sa2.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");

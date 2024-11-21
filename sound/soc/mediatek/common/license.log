@@ -1,0 +1,85 @@
+-----------------mtk-dsp-sof-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2022 MediaTek Inc.
+Author: Chunxu Li <chunxu.li@mediatek.com>
+-----------------mtk-afe-fe-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Mediatek simple fe dai operator");
+MODULE_AUTHOR("Garlic Tseng <garlic.tseng@mediatek.com>");
+MODULE_LICENSE("GPL v2")
+-----------------mtk-soundcard-driver.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2022 MediaTek Inc.
+-----------------mtk-soundcard-driver.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * mtk-soundcard-driver.c  --  MediaTek soundcard driver common
+ *
+ * Copyright (c) 2022 MediaTek Inc.
+ * Author: Trevor Wu <trevor.wu@mediatek.com>
+ */
+-----------------mtk-afe-platform-driver.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2016 MediaTek Inc.
+Author: Garlic Tseng <garlic.tseng@mediatek.com>
+
+MODULE_DESCRIPTION("Mediatek simple platform driver");
+MODULE_AUTHOR("Garlic Tseng <garlic.tseng@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mtk-soc-card.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2022 MediaTek Inc.
+-----------------mtk-dai-adda-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (c) 2021 MediaTek Inc.
+ * Copyright (c) 2024 Collabora Ltd.
+ *         AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
+ */
+-----------------mtk-base-afe.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+/*
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>
+-----------------mtk-btcvsd.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Mediatek ALSA BT SCO CVSD/MSBC Driver");
+MODULE_AUTHOR("KaiChieh Chuang <kaichieh.chuang@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mtk-dsp-sof-common.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2022 MediaTek Inc.
+Author: Chunxu Li <chunxu.li@mediatek.com>
+
+EXPORT_SYMBOL_GPL(mtk_sof_dai_link_fixup);
+
+EXPORT_SYMBOL_GPL(mtk_sof_card_probe);
+
+EXPORT_SYMBOL_GPL(mtk_sof_card_late_probe);
+
+EXPORT_SYMBOL_GPL(mtk_sof_dailink_parse_of);
+-----------------mtk-afe-fe-dai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+Copyright (c) 2016 MediaTek Inc.
+-----------------mtk-dai-adda-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright (c) 2021 MediaTek Inc.
+ * Copyright (c) 2024 Collabora Ltd.
+ *         AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
+-----------------mtk-afe-platform-driver.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+/*
+ * Copyright (c) 2016 MediaTek Inc.
+ * Author: Garlic Tseng <garlic.tseng@mediatek.com>

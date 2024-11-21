@@ -1,0 +1,165 @@
+-----------------soc-jack.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2008 Wolfson Microelectronics PLC.
+
+EXPORT_SYMBOL_GPL(snd_soc_jack_report);
+EXPORT_SYMBOL_GPL(snd_soc_jack_add_zones);
+EXPORT_SYMBOL_GPL(snd_soc_jack_get_type);
+EXPORT_SYMBOL_GPL(snd_soc_jack_add_pins);
+EXPORT_SYMBOL_GPL(snd_soc_jack_notifier_register);
+EXPORT_SYMBOL_GPL(snd_soc_jack_notifier_unregister);
+EXPORT_SYMBOL_GPL(snd_soc_jack_add_gpios);
+EXPORT_SYMBOL_GPL(snd_soc_jack_add_gpiods);
+EXPORT_SYMBOL_GPL(snd_soc_jack_free_gpios);
+-----------------soc-link.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2019 Renesas Electronics Corp.
+// Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------soc-utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright 2009 Wolfson Microelectronics PLC.
+
+EXPORT_SYMBOL_GPL(snd_soc_calc_frame_size);
+EXPORT_SYMBOL_GPL(snd_soc_params_to_frame_size);
+EXPORT_SYMBOL_GPL(snd_soc_calc_bclk);
+EXPORT_SYMBOL_GPL(snd_soc_params_to_bclk);
+EXPORT_SYMBOL_GPL(snd_soc_tdm_params_to_bclk);
+EXPORT_SYMBOL_GPL(snd_soc_dai_is_dummy);
+EXPORT_SYMBOL_GPL(snd_soc_component_is_dummy);
+EXPORT_SYMBOL_GPL(snd_soc_dummy_dlc);
+-----------------soc-devres.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright (C) 2013 Linaro Ltd
+-----------------soc-card-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+// Copyright (C) 2024 Cirrus Logic, Inc. and
+//                    Cirrus Logic International Semiconductor Ltd.
+-----------------soc-topology.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// soc-topology.c  --  ALSA SoC Topology
+
+// Copyright (C) 2012 Texas Instruments Inc.
+// Copyright (C) 2015 Intel Corporation.
+
+// Authors: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+//		K, Mythri P <mythri.p.k@intel.com>
+//		Prusty, Subhransu S <subhransu.s.prusty@intel.com>
+//		B, Jayachandran <jayachandran.b@intel.com>
+//		Abdullah, Omair M <omair.m.abdullah@intel.com>
+//		Jin, Yao <yao.jin@intel.com>
+//		Lin, Mengdong <mengdong.lin@intel.com>
+-----------------soc-compress.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// soc-compress.c  --  ALSA SoC Compress
+//
+// Copyright (C) 2012 Intel Corp.
+//
+// Authors: Namarta Kohli <namartax.kohli@intel.com>
+//          Ramesh Babu K V <ramesh.babu@linux.intel.com>
+//          Vinod Koul <vinod.koul@linux.intel.com>
+-----------------soc-utils-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+-----------------soc-ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// soc-ac97.c  --  ALSA SoC Audio Layer AC97 support
+//
+// Copyright 2005 Wolfson Microelectronics PLC.
+// Copyright 2005 Openedhand Ltd.
+// Copyright (C) 2010 Slimlogic Ltd.
+// Copyright (C) 2010 Texas Instruments Inc.
+//
+// Author: Liam Girdwood <lrg@slimlogic.co.uk>
+//         with code, comments and ideas from :-
+//         Richard Purdie <richard@openedhand.com>
+-----------------soc-dapm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// soc-dapm.c  --  ALSA SoC Dynamic Audio Power Management
+
+// Copyright 2005 Wolfson Microelectronics PLC.
+// Author: Liam Girdwood <lrg@slimlogic.co.uk>
+
+//  Features:
+//    o Changes power status of internal codec blocks depending on the
+//      dynamic configuration of codec internal audio paths and active
+//      DACs/ADCs.
+//    o Platform power domain - can support external components i.e. amps and
+//      mic/headphone insertion events.
+//    o Automatic Mic Bias support
+//    o Jack insertion power event initiation - e.g. hp insertion will enable
+//      sinks, dacs, etc
+//    o Delayed power down of audio subsystem to reduce pops between a quick
+//      device reopen.
+-----------------soc-acpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2013-15, Intel Corporation.
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ALSA SoC ACPI module");
+-----------------soc-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2005 Wolfson Microelectronics PLC.
+// Copyright 2005 Openedhand Ltd.
+// Copyright (C) 2010 Slimlogic Ltd.
+// Copyright (C) 2010 Texas Instruments Inc.
+
+// Author: Liam Girdwood <lrg@slimlogic.co.uk>
+//         with code, comments and ideas from :-
+//         Richard Purdie <richard@openedhand.com>
+-----------------soc-topology-test.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------soc-component.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright 2009-2011 Wolfson Microelectronics PLC.
+// Copyright (C) 2019 Renesas Electronics Corp.
+-----------------soc-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2005 Wolfson Microelectronics PLC.
+// Copyright 2005 Openedhand Ltd.
+// Copyright (C) 2010 Slimlogic Ltd.
+// Copyright (C) 2010 Texas Instruments Inc.
+
+// Authors: Liam Girdwood <lrg@ti.com>
+//          Mark Brown <broonie@opensource.wolfsonmicro.com>
+-----------------soc-ops.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// soc-ops.c  --  Generic ASoC operations
+//
+// Copyright 2005 Wolfson Microelectronics PLC.
+// Copyright 2005 Openedhand Ltd.
+// Copyright (C) 2010 Slimlogic Ltd.
+// Copyright (C) 2010 Texas Instruments Inc.
+//
+// Author: Liam Girdwood <lrg@slimlogic.co.uk>
+//         with code, comments and ideas from :-
+//         Richard Purdie <richard@openedhand.com>
+-----------------soc-generic-dmaengine-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_DESCRIPTION("ASoC helpers for generic PCM dmaengine API");
+MODULE_LICENSE("GPL");
+-----------------soc-card.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2019 Renesas Electronics Corp.
+Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+-----------------soc-dai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2019 Renesas Electronics Corp.
+// Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>

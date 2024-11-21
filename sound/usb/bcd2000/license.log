@@ -1,0 +1,6 @@
+-----------------bcd2000.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Mario Kicherer, dev@kicherer.org")
+
+MODULE_LICENSE("GPL")

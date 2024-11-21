@@ -1,0 +1,10 @@
+-----------------iio-mux.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * IIO multiplexer driver
+ *
+ * Copyright (C) 2017 Axentia Technologies AB
+ *
+ * Author: Peter Rosin <peda@axentia.se>
+ */

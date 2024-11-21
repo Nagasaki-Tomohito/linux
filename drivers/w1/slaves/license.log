@@ -1,0 +1,153 @@
+-----------------w1_ds2438.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2017 Mariusz Bialonczyk <manio@skyboo.net>
+-----------------w1_ds2780.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2010 Indesign, LLC
+
+MODULE_AUTHOR("Clifton Barnes <cabarnes@indesign-llc.com>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("1-wire Driver for Maxim/Dallas DS2780 Stand-Alone Fuel Gauge IC");
+
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS2780));
+-----------------w1_ds2780.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+/* Copyright (C) 2010 Indesign, LLC */
+-----------------w1_ds2405.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2017 Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+Based on w1_therm.c copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Maciej S. Szmigiero <mail@maciej.szmigiero.name>");
+MODULE_DESCRIPTION("Driver for 1-wire Dallas DS2405 PIO.");
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS2405));
+-----------------w1_ds2408.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2010 Jean-Francois Dagenais <dagenaisj@sonatest.com>
+
+MODULE_AUTHOR("Jean-Francois Dagenais <dagenaisj@sonatest.com>");
+
+MODULE_DESCRIPTION("w1 family 29 driver for DS2408 8 Pin IO");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS2408));
+-----------------w1_smem.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
+
+MODULE_AUTHOR("Evgeniy Polyakov <zbr@ioremap.net>");
+MODULE_LICENSE("GPL");
+-----------------w1_ds2423.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (c) 2010 Mika Laitio <lamikr@pilppa.org>
+
+MODULE_AUTHOR("Mika Laitio <lamikr@pilppa.org>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("w1-family-" __stringify(W1_COUNTER_DS2423));
+-----------------w1_ds28e17.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Jan Kandziora <jjj@gmx.de>");
+MODULE_DESCRIPTION("w1 family 19 driver for DS28E17, 1-wire to I2C master bridge");
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS28E17));
+-----------------w1_ds2413.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2013 Mariusz Bialonczyk <manio@skyboo.net>
+
+MODULE_AUTHOR("Mariusz Bialonczyk <manio@skyboo.net>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS2413));
+-----------------w1_ds2781.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Renata Sayakhova <renata@oktetlabs.ru>");
+MODULE_DESCRIPTION("1-wire Driver for Maxim/Dallas DS2781 Stand-Alone Fuel Gauge IC");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS2781));
+-----------------w1_ds2781.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+-----------------w1_ds250x.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Thomas Bogendoerfer <tbogendoerfe@suse.de>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("w1-family-" __stringify(W1_DS2502_FAMILY));
+MODULE_ALIAS("w1-family-" __stringify(W1_DS2505_FAMILY));
+MODULE_ALIAS("w1-family-" __stringify(W1_DS2501_UNW_FAMILY));
+MODULE_ALIAS("w1-family-" __stringify(W1_DS2502_UNW_FAMILY));
+-----------------w1_therm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------w1_ds2805.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2016 Andrew Worsley amworsley@gmail.com
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrew Worsley amworsley@gmail.com");
+MODULE_DESCRIPTION("w1 family 0d driver for DS2805, 1kb EEPROM");
+-----------------w1_ds28e04.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2012 Markus Franke <franke.m@sebakmt.com>
+
+MODULE_AUTHOR("Markus Franke <franke.m@sebakmt.com>, <franm@hrz.tu-chemnitz.de>");
+
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("w1-family-" __stringify(W1_FAMILY_DS28E04));
+-----------------w1_ds2430.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2019 Angelo Dureghello <angelo.dureghello@timesys.com>
+ *
+ * Cloned and modified from ds2431
+ * Copyright (c) 2008 Bernhard Weirich <bernhard.weirich@riedel.net>
+ *
+ */
+-----------------w1_ds2433.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2005 Ben Gardner <bgardner@wabtec.com>
+Copyright (c) 2023 Marc Ferland <marc.ferland@sonatest.com>
+
+MODULE_AUTHOR("Ben Gardner <bgardner@wabtec.com>");
+MODULE_AUTHOR("Marc Ferland <marc.ferland@sonatest.com>");
+MODULE_DESCRIPTION("w1 family 23/43 driver for DS2433 (4kb) and DS28EC20 (20kb)");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("w1-family-" __stringify(W1_EEPROM_DS2433));
+MODULE_ALIAS("w1-family-" __stringify(W1_EEPROM_DS28EC20));
+-----------------w1_ds2431.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2008 Bernhard Weirich <bernhard.weirich@riedel.net>
+
+MODULE_AUTHOR("Bernhard Weirich <bernhard.weirich@riedel.net>");
+MODULE_DESCRIPTION("w1 family 2d driver for DS2431, 1kb EEPROM");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("w1-family-" __stringify(W1_EEPROM_DS2431));
+-----------------w1_ds2406.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2014 Scott Alfter <scott@alfter.us>
+
+MODULE_AUTHOR("Scott Alfter <scott@alfter.us>");
+
+MODULE_DESCRIPTION("w1 family 12 driver for DS2406 2 Pin IO");
+
+MODULE_LICENSE("GPL");

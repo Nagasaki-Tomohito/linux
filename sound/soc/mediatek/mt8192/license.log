@@ -1,0 +1,78 @@
+-----------------mt8192-interconnection.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2020 MediaTek Inc.
+Author: Shane Chien <shane.chien@mediatek.com>
+-----------------mt8192-dai-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-afe-gpio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+Author: Shane Chien <shane.chien@mediatek.com>
+-----------------mt8192-afe-control.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (c) 2020 MediaTek Inc.
+// Author: Shane Chien <shane.chien@mediatek.com>
+-----------------mt8192-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Mediatek ALSA SoC AFE platform driver for 8192");
+MODULE_AUTHOR("Shane Chien <shane.chien@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+-----------------mt8192-afe-gpio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-dai-adda.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-dai-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * mt8192-reg.h  --  Mediatek 8192 audio driver reg definition
+ *
+ * Copyright (c) 2020 MediaTek Inc.
+ * Author: Shane Chien <shane.chien@mediatek.com>
+ */
+-----------------mt8192-dai-tdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-afe-clk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2020 MediaTek Inc.
+-----------------mt8192-mt6359-rt1015-rt5682.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MT8192-MT6359 ALSA SoC machine driver");
+MODULE_AUTHOR("Jiaxin Yu <jiaxin.yu@mediatek.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("mt8192_mt6359 soc card");
+-----------------mt8192-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+/*
+ * mt8192-afe-common.h  --  Mediatek 8192 audio driver definitions
+ 
+ * Copyright (c) 2020 MediaTek Inc.
+ * Author: Shane Chien <shane.chien@mediatek.com>
+ */
+-----------------mt8192-afe-clk.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * mt8192-afe-clk.h  --  Mediatek 8192 afe clock ctrl definition
+ *
+ * Copyright (c) 2020 MediaTek Inc.
+ * Author: Shane Chien <shane.chien@mediatek.com>
+ */

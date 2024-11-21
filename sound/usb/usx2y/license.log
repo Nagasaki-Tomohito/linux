@@ -1,0 +1,46 @@
+-----------------usbusx2y.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------usx2yhwdeppcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------us122l.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------usbusx2y.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------us122l.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Karsten Wiese <fzu@wemgehoertderstaat.de>");
+MODULE_DESCRIPTION("TASCAM "NAME_ALLCAPS" Version 0.5");
+-----------------usbus428ctldefs.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/*
+ * Copyright (c) 2003 by Karsten Wiese <annabellesgarden@yahoo.de>
+ */
+-----------------usx2yhwdeppcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------usb_stream.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------usX2Yhwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * Driver for Tascam US-X2Y USB soundcards
+ *
+ * FPGA Loader + ALSA Startup
+ *
+ * Copyright (c) 2003 by Karsten Wiese <annabellesgarden@yahoo.de>
+ */
+-----------------usbusx2yaudio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------usx2y.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (c) 2003 by Karsten Wiese <annabellesgarden@yahoo.de>
+-----------------usX2Yhwdep.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------usb_stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later

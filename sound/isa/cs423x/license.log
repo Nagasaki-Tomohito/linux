@@ -1,0 +1,25 @@
+-----------------cs4231.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Generic driver for CS4231 chips
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *  Originally the CS4232/CS4232A driver, modified for use on CS4231 by
+ *  Tugrul Galatali <galatalt@stuy.edu>
+ */
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+MODULE_DESCRIPTION(CRD_NAME);
+-----------------cs4236_lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------cs4236.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+
+MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
+
+MODULE_DESCRIPTION("Cirrus Logic CS4232-9");
+
+MODULE_ALIAS("snd_cs4232");

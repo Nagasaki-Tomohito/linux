@@ -1,0 +1,70 @@
+-----------------mts64.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------aloop.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Loopback soundcard
+ *
+ *  Original code:
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ *
+ *  More accurate positioning and full-duplex support:
+ *  Copyright (c) Ahmet İnan <ainan at mathematik.uni-freiburg.de>
+ *
+ *  Major (almost complete) rewrite:
+ *  Copyright (c) by Takashi Iwai <tiwai@suse.de>
+ *
+ *  A next major update in 2010 (separate timers for playback and capture):
+ *  Copyright (c) Jaroslav Kysela <perex@perex.cz>
+ */
+-----------------portman2x4.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Levent Guendogdu, Tobias Gehrig, Matthias Koenig");
+MODULE_DESCRIPTION("Midiman Portman2x4");
+MODULE_LICENSE("GPL");
+-----------------virmidi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Copyright (c) 2000 by Takashi Iwai <tiwai@suse.de>
+ */
+
+MODULE_AUTHOR("Takashi Iwai <tiwai@suse.de>");
+MODULE_DESCRIPTION("Dummy soundcard for virtual rawmidi devices");
+MODULE_LICENSE("GPL");
+-----------------mtpav.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Michael T. Mayers");
+MODULE_DESCRIPTION("MOTU MidiTimePiece AV multiport MIDI");
+MODULE_LICENSE("GPL");
+-----------------pcmtest.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Virtual ALSA driver for PCM testing/fuzzing");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ivan Orlov");
+-----------------serial-u16550.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_LICENSE("GPL");
+-----------------serial-generic.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *   Copyright (c) by Daniel Kaehn <kaehndan@gmail.com
+ *   Based on serial-u16550.c by Jaroslav Kysela <perex@perex.cz>,
+ *		                 Isaku Yamahata <yamahata@private.email.ne.jp>,
+ *		                 George Hansper <ghansper@apana.org.au>,
+ *		                 Hannu Savolainen
+ */
+-----------------dummy.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Dummy soundcard
+ *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
+ */

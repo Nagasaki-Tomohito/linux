@@ -1,0 +1,8 @@
+-----------------scmi_iio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Jyoti Bhayana <jbhayana@google.com>");
+
+MODULE_DESCRIPTION("SCMI IIO Driver");
+
+MODULE_LICENSE("GPL v2");

@@ -1,0 +1,69 @@
+-----------------inv_mpu_trigger.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+* Copyright (C) 2012 Invensense, Inc.
+-----------------inv_mpu_aux.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2019 TDK-InvenSense, Inc.
+-----------------inv_mpu_acpi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * inv_mpu_acpi: ACPI processing for creating client devices
+ * Copyright (c) 2015, Intel Corporation.
+ */
+-----------------inv_mpu_magn.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2019 TDK-InvenSense, Inc.
+ */
+-----------------inv_mpu_iio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+* Copyright (C) 2012 Invensense, Inc.
+*/
+-----------------inv_mpu_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+* Copyright (C) 2012 Invensense, Inc.
+*/
+MODULE_AUTHOR("Invensense Corporation");
+MODULE_DESCRIPTION("Invensense device MPU6050 driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_MPU6050);
+-----------------inv_mpu_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+* Copyright (C) 2012 Invensense, Inc.
+*/
+-----------------inv_mpu_magn.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright (C) 2019 TDK-InvenSense, Inc.
+ */
+-----------------inv_mpu_ring.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+* Copyright (C) 2012 Invensense, Inc.
+*/
+-----------------inv_mpu_aux.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * Copyright (C) 2019 TDK-InvenSense, Inc.
+ */
+-----------------inv_mpu_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+* Copyright (C) 2015 Intel Corporation Inc.
+
+MODULE_AUTHOR("Adriana Reus <adriana.reus@intel.com>");
+
+MODULE_DESCRIPTION("Invensense device MPU6000 driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_IMPORT_NS(IIO_MPU6050);

@@ -1,0 +1,82 @@
+-----------------midibuf.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Line 6 Linux USB driver
+ 
+ * Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+ */
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Line 6 Linux USB driver
+ *
+ * Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+ */
+-----------------capture.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------playback.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------toneport.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_DESCRIPTION("TonePort USB driver");
+MODULE_LICENSE("GPL");
+-----------------capture.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------playback.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------driver.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------variax.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+
+MODULE_LICENSE("GPL");
+-----------------pod.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+-----------------midibuf.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------midi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Line 6 Linux USB driver
+ *
+ * Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
+ */
+-----------------podhd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (C) 2011 Stefan Hajnoczi <stefanha@gmail.com>
+Copyright (C) 2015 Andrej Krutak <dev@andree.sk>
+Copyright (C) 2017 Hans P. Moller <hmoller@uc.cl>
+-----------------driver.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR(DRIVER_AUTHOR);
+MODULE_DESCRIPTION(DRIVER_DESC);
+MODULE_LICENSE("GPL");

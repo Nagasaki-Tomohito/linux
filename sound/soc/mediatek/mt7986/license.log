@@ -1,0 +1,33 @@
+-----------------mt7986-afe-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("MediaTek SoC AFE platform driver for ALSA MT7986");
+MODULE_AUTHOR("Vic Wu <vic.wu@mediatek.com>");
+MODULE_LICENSE("GPL");
+-----------------mt7986-dai-etdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (c) 2023 MediaTek Inc.
+-----------------mt7986-wm8960.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * mt7986-wm8960.c  --  MT7986-WM8960 ALSA SoC machine driver
+ *
+ * Copyright (c) 2023 MediaTek Inc.
+ * Authors: Vic Wu <vic.wu@mediatek.com>
+ *          Maso Huang <maso.huang@mediatek.com>
+ */
+
+MODULE_DESCRIPTION("MT7986 WM8960 ALSA SoC machine driver");
+MODULE_AUTHOR("Vic Wu <vic.wu@mediatek.com>");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("mt7986 wm8960 soc card");
+-----------------mt7986-reg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2023 MediaTek Inc.
+-----------------mt7986-afe-common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (c) 2023 MediaTek Inc.

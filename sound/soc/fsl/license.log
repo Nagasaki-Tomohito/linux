@@ -1,0 +1,349 @@
+-----------------fsl_esai.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Freescale Semiconductor, Inc.");
+
+MODULE_DESCRIPTION("Freescale ESAI CPU DAI driver");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:fsl-esai-dai");
+-----------------fsl_rpmsg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright 2017-2021 NXP
+ */
+-----------------imx-hdmi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright 2017-2020 NXP
+-----------------pcm030-audio-fabric.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2008 Jon Smirl, Digispeaker
+-----------------imx-audmux.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------fsl_easrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright 2019 NXP
+-----------------fsl_ssi_dbg.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright 2014 Markus Pargmann <mpa@pengutronix.de>, Pengutronix
+-----------------fsl_spdif.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2013 Freescale Semiconductor, Inc.
+
+Copyright 2007-2008 Freescale Semiconductor, Inc.
+-----------------fsl_qmc_audio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Herve Codina <herve.codina@bootlin.com>");
+MODULE_DESCRIPTION("CPM/QE QMC audio driver");
+-----------------imx-pcm-rpmsg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Shengjiu Wang <shengjiu.wang@nxp.com>");
+MODULE_DESCRIPTION("Freescale SoC Audio RPMSG PCM interface");
+-----------------fsl_sai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2012-2013 Freescale Semiconductor, Inc.
+ */
+-----------------fsl_aud2htx.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2020 NXP
+-----------------mpc5200_dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Grant Likely <grant.likely@secretlab.ca>");
+MODULE_DESCRIPTION("Freescale MPC5200 PSC in DMA mode ASoC Driver");
+-----------------fsl_dma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------fsl_utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// Copyright 2010 Freescale Semiconductor, Inc.
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+MODULE_DESCRIPTION("Freescale ASoC utility code");
+MODULE_LICENSE("GPL v2");
+-----------------imx-card.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2017-2021 NXP
+-----------------fsl_mqs.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+// Copyright (C) 2014-2015 Freescale Semiconductor, Inc.
+// Copyright 2019 NXP
+-----------------eukrea-tlv320.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2010 Eric Bénard, Eukréa Electromatique <eric@eukrea.com>
+
+// Copyright 2009 Simtec Electronics
+
+// Copyright 2009 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
+
+MODULE_AUTHOR("Eric Bénard <eric@eukrea.com>");
+
+MODULE_DESCRIPTION("CPUIMX ALSA SoC driver");
+
+MODULE_LICENSE("GPL");
+
+MODULE_ALIAS("platform:eukrea_tlv320");
+-----------------fsl_utils.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+Copyright 2010 Freescale Semiconductor, Inc.
+-----------------fsl_easrc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright (C) 2019 NXP
+ */
+-----------------fsl_micfil.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
+MODULE_AUTHOR("Cosmin-Gabriel Samoila <cosmin.samoila@nxp.com>");
+MODULE_DESCRIPTION("NXP PDM Microphone Interface (MICFIL) driver");
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------lpc3xxx-i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2008 NXP Semiconductors
+
+Copyright 2023 Timesys Corporation <piotr.wojtaszczyk@timesys.com>
+
+MODULE_AUTHOR("Kevin Wells <kevin.wells@nxp.com>");
+
+MODULE_AUTHOR("Piotr Wojtaszczyk <piotr.wojtaszczyk@timesys.com>");
+
+MODULE_DESCRIPTION("ASoC LPC3XXX I2S interface");
+
+MODULE_LICENSE("GPL");
+-----------------lpc3xxx-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+//
+// Copyright (C) 2008 NXP Semiconductors
+// Copyright 2023 Timesys Corporation <piotr.wojtaszczyk@timesys.com>
+-----------------imx-es8328.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Copyright 2012 Freescale Semiconductor, Inc.
+// Copyright 2012 Linaro Ltd.
+-----------------imx-sgtl5000.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// 
+// Copyright 2012 Freescale Semiconductor, Inc.
+// Copyright 2012 Linaro Ltd.
+-----------------imx-pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright 2009 Sascha Hauer <s.hauer@pengutronix.de>
+
+This code is based on code copyrighted by Freescale,
+Liam Girdwood, Javier Martin and probably others.
+-----------------fsl_xcvr.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright 2019 NXP
+-----------------imx-audmux.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+// Copyright 2012 Freescale Semiconductor, Inc.
+// Copyright 2012 Linaro Ltd.
+// Copyright 2009 Pengutronix, Sascha Hauer <s.hauer@pengutronix.de>
+
+// Initial development of this code was funded by
+// Phytec Messtechnik GmbH, https://www.phytec.de
+
+MODULE_DESCRIPTION("Freescale i.MX AUDMUX driver");
+MODULE_AUTHOR("Sascha Hauer <s.hauer@pengutronix.de>");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:" DRIVER_NAME);
+-----------------fsl_sai.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+//
+// Freescale ALSA SoC Digital Audio Interface (SAI) driver.
+//
+// Copyright 2012-2015 Freescale Semiconductor, Inc.
+-----------------fsl_asrc_common.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * Copyright 2019 NXP
+ *
+ */
+-----------------fsl_audmix.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * NXP AUDMIX ALSA SoC Digital Audio Interface (DAI) driver
+ *
+ * Copyright 2017 NXP
+ */
+-----------------fsl-asoc-card.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Freescale Generic ASoC Sound Card driver with ASRC");
+MODULE_AUTHOR("Nicolin Chen <nicoleotsuka@gmail.com>");
+MODULE_ALIAS("platform:" DRIVER_NAME);
+MODULE_LICENSE("GPL");
+-----------------lpc3xxx-i2s.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2008 NXP Semiconductors
+Copyright 2023 Timesys Corporation <piotr.wojtaszczyk@timesys.com>
+-----------------fsl_dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+
+MODULE_DESCRIPTION("Freescale Elo DMA ASoC PCM Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------imx-audmix.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("NXP AUDMIX ASoC machine driver");
+MODULE_AUTHOR("Viorel Suman <viorel.suman@nxp.com>");
+MODULE_ALIAS("platform:imx-audmix");
+MODULE_LICENSE("GPL v2");
+-----------------fsl_ssi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright 2007-2008 Freescale Semiconductor, Inc.
+-----------------imx-ssi.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------mpc5200_psc_ac97.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+//
+// linux/sound/mpc5200-ac97.c -- AC97 support for the Freescale MPC52xx chip.
+//
+// Copyright (C) 2009 Jon Smirl, Digispeaker
+// Author: Jon Smirl <jonsmirl@gmail.com>
+
+MODULE_AUTHOR("Jon Smirl <jonsmirl@gmail.com>");
+MODULE_DESCRIPTION("mpc5200 AC97 module");
+MODULE_LICENSE("GPL");
+-----------------fsl_ssi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+MODULE_DESCRIPTION("Freescale Synchronous Serial Interface (SSI) ASoC Driver");
+MODULE_LICENSE("GPL v2");
+-----------------p1022_ds.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+
+MODULE_DESCRIPTION("Freescale P1022 DS ALSA SoC machine driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------imx-pcm-rpmsg.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+-----------------fsl_asrc.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+/*
+ * fsl_asrc.h - Freescale ASRC ALSA SoC header file
+ *
+ * Copyright (C) 2014 Freescale Semiconductor, Inc.
+ *
+ * Author: Nicolin Chen <nicoleotsuka@gmail.com>
+ */
+-----------------fsl_xcvr.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright 2019 NXP
+-----------------fsl_esai.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+ 
+/*
+ * Copyright (C) 2014 Freescale Semiconductor, Inc.
+ */
+-----------------fsl_aud2htx.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+/*
+ * Copyright 2020 NXP
+ */
+-----------------imx-pcm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2009 Sascha Hauer <s.hauer@pengutronix.de>
+
+This code is based on code copyrighted by Freescale,
+Liam Girdwood, Javier Martin and probably others.
+
+MODULE_DESCRIPTION("Freescale i.MX PCM DMA interface");
+MODULE_LICENSE("GPL");
+-----------------fsl_asrc_dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2014 Freescale Semiconductor, Inc.
+-----------------efika-audio-fabric.c-----------------
+Copyright 2008 Jon Smirl, Digispeaker
+Author: Jon Smirl <jonsmirl@gmail.com>
+
+This file is licensed under the terms of the GNU General Public License
+version 2. This program is licensed "as is" without any warranty of any
+kind, whether express or implied.
+
+MODULE_AUTHOR("Jon Smirl <jonsmirl@gmail.com>");
+MODULE_DESCRIPTION(DRV_NAME ": mpc5200 Efika fabric driver");
+MODULE_LICENSE("GPL");
+-----------------imx-rpmsg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2017-2020 NXP
+-----------------fsl_asrc.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_DESCRIPTION("Freescale ASRC ASoC driver");
+MODULE_AUTHOR("Nicolin Chen <nicoleotsuka@gmail.com>");
+MODULE_ALIAS("platform:fsl-asrc");
+MODULE_LICENSE("GPL v2");
+-----------------fsl_micfil.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause */
+/*
+ * PDM Microphone Interface for the NXP i.MX SoC
+ * Copyright 2018 NXP
+ */
+-----------------imx-audio-rpmsg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2017-2020 NXP
+
+MODULE_DESCRIPTION("Freescale SoC Audio RPMSG interface");
+MODULE_AUTHOR("Shengjiu Wang <shengjiu.wang@nxp.com>");
+MODULE_ALIAS("rpmsg:imx_audio_rpmsg");
+MODULE_LICENSE("GPL v2");
+-----------------mpc5200_dma.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------p1022_rdk.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Timur Tabi <timur@freescale.com>");
+
+MODULE_DESCRIPTION("Freescale / iVeia P1022 RDK ALSA SoC machine driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------fsl_audmix.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2")
+-----------------fsl_rpmsg.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2018-2021 NXP
+-----------------fsl_spdif.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Freescale Semiconductor, Inc.");
+MODULE_DESCRIPTION("Freescale S/PDIF CPU DAI Driver");
+MODULE_ALIAS("platform:fsl-spdif-dai");
+-----------------mpc5200_psc_i2s.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+//
+// Copyright (C) 2008 Secret Lab Technologies Ltd.
+// Copyright (C) 2009 Jon Smirl, Digispeaker
+-----------------imx-pcm-fiq.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// 
+// Copyright 2009 Sascha Hauer <s.hauer@pengutronix.de>
+// 
+// This code is based on code copyrighted by Freescale,
+// Liam Girdwood, Javier Martin and probably others.

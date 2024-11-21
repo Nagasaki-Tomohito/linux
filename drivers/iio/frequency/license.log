@@ -1,0 +1,47 @@
+-----------------admv1014.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com");
+MODULE_DESCRIPTION("Analog Devices ADMV1014");
+-----------------admfm2000.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_AUTHOR("Kim Seer Paller <kimseer.paller@analog.com>");
+MODULE_DESCRIPTION("ADMFM2000 Dual Microwave Down Converter");
+MODULE_LICENSE("GPL");
+-----------------adf4377.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com>");
+MODULE_DESCRIPTION("Analog Devices ADF4377");
+MODULE_LICENSE("GPL");
+-----------------adf4350.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------adrf6780.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Antoniu Miclaus <antoniu.miclaus@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------admv4420.c-----------------
+// SPDX-License-Identifier: GPL-2.0 OR BSD-2-Clause
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------admv1013.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------ad9523.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Michael Hennerich <michael.hennerich@analog.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------adf4371.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Stefan Popa <stefan.popa@analog.com>");
+
+MODULE_DESCRIPTION("Analog Devices ADF4371 SPI PLL");
+
+MODULE_LICENSE("GPL");

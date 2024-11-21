@@ -1,0 +1,166 @@
+-----------------st_gyro_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+MODULE_DESCRIPTION("STMicroelectronics gyroscopes driver");
+MODULE_LICENSE("GPL v2");
+-----------------bmg160_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------st_gyro_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+-----------------adis16136.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Lars-Peter Clausen <lars@metafoo.de>");
+MODULE_DESCRIPTION("Analog Devices ADIS16133/ADIS16135/ADIS16136 gyroscope driver");
+-----------------st_gyro.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+ 
+ Copyright 2012-2013 STMicroelectronics Inc.
+-----------------itg3200_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2011 Christian Strobel <christian.strobel@iis.fraunhofer.de>
+Copyright (c) 2011 Manuel Stahl <manuel.stahl@iis.fraunhofer.de>
+Copyright (c) 2012 Thorsten Nowak <thorsten.nowak@iis.fraunhofer.de>
+
+MODULE_AUTHOR("Christian Strobel <christian.strobel@iis.fraunhofer.de>");
+MODULE_DESCRIPTION("ITG3200 Gyroscope I2C driver");
+MODULE_LICENSE("GPL v2");
+-----------------mpu3050.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------bmg160.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------fxas21002c.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+
+Copyright (C) 2019 Linaro Ltd.
+-----------------st_gyro_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+Copyright 2012-2013 STMicroelectronics Inc.
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("STMicroelectronics gyroscopes i2c driver");
+-----------------fxas21002c_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2019 Linaro Ltd.
+
+MODULE_AUTHOR("Rui Miguel Silva <rui.silva@linaro.org>");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("FXAS21002C SPI Gyro driver");
+
+MODULE_IMPORT_NS(IIO_FXAS21002C);
+-----------------st_gyro_spi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2012-2013 STMicroelectronics Inc.
+
+MODULE_AUTHOR("Denis Ciocca <denis.ciocca@st.com>");
+
+MODULE_LICENSE("GPL v2");
+-----------------mpu3050-core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Linus Walleij");
+
+MODULE_LICENSE("GPL");
+-----------------fxas21002c_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Driver for NXP FXAS21002C Gyroscope - I2C
+ *
+ * Copyright (C) 2018 Linaro Ltd.
+ */
+MODULE_AUTHOR("Rui Miguel Silva <rui.silva@linaro.org>");
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("FXAS21002C I2C Gyro driver");
+MODULE_IMPORT_NS(IIO_FXAS21002C);
+-----------------adis16260.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+
+MODULE_DESCRIPTION("Analog Devices ADIS16260/5 Digital Gyroscope Sensor");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_IMPORT_NS(IIO_ADISLIB);
+-----------------adis16080.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+
+MODULE_DESCRIPTION("Analog Devices ADIS16080/100 Yaw Rate Gyroscope Driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------bmg160_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+-----------------itg3200_buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2011 Christian Strobel <christian.strobel@iis.fraunhofer.de>
+Copyright (c) 2011 Manuel Stahl <manuel.stahl@iis.fraunhofer.de>
+Copyright (c) 2012 Thorsten Nowak <thorsten.nowak@iis.fraunhofer.de>
+-----------------ssp_gyro_sensor.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
+ */
+
+MODULE_AUTHOR("Karol Wrona <k.wrona@samsung.com>");
+MODULE_DESCRIPTION("Samsung sensorhub gyroscopes driver");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_SSP_SENSORS);
+-----------------bmg160_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------fxas21002c_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Rui Miguel Silva <rui.silva@linaro.org>");
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("FXAS21002C Gyro driver");
+-----------------hid-sensor-gyro-3d.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * HID Sensors Driver
+ * Copyright (c) 2012, Intel Corporation.
+ */
+
+MODULE_DESCRIPTION("HID Sensor Gyroscope 3D");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@intel.com>");
+MODULE_LICENSE("GPL");
+MODULE_IMPORT_NS(IIO_HID);
+-----------------adis16130.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Barry Song <21cnbao@gmail.com>");
+
+MODULE_DESCRIPTION("Analog Devices ADIS16130 High Precision Angular Rate");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("spi:adis16130");
+-----------------mpu3050-i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Linus Walleij");
+MODULE_DESCRIPTION("Invensense MPU3050 gyroscope driver");
+-----------------adxrs290.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Nishant Malpani <nish.malpani25@gmail.com>");
+MODULE_DESCRIPTION("Analog Devices ADXRS290 Gyroscope SPI driver");
+MODULE_LICENSE("GPL");
+-----------------adxrs450.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Cliff Cai <cliff.cai@xxxxxxxxxx>");
+MODULE_DESCRIPTION("Analog Devices ADXRS450/ADXRS453 Gyroscope SPI driver");

@@ -1,0 +1,26 @@
+-----------------ps-mach.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+ 
+ Copyright 2022 Advanced Micro Devices, Inc.
+ 
+ MODULE_AUTHOR("Syed.SabaKareem@amd.com")
+ 
+ MODULE_LICENSE("GPL v2")
+-----------------acp63.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+Copyright (C) 2022, 2023 Advanced Micro Devices, Inc. All rights reserved.
+-----------------ps-sdw-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+MODULE_DESCRIPTION("AMD ACP6.3 PS SDW DMA Driver");
+MODULE_LICENSE("GPL");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------ps-pdm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Syed.SabaKareem@amd.com");
+MODULE_DESCRIPTION("AMD PINK SARDINE PDM Driver");
+MODULE_ALIAS("platform:" DRV_NAME);
+-----------------pci-ps.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")

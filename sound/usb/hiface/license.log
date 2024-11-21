@@ -1,0 +1,18 @@
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2012-2013 (C) M2TECH S.r.l and Amarula Solutions B.V.
+-----------------chip.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright 2012-2013 (C) M2TECH S.r.l and Amarula Solutions B.V.
+
+MODULE_LICENSE("GPL v2")
+-----------------chip.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+ Copyright 2012-2013 (C) M2TECH S.r.l and Amarula Solutions B.V.
+-----------------pcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+ 
+Copyright 2012-2013 (C) M2TECH S.r.l and Amarula Solutions B.V.

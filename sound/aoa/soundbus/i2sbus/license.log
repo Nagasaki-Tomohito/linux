@@ -1,0 +1,24 @@
+-----------------pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------core.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
+MODULE_DESCRIPTION("Apple Soundbus: I2S support");
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
+MODULE_DESCRIPTION("Apple Soundbus: I2S support");
+-----------------i2sbus.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------control.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
+-----------------interface.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+Copyright 2006 Johannes Berg <johannes@sipsolutions.net>

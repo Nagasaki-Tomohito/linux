@@ -1,0 +1,41 @@
+-----------------acp6x_chip_offset_byte.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+/*
+ * AMD ACP 6.x Register Documentation
+ *
+ * Copyright 2021 Advanced Micro Devices, Inc.
+ */
+-----------------acp6x.h-----------------
+/* SPDX-License-Identifier: GPL-2.0+ */
+
+Copyright (C) 2021 Advanced Micro Devices, Inc. All rights reserved.
+-----------------pci-acp6x.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+
+MODULE_DESCRIPTION("AMD ACP Yellow Carp PCI driver");
+
+MODULE_LICENSE("GPL v2");
+-----------------acp6x-pdm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com")
+
+MODULE_DESCRIPTION("AMD ACP6x YC PDM Driver")
+
+MODULE_LICENSE("GPL v2")
+
+MODULE_ALIAS("platform:" DRV_NAME)
+-----------------acp6x-mach.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+Copyright 2021 Advanced Micro Devices, Inc.
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com")
+
+MODULE_DESCRIPTION("AMD Yellow Carp support for DMIC")
+
+MODULE_LICENSE("GPL v2")
+
+MODULE_ALIAS("platform:" DRV_NAME)

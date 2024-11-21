@@ -1,0 +1,13 @@
+-----------------jh7110_pwmdac.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+Copyright (C) 2021-2023 StarFive Technology Co., Ltd.
+MODULE_AUTHOR("Jenny Zhang")
+MODULE_AUTHOR("Curry Zhang")
+MODULE_AUTHOR("Xingyu Wu <xingyu.wu@starfivetech.com>")
+MODULE_AUTHOR("Hal Feng <hal.feng@starfivetech.com>")
+MODULE_LICENSE("GPL")
+-----------------jh7110_tdm.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_DESCRIPTION("StarFive JH7110 TDM ASoC Driver");
+MODULE_AUTHOR("Walker Chen <walker.chen@starfivetech.com>");
+MODULE_LICENSE("GPL");

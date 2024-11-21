@@ -1,0 +1,54 @@
+-----------------ff-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * Copyright (c) 2015-2017 Takashi Sakamoto
+ */
+-----------------ff-protocol-latter.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------amdtp-ff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto
+-----------------ff-transaction.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * ff-transaction.c - a part of driver for RME Fireface series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto
+ */
+-----------------ff-hwdep.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto
+-----------------ff-midi.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2015-2017 Takashi Sakamoto
+ */
+-----------------ff.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * ff.c - a part of driver for RME Fireface series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto
+ */
+
+MODULE_LICENSE("GPL");
+-----------------ff-protocol-former.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+-----------------ff-proc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) 2015-2017 Takashi Sakamoto
+-----------------ff-pcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+/*
+ * ff-pcm.c - a part of driver for RME Fireface series
+ *
+ * Copyright (c) 2015-2017 Takashi Sakamoto
+ */
+-----------------ff.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2015-2017 Takashi Sakamoto

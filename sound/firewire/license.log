@@ -1,0 +1,67 @@
+-----------------amdtp-am824.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+Copyright (c) 2015 Takashi Sakamoto <o-takashi@sakamocchi.jp>
+
+EXPORT_SYMBOL_GPL(amdtp_am824_set_parameters);
+EXPORT_SYMBOL_GPL(amdtp_am824_set_pcm_position);
+EXPORT_SYMBOL_GPL(amdtp_am824_set_midi_position);
+EXPORT_SYMBOL_GPL(amdtp_am824_add_pcm_hw_constraints);
+EXPORT_SYMBOL_GPL(amdtp_am824_midi_trigger);
+EXPORT_SYMBOL_GPL(amdtp_am824_init);
+-----------------isight.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Clemens Ladisch <clemens@ladisch.de>");
+MODULE_DESCRIPTION("iSight audio driver");
+-----------------lib.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * miscellaneous helper functions
+ *
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ */
+MODULE_DESCRIPTION("FireWire audio helper functions");
+MODULE_AUTHOR("Clemens Ladisch <clemens@ladisch.de>");
+MODULE_LICENSE("GPL");
+-----------------amdtp-am824.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------fcp.h-----------------
+AV/C Digital Interface Command Set General Specification 4.2 
+(Sep 2004, 1394TA)
+-----------------amdtp-stream-trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+Copyright (c) 2016 Takashi Sakamoto
+-----------------amdtp-stream.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------lib.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------iso-resources.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cmp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------cmp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Connection Management Procedures (IEC 61883-1) helper functions
+ *
+ * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+ */
+-----------------fcp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------iso-resources.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------amdtp-stream.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------packets-buffer.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+Copyright (c) Clemens Ladisch <clemens@ladisch.de>
+-----------------packets-buffer.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

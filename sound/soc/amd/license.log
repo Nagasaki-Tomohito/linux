@@ -1,0 +1,60 @@
+-----------------acp-da7219-max98357a.c-----------------
+// SPDX-License-Identifier: MIT
+
+MODULE_LICENSE("GPL v2")
+-----------------acp3x-rt5682-max9836.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+// Copyright 2016 Advanced Micro Devices, Inc.
+MODULE_AUTHOR("akshu.agrawal@amd.com");
+MODULE_AUTHOR("Vishnuvardhanrao.Ravulapati@amd.com");
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+MODULE_DESCRIPTION("ALC5682 ALC1015, ALC1015P & MAX98357 audio support");
+MODULE_LICENSE("GPL v2");
+-----------------mach-config.h-----------------
+/* SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause) */
+
+Copyright(c) 2021 Advanced Micro Devices, Inc. All rights reserved.
+-----------------acp-rt5645.c-----------------
+Copyright 2017 Advanced Micro Devices, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+MODULE_AUTHOR("aksh
+-----------------acp-config.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
+//
+// Copyright(c) 2021, 2023 Advanced Micro Devices, Inc.
+//
+// MODULE_DESCRIPTION("AMD ACP Machine Configuration Module");
+// MODULE_LICENSE("Dual BSD/GPL");
+-----------------acp-pcm-dma.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+MODULE_AUTHOR("Maruthi.Bayyavarapu@amd.com");
+MODULE_DESCRIPTION("AMD ACP PCM Driver");
+MODULE_LICENSE("GPL v2");
+MODULE_ALIAS("platform:"DRV_NAME);
+-----------------acp-es8336.c-----------------
+// SPDX-License-Identifier: GPL-2.0+
+
+MODULE_AUTHOR("Vijendar.Mukunda@amd.com");
+
+MODULE_DESCRIPTION("st-es8316 audio support");
+
+MODULE_LICENSE("GPL v2");
+-----------------acp.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */

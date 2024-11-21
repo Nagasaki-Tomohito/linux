@@ -1,0 +1,46 @@
+-----------------audio-graph-card.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC Audio Graph Sound Card");
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+-----------------audio-graph-card2-custom-sample.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2020 Renesas Electronics Corp.
+Copyright (C) 2020 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+
+MODULE_LICENSE("GPL v2")
+MODULE_DESCRIPTION("ASoC Audio Graph Card2 Custom Sample")
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>")
+-----------------audio-graph-card2.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_DESCRIPTION("ASoC Audio Graph Card2");
+
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+-----------------simple-card.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_LICENSE("GPL v2");
+MODULE_DESCRIPTION("ASoC Simple Sound Card");
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+-----------------simple-card-utils.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+
+MODULE_DESCRIPTION("ALSA SoC Simple Card Utils");
+MODULE_LICENSE("GPL v2");
+-----------------test-component.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>");
+
+MODULE_DESCRIPTION("ASoC Test Component");
+
+MODULE_LICENSE("GPL v2");
+
+MODULE_ALIAS("platform:asoc-test-component");

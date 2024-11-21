@@ -1,0 +1,412 @@
+-----------------btmtk.h-----------------
+/* SPDX-License-Identifier: ISC */
+/* Copyright (C) 2021 MediaTek Inc. */
+-----------------btintel.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *
+ *  Bluetooth support for Intel devices
+ *
+ *  Copyright (C) 2015  Intel Corporation
+ */
+-----------------btqca.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ *  Bluetooth supports for Qualcomm Atheros ROME chips
+ *
+ *  Copyright (c) 2015 The Linux Foundation. All rights reserved.
+-----------------dtl1_cs.c-----------------
+Copyright (C) 2001-2002  Marcel Holtmann <marcel@holtmann.org>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation;
+
+The initial developer of the original code is David A. Hinds
+<dahinds@users.sourceforge.net>.  Portions created by David A. Hinds
+are Copyright (C) 1999 David A. Hinds.  All Rights Reserved.
+
+MODULE_LICENSE("GPL");
+-----------------hci_ag6xx.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2016  Intel Corporation
+-----------------btqca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+
+MODULE_AUTHOR("Ben Young Tae Kim <ytkim@qca.qualcomm.com>");
+
+MODULE_DESCRIPTION("Bluetooth support for Qualcomm Atheros family");
+
+MODULE_LICENSE("GPL");
+-----------------btmrvl_debugfs.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Marvell Bluetooth driver: debugfs related functions
+ *
+ * Copyright (C) 2009, Marvell International Ltd.
+ */
+-----------------btbcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+
+MODULE_DESCRIPTION("Bluetooth support for Broadcom devices ver " VERSION);
+
+MODULE_VERSION(VERSION);
+
+MODULE_LICENSE("GPL");
+-----------------hci_h4.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2000-2001  Qualcomm Incorporated
+Copyright (C) 2002-2003  Maxim Krasnyansky <maxk@qualcomm.com>
+Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
+
+EXPORT_SYMBOL_GPL(h4_recv_buf);
+-----------------virtio_bt.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------hci_bcm.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------bpa10x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2004-2007  Marcel Holtmann <marcel@holtmann.org>
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+MODULE_DESCRIPTION("Digianswer Bluetooth USB driver ver " VERSION);
+MODULE_VERSION(VERSION);
+MODULE_LICENSE("GPL");
+-----------------hci_aml.c-----------------
+// SPDX-License-Identifier: (GPL-2.0-only OR MIT)
+/*
+ * Copyright (C) 2024 Amlogic, Inc. All rights reserved
+ */
+-----------------bfusb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("bfubase.frm");
+-----------------btmrvl_drv.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Marvell Bluetooth driver: global definitions & declarations
+ *
+ * Copyright (C) 2009, Marvell International Ltd.
+ */
+-----------------hci_bcsp.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2002-2003  Fabrizio Gennari <fabrizio.gennari@philips.com>
+
+Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
+-----------------hci_nokia.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Sebastian Reichel <sre@kernel.org>");
+-----------------btnxpuart.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Neeraj Sanjay Kale <neeraj.sanjaykale@nxp.com>");
+
+MODULE_DESCRIPTION("NXP Bluetooth Serial driver");
+MODULE_LICENSE("GPL");
+-----------------hci_ath.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ *  Atheros Communication Bluetooth HCIATH3K UART protocol
+ *
+ *  HCIATH3K (HCI Atheros AR300x Protocol) is a Atheros Communication's
+ *  power management protocol extension to H4 to support AR300x Bluetooth Chip.
+ *
+ *  Copyright (c) 2009-2010 Atheros Communications Inc.
+ *
+ *  Acknowledgements:
+ *  This file is based on hci_h4.c, which was written
+ *  by Maxim Krasnyansky and Marcel Holtmann.
+-----------------btbcm.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *
+ *  Bluetooth support for Broadcom devices
+ *
+ *  Copyright (C) 2015  Intel Corporation
+ */
+-----------------btmrvl_sdio.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-only */
+/**
+ * Marvell BT-over-SDIO driver: SDIO interface related definitions
+ *
+ * Copyright (C) 2009, Marvell International Ltd.
+ **/
+-----------------ath3k.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Atheros Communications")
+
+MODULE_DESCRIPTION("Atheros AR30xx firmware driver")
+
+MODULE_VERSION("1.0")
+
+MODULE_LICENSE("GPL")
+
+MODULE_FIRMWARE("ath3k-1.fw")
+-----------------btrsi.c-----------------
+* Copyright (c) 2017 Redpine Signals Inc.
+* 
+* Permission to use, copy, modify, and/or distribute this software for any
+* purpose with or without fee is hereby granted, provided that the above
+* copyright notice and this permission notice appear in all copies.
+* 
+* THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+* WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+* MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+* ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+* WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+* ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+* OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+* 
+MODULE_AUTHOR("Redpine Signals Inc");
+MODULE_DESCRIPTION("RSI BT driver");
+MODULE_LICENSE("Dual BSD/GPL");
+-----------------hci_vhci.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+MODULE_DESCRIPTION("Bluetooth virtual HCI driver ver " VERSION);
+MODULE_VERSION(VERSION);
+-----------------hci_intel.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------bcm203x.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2003  Maxim Krasnyansky <maxk@qualcomm.com>
+Copyright (C) 2003  Marcel Holtmann <marcel@holtmann.org>
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+MODULE_DESCRIPTION("Broadcom Blutonium firmware driver ver " VERSION);
+MODULE_VERSION(VERSION);
+MODULE_LICENSE("GPL");
+MODULE_FIRMWARE("BCM2033-MD.hex");
+MODULE_FIRMWARE("BCM2033-FW.bin");
+-----------------btmrvl_main.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+-----------------btqcomsmd.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2")
+MODULE_AUTHOR("Bjorn Andersson <bjorn.andersson@sonymobile.com>")
+-----------------hci_serdev.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*
+ *  Bluetooth HCI serdev driver lib
+ *
+ *  Copyright (C) 2017  Linaro, Ltd., Rob Herring <robh@kernel.org>
+ *
+ *  Based on hci_ldisc.c:
+ *
+ *  Copyright (C) 2000-2001  Qualcomm Incorporated
+ *  Copyright (C) 2002-2003  Maxim Krasnyansky <maxk@qualcomm.com>
+ *  Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
+ */
+-----------------hci_bcm4377.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only OR MIT
+
+MODULE_AUTHOR("Sven Peter <sven@svenpeter.dev>");
+
+MODULE_LICENSE("Dual MIT/GPL");
+
+MODULE_FIRMWARE("brcm/brcmbt4377*.bin");
+MODULE_FIRMWARE("brcm/brcmbt4377*.ptb");
+MODULE_FIRMWARE("brcm/brcmbt4378*.bin");
+MODULE_FIRMWARE("brcm/brcmbt4378*.ptb");
+MODULE_FIRMWARE("brcm/brcmbt4387*.bin");
+MODULE_FIRMWARE("brcm/brcmbt4387*.ptb");
+MODULE_FIRMWARE("brcm/brcmbt4388*.bin");
+MODULE_FIRMWARE("brcm/brcmbt4388*.ptb");
+-----------------bluecard_cs.c-----------------
+* Copyright (C) 2001-2002  Marcel Holtmann <marcel@holtmann.org>
+* 
+*  This program is free software; you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License version 2 as
+*  published by the Free Software Foundation;
+* 
+*  Software distributed under the License is distributed on an "AS
+*  IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+*  implied. See the License for the specific language governing
+*  rights and limitations under the License.
+* 
+*  The initial developer of the original code is David A. Hinds
+*  <dahinds@users.sourceforge.net>.  Portions created by David A. Hinds
+*  are Copyright (C) 1999 David A. Hinds.  All Rights Reserved.
+* 
+* MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org
+-----------------hci_ldisc.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+
+MODULE_DESCRIPTION("Bluetooth HCI UART driver ver " VERSION);
+
+MODULE_LICENSE("GPL");
+
+MODULE_VERSION(VERSION);
+
+MODULE_ALIAS_LDISC(N_HCI);
+-----------------btmrvl_sdio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Marvell International Ltd.");
+MODULE_DESCRIPTION("Marvell BT-over-SDIO driver ver " VERSION);
+MODULE_VERSION(VERSION);
+MODULE_FIRMWARE("mrvl/sd8688_helper.bin");
+MODULE_FIRMWARE("mrvl/sd8688.bin");
+MODULE_FIRMWARE("mrvl/sd8787_uapsta.bin");
+MODULE_FIRMWARE("mrvl/sd8797_uapsta.bin");
+MODULE_FIRMWARE("mrvl/sd8887_uapsta.bin");
+MODULE_FIRMWARE("mrvl/sd8897_uapsta.bin");
+MODULE_FIRMWARE("mrvl/sdsd8977_combo_v2.bin");
+MODULE_FIRMWARE("mrvl/sd8987_uapsta.bin");
+MODULE_FIRMWARE("mrvl/sdsd8997_combo_v4.bin");
+-----------------btmtkuart.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2018 MediaTek Inc.
+-----------------bt3c_cs.c-----------------
+*   Copyright (C) 2001-2002  Marcel Holtmann <marcel@holtmann.org>
+    Jose Orlando Pereira <jop@di.uminho.pt>
+*   This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License version 2 as
+    published by the Free Software Foundation;
+*   Software distributed under the License is distributed on an "AS
+    IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+    implied. See the License for the specific language governing
+    rights and limitations under the License.
+*   The initial developer of the original code is David A. Hinds
+    <dahinds@users.sourceforge.net>.  Portions created by David A. Hinds
+    are Copyright (C) 1999 David A. Hinds.  All Rights Reserved.
+*   MODULE_LICENSE("GPL");
+*   MODULE_AUTHOR("Marcel Holt
+-----------------hci_mrvl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2016  Marvell International Ltd.
+Copyright (C) 2016  Intel Corporation
+-----------------hci_qca.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  Bluetooth Software UART Qualcomm protocol
+ *
+ *  HCI_IBS (HCI In-Band Sleep) is Qualcomm's power management
+ *  protocol extension to H4.
+ *
+ *  Copyright (C) 2007 Texas Instruments, Inc.
+ *  Copyright (c) 2010, 2012, 2018 The Linux Foundation. All rights reserved.
+ *
+ *  Acknowledgements:
+ *  This file is based on hci_ll.c, which was...
+ *  Written by Ohad Ben-Cohen <ohad@bencohen.org>
+ *  which was in turn based on hci_h4.c, which was written
+ *  by Maxim Krasnyansky and Marcel Holtmann.
+ */
+-----------------btrtl.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Daniel Drake <drake@endlessm.com>");
+
+MODULE_DESCRIPTION("Bluetooth support for Realtek devices ver " VERSION);
+
+MODULE_VERSION(VERSION);
+
+MODULE_LICENSE("GPL");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723a_fw.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723b_fw.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723b_config.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723bs_fw.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723bs_config.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723cs_cg_fw.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723cs_cg_config.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723cs_vf_fw.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723cs_vf_config.bin");
+
+MODULE_FIRMWARE("rtl_bt/rtl8723cs_xx_fw.bin");
+
+MODULE_FIRMWARE
+-----------------btintel_pcie.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2024  Intel Corporation
+-----------------btintel_pcie.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Tedd Ho-Jeong An <tedd.an@intel.com>");
+-----------------btrtl.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ *  Copyright (C) 2015 Endless Mobile, Inc.
+ */
+-----------------btmtksdio.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+// Copyright (c) 2019 MediaTek Inc.
+-----------------hci_uart.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2000-2001  Qualcomm Incorporated
+Copyright (C) 2002-2003  Maxim Krasnyansky <maxk@qualcomm.com>
+Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
+-----------------h4_recv.h-----------------
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+Copyright (C) 2015-2018  Intel Corporation
+-----------------btintel.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+
+MODULE_DESCRIPTION("Bluetooth support for Intel devices ver " "0.1");
+
+MODULE_VERSION("0.1");
+
+MODULE_LICENSE("GPL");
+
+MODULE_FIRMWARE("intel/ibt-11-5.sfi");
+
+MODULE_FIRMWARE("intel/ibt-11-5.ddc");
+
+MODULE_FIRMWARE("intel/ibt-12-16.sfi");
+
+MODULE_FIRMWARE("intel/ibt-12-16.ddc");
+-----------------btmtk.c-----------------
+// SPDX-License-Identifier: ISC
+MODULE_LICENSE("GPL");
+MODULE_VERSION(VERSION);
+MODULE_DESCRIPTION("Bluetooth support for MediaTek devices ver " VERSION);
+MODULE_AUTHOR("Sean Wang <sean.wang@mediatek.com>");
+MODULE_AUTHOR("Mark Chen <mark-yw.chen@mediatek.com>");
+-----------------btusb.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hci_h5.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+-----------------hci_ll.c-----------------
+// SPDX-License-Identifier: GPL-2.0-only
+-----------------btsdio.c-----------------
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+MODULE_AUTHOR("Marcel Holtmann <marcel@holtmann.org>");
+
+MODULE_DESCRIPTION("Generic Bluetooth SDIO driver ver " VERSION);
+
+MODULE_VERSION(VERSION);
+
+MODULE_LICENSE("GPL");

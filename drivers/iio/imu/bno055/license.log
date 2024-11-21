@@ -1,0 +1,56 @@
+-----------------bno055_ser_core.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+
+MODULE_LICENSE("GPL");
+
+MODULE_DESCRIPTION("Bosch BNO055 serdev interface");
+
+MODULE_IMPORT_NS(IIO_BNO055);
+-----------------bno055_ser_trace.h-----------------
+/* SPDX-License-Identifier: GPL-2.0 */
+-----------------bno055_i2c.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+Copyright (C) 2021-2022 Istituto Italiano di Tecnologia
+Electronic Design Laboratory
+Written by Andrea Merello <andrea.merello@iit.it>
+
+MODULE_AUTHOR("Andrea Merello");
+MODULE_DESCRIPTION("Bosch BNO055 I2C interface");
+MODULE_IMPORT_NS(IIO_BNO055);
+MODULE_LICENSE("GPL");
+-----------------bno055.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+MODULE_DESCRIPTION("Bosch BNO055 driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+MODULE_DESCRIPTION("Bosch BNO055 driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+MODULE_DESCRIPTION("Bosch BNO055 driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+MODULE_DESCRIPTION("Bosch BNO055 driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@iit.it>");
+MODULE_DESCRIPTION("Bosch BNO055 driver");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Merello <andrea.merello@
+-----------------bno055_ser_trace.c-----------------
+// SPDX-License-Identifier: GPL-2.0
+
+/*
+ * bno055_ser Trace Support
+ * Copyright (C) 2022 Istituto Italiano di Tecnologia
+ * Electronic Design Laboratory
+ *
+ * Based on:
+ *   Device core Trace Support
+ *   Copyright (C) 2021, Intel Corporation
+ */
+-----------------bno055.h-----------------
+`/* SPDX-License-Identifier: GPL-2.0-or-later */`
